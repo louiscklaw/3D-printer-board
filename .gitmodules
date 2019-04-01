@@ -1,0 +1,12 @@
+[submodule "_ref/Morpheus-STM32"]
+	path = _ref/Morpheus-STM32
+	url = https://github.com/pscrespo/Morpheus-STM32.git
+[submodule "_ref/heteromycin"]
+	path = _ref/heteromycin
+	url = https://github.com/hasenbanck/heteromycin.git
+[submodule "_ref/RUMBA-Plus"]
+	path = _ref/RUMBA-Plus
+	url = https://github.com/Aus3D/RUMBA-Plus.git
+[submodule "_ref/STMPS"]
+	path = _ref/STMPS
+	url = https://github.com/tetious/STMPS
