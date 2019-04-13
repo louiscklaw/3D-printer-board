@@ -10,3 +10,9 @@
 [submodule "_ref/STMPS"]
 	path = _ref/STMPS
 	url = https://github.com/tetious/STMPS
+[submodule "_ref/ramps-1.6"]
+	path = _ref/ramps-1.6
+	url = https://github.com/bigtreetech/ramps-1.6.git
+[submodule "_ref/altium2kicad"]
+	path = _ref/altium2kicad
+	url = https://github.com/thesourcerer8/altium2kicad.git
