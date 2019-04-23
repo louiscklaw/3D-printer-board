@@ -1,0 +1,8 @@
+*.bak
+*-bak
+*.bck
+*-cache.lib
+~*
+gerber/*
+*.rpt
+.~lock*

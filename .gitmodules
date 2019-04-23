@@ -16,3 +16,6 @@
 [submodule "_ref/altium2kicad"]
 	path = _ref/altium2kicad
 	url = https://github.com/thesourcerer8/altium2kicad.git
+[submodule "software/_ref/klipper"]
+	path = software/_ref/klipper
+	url = git@github.com:KevinOConnor/klipper.git
