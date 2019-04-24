@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 19
+Sheet 16 20
 Title ""
 Date ""
 Rev ""
@@ -14,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J26
 U 1 1 5CC15D7D
 P 3800 3650
-AR Path="/5CC15C35/5CC15D7D" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC15D7D" Ref="J26"  Part="1" 
 AR Path="/5CC130A8/5CC15D7D" Ref="J?"  Part="1" 
-F 0 "J?" V 3766 3462 50  0000 R CNN
+F 0 "J26" V 3766 3462 50  0000 R CNN
 F 1 "X_MIN" V 3675 3462 50  0000 R CNN
 F 2 "" H 3800 3650 50  0001 C CNN
 F 3 "~" H 3800 3650 50  0001 C CNN
@@ -27,12 +28,12 @@ F 3 "~" H 3800 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J27
 U 1 1 5CC15E3F
 P 4700 3650
-AR Path="/5CC15C35/5CC15E3F" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC15E3F" Ref="J27"  Part="1" 
 AR Path="/5CC130A8/5CC15E3F" Ref="J?"  Part="1" 
-F 0 "J?" V 4666 3462 50  0000 R CNN
+F 0 "J27" V 4666 3462 50  0000 R CNN
 F 1 "X_MAX" V 4575 3462 50  0000 R CNN
 F 2 "" H 4700 3650 50  0001 C CNN
 F 3 "~" H 4700 3650 50  0001 C CNN
@@ -40,12 +41,12 @@ F 3 "~" H 4700 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J28
 U 1 1 5CC15F71
 P 5650 3650
-AR Path="/5CC15C35/5CC15F71" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC15F71" Ref="J28"  Part="1" 
 AR Path="/5CC130A8/5CC15F71" Ref="J?"  Part="1" 
-F 0 "J?" V 5616 3462 50  0000 R CNN
+F 0 "J28" V 5616 3462 50  0000 R CNN
 F 1 "Y_MIN" V 5525 3462 50  0000 R CNN
 F 2 "" H 5650 3650 50  0001 C CNN
 F 3 "~" H 5650 3650 50  0001 C CNN
@@ -53,12 +54,12 @@ F 3 "~" H 5650 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J29
 U 1 1 5CC15F77
 P 6550 3650
-AR Path="/5CC15C35/5CC15F77" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC15F77" Ref="J29"  Part="1" 
 AR Path="/5CC130A8/5CC15F77" Ref="J?"  Part="1" 
-F 0 "J?" V 6516 3462 50  0000 R CNN
+F 0 "J29" V 6516 3462 50  0000 R CNN
 F 1 "Y_MAX" V 6425 3462 50  0000 R CNN
 F 2 "" H 6550 3650 50  0001 C CNN
 F 3 "~" H 6550 3650 50  0001 C CNN
@@ -66,12 +67,12 @@ F 3 "~" H 6550 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J30
 U 1 1 5CC1606D
 P 7400 3650
-AR Path="/5CC15C35/5CC1606D" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC1606D" Ref="J30"  Part="1" 
 AR Path="/5CC130A8/5CC1606D" Ref="J?"  Part="1" 
-F 0 "J?" V 7366 3462 50  0000 R CNN
+F 0 "J30" V 7366 3462 50  0000 R CNN
 F 1 "Z_MIN" V 7275 3462 50  0000 R CNN
 F 2 "" H 7400 3650 50  0001 C CNN
 F 3 "~" H 7400 3650 50  0001 C CNN
@@ -79,12 +80,12 @@ F 3 "~" H 7400 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J31
 U 1 1 5CC16073
 P 8300 3650
-AR Path="/5CC15C35/5CC16073" Ref="J?"  Part="1" 
+AR Path="/5CC15C35/5CC16073" Ref="J31"  Part="1" 
 AR Path="/5CC130A8/5CC16073" Ref="J?"  Part="1" 
-F 0 "J?" V 8266 3462 50  0000 R CNN
+F 0 "J31" V 8266 3462 50  0000 R CNN
 F 1 "Z_MAX" V 8175 3462 50  0000 R CNN
 F 2 "" H 8300 3650 50  0001 C CNN
 F 3 "~" H 8300 3650 50  0001 C CNN
@@ -92,12 +93,12 @@ F 3 "~" H 8300 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0237
 U 1 1 5CC1623F
 P 3100 3900
-AR Path="/5CC15C35/5CC1623F" Ref="#PWR?"  Part="1" 
+AR Path="/5CC15C35/5CC1623F" Ref="#PWR0237"  Part="1" 
 AR Path="/5CC130A8/5CC1623F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 3750 50  0001 C CNN
+F 0 "#PWR0237" H 3100 3750 50  0001 C CNN
 F 1 "+5V" H 3115 4073 50  0000 C CNN
 F 2 "" H 3100 3900 50  0001 C CNN
 F 3 "" H 3100 3900 50  0001 C CNN
@@ -105,12 +106,12 @@ F 3 "" H 3100 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0238
 U 1 1 5CC162B2
 P 8900 4300
-AR Path="/5CC15C35/5CC162B2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC15C35/5CC162B2" Ref="#PWR0238"  Part="1" 
 AR Path="/5CC130A8/5CC162B2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8900 4050 50  0001 C CNN
+F 0 "#PWR0238" H 8900 4050 50  0001 C CNN
 F 1 "GND" H 8905 4127 50  0000 C CNN
 F 2 "" H 8900 4300 50  0001 C CNN
 F 3 "" H 8900 4300 50  0001 C CNN
