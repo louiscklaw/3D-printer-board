@@ -1,0 +1,376 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L taobao-components:LM2596HVS U?
+U 1 1 5BD391F5
+P 4950 4600
+F 0 "U?" H 4950 5950 50  0000 C CNN
+F 1 "LM2596HVS" H 4950 5850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 4950 4600 50  0001 C CNN
+F 3 "" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:VIN #PWR?
+U 1 1 5BD3A464
+P 3250 3750
+F 0 "#PWR?" H 3250 3600 50  0001 C CNN
+F 1 "VIN" H 3300 3900 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C103 C?
+U 1 1 5BD3AB56
+P 3900 4350
+F 0 "C?" H 4000 4400 50  0000 L CNN
+F 1 "C103" H 4000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3900 4350 50  0001 C CNN
+F 3 "~" H 3900 4350 50  0001 C CNN
+	1    3900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD3AD9E
+P 5400 5350
+F 0 "#PWR?" H 5400 5100 50  0001 C CNN
+F 1 "GND" H 5450 5150 50  0000 C CNN
+F 2 "" H 5400 5350 50  0001 C CNN
+F 3 "" H 5400 5350 50  0001 C CNN
+	1    5400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:1N5824 D?
+U 1 1 5BD40B9F
+P 5900 4950
+F 0 "D?" V 5850 5050 50  0000 L CNN
+F 1 "1N5824" V 5900 5050 50  0000 L CNN
+F 2 "w_smd_diode:do214ac" V 5900 4950 50  0001 C CNN
+F 3 "~" V 5900 4950 50  0001 C CNN
+	1    5900 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-l:L_33uH L?
+U 1 1 5BD412A6
+P 6850 4400
+F 0 "L?" V 7050 4400 50  0000 C CNN
+F 1 "L_33uH" V 6950 4400 50  0000 C CNN
+F 2 "w_smd_inductors:inductor_smd_12.5x7.5mm" H 6850 4400 50  0001 C CNN
+F 3 "~" H 6850 4400 50  0001 C CNN
+	1    6850 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-r:R331 R?
+U 1 1 5BD4141D
+P 6000 3700
+F 0 "R?" H 5900 3650 50  0000 R CNN
+F 1 "R331" H 5900 3700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6000 3700 50  0001 C CNN
+F 3 "~" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5BD421FE
+P 6000 4000
+F 0 "#PWR?" H 6000 3750 50  0001 C CNN
+F 1 "GND" H 6050 3800 50  0000 C CNN
+F 2 "" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4000 6000 3800
+$Comp
+L taobao-r:R103 R?
+U 1 1 5BD424C3
+P 6800 3550
+F 0 "R?" V 6550 3550 50  0000 C CNN
+F 1 "RVAR" V 6650 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 3550 50  0001 C CNN
+F 3 "~" H 6800 3550 50  0001 C CNN
+	1    6800 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3550 6700 3550
+Connection ~ 6000 3550
+Wire Wire Line
+	5550 4400 5900 4400
+$Comp
+L taobao-cp:CP220uf,35V C?
+U 1 1 5BD4265B
+P 7450 4650
+F 0 "C?" H 7550 4700 50  0000 L CNN
+F 1 "CP220uf,35V" H 7550 4650 50  0000 L CNN
+F 2 "w_smd_cap:c_elec_8x10.5" H 7450 4650 50  0001 C CNN
+F 3 "~" H 7450 4650 50  0001 C CNN
+	1    7450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-c:C103 C?
+U 1 1 5BD42825
+P 7100 4650
+F 0 "C?" H 7200 4700 50  0000 L CNN
+F 1 "C103" H 7200 4650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 4650 50  0001 C CNN
+F 3 "~" H 7100 4650 50  0001 C CNN
+	1    7100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4400 7100 4400
+Wire Wire Line
+	7100 4400 7100 4550
+Wire Wire Line
+	6900 3550 7450 3550
+Wire Wire Line
+	7100 4400 7450 4400
+Connection ~ 7100 4400
+Wire Wire Line
+	7450 4400 7450 4550
+Wire Wire Line
+	5900 5050 5900 5150
+Wire Wire Line
+	5900 5150 5400 5150
+Wire Wire Line
+	5150 5150 5150 5050
+Wire Wire Line
+	5900 5150 7100 5150
+Wire Wire Line
+	7450 5150 7450 4750
+Connection ~ 5900 5150
+Wire Wire Line
+	7100 4750 7100 5150
+Connection ~ 7100 5150
+Wire Wire Line
+	7100 5150 7450 5150
+Wire Wire Line
+	5400 5150 5400 5350
+Connection ~ 5400 5150
+Wire Wire Line
+	5400 5150 5150 5150
+Wire Wire Line
+	5150 5150 4750 5150
+Wire Wire Line
+	4750 5150 4750 5050
+Connection ~ 5150 5150
+Wire Wire Line
+	4750 5150 3900 5150
+Wire Wire Line
+	3900 5150 3900 4450
+Connection ~ 4750 5150
+Wire Wire Line
+	3900 5150 3500 5150
+Wire Wire Line
+	3500 5150 3500 4450
+Connection ~ 3900 5150
+Wire Wire Line
+	4350 4000 3900 4000
+Wire Wire Line
+	3900 4000 3900 4250
+Wire Wire Line
+	3900 4000 3500 4000
+Wire Wire Line
+	3500 4000 3500 4250
+Connection ~ 3900 4000
+Wire Wire Line
+	3250 4000 3500 4000
+Connection ~ 3500 4000
+$Comp
+L taobao-components:VOUT #PWR?
+U 1 1 5BD44FB6
+P 7800 3300
+F 0 "#PWR?" H 7800 3150 50  0001 C CNN
+F 1 "VOUT" H 7850 3450 50  0000 C CNN
+F 2 "" H 7800 3300 50  0001 C CNN
+F 3 "" H 7800 3300 50  0001 C CNN
+	1    7800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3300 7800 3550
+Wire Wire Line
+	7800 3550 7450 3550
+Connection ~ 7450 3550
+Wire Wire Line
+	3250 3750 3250 4000
+Wire Wire Line
+	7450 3550 7450 4400
+Connection ~ 7450 4400
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5BD4A65B
+P 5750 1950
+F 0 "J?" H 5650 2200 50  0000 C CNN
+F 1 "VIN" H 5650 2100 50  0000 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 5750 1950 50  0001 C CNN
+F 3 "~" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5BD4A6A9
+P 5750 2550
+F 0 "J?" H 5650 2800 50  0000 C CNN
+F 1 "VOUT" H 5650 2700 50  0000 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD4B227
+P 6050 2150
+F 0 "#PWR?" H 6050 1900 50  0001 C CNN
+F 1 "GND" H 6100 1950 50  0000 C CNN
+F 2 "" H 6050 2150 50  0001 C CNN
+F 3 "" H 6050 2150 50  0001 C CNN
+	1    6050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2050 6050 2050
+Wire Wire Line
+	6050 2050 6050 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5BD4B824
+P 6050 2650
+F 0 "#PWR?" H 6050 2400 50  0001 C CNN
+F 1 "GND" H 6100 2450 50  0000 C CNN
+F 2 "" H 6050 2650 50  0001 C CNN
+F 3 "" H 6050 2650 50  0001 C CNN
+	1    6050 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2550 6050 2550
+Wire Wire Line
+	6050 2550 6050 2650
+$Comp
+L taobao-components:VIN #PWR?
+U 1 1 5BD4C087
+P 6200 1850
+F 0 "#PWR?" H 6200 1700 50  0001 C CNN
+F 1 "VIN" H 6250 2000 50  0000 C CNN
+F 2 "" H 6200 1850 50  0001 C CNN
+F 3 "" H 6200 1850 50  0001 C CNN
+	1    6200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1850 6200 1950
+Wire Wire Line
+	6200 1950 5950 1950
+$Comp
+L taobao-components:VOUT #PWR?
+U 1 1 5BD4C810
+P 6200 2400
+F 0 "#PWR?" H 6200 2250 50  0001 C CNN
+F 1 "VOUT" H 6250 2550 50  0000 C CNN
+F 2 "" H 6200 2400 50  0001 C CNN
+F 3 "" H 6200 2400 50  0001 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 6200 2450
+Wire Wire Line
+	6200 2450 5950 2450
+Wire Wire Line
+	5900 4400 5900 4850
+Connection ~ 5900 4400
+Wire Wire Line
+	5900 4400 6750 4400
+$Comp
+L taobao-components:VOUT #PWR?
+U 1 1 5BD457B5
+P 8650 3300
+F 0 "#PWR?" H 8650 3150 50  0001 C CNN
+F 1 "VOUT" H 8700 3450 50  0000 C CNN
+F 2 "" H 8650 3300 50  0001 C CNN
+F 3 "" H 8650 3300 50  0001 C CNN
+	1    8650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R511 R?
+U 1 1 5BD4595D
+P 8650 3550
+F 0 "R?" H 8709 3596 50  0000 L CNN
+F 1 "R511" H 8709 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 3550 50  0001 C CNN
+F 3 "~" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:LED_GREEN D?
+U 1 1 5BD45A8B
+P 8650 3850
+F 0 "D?" V 8696 3782 50  0000 R CNN
+F 1 "LED_GREEN" V 8605 3782 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8650 3850 50  0001 C CNN
+F 3 "" V 8650 3850 50  0001 C CNN
+	1    8650 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BD45B9D
+P 8650 4050
+F 0 "#PWR?" H 8650 3800 50  0001 C CNN
+F 1 "GND" H 8655 3877 50  0000 C CNN
+F 2 "" H 8650 4050 50  0001 C CNN
+F 3 "" H 8650 4050 50  0001 C CNN
+	1    8650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3300 8650 3450
+Wire Wire Line
+	8650 3650 8650 3750
+Wire Wire Line
+	8650 3950 8650 4050
+$Comp
+L taobao-cp:CP100uf,50V C?
+U 1 1 5CC0315A
+P 3500 4350
+F 0 "C?" H 3588 4396 50  0000 L CNN
+F 1 "CP100uf,50V" H 3588 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 3500 4350 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
