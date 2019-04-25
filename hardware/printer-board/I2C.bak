@@ -20,7 +20,7 @@ U 1 1 5CC22578
 P 7000 3300
 F 0 "J37" H 7080 3292 50  0000 L CNN
 F 1 "Conn_01x04" H 7080 3201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7000 3300 50  0001 C CNN
+F 2 "footprint-lib:s4b-ph-kl,I2C_TERMINAL" H 7000 3300 50  0001 C CNN
 F 3 "~" H 7000 3300 50  0001 C CNN
 	1    7000 3300
 	1    0    0    -1  

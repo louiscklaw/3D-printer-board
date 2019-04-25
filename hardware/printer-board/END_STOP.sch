@@ -22,7 +22,7 @@ AR Path="/5CC15C35/5CC15D7D" Ref="J26"  Part="1"
 AR Path="/5CC130A8/5CC15D7D" Ref="J?"  Part="1" 
 F 0 "J26" V 3766 3462 50  0000 R CNN
 F 1 "X_MIN" V 3675 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3800 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3800 3650 50  0001 C CNN
 F 3 "~" H 3800 3650 50  0001 C CNN
 	1    3800 3650
 	0    -1   -1   0   
@@ -35,7 +35,7 @@ AR Path="/5CC15C35/5CC15E3F" Ref="J27"  Part="1"
 AR Path="/5CC130A8/5CC15E3F" Ref="J?"  Part="1" 
 F 0 "J27" V 4666 3462 50  0000 R CNN
 F 1 "X_MAX" V 4575 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4700 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 4700 3650 50  0001 C CNN
 F 3 "~" H 4700 3650 50  0001 C CNN
 	1    4700 3650
 	0    -1   -1   0   
@@ -48,7 +48,7 @@ AR Path="/5CC15C35/5CC15F71" Ref="J28"  Part="1"
 AR Path="/5CC130A8/5CC15F71" Ref="J?"  Part="1" 
 F 0 "J28" V 5616 3462 50  0000 R CNN
 F 1 "Y_MIN" V 5525 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5650 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 5650 3650 50  0001 C CNN
 F 3 "~" H 5650 3650 50  0001 C CNN
 	1    5650 3650
 	0    -1   -1   0   
@@ -61,7 +61,7 @@ AR Path="/5CC15C35/5CC15F77" Ref="J29"  Part="1"
 AR Path="/5CC130A8/5CC15F77" Ref="J?"  Part="1" 
 F 0 "J29" V 6516 3462 50  0000 R CNN
 F 1 "Y_MAX" V 6425 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6550 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 6550 3650 50  0001 C CNN
 F 3 "~" H 6550 3650 50  0001 C CNN
 	1    6550 3650
 	0    -1   -1   0   
@@ -74,7 +74,7 @@ AR Path="/5CC15C35/5CC1606D" Ref="J30"  Part="1"
 AR Path="/5CC130A8/5CC1606D" Ref="J?"  Part="1" 
 F 0 "J30" V 7366 3462 50  0000 R CNN
 F 1 "Z_MIN" V 7275 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7400 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 7400 3650 50  0001 C CNN
 F 3 "~" H 7400 3650 50  0001 C CNN
 	1    7400 3650
 	0    -1   -1   0   
@@ -87,7 +87,7 @@ AR Path="/5CC15C35/5CC16073" Ref="J31"  Part="1"
 AR Path="/5CC130A8/5CC16073" Ref="J?"  Part="1" 
 F 0 "J31" V 8266 3462 50  0000 R CNN
 F 1 "Z_MAX" V 8175 3462 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8300 3650 50  0001 C CNN
+F 2 "footprint-lib:s3b-ph-kl,end_stop" H 8300 3650 50  0001 C CNN
 F 3 "~" H 8300 3650 50  0001 C CNN
 	1    8300 3650
 	0    -1   -1   0   
