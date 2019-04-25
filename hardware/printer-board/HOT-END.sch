@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 26
+Sheet 16 27
 Title ""
 Date ""
 Rev ""
@@ -132,20 +132,6 @@ Wire Wire Line
 	6650 2950 5800 2950
 Wire Wire Line
 	6650 3300 6650 3400
-$Comp
-L taobao-components:+12V2 #PWR?
-U 1 1 5CC19EF0
-P 7350 3050
-AR Path="/5CC0B758/5CC19EF0" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC19EF0" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC19EF0" Ref="#PWR0234"  Part="1" 
-F 0 "#PWR0234" H 7350 2900 50  0001 C CNN
-F 1 "+12V2" V 7365 3178 50  0000 L CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "" H 7350 3050 50  0001 C CNN
-	1    7350 3050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7650 3050 7500 3050
 Wire Wire Line
@@ -155,8 +141,6 @@ Wire Wire Line
 Wire Wire Line
 	6650 3700 6650 3600
 Connection ~ 7500 3050
-Wire Wire Line
-	7500 3050 7350 3050
 Text HLabel 1500 900  0    50   Input ~ 0
 HOTEND_EN
 Text Label 2300 900  2    50   ~ 0
@@ -3055,4 +3039,19 @@ D5 6D DF 9E 27 10 44 DC F8 B7 F0 05 86 E1 09 04 7C 91 B0 E8 2D 02 4D CD 21 27 8F
 82 
 EndData
 $EndBitmap
+$Comp
+L power:+12V #PWR?
+U 1 1 5CC3323B
+P 7300 2750
+F 0 "#PWR?" H 7300 2600 50  0001 C CNN
+F 1 "+12V" H 7315 2923 50  0000 C CNN
+F 2 "" H 7300 2750 50  0001 C CNN
+F 3 "" H 7300 2750 50  0001 C CNN
+	1    7300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2750 7300 3050
+Wire Wire Line
+	7300 3050 7500 3050
 $EndSCHEMATC

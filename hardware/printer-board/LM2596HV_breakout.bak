@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 25
+Sheet 3 27
 Title ""
 Date ""
 Rev ""
@@ -205,17 +205,6 @@ Connection ~ 3600 3000
 Wire Wire Line
 	2950 3000 3200 3000
 Connection ~ 3200 3000
-$Comp
-L taobao-components:VOUT #PWR0108
-U 1 1 5BD44FB6
-P 7500 2300
-F 0 "#PWR0108" H 7500 2150 50  0001 C CNN
-F 1 "VOUT" H 7550 2450 50  0000 C CNN
-F 2 "" H 7500 2300 50  0001 C CNN
-F 3 "" H 7500 2300 50  0001 C CNN
-	1    7500 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 2300 7500 2550
 Wire Wire Line
@@ -226,104 +215,11 @@ Wire Wire Line
 Wire Wire Line
 	7150 2550 7150 3400
 Connection ~ 7150 3400
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 5BD4A65B
-P 5450 950
-F 0 "J1" H 5350 1200 50  0000 C CNN
-F 1 "VIN" H 5350 1100 50  0000 C CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 5450 950 50  0001 C CNN
-F 3 "~" H 5450 950 50  0001 C CNN
-	1    5450 950 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5BD4A6A9
-P 5450 1550
-F 0 "J2" H 5350 1800 50  0000 C CNN
-F 1 "VOUT" H 5350 1700 50  0000 C CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 5450 1550 50  0001 C CNN
-F 3 "~" H 5450 1550 50  0001 C CNN
-	1    5450 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5BD4B227
-P 5750 1150
-F 0 "#PWR0109" H 5750 900 50  0001 C CNN
-F 1 "GND" H 5800 950 50  0000 C CNN
-F 2 "" H 5750 1150 50  0001 C CNN
-F 3 "" H 5750 1150 50  0001 C CNN
-	1    5750 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 1050 5750 1050
-Wire Wire Line
-	5750 1050 5750 1150
-$Comp
-L power:GND #PWR0110
-U 1 1 5BD4B824
-P 5750 1650
-F 0 "#PWR0110" H 5750 1400 50  0001 C CNN
-F 1 "GND" H 5800 1450 50  0000 C CNN
-F 2 "" H 5750 1650 50  0001 C CNN
-F 3 "" H 5750 1650 50  0001 C CNN
-	1    5750 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 1550 5750 1550
-Wire Wire Line
-	5750 1550 5750 1650
-$Comp
-L taobao-components:VIN #PWR0111
-U 1 1 5BD4C087
-P 5900 850
-F 0 "#PWR0111" H 5900 700 50  0001 C CNN
-F 1 "VIN" H 5950 1000 50  0000 C CNN
-F 2 "" H 5900 850 50  0001 C CNN
-F 3 "" H 5900 850 50  0001 C CNN
-	1    5900 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 850  5900 950 
-Wire Wire Line
-	5900 950  5650 950 
-$Comp
-L taobao-components:VOUT #PWR0112
-U 1 1 5BD4C810
-P 5900 1400
-F 0 "#PWR0112" H 5900 1250 50  0001 C CNN
-F 1 "VOUT" H 5950 1550 50  0000 C CNN
-F 2 "" H 5900 1400 50  0001 C CNN
-F 3 "" H 5900 1400 50  0001 C CNN
-	1    5900 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1400 5900 1450
-Wire Wire Line
-	5900 1450 5650 1450
 Wire Wire Line
 	5600 3400 5600 3850
 Connection ~ 5600 3400
 Wire Wire Line
 	5600 3400 6450 3400
-$Comp
-L taobao-components:VOUT #PWR0113
-U 1 1 5BD457B5
-P 8350 2300
-F 0 "#PWR0113" H 8350 2150 50  0001 C CNN
-F 1 "VOUT" H 8400 2450 50  0000 C CNN
-F 2 "" H 8350 2300 50  0001 C CNN
-F 3 "" H 8350 2300 50  0001 C CNN
-	1    8350 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L taobao-r:R511 R3
 U 1 1 5BD4595D
@@ -374,10 +270,10 @@ F 3 "~" H 3200 3350 50  0001 C CNN
 	1    3200 3350
 	1    0    0    -1  
 $EndComp
-Text Notes 2100 5200 0    200  ~ 0
+Text Notes 2100 5200 0    100  ~ 0
 60V, 3A, 150kHz, Step-down Switching Regulator  
-Text Notes 2150 5750 0    50   ~ 0
-Guaranteed 3A output load current\nInput voltage range up to 60V \nThermal shutdown and current limit protection\n3.3V, 5V, 12V and Adjustable output versions
+Text Notes 2100 5600 0    50   ~ 0
+- Guaranteed 3A output load current\n- Input voltage range up to 60V \n- Thermal shutdown and current limit protection\n- 3.3V, 5V, 12V and Adjustable output versions
 $Bitmap
 Pos 4900 6950
 Scale 1.000000
@@ -1344,4 +1240,26 @@ AB 00 00 00 00 40 27 C4 2A 00 00 00 00 D0 09 B1 0A 00 00 00 00 74 42 AC 02 00 00
 84 34 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L power:+5V #PWR0108
+U 1 1 5CC31222
+P 7500 2300
+F 0 "#PWR0108" H 7500 2150 50  0001 C CNN
+F 1 "+5V" H 7515 2473 50  0000 C CNN
+F 2 "" H 7500 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5CC31256
+P 8350 2300
+F 0 "#PWR0109" H 8350 2150 50  0001 C CNN
+F 1 "+5V" H 8365 2473 50  0000 C CNN
+F 2 "" H 8350 2300 50  0001 C CNN
+F 3 "" H 8350 2300 50  0001 C CNN
+	1    8350 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
