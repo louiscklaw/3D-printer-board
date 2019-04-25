@@ -1,0 +1,305 @@
+
+(session Y_STEPPER_DRIVER.ses
+  (base_design Y_STEPPER_DRIVER.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitor_SMD:CP_Elec_6.3x7.7
+      (place C9 960000 -640000 front 0)
+    )
+    (component Capacitor_SMD:CP_Elec_6.3x7.7::1
+      (place C8 965000 -425000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+      (place J6 1065000 -545000 front 0)
+    )
+    (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
+      (place J5 945000 -530000 front 0)
+    )
+    (component "Module:Pololu_Breakout-16_15.2x20.3mm"
+      (place U4 895550 -490450 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R7 1025000 -445000 front 90)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R6 895000 -450000 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path F.Cu 2500
+            1022550 -521476
+            1010930 -509856
+            1010930 -483885
+            1033158 -461657
+            1033158 -431073
+            1027085 -425000
+            992000 -425000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1022550 -521476
+            1022550 -527103
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1022550 -515850
+            1022550 -521476
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            895000 -441250
+            975750 -441250
+            992000 -425000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1022550 -527103
+            1019737 -527103
+            987000 -559840
+            987000 -640000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1022550 -668250
+            1011297 -668250
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1011297 -668250
+            1011297 -664297
+            987000 -640000
+          )
+        )
+      )
+      (net "Net-(J5-Pad1)"
+        (wire
+          (path B.Cu 2500
+            945000 -530000
+            933247 -530000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            895550 -515850
+            919097 -515850
+            933247 -530000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            895550 -515850
+            895550 -504597
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            895000 -458750
+            884297 -469453
+            884297 -500378
+            888516 -504597
+            895550 -504597
+          )
+        )
+      )
+      (net /~EN~
+        (wire
+          (path F.Cu 2500
+            1025000 -436250
+            970800 -490450
+            895550 -490450
+          )
+        )
+      )
+      (net +5V
+        (wire
+          (path B.Cu 2500
+            1022550 -642850
+            1011297 -642850
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            970400 -580800
+            970400 -592553
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            970400 -592553
+            1011297 -633450
+            1011297 -642850
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            970400 -580800
+            970400 -602600
+            933000 -640000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            970400 -555400
+            970400 -580800
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            970400 -555400
+            970400 -530000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1025000 -453750
+            970400 -508350
+            970400 -530000
+          )
+        )
+      )
+      (net "Net-(J5-Pad3)"
+        (wire
+          (path B.Cu 2500
+            945000 -555400
+            933247 -555400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            895550 -541250
+            919097 -541250
+            933247 -555400
+          )
+        )
+      )
+      (net "Net-(J6-Pad4)"
+        (wire
+          (path B.Cu 2500
+            1065000 -621200
+            1053247 -621200
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1022550 -617450
+            1049497 -617450
+            1053247 -621200
+          )
+        )
+      )
+      (net "Net-(J5-Pad5)"
+        (wire
+          (path B.Cu 2500
+            945000 -580800
+            933247 -580800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            895550 -566650
+            919097 -566650
+            933247 -580800
+          )
+        )
+      )
+      (net "Net-(J6-Pad3)"
+        (wire
+          (path B.Cu 2500
+            1065000 -595800
+            1053247 -595800
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1022550 -592050
+            1049497 -592050
+            1053247 -595800
+          )
+        )
+      )
+      (net "Net-(U4-Pad5)"
+        (wire
+          (path F.Cu 2500
+            895550 -617450
+            895550 -592050
+          )
+        )
+      )
+      (net "Net-(J6-Pad2)"
+        (wire
+          (path B.Cu 2500
+            1065000 -570400
+            1053247 -570400
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1022550 -566650
+            1049497 -566650
+            1053247 -570400
+          )
+        )
+      )
+      (net "Net-(J6-Pad1)"
+        (wire
+          (path B.Cu 2500
+            1065000 -545000
+            1053247 -545000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1022550 -541250
+            1049497 -541250
+            1053247 -545000
+          )
+        )
+      )
+      (net +12V
+        (wire
+          (path F.Cu 2500
+            1022550 -479197
+            1037661 -464086
+            1037661 -429207
+            1021757 -413303
+            949697 -413303
+            938000 -425000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1022550 -490450
+            1022550 -479197
+          )
+        )
+      )
+    )
+  )
+)
