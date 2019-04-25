@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 35
 Title ""
 Date ""
 Rev ""
@@ -200,7 +201,7 @@ AR Path="/5CC0AECE/5CC04CFD" Ref="J?"  Part="1"
 AR Path="/5CC04CFD" Ref="J10"  Part="1" 
 F 0 "J10" H 6980 3092 50  0000 L CNN
 F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
+F 2 "footprint-lib:s4b-ph-kl,stepper_motor_terminal" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  

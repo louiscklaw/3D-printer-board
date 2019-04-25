@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 27
+Sheet 10 35
 Title ""
 Date ""
 Rev ""
@@ -85,7 +85,7 @@ AR Path="/5CC0A8CF/5CC04CDD" Ref="J?"  Part="1"
 AR Path="/5CC0AEC9/5CC04CDD" Ref="J15"  Part="1" 
 F 0 "J15" H 4050 2767 50  0000 C CNN
 F 1 "MS_SELECT" H 4050 2676 50  0000 C CNN
-F 2 "" H 4000 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 3000 50  0001 C CNN
 F 3 "~" H 4000 3000 50  0001 C CNN
 	1    4000 3000
 	-1   0    0    -1  
@@ -192,8 +192,8 @@ AR Path="/5CC0A8CA/5CC04D00" Ref="J?"  Part="1"
 AR Path="/5CC0A8CF/5CC04D00" Ref="J?"  Part="1" 
 AR Path="/5CC0AEC9/5CC04D00" Ref="J16"  Part="1" 
 F 0 "J16" H 6980 3092 50  0000 L CNN
-F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
-F 2 "" H 6900 3100 50  0001 C CNN
+F 1 "E0" H 6980 3001 50  0000 L CNN
+F 2 "footprint-lib:s4b-ph-kl,stepper_motor_terminal" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  

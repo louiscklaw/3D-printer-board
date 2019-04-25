@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 27 27
+Sheet 25 35
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5CC01E08/5CC30556" Ref="J?"  Part="1"
 AR Path="/5CC2EE14/5CC30556" Ref="J1"  Part="1" 
 F 0 "J1" H 1550 1700 50  0000 C CNN
 F 1 "VIN" H 1550 1600 50  0000 C CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54" H 1650 1450 50  0001 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54,12V_SRC" H 1650 1450 50  0001 C CNN
 F 3 "~" H 1650 1450 50  0001 C CNN
 	1    1650 1450
 	-1   0    0    -1  

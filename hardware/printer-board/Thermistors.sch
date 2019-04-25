@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 27
+Sheet 16 35
 Title ""
 Date ""
 Rev ""
@@ -70,7 +70,7 @@ U 1 1 5CC1BBFE
 P 4750 2000
 F 0 "J32" V 4716 1612 50  0000 R CNN
 F 1 "Conn_01x06" V 4625 1612 50  0000 R CNN
-F 2 "" H 4750 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4750 2000 50  0001 C CNN
 F 3 "~" H 4750 2000 50  0001 C CNN
 	1    4750 2000
 	0    -1   -1   0   
@@ -113,7 +113,7 @@ U 1 1 5CC1BEEB
 P 4850 3700
 F 0 "J33" V 4974 3646 50  0000 C CNN
 F 1 "Conn_01x08" V 5065 3646 50  0000 C CNN
-F 2 "" H 4850 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4850 3700 50  0001 C CNN
 F 3 "~" H 4850 3700 50  0001 C CNN
 	1    4850 3700
 	0    1    1    0   
