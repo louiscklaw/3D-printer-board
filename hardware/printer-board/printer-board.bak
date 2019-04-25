@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 21
+Sheet 1 25
 Title ""
 Date ""
 Rev ""
@@ -159,7 +159,7 @@ F0 "I2C" 50
 F1 "I2C.sch" 50
 $EndSheet
 $Sheet
-S 1050 3750 900  700 
+S 1050 4700 900  700 
 U 5CC19D48
 F0 "SSD1306" 50
 F1 "SSD1306.sch" 50
@@ -219,4 +219,10 @@ F 3 "" H 5812 6700 50  0001 C CNN
 	1    5800 6700
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 1050 3750 900  700 
+U 5CC29851
+F0 "STM32_CORE" 50
+F1 "STM32_CORE.sch" 50
+$EndSheet
 $EndSCHEMATC
