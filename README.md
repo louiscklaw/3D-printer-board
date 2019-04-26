@@ -34,3 +34,7 @@ possibily some SSR channel
 
 ### power consuption estimation (TBC)
 stepper motors = 10 * 0.5A = 5A
+
+
+### IDEA
+is it possible 1 extruder and 1 hotend off ?
