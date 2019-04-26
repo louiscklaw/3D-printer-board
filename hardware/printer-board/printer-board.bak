@@ -231,4 +231,10 @@ U 5CC2401E
 F0 "FANS" 50
 F1 "FANS.sch" 50
 $EndSheet
+$Sheet
+S 4650 1900 900  700 
+U 5CC2D4E8
+F0 "screen_connect" 50
+F1 "screen_connect.sch" 50
+$EndSheet
 $EndSCHEMATC
