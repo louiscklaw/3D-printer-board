@@ -18,7 +18,7 @@
 *hotend0, hotend1, hotend2, hotend3
 *heatbed
 
-6 DI
+6 + 4 DI
 x,y,z min
 x,y,z max
 4 misc
@@ -32,5 +32,5 @@ possibily some digital output channel
 possibily some SSR channel
 
 
-power consuption
+### power consuption estimation (TBC)
 stepper motors = 10 * 0.5A = 5A
