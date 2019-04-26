@@ -1,0 +1,163 @@
+
+(session HOTEND_2.ses
+  (base_design HOTEND_2.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitor_SMD:CP_Elec_6.3x5.3
+      (place C32 165000 -120000 front 0)
+    )
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D9 240000 -155000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TO-263-2"
+      (place Q4 133450 -131750 back 180)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R40 80000 -105000 front 180)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place R41 80000 -130000 front 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
+      (place R39 80000 -155000 front 0)
+    )
+    (component "footprint-lib:s2b-ph-kl,hotend_output"
+      (place J25 240000 -110000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(D9-Pad1)"
+        (wire
+          (path F.Cu 2500
+            240000 -99992
+            251749 -99992
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            251749 -99992
+            257708 -105951
+            257708 -159504
+            253718 -163494
+            239744 -163494
+            231250 -155000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            240000 -99992
+            228251 -99992
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            167200 -131750
+            217453 -131750
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            228251 -99992
+            228251 -120952
+            217453 -131750
+          )
+        )
+      )
+      (net +12V
+        (wire
+          (path F.Cu 2500
+            240000 -120008
+            216578 -96586
+            79664 -96586
+            71250 -105000
+          )
+        )
+      )
+      (net "Net-(Q4-Pad1)"
+        (wire
+          (path F.Cu 2500
+            69750 -155000
+            67295 -157455
+            67295 -168749
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            75700 -157150
+            75700 -160344
+            67295 -168749
+          )
+        )
+        (via "Via[0-1]_800:400_um" 67295 -168749
+        )
+      )
+      (net /HOTEND_EN
+        (wire
+          (path F.Cu 2500
+            90250 -155000
+            90250 -130000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2500
+            69750 -130000
+            85849 -113901
+            104435 -113901
+            109450 -108886
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            109450 -108886
+            109726 -108610
+            181610 -108610
+            193000 -120000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 109450 -108886
+        )
+        (wire
+          (path B.Cu 2500
+            75700 -106350
+            106914 -106350
+            109450 -108886
+          )
+        )
+      )
+      (net "Net-(D9-Pad2)"
+        (wire
+          (path F.Cu 2500
+            248750 -155000
+            246755 -155000
+            227716 -135961
+            227716 -126077
+            203272 -101633
+            92117 -101633
+            88750 -105000
+          )
+        )
+      )
+    )
+  )
+)

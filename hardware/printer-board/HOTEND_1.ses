@@ -1,0 +1,190 @@
+
+(session HOTEND_1.ses
+  (base_design HOTEND_1.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitor_SMD:CP_Elec_6.3x5.3
+      (place C28 285000 -235000 back 270)
+    )
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D8 345000 -265000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:TO-263-2"
+      (place Q3 238450 -241750 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R32 180000 -245000 back 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place R38 180000 -225000 back 0)
+    )
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
+      (place R31 180000 -200000 back 180)
+    )
+    (component "footprint-lib:s2b-ph-kl,hotend_output"
+      (place J24 340000 -220000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(D8-Pad1)"
+        (wire
+          (path F.Cu 2500
+            307552 -238448
+            304250 -241750
+            290115 -241750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            328251 -209992
+            328251 -217749
+            307552 -238448
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            307552 -238448
+            334104 -265000
+            336250 -265000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            340000 -209992
+            328251 -209992
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            272200 -241750
+            290115 -241750
+          )
+        )
+      )
+      (net +12V
+        (wire
+          (path B.Cu 2500
+            171250 -245000
+            180536 -235714
+            322545 -235714
+            328251 -230008
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            340000 -230008
+            328251 -230008
+          )
+        )
+      )
+      (net "Net-(Q3-Pad1)"
+        (wire
+          (path F.Cu 2500
+            206953 -216350
+            209750 -216350
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            169750 -200000
+            180014 -189736
+            195925 -189736
+            209750 -203561
+            209750 -216350
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            180700 -216350
+            206953 -216350
+          )
+        )
+        (via "Via[0-1]_800:400_um" 209750 -216350
+        )
+      )
+      (net /HOTEND_EN
+        (wire
+          (path B.Cu 2500
+            190250 -200000
+            190250 -204500
+            169750 -225000
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path B.Cu 2500
+            210605 -225000
+            190250 -225000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            285000 -207000
+            267000 -225000
+            210605 -225000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            210605 -225000
+            210605 -228461
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            180700 -267150
+            206953 -267150
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            210605 -228461
+            206953 -232113
+            206953 -267150
+          )
+        )
+        (via "Via[0-1]_800:400_um" 210605 -228461
+        )
+      )
+      (net "Net-(D8-Pad2)"
+        (wire
+          (path F.Cu 2500
+            332897 -252621
+            341371 -252621
+            353750 -265000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 332897 -252621
+        )
+        (wire
+          (path B.Cu 2500
+            188750 -245000
+            191739 -242011
+            322287 -242011
+            332897 -252621
+          )
+        )
+      )
+    )
+  )
+)

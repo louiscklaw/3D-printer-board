@@ -1,0 +1,165 @@
+(pcb "/home/logic/_workspace/3D-printer-board/hardware/printer-board/I2C.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  39914 -68521.7  29500 -68521.7  29500 -60000  39914 -60000
+            39914 -68521.7)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R37 37875 -66000 back 180 (PN R472,0603))
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R36 34375 -66000 back 0 (PN R472,0603))
+    )
+    (component "footprint-lib:s4b-ph-kl,I2C_TERMINAL"
+      (place J37 34707 -62032 front 0 (PN Conn_01x04))
+    )
+  )
+  (library
+    (image Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 120  -171.267 -510  171.267 -510))
+      (outline (path signal 120  -171.267 510  171.267 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+    )
+    (image Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 120  -171.267 510  171.267 510))
+      (outline (path signal 120  -171.267 -510  171.267 -510))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+    )
+    (image "footprint-lib:s4b-ph-kl,I2C_TERMINAL"
+      (outline (path signal 381  -3299.46 -4099.56  -3299.46 -6299.2))
+      (outline (path signal 381  -3299.46 -6299.2  -3599.18 -6299.2))
+      (outline (path signal 381  -3599.18 -6299.2  -3599.18 -4099.56))
+      (outline (path signal 381  2499.36 -1998.98  -2499.36 -1998.98))
+      (outline (path signal 381  -5001.26 -6299.2  5001.26 -6299.2))
+      (outline (path signal 381  -5001.26 -398.78  5001.26 -398.78))
+      (outline (path signal 381  2499.36 -1998.98  2499.36 -6299.2))
+      (outline (path signal 381  -2501.9 -1998.98  -2501.9 -6299.2))
+      (outline (path signal 381  3296.92 -4099.56  3296.92 -2499.36))
+      (outline (path signal 381  4297.68 -4099.56  3296.92 -4099.56))
+      (outline (path signal 381  4297.68 -2499.36  4297.68 -4099.56))
+      (outline (path signal 381  3296.92 -2499.36  4297.68 -2499.36))
+      (outline (path signal 381  -4302.76 -2499.36  -3302 -2499.36))
+      (outline (path signal 381  -3302 -2499.36  -3302 -4099.56))
+      (outline (path signal 381  -3302 -4099.56  -4302.76 -4099.56))
+      (outline (path signal 381  -4302.76 -4099.56  -4302.76 -2499.36))
+      (outline (path signal 381  4798.06 1399.54  4798.06 -398.78))
+      (outline (path signal 381  -4798.06 1399.54  -4798.06 -398.78))
+      (outline (path signal 381  4998.72 -6299.2  4998.72 1399.54))
+      (outline (path signal 381  4998.72 1399.54  4599.94 1399.54))
+      (outline (path signal 381  4599.94 1399.54  4599.94 -398.78))
+      (outline (path signal 381  -4599.94 -398.78  -4599.94 1399.54))
+      (outline (path signal 381  -4599.94 1399.54  -4998.72 1399.54))
+      (outline (path signal 381  -4998.72 1399.54  -4998.72 -6299.2))
+      (outline (path signal 381  -5016.5 -6286.5  5016.5 -6286.5))
+      (outline (path signal 381  5016.5 -6286.5  5016.5 1460.5))
+      (outline (path signal 381  5016.5 1460.5  5016.5 1841.5))
+      (outline (path signal 381  5016.5 1841.5  -5016.5 1841.5))
+      (outline (path signal 381  -5016.5 1841.5  -5016.5 -6286.5))
+      (pin Rect[A]Pad_1500x2500_um 1 -2999.74 0)
+      (pin Oval[A]Pad_1500x2500_um 2 -1000.76 0)
+      (pin Oval[A]Pad_1500x2500_um 3 1000.76 0)
+      (pin Oval[A]Pad_1500x2500_um 4 2999.74 0)
+    )
+    (padstack Oval[A]Pad_1500x2500_um
+      (shape (path F.Cu 1500  0 -500  0 500))
+      (shape (path B.Cu 1500  0 -500  0 500))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1050x950_238.404_um
+      (shape (polygon F.Cu 0  328.898 472.282  369.039 461.526  406.702 443.964  440.743 420.128
+            470.128 390.743  493.964 356.702  511.526 319.039  522.282 278.898
+            525.904 237.5  525.904 -237.5  522.282 -278.898  511.526 -319.039
+            493.964 -356.702  470.128 -390.743  440.743 -420.128  406.702 -443.964
+            369.039 -461.526  328.898 -472.282  287.5 -475.904  -287.5 -475.904
+            -328.898 -472.282  -369.039 -461.526  -406.702 -443.964  -440.743 -420.128
+            -470.128 -390.743  -493.964 -356.702  -511.526 -319.039  -522.282 -278.898
+            -525.904 -237.5  -525.904 237.5  -522.282 278.898  -511.526 319.039
+            -493.964 356.702  -470.128 390.743  -440.743 420.128  -406.702 443.964
+            -369.039 461.526  -328.898 472.282  -287.5 475.904  287.5 475.904
+            328.898 472.282))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1500x2500_um
+      (shape (rect F.Cu -750 -1250 750 1250))
+      (shape (rect B.Cu -750 -1250 750 1250))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins R37-1 R36-1 J37-1)
+    )
+    (net GND
+      (pins J37-2)
+    )
+    (net /SDA
+      (pins R36-2 J37-3)
+    )
+    (net /SCL
+      (pins R37-2 J37-4)
+    )
+    (class kicad_default "" +5V /SCL /SDA GND
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

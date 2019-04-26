@@ -1,0 +1,79 @@
+
+(session I2C.ses
+  (base_design I2C.dsn)
+  (placement
+    (resolution um 10)
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R37 378750 -660000 back 180)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R36 343750 -660000 back 0)
+    )
+    (component "footprint-lib:s4b-ph-kl,I2C_TERMINAL"
+      (place J37 347070 -620320 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +5V
+        (wire
+          (path B.Cu 2500
+            352500 -660000
+            370000 -660000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            317073 -620320
+            317073 -655937
+            329242 -668106
+            344394 -668106
+            352500 -660000
+          )
+        )
+      )
+      (net /SDA
+        (wire
+          (path B.Cu 2500
+            357078 -620320
+            357078 -637922
+            335000 -660000
+          )
+        )
+      )
+      (net /SCL
+        (wire
+          (path B.Cu 2500
+            377067 -620320
+            377067 -636073
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            377067 -636073
+            387500 -646506
+            387500 -660000
+          )
+        )
+      )
+    )
+  )
+)

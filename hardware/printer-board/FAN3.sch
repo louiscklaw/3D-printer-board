@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 34 35
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -84,13 +83,13 @@ F 3 "" H 2850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-transistor:SS9013_J3 Q?
+L taobao-transistor:SS9013_J3 Q1
 U 1 1 5CC24DF7
 P 2750 2200
-AR Path="/5CC24DF7" Ref="Q?"  Part="1" 
+AR Path="/5CC24DF7" Ref="Q1"  Part="1" 
 AR Path="/5BCBA20B/5CC24DF7" Ref="Q?"  Part="1" 
 AR Path="/5CC2401E/5CC24600/5CC24DF7" Ref="Q8"  Part="1" 
-F 0 "Q8" H 2950 2250 50  0000 L CNN
+F 0 "Q1" H 2950 2250 50  0000 L CNN
 F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 2125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN
@@ -158,6 +157,7 @@ AR Path="/5CC19D48/5CC2872E" Ref="J?"  Part="1"
 AR Path="/5CC2401E/5CC24321/5CC2872E" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC24398/5CC2872E" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC24600/5CC2872E" Ref="J41"  Part="1" 
+AR Path="/5CC2872E" Ref="J41"  Part="1" 
 F 0 "J41" H 5950 2450 50  0000 C CNN
 F 1 "TO FAN4" H 5950 2550 50  0000 C CNN
 F 2 "footprint-lib:s2b-ph-kl,fan_output" H 6000 2800 50  0001 C CNN

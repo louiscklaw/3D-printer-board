@@ -1,0 +1,281 @@
+(pcb "/home/logic/_workspace/3D-printer-board/hardware/printer-board/END_STOP.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  57040.5 -54254.5  32459.5 -54254.5  32459.5 -27745.5
+            57040.5 -27745.5  57040.5 -54254.5)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D15 42500 -32500 front 90 (PN LED_BLUE,0603))
+      (place D17 43000 -49000 front 270 (PN LED_BLUE,0603))
+      (place D19 47000 -41000 front 90 (PN LED_BLUE,0603))
+    )
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place D16 42500 -39500 front 90 (PN LED_BLUE,0603))
+      (place D18 47000 -49500 front 270 (PN LED_BLUE,0603))
+      (place D20 46500 -32500 front 90 (PN LED_BLUE,0603))
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R64 46500 -32500 back 270 (PN R102,0603))
+      (place R62 47000 -49500 back 270 (PN R102,0603))
+      (place R59 43000 -30500 back 90 (PN R102,0603))
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R63 47000 -41000 back 270 (PN R102,0603))
+      (place R60 42500 -39500 back 90 (PN R102,0603))
+      (place R61 43000 -49000 back 90 (PN R102,0603))
+    )
+    (component "footprint-lib:s3b-ph-kl,end_stop"
+      (place J26 39000 -32000 front 270 (PN X_MIN))
+      (place J30 50500 -41000 front 90 (PN Z_MIN))
+      (place J28 39000 -49000 front 270 (PN Y_MIN))
+    )
+    (component "footprint-lib:s3b-ph-kl,end_stop::1"
+      (place J31 50500 -32000 front 90 (PN Z_MAX))
+      (place J29 50500 -50000 front 90 (PN Y_MAX))
+      (place J27 39000 -40500 front 270 (PN X_MAX))
+    )
+  )
+  (library
+    (image LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 120  -1660 -735  800 -735))
+      (outline (path signal 120  -1660 735  -1660 -735))
+      (outline (path signal 120  800 735  -1660 735))
+      (outline (path signal 100  800 -400  800 400))
+      (outline (path signal 100  -800 -400  800 -400))
+      (outline (path signal 100  -800 100  -800 -400))
+      (outline (path signal 100  -500 400  -800 100))
+      (outline (path signal 100  800 400  -500 400))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+    )
+    (image LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (outline (path signal 100  800 400  -500 400))
+      (outline (path signal 100  -500 400  -800 100))
+      (outline (path signal 100  -800 100  -800 -400))
+      (outline (path signal 100  -800 -400  800 -400))
+      (outline (path signal 100  800 -400  800 400))
+      (outline (path signal 120  800 735  -1660 735))
+      (outline (path signal 120  -1660 735  -1660 -735))
+      (outline (path signal 120  -1660 -735  800 -735))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+    )
+    (image Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 120  -171.267 -510  171.267 -510))
+      (outline (path signal 120  -171.267 510  171.267 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+    )
+    (image Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 120  -171.267 510  171.267 510))
+      (outline (path signal 120  -171.267 -510  171.267 -510))
+      (outline (path signal 50  -1650 -730  -1650 730))
+      (outline (path signal 50  -1650 730  1650 730))
+      (outline (path signal 50  1650 730  1650 -730))
+      (outline (path signal 50  1650 -730  -1650 -730))
+      (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
+      (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
+    )
+    (image "footprint-lib:s3b-ph-kl,end_stop"
+      (outline (path signal 381  4064 2286  -4064 2286))
+      (outline (path signal 381  4064 -6350  4064 2286))
+      (outline (path signal 381  -4064 -6350  4064 -6350))
+      (outline (path signal 381  -4064 2286  -4064 -6350))
+      (outline (path signal 381  -4000.5 1399.54  -4000.5 -6299.2))
+      (outline (path signal 381  -3601.72 1399.54  -4000.5 1399.54))
+      (outline (path signal 381  -3601.72 -398.78  -3601.72 1399.54))
+      (outline (path signal 381  3601.72 1399.54  3601.72 -398.78))
+      (outline (path signal 381  4000.5 1399.54  3601.72 1399.54))
+      (outline (path signal 381  4000.5 -6299.2  4000.5 1399.54))
+      (outline (path signal 381  -3799.84 1399.54  -3799.84 -398.78))
+      (outline (path signal 381  3799.84 1399.54  3799.84 -398.78))
+      (outline (path signal 381  -3302 -4099.56  -3302 -2499.36))
+      (outline (path signal 381  -2301.24 -4099.56  -3302 -4099.56))
+      (outline (path signal 381  -2301.24 -2499.36  -2301.24 -4099.56))
+      (outline (path signal 381  -3302 -2499.36  -2301.24 -2499.36))
+      (outline (path signal 381  2296.16 -2499.36  3296.92 -2499.36))
+      (outline (path signal 381  3296.92 -2499.36  3296.92 -4099.56))
+      (outline (path signal 381  3296.92 -4099.56  2296.16 -4099.56))
+      (outline (path signal 381  2296.16 -4099.56  2296.16 -2499.36))
+      (outline (path signal 381  -1501.14 -1998.98  -1501.14 -6299.2))
+      (outline (path signal 381  1498.6 -1998.98  1498.6 -6299.2))
+      (outline (path signal 381  -4000.5 -6299.2  4000.5 -6299.2))
+      (outline (path signal 381  -1501.14 -1998.98  1501.14 -1998.98))
+      (outline (path signal 381  -4000.5 -398.78  4000.5 -398.78))
+      (outline (path signal 381  -2600.96 -6299.2  -2600.96 -4099.56))
+      (outline (path signal 381  -2301.24 -6299.2  -2600.96 -6299.2))
+      (outline (path signal 381  -2301.24 -4099.56  -2301.24 -6299.2))
+      (pin Oval[A]Pad_1500x2500_um 3 1998.98 0)
+      (pin Oval[A]Pad_1500x2500_um 2 0 0)
+      (pin Rect[A]Pad_1500x2500_um 1 -1998.98 0)
+    )
+    (image "footprint-lib:s3b-ph-kl,end_stop::1"
+      (outline (path signal 381  -2301.24 -4099.56  -2301.24 -6299.2))
+      (outline (path signal 381  -2301.24 -6299.2  -2600.96 -6299.2))
+      (outline (path signal 381  -2600.96 -6299.2  -2600.96 -4099.56))
+      (outline (path signal 381  -4000.5 -398.78  4000.5 -398.78))
+      (outline (path signal 381  -1501.14 -1998.98  1501.14 -1998.98))
+      (outline (path signal 381  -4000.5 -6299.2  4000.5 -6299.2))
+      (outline (path signal 381  1498.6 -1998.98  1498.6 -6299.2))
+      (outline (path signal 381  -1501.14 -1998.98  -1501.14 -6299.2))
+      (outline (path signal 381  2296.16 -4099.56  2296.16 -2499.36))
+      (outline (path signal 381  3296.92 -4099.56  2296.16 -4099.56))
+      (outline (path signal 381  3296.92 -2499.36  3296.92 -4099.56))
+      (outline (path signal 381  2296.16 -2499.36  3296.92 -2499.36))
+      (outline (path signal 381  -3302 -2499.36  -2301.24 -2499.36))
+      (outline (path signal 381  -2301.24 -2499.36  -2301.24 -4099.56))
+      (outline (path signal 381  -2301.24 -4099.56  -3302 -4099.56))
+      (outline (path signal 381  -3302 -4099.56  -3302 -2499.36))
+      (outline (path signal 381  3799.84 1399.54  3799.84 -398.78))
+      (outline (path signal 381  -3799.84 1399.54  -3799.84 -398.78))
+      (outline (path signal 381  4000.5 -6299.2  4000.5 1399.54))
+      (outline (path signal 381  4000.5 1399.54  3601.72 1399.54))
+      (outline (path signal 381  3601.72 1399.54  3601.72 -398.78))
+      (outline (path signal 381  -3601.72 -398.78  -3601.72 1399.54))
+      (outline (path signal 381  -3601.72 1399.54  -4000.5 1399.54))
+      (outline (path signal 381  -4000.5 1399.54  -4000.5 -6299.2))
+      (outline (path signal 381  -4064 2286  -4064 -6350))
+      (outline (path signal 381  -4064 -6350  4064 -6350))
+      (outline (path signal 381  4064 -6350  4064 2286))
+      (outline (path signal 381  4064 2286  -4064 2286))
+      (pin Rect[A]Pad_1500x2500_um 1 -1998.98 0)
+      (pin Oval[A]Pad_1500x2500_um 2 0 0)
+      (pin Oval[A]Pad_1500x2500_um 3 1998.98 0)
+    )
+    (padstack Oval[A]Pad_1500x2500_um
+      (shape (path F.Cu 1500  0 -500  0 500))
+      (shape (path B.Cu 1500  0 -500  0 500))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1050x950_238.404_um
+      (shape (polygon F.Cu 0  328.898 472.282  369.039 461.526  406.702 443.964  440.743 420.128
+            470.128 390.743  493.964 356.702  511.526 319.039  522.282 278.898
+            525.904 237.5  525.904 -237.5  522.282 -278.898  511.526 -319.039
+            493.964 -356.702  470.128 -390.743  440.743 -420.128  406.702 -443.964
+            369.039 -461.526  328.898 -472.282  287.5 -475.904  -287.5 -475.904
+            -328.898 -472.282  -369.039 -461.526  -406.702 -443.964  -440.743 -420.128
+            -470.128 -390.743  -493.964 -356.702  -511.526 -319.039  -522.282 -278.898
+            -525.904 -237.5  -525.904 237.5  -522.282 278.898  -511.526 319.039
+            -493.964 356.702  -470.128 390.743  -440.743 420.128  -406.702 443.964
+            -369.039 461.526  -328.898 472.282  -287.5 475.904  287.5 475.904
+            328.898 472.282))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1500x2500_um
+      (shape (rect F.Cu -750 -1250 750 1250))
+      (shape (rect B.Cu -750 -1250 750 1250))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /X_MAX
+      (pins R60-1 J27-1)
+    )
+    (net GND
+      (pins D15-1 D16-1 D17-1 D18-1 D19-1 D20-1 J26-2 J31-2 J30-2 J29-2 J28-2 J27-2)
+    )
+    (net +5V
+      (pins J26-3 J31-3 J30-3 J29-3 J28-3 J27-3)
+    )
+    (net /Y_MIN
+      (pins R61-1 J28-1)
+    )
+    (net /Y_MAX
+      (pins R62-1 J29-1)
+    )
+    (net /Z_MIN
+      (pins R63-1 J30-1)
+    )
+    (net /Z_MAX
+      (pins R64-1 J31-1)
+    )
+    (net /X_MIN
+      (pins R59-1 J26-1)
+    )
+    (net "Net-(D17-Pad2)"
+      (pins D17-2 R61-2)
+    )
+    (net "Net-(D15-Pad2)"
+      (pins D15-2 R59-2)
+    )
+    (net "Net-(D16-Pad2)"
+      (pins D16-2 R60-2)
+    )
+    (net "Net-(D18-Pad2)"
+      (pins D18-2 R62-2)
+    )
+    (net "Net-(D19-Pad2)"
+      (pins D19-2 R63-2)
+    )
+    (net "Net-(D20-Pad2)"
+      (pins D20-2 R64-2)
+    )
+    (class kicad_default "" +5V /X_MAX /X_MIN /Y_MAX /Y_MIN /Z_MAX /Z_MIN
+      GND "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)"
+      "Net-(D19-Pad2)" "Net-(D20-Pad2)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

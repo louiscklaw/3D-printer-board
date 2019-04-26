@@ -1,0 +1,115 @@
+
+(session FAN2.ses
+  (base_design FAN2.dsn)
+  (placement
+    (resolution um 10)
+    (component "Diode_SMD:D_SOD-323_HandSoldering"
+      (place D12 235000 -325000 front 0)
+    )
+    (component "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+      (place Q1 230500 -300000 back 270)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R50 230000 -290000 front 0)
+      (place R48 230000 -305000 front 0)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R49 230000 -275000 front 0)
+    )
+    (component "footprint-lib:s2b-ph-kl,fan_output"
+      (place J40 195000 -300000 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net VDD
+        (wire
+          (path F.Cu 2500
+            221250 -305000
+            221250 -290000
+          )
+        )
+      )
+      (net /FAN_PWM_OUTPUT
+        (wire
+          (path B.Cu 2500
+            230500 -285000
+            237753 -285000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            238750 -305000
+            227003 -316747
+            210786 -316747
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            237753 -285000
+            247254 -294501
+            247254 -326301
+            245801 -327754
+            215642 -327754
+            210786 -322898
+            210786 -316747
+          )
+        )
+        (via "Via[0-1]_800:400_um" 210786 -316747
+        )
+      )
+      (net "Net-(Q1-Pad1)"
+        (wire
+          (path B.Cu 2500
+            240000 -315000
+            232747 -315000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            209744 -290000
+            215000 -290000
+            232747 -307747
+            232747 -315000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 209744 -290000
+        )
+        (wire
+          (path F.Cu 2500
+            221250 -275000
+            209744 -286506
+            209744 -290000
+          )
+        )
+      )
+      (net /STM32_FAN_RPM
+        (wire
+          (path F.Cu 2500
+            238750 -290000
+            247500 -298750
+            247500 -325000
+          )
+        )
+      )
+    )
+  )
+)
