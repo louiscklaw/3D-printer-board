@@ -10,7 +10,11 @@
 *z0,z1,z2,z3
 *e0,e1,e2,e3
 
-5 channels PWM control
+5 channels PWM control(high power) heaters
+*hotend0, hotend1, hotend2, hotend3
+*heatbed
+
+5 channels PWM control(low power) fans
 *hotend0, hotend1, hotend2, hotend3
 *heatbed
 
@@ -22,6 +26,10 @@ x,y,z max
 hotend0,hotend1,hotend2,hotend3
 heatbed
 
+I2C output
+possibily some digital output channel
+possibily some SSR channel
 
 
 power consuption
+stepper motors = 10 * 0.5A = 5A
