@@ -21,8 +21,9 @@
 6 DI
 x,y,z min
 x,y,z max
+4 misc
 
-5 AI
+5 AI(temperature sensors)
 hotend0,hotend1,hotend2,hotend3
 heatbed
 
