@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 35
+Sheet 2 34
 Title ""
 Date ""
 Rev ""
@@ -23,7 +23,7 @@ AR Path="/5CC01E08/5CC01846" Ref="U?"  Part="1"
 AR Path="/5CC02AB6/5CC01846" Ref="U?"  Part="1" 
 F 0 "U1" H 9000 5537 60  0000 C CNN
 F 1 "orange_pi_zero" H 9000 5431 60  0000 C CNN
-F 2 "footprint-lib:orangepi-zero" H 8800 4500 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8800 4500 60  0001 C CNN
 F 3 "" H 8800 4500 60  0000 C CNN
 	1    9050 3700
 	1    0    0    -1  
@@ -73,7 +73,7 @@ AR Path="/5CC01E08/5CC01B39" Ref="C?"  Part="1"
 AR Path="/5CC02AB6/5CC01B39" Ref="C?"  Part="1" 
 F 0 "C1" V 9225 1200 50  0000 C CNN
 F 1 "CP10uf,25V" V 9134 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 9000 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10.5" H 9000 1200 50  0001 C CNN
 F 3 "~" H 9000 1200 50  0001 C CNN
 	1    9000 1200
 	0    -1   -1   0   

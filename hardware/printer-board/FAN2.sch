@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 1 33
 Title ""
 Date ""
 Rev ""
@@ -160,7 +160,7 @@ AR Path="/5CC2401E/5CC24398/5CC28551" Ref="J40"  Part="1"
 AR Path="/5CC28551" Ref="J40"  Part="1" 
 F 0 "J40" H 5850 1750 50  0000 C CNN
 F 1 "TO FAN3" H 5850 1850 50  0000 C CNN
-F 2 "footprint-lib:s2b-ph-kl,fan_output" H 5900 2100 50  0001 C CNN
+F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 5900 2100 50  0001 C CNN
 F 3 "~" H 5900 2100 50  0001 C CNN
 	1    5900 2100
 	1    0    0    1   

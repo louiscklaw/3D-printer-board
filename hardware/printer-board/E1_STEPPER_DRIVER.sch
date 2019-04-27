@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 11 33
 Title ""
 Date ""
 Rev ""
@@ -31,25 +31,6 @@ F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
 F 3 "" H 5650 3200 50  0001 C CNN
 	1    5650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-r:R103,0603 R?
-U 1 1 5CC04CC6
-P 4650 2200
-AR Path="/5CC02AB8/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC049BB/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0A53C/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0A8C5/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0A8CA/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0A8CF/5CC04CC6" Ref="R?"  Part="1" 
-AR Path="/5CC0AECE/5CC04CC6" Ref="R19"  Part="1" 
-F 0 "R19" H 4709 2246 50  0000 L CNN
-F 1 "R103,0603" H 4709 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4650 2200 50  0001 C CNN
-F 3 "~" H 4650 2200 50  0001 C CNN
-	1    4650 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -237,19 +218,6 @@ Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
 ~EN~
-Wire Wire Line
-	4600 2800 4900 2800
-Wire Wire Line
-	4650 1950 4650 2100
-Wire Wire Line
-	4650 2300 4650 2400
-Wire Wire Line
-	4650 2400 4900 2400
-Wire Wire Line
-	4900 2400 4900 2800
-Connection ~ 4900 2800
-Wire Wire Line
-	4900 2800 5150 2800
 Wire Wire Line
 	3500 2900 3700 2900
 Wire Wire Line
@@ -2051,17 +2019,6 @@ EndData
 $EndBitmap
 $Comp
 L taobao-components:+3V3_STM32 #PWR?
-U 1 1 5CC409DF
-P 4650 1950
-F 0 "#PWR?" H 4650 1800 50  0001 C CNN
-F 1 "+3V3_STM32" H 4665 2123 50  0000 C CNN
-F 2 "" H 4650 1950 50  0001 C CNN
-F 3 "" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC40AF7
 P 3500 2700
 F 0 "#PWR?" H 3500 2550 50  0001 C CNN
@@ -2104,4 +2061,83 @@ F 3 "~" H 5650 4250 50  0001 C CNN
 	1    5650 4250
 	0    1    1    0   
 $EndComp
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5CC55288
+P 4950 2200
+AR Path="/5CC02AB8/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC049BB/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0A4B9/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0A53C/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0A8C5/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CA/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CF/5CC55288" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC55288" Ref="R?"  Part="1" 
+F 0 "R?" H 5009 2246 50  0000 L CNN
+F 1 "R103,0603" H 5009 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 2200 50  0001 C CNN
+F 3 "~" H 4950 2200 50  0001 C CNN
+	1    4950 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1950 4950 2000
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC55290
+P 4950 1950
+F 0 "#PWR?" H 4950 1800 50  0001 C CNN
+F 1 "+3V3_STM32" H 4965 2123 50  0000 C CNN
+F 2 "" H 4950 1950 50  0001 C CNN
+F 3 "" H 4950 1950 50  0001 C CNN
+	1    4950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5CC55296
+P 4800 2200
+AR Path="/5CC15C35/5CC55296" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC55296" Ref="R?"  Part="1" 
+F 0 "R?" H 4900 2250 50  0000 L CNN
+F 1 "R102,0603" H 4900 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4800 2200 50  0001 C CNN
+F 3 "~" H 4800 2200 50  0001 C CNN
+	1    4800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_BLUE,0603 D?
+U 1 1 5CC5529D
+P 4800 2450
+AR Path="/5CC15C35/5CC5529D" Ref="D?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5529D" Ref="D?"  Part="1" 
+F 0 "D?" V 4850 2350 50  0000 R CNN
+F 1 "LED_BLUE,0603" V 4800 2350 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4800 2450 50  0001 C CNN
+F 3 "" V 4800 2450 50  0001 C CNN
+	1    4800 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2300 4800 2350
+Wire Wire Line
+	4800 2100 4800 2000
+Wire Wire Line
+	4950 2300 4950 2800
+Wire Wire Line
+	4800 2550 4800 2800
+Connection ~ 4950 2000
+Wire Wire Line
+	4950 2000 4950 2100
+Wire Wire Line
+	4800 2000 4950 2000
+Wire Wire Line
+	4600 2800 4800 2800
+Connection ~ 4800 2800
+Wire Wire Line
+	4800 2800 4950 2800
+Connection ~ 4950 2800
+Wire Wire Line
+	4950 2800 5150 2800
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 34
+Sheet 3 33
 Title ""
 Date ""
 Rev ""
@@ -141,7 +141,7 @@ U 1 1 5BD42825
 P 6800 3650
 F 0 "C4" H 6900 3700 50  0000 L CNN
 F 1 "C103" H 6900 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 3650 50  0001 C CNN
+F 2 "w_smd_cap:c_elec_8x10.5" H 6800 3650 50  0001 C CNN
 F 3 "~" H 6800 3650 50  0001 C CNN
 	1    6800 3650
 	1    0    0    -1  
@@ -265,7 +265,7 @@ U 1 1 5CC0315A
 P 3200 3350
 F 0 "C2" H 3288 3396 50  0000 L CNN
 F 1 "CP100uf,50V" H 3288 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 3200 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 3350 50  0001 C CNN
 F 3 "~" H 3200 3350 50  0001 C CNN
 	1    3200 3350
 	1    0    0    -1  

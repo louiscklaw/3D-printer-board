@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:E2_STEPPER_DRIVER-cache
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 34
 Title ""
 Date ""
 Rev ""

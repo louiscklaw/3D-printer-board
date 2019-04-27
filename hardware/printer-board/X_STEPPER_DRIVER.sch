@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 4 33
 Title ""
 Date ""
 Rev ""
@@ -27,21 +27,6 @@ F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
 F 3 "" H 5650 3200 50  0001 C CNN
 	1    5650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-r:R103,0603 R5
-U 1 1 5CC04CCB
-P 4650 2200
-AR Path="/5CC02AB8/5CC04CCB" Ref="R5"  Part="1" 
-AR Path="/5CC049BB/5CC04CCB" Ref="R?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04CCB" Ref="R?"  Part="1" 
-AR Path="/5CC04CCB" Ref="R5"  Part="1" 
-F 0 "R5" H 4709 2246 50  0000 L CNN
-F 1 "R103,0603" H 4709 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4650 2200 50  0001 C CNN
-F 3 "~" H 4650 2200 50  0001 C CNN
-	1    4650 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -161,7 +146,7 @@ AR Path="/5CC0A4B9/5CC04D01" Ref="J?"  Part="1"
 AR Path="/5CC04D01" Ref="J4"  Part="1" 
 F 0 "J4" H 6980 3092 50  0000 L CNN
 F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
-F 2 "footprint-lib:s4b-ph-kl,stepper_motor_terminal" H 6900 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  
@@ -201,19 +186,6 @@ Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
 ~EN~
-Wire Wire Line
-	4600 2800 4900 2800
-Wire Wire Line
-	4650 1950 4650 2100
-Wire Wire Line
-	4650 2300 4650 2400
-Wire Wire Line
-	4650 2400 4900 2400
-Wire Wire Line
-	4900 2400 4900 2800
-Connection ~ 4900 2800
-Wire Wire Line
-	4900 2800 5150 2800
 Wire Wire Line
 	3500 2900 3700 2900
 Wire Wire Line
@@ -1961,17 +1933,6 @@ EndData
 $EndBitmap
 $Comp
 L taobao-components:+3V3_STM32 #PWR?
-U 1 1 5CC40A6E
-P 4650 1950
-F 0 "#PWR?" H 4650 1800 50  0001 C CNN
-F 1 "+3V3_STM32" H 4665 2123 50  0000 C CNN
-F 2 "" H 4650 1950 50  0001 C CNN
-F 3 "" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC40AA6
 P 3500 2700
 F 0 "#PWR?" H 3500 2550 50  0001 C CNN
@@ -2014,4 +1975,83 @@ F 3 "~" H 5650 4250 50  0001 C CNN
 	1    5650 4250
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4600 2800 4850 2800
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5CC5E2CE
+P 5000 2200
+AR Path="/5CC02AB8/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC049BB/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0A4B9/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0A53C/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0A8C5/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CA/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CF/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5E2CE" Ref="R?"  Part="1" 
+F 0 "R?" H 5059 2246 50  0000 L CNN
+F 1 "R103,0603" H 5059 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1950 5000 2000
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC5E2D6
+P 5000 1950
+F 0 "#PWR?" H 5000 1800 50  0001 C CNN
+F 1 "+3V3_STM32" H 5015 2123 50  0000 C CNN
+F 2 "" H 5000 1950 50  0001 C CNN
+F 3 "" H 5000 1950 50  0001 C CNN
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5CC5E2DC
+P 4850 2200
+AR Path="/5CC15C35/5CC5E2DC" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5E2DC" Ref="R?"  Part="1" 
+F 0 "R?" H 4950 2250 50  0000 L CNN
+F 1 "R102,0603" H 4950 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2200 50  0001 C CNN
+F 3 "~" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_BLUE,0603 D?
+U 1 1 5CC5E2E3
+P 4850 2450
+AR Path="/5CC15C35/5CC5E2E3" Ref="D?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5E2E3" Ref="D?"  Part="1" 
+F 0 "D?" V 4900 2350 50  0000 R CNN
+F 1 "LED_BLUE,0603" V 4850 2350 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4850 2450 50  0001 C CNN
+F 3 "" V 4850 2450 50  0001 C CNN
+	1    4850 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 2300 4850 2350
+Wire Wire Line
+	4850 2100 4850 2000
+Wire Wire Line
+	5000 2300 5000 2800
+Wire Wire Line
+	4850 2550 4850 2800
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 5000 2100
+Wire Wire Line
+	4850 2000 5000 2000
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2800 5000 2800
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 2800 5150 2800
 $EndSCHEMATC
