@@ -55,4 +55,5 @@ stepper motors = 10 * 0.5A = 5A
 
 
 ### IDEA
-is it possible 1 extruder and 1 hotend off ?
+1. is it possible 1 extruder and 1 hotend off ?
+    - done
