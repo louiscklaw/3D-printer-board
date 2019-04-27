@@ -93,48 +93,6 @@ F 3 "" H 3800 7250 50  0001 C CNN
 	1    3800 7250
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 6600 3650 6600
-Wire Wire Line
-	3650 6600 3650 6200
-Wire Wire Line
-	3450 2100 3650 2100
-Connection ~ 3650 2100
-Wire Wire Line
-	3650 2100 3650 1300
-Wire Wire Line
-	3450 3000 3650 3000
-Connection ~ 3650 3000
-Wire Wire Line
-	3650 3000 3650 2550
-Wire Wire Line
-	3450 3950 3650 3950
-Connection ~ 3650 3950
-Wire Wire Line
-	3450 4850 3650 4850
-Connection ~ 3650 4850
-Wire Wire Line
-	3450 5700 3650 5700
-Connection ~ 3650 5700
-Wire Wire Line
-	3650 5700 3650 5350
-Wire Wire Line
-	3450 6500 3800 6500
-Wire Wire Line
-	3800 5600 3450 5600
-Connection ~ 3800 6500
-Wire Wire Line
-	3800 4750 3450 4750
-Connection ~ 3800 5600
-Wire Wire Line
-	3800 3850 3450 3850
-Connection ~ 3800 4750
-Wire Wire Line
-	3800 2900 3450 2900
-Connection ~ 3800 3850
-Wire Wire Line
-	3800 2000 3450 2000
-Connection ~ 3800 2900
 Text Label 4650 1900 2    50   ~ 0
 X_MIN
 Text Label 4650 2800 2    50   ~ 0
@@ -1092,14 +1050,8 @@ F 3 "~" H 3250 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2000 3800 2900
-Wire Wire Line
 	4250 2550 3650 2550
 Connection ~ 3650 2550
-Wire Wire Line
-	3650 2550 3650 2100
-Wire Wire Line
-	3800 2900 3800 3850
 Wire Wire Line
 	3450 2800 4250 2800
 Connection ~ 4250 2800
@@ -1107,39 +1059,87 @@ Wire Wire Line
 	4250 2800 4650 2800
 Wire Wire Line
 	4250 3500 3650 3500
-Wire Wire Line
-	3650 3000 3650 3500
 Connection ~ 3650 3500
 Wire Wire Line
-	3650 3500 3650 3950
-Wire Wire Line
-	3800 3850 3800 4750
-Wire Wire Line
 	4250 4450 3650 4450
-Wire Wire Line
-	3650 3950 3650 4450
 Connection ~ 3650 4450
-Wire Wire Line
-	3650 4450 3650 4850
-Wire Wire Line
-	3800 4750 3800 5600
 Wire Wire Line
 	4250 5350 3650 5350
 Connection ~ 3650 5350
 Wire Wire Line
-	3650 5350 3650 4850
-Wire Wire Line
-	3800 5600 3800 6500
-Wire Wire Line
 	4250 6200 3650 6200
 Connection ~ 3650 6200
 Wire Wire Line
-	3650 6200 3650 5700
-Wire Wire Line
-	3800 6500 3800 7250
-Wire Wire Line
 	4250 7100 3650 7100
 Wire Wire Line
-	3650 7100 3650 6600
-Connection ~ 3650 6600
+	3650 1300 3650 2000
+Wire Wire Line
+	3450 2100 3800 2100
+Wire Wire Line
+	3450 2000 3650 2000
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 3650 2550
+Wire Wire Line
+	3650 2550 3650 2900
+Wire Wire Line
+	3800 2100 3800 3000
+Wire Wire Line
+	3450 2900 3650 2900
+Connection ~ 3650 2900
+Wire Wire Line
+	3650 2900 3650 3500
+Wire Wire Line
+	3450 3000 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3800 3000 3800 3950
+Wire Wire Line
+	3650 3500 3650 3850
+Wire Wire Line
+	3450 3850 3650 3850
+Connection ~ 3650 3850
+Wire Wire Line
+	3650 3850 3650 4450
+Wire Wire Line
+	3450 3950 3800 3950
+Connection ~ 3800 3950
+Wire Wire Line
+	3800 3950 3800 4850
+Wire Wire Line
+	3650 4450 3650 4750
+Wire Wire Line
+	3450 4750 3650 4750
+Connection ~ 3650 4750
+Wire Wire Line
+	3650 4750 3650 5350
+Wire Wire Line
+	3450 4850 3800 4850
+Connection ~ 3800 4850
+Wire Wire Line
+	3800 4850 3800 5700
+Wire Wire Line
+	3650 5350 3650 5600
+Wire Wire Line
+	3450 5600 3650 5600
+Connection ~ 3650 5600
+Wire Wire Line
+	3650 5600 3650 6200
+Wire Wire Line
+	3450 5700 3800 5700
+Connection ~ 3800 5700
+Wire Wire Line
+	3800 5700 3800 6600
+Wire Wire Line
+	3650 6200 3650 6500
+Wire Wire Line
+	3450 6500 3650 6500
+Connection ~ 3650 6500
+Wire Wire Line
+	3650 6500 3650 7100
+Wire Wire Line
+	3450 6600 3800 6600
+Connection ~ 3800 6600
+Wire Wire Line
+	3800 6600 3800 7250
 $EndSCHEMATC
