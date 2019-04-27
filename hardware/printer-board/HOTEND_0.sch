@@ -148,13 +148,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 2300 4100 2400
 Text HLabel 1500 900  0    50   Input ~ 0
-HOTEND_EN
+EN1
 Text Label 2300 900  2    50   ~ 0
-HOTEND_EN
+EN1
 Wire Wire Line
 	1500 900  2300 900 
 Text Label 1350 3350 0    50   ~ 0
-HOTEND_EN
+EN1
 Wire Wire Line
 	1350 3350 2000 3350
 Wire Wire Line
