@@ -231,4 +231,6 @@ U 5CC2401E
 F0 "FANS" 50
 F1 "FANS.sch" 50
 $EndSheet
+Text Notes 3200 5550 0    100  ~ 20
+Design goals:
 $EndSCHEMATC

@@ -48,6 +48,8 @@ possibily some digital output channel
 possibily some SSR channel
 
 
+PCB temperature self monitoring
+
 ### power consuption estimation (TBC)
 stepper motors = 10 * 0.5A = 5A
 
