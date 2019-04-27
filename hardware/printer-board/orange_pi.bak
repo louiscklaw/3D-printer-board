@@ -11242,13 +11242,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 1100 1900 1100
 Text HLabel 1100 800  0    50   Input ~ 0
-USB-DM2
+OPI_USB-DM2
 Text HLabel 1100 900  0    50   Input ~ 0
-USB-DP2
+OPI_USB-DP2
 Text HLabel 1100 1000 0    50   Input ~ 0
-USB-DM3
+OPI_USB-DM3
 Text HLabel 1100 1100 0    50   Input ~ 0
-USB-DP3
+OPI_USB-DP3
 $Comp
 L taobao-cp:CP100uf,35V C?
 U 1 1 5CE43439

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 32
+Sheet 23 32
 Title ""
 Date ""
 Rev ""
@@ -164,51 +164,6 @@ Wire Wire Line
 Connection ~ 2000 3350
 Wire Wire Line
 	2000 3350 2400 3350
-$Comp
-L taobao-components:+12V2 #PWR?
-U 1 1 5CC223A0
-P 2600 4450
-AR Path="/5CC0B758/5CC223A0" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC223A0" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC223A0" Ref="#PWR?"  Part="1" 
-AR Path="/5CC22025/5CC222D0/5CC223A0" Ref="#PWR0231"  Part="1" 
-F 0 "#PWR0231" H 2600 4300 50  0001 C CNN
-F 1 "+12V2" V 2615 4578 50  0000 L CNN
-F 2 "" H 2600 4450 50  0001 C CNN
-F 3 "" H 2600 4450 50  0001 C CNN
-	1    2600 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC2232C
-P 3250 4450
-AR Path="/5CC0B758/5CC2232C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC2232C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC2232C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC22025/5CC222D0/5CC2232C" Ref="#PWR0232"  Part="1" 
-F 0 "#PWR0232" H 3250 4200 50  0001 C CNN
-F 1 "GND" V 3255 4322 50  0000 R CNN
-F 2 "" H 3250 4450 50  0001 C CNN
-F 3 "" H 3250 4450 50  0001 C CNN
-	1    3250 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-cp:CP100uf,16V C27
-U 1 1 5CC223A2
-P 2900 4450
-F 0 "C27" V 3125 4450 50  0000 C CNN
-F 1 "CP100uf,16V" V 3034 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 2900 4450 50  0001 C CNN
-F 3 "~" H 2900 4450 50  0001 C CNN
-	1    2900 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2600 4450 2800 4450
-Wire Wire Line
-	3000 4450 3250 4450
 $Bitmap
 Pos 9550 5000
 Scale 1.000000
