@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 18 32
+Sheet 20 32
 Title ""
 Date ""
 Rev ""
@@ -716,7 +716,7 @@ L Connector_Generic:Conn_01x05 J?
 U 1 1 5CCF4973
 P 4900 2700
 F 0 "J?" H 4800 3150 50  0000 C CNN
-F 1 "Conn_01x05" H 4800 3050 50  0000 C CNN
+F 1 "USB_DEBUG" H 4800 3050 50  0000 C CNN
 F 2 "" H 4900 2700 50  0001 C CNN
 F 3 "~" H 4900 2700 50  0001 C CNN
 	1    4900 2700
@@ -779,16 +779,12 @@ F 3 "~" H 5450 2700 50  0001 C CNN
 	1    5450 2700
 	0    1    1    0   
 $EndComp
-Text Label 5900 2600 2    50   ~ 0
-PA11
 Wire Wire Line
 	5100 2600 5350 2600
 Wire Wire Line
 	5100 2700 5350 2700
 Wire Wire Line
 	5550 2600 5900 2600
-Text Label 5900 2700 2    50   ~ 0
-PA12
 Wire Wire Line
 	5900 2700 5650 2700
 $Comp
@@ -820,4 +816,8 @@ Wire Wire Line
 Connection ~ 5650 2700
 Wire Wire Line
 	5650 2700 5550 2700
+Text HLabel 5900 2600 2    50   Input ~ 0
+D-
+Text HLabel 5900 2700 2    50   Input ~ 0
+D+
 $EndSCHEMATC

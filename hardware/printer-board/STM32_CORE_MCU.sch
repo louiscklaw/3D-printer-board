@@ -10836,8 +10836,8 @@ $Comp
 L Switch:SW_Push SW?
 U 1 1 5CC7D354
 P 9850 4000
-F 0 "SW?" V 9900 3950 50  0000 R CNN
-F 1 "SW_Push" V 9850 3950 50  0000 R CNN
+F 0 "SW?" V 9900 4150 50  0000 L CNN
+F 1 "SW_Push" V 9850 4150 50  0000 L CNN
 F 2 "" H 9850 4200 50  0001 C CNN
 F 3 "" H 9850 4200 50  0001 C CNN
 	1    9850 4000
@@ -10890,90 +10890,90 @@ Wire Wire Line
 $Comp
 L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC7E0D7
-P 9450 2650
-F 0 "#PWR?" H 9450 2500 50  0001 C CNN
-F 1 "+3V3_STM32" V 9500 2800 50  0000 L CNN
-F 2 "" H 9450 2650 50  0001 C CNN
-F 3 "" H 9450 2650 50  0001 C CNN
-	1    9450 2650
+P 9450 2450
+F 0 "#PWR?" H 9450 2300 50  0001 C CNN
+F 1 "+3V3_STM32" V 9500 2600 50  0000 L CNN
+F 2 "" H 9450 2450 50  0001 C CNN
+F 3 "" H 9450 2450 50  0001 C CNN
+	1    9450 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CC7E16E
-P 9450 2900
-F 0 "#PWR?" H 9450 2650 50  0001 C CNN
-F 1 "GND" V 9450 2750 50  0000 R CNN
-F 2 "" H 9450 2900 50  0001 C CNN
-F 3 "" H 9450 2900 50  0001 C CNN
-	1    9450 2900
+P 9450 2700
+F 0 "#PWR?" H 9450 2450 50  0001 C CNN
+F 1 "GND" V 9450 2550 50  0000 R CNN
+F 2 "" H 9450 2700 50  0001 C CNN
+F 3 "" H 9450 2700 50  0001 C CNN
+	1    9450 2700
 	0    1    1    0   
 $EndComp
 $Comp
 L taobao-r:R0,0603 R?
 U 1 1 5CC7E390
-P 9750 2650
-F 0 "R?" V 9500 2650 50  0000 C CNN
-F 1 "R0,0603" V 9600 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 2650 50  0001 C CNN
-F 3 "~" H 9750 2650 50  0001 C CNN
-	1    9750 2650
+P 9750 2450
+F 0 "R?" V 9500 2450 50  0000 C CNN
+F 1 "R0,0603" V 9600 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 2450 50  0001 C CNN
+F 3 "~" H 9750 2450 50  0001 C CNN
+	1    9750 2450
 	0    1    1    0   
 $EndComp
 $Comp
 L taobao-r:R0,0603 R?
 U 1 1 5CC7E3E9
-P 9750 2900
-F 0 "R?" V 9500 2900 50  0000 C CNN
-F 1 "R0,0603" V 9600 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 2900 50  0001 C CNN
-F 3 "~" H 9750 2900 50  0001 C CNN
-	1    9750 2900
+P 9750 2700
+F 0 "R?" V 9500 2700 50  0000 C CNN
+F 1 "R0,0603" V 9600 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9750 2700 50  0001 C CNN
+F 3 "~" H 9750 2700 50  0001 C CNN
+	1    9750 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9450 2650 9650 2650
+	9450 2450 9650 2450
 Wire Wire Line
-	9650 2900 9450 2900
-Text Label 10600 2650 2    50   ~ 0
+	9650 2700 9450 2700
+Text Label 10600 2450 2    50   ~ 0
 GND-VCC3V3
 Wire Wire Line
-	10600 2650 10000 2650
+	10600 2450 10000 2450
 Wire Wire Line
-	9850 2900 10000 2900
+	9850 2700 10000 2700
 Wire Wire Line
-	10000 2900 10000 2650
-Connection ~ 10000 2650
+	10000 2700 10000 2450
+Connection ~ 10000 2450
 Wire Wire Line
-	10000 2650 9850 2650
+	10000 2450 9850 2450
 $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5CC7F736
-P 9800 3150
-F 0 "C?" V 9550 3150 50  0000 C CNN
-F 1 "C104,0603" V 9650 3150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 3150 50  0001 C CNN
-F 3 "~" H 9800 3150 50  0001 C CNN
-	1    9800 3150
+P 9800 3050
+F 0 "C?" V 9550 3050 50  0000 C CNN
+F 1 "C104,0603" V 9650 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 3050 50  0001 C CNN
+F 3 "~" H 9800 3050 50  0001 C CNN
+	1    9800 3050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5CC7F7E8
-P 9450 3150
-F 0 "#PWR?" H 9450 2900 50  0001 C CNN
-F 1 "GND" V 9450 3000 50  0000 R CNN
-F 2 "" H 9450 3150 50  0001 C CNN
-F 3 "" H 9450 3150 50  0001 C CNN
-	1    9450 3150
+P 9450 3050
+F 0 "#PWR?" H 9450 2800 50  0001 C CNN
+F 1 "GND" V 9450 2900 50  0000 R CNN
+F 2 "" H 9450 3050 50  0001 C CNN
+F 3 "" H 9450 3050 50  0001 C CNN
+	1    9450 3050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9450 3150 9700 3150
-Text Label 10600 3150 2    50   ~ 0
+	9450 3050 9700 3050
+Text Label 10600 3050 2    50   ~ 0
 GND-CAP1
 Wire Wire Line
-	10600 3150 9900 3150
+	10600 3050 9900 3050
 $Comp
 L taobao-c:C104,0603 C?
 U 1 1 5CC8027C
@@ -11004,94 +11004,44 @@ Wire Wire Line
 	10600 3350 9900 3350
 $Comp
 L taobao-components:+3V3_STM32 #PWR?
-U 1 1 5CC8121C
-P 9300 950
-F 0 "#PWR?" H 9300 800 50  0001 C CNN
-F 1 "+3V3_STM32" V 9350 1100 50  0000 L CNN
-F 2 "" H 9300 950 50  0001 C CNN
-F 3 "" H 9300 950 50  0001 C CNN
-	1    9300 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-led:LED_GREEN,0603 D?
-U 1 1 5CC8137E
-P 9600 950
-F 0 "D?" H 9600 700 50  0000 C CNN
-F 1 "LED_GREEN,0603" H 9600 800 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9600 950 50  0001 C CNN
-F 3 "" V 9600 950 50  0001 C CNN
-	1    9600 950 
-	-1   0    0    1   
-$EndComp
-$Comp
-L taobao-r:R511,0603 R?
-U 1 1 5CC8151A
-P 9950 950
-F 0 "R?" V 9700 950 50  0000 C CNN
-F 1 "R511,0603" V 9800 950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 950 50  0001 C CNN
-F 3 "~" H 9950 950 50  0001 C CNN
-	1    9950 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC815C8
-P 10200 950
-F 0 "#PWR?" H 10200 700 50  0001 C CNN
-F 1 "GND" V 10250 800 50  0000 R CNN
-F 2 "" H 10200 950 50  0001 C CNN
-F 3 "" H 10200 950 50  0001 C CNN
-	1    10200 950 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9300 950  9500 950 
-Wire Wire Line
-	9700 950  9850 950 
-Wire Wire Line
-	10050 950  10200 950 
-$Comp
-L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC82C9D
-P 9300 1250
-F 0 "#PWR?" H 9300 1100 50  0001 C CNN
-F 1 "+3V3_STM32" V 9350 1400 50  0000 L CNN
-F 2 "" H 9300 1250 50  0001 C CNN
-F 3 "" H 9300 1250 50  0001 C CNN
-	1    9300 1250
+P 9300 1400
+F 0 "#PWR?" H 9300 1250 50  0001 C CNN
+F 1 "+3V3_STM32" V 9350 1550 50  0000 L CNN
+F 2 "" H 9300 1400 50  0001 C CNN
+F 3 "" H 9300 1400 50  0001 C CNN
+	1    9300 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L taobao-led:LED_GREEN,0603 D?
 U 1 1 5CC82CA3
-P 9600 1250
-F 0 "D?" H 9600 1000 50  0000 C CNN
-F 1 "LED_GREEN,0603" H 9600 1100 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9600 1250 50  0001 C CNN
-F 3 "" V 9600 1250 50  0001 C CNN
-	1    9600 1250
+P 9600 1400
+F 0 "D?" H 9600 1150 50  0000 C CNN
+F 1 "PB9" H 9600 1250 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9600 1400 50  0001 C CNN
+F 3 "" V 9600 1400 50  0001 C CNN
+	1    9600 1400
 	-1   0    0    1   
 $EndComp
 $Comp
 L taobao-r:R511,0603 R?
 U 1 1 5CC82CA9
-P 9950 1250
-F 0 "R?" V 9700 1250 50  0000 C CNN
-F 1 "R511,0603" V 9800 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 1250 50  0001 C CNN
-F 3 "~" H 9950 1250 50  0001 C CNN
-	1    9950 1250
+P 9950 1400
+F 0 "R?" V 9700 1400 50  0000 C CNN
+F 1 "R102,0603" V 9800 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 1400 50  0001 C CNN
+F 3 "~" H 9950 1400 50  0001 C CNN
+	1    9950 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9300 1250 9500 1250
+	9300 1400 9500 1400
 Wire Wire Line
-	9700 1250 9850 1250
+	9700 1400 9850 1400
 Wire Wire Line
-	10050 1250 10200 1250
-Text Label 10200 1250 2    50   ~ 0
+	10050 1400 10200 1400
+Text Label 10200 1400 2    50   ~ 0
 PB9
 $Comp
 L taobao-c:C104,0603 C?
@@ -11903,12 +11853,333 @@ F 3 "" H 2600 6300 50  0001 C CNN
 	1    2600 6300
 	0    -1   -1   0   
 $EndComp
-Text Label 6100 4300 2    50   ~ 0
-PA12
 Wire Wire Line
 	6100 4300 5450 4300
-Text Label 6100 4400 2    50   ~ 0
-PA11
 Wire Wire Line
 	6100 4400 5450 4400
+Wire Wire Line
+	6100 1600 5450 1600
+Text GLabel 6100 1600 2    50   Input ~ 0
+PE1
+Wire Wire Line
+	6100 1700 5450 1700
+Text GLabel 6100 1700 2    50   Input ~ 0
+PE0
+Text Label 6100 2000 2    50   ~ 0
+BOOT0
+Wire Wire Line
+	6100 2000 5450 2000
+Text GLabel 6100 1800 2    50   Input ~ 0
+PB9
+Text GLabel 6100 1900 2    50   Input ~ 0
+PB8
+Text GLabel 6100 2300 2    50   Input ~ 0
+PB5
+Text GLabel 6100 2400 2    50   Input ~ 0
+PB4
+Text GLabel 6100 2500 2    50   Input ~ 0
+PB3
+Text GLabel 6100 3300 2    50   Input ~ 0
+PD0
+Text GLabel 6100 3200 2    50   Input ~ 0
+PD1
+Text GLabel 6100 3100 2    50   Input ~ 0
+PD2
+Text GLabel 6100 3000 2    50   Input ~ 0
+PD3
+Text GLabel 6100 2900 2    50   Input ~ 0
+PD4
+Text GLabel 6100 2800 2    50   Input ~ 0
+PD5
+Text GLabel 6100 2700 2    50   Input ~ 0
+PD6
+Text GLabel 6100 2600 2    50   Input ~ 0
+PD7
+Text GLabel 6100 3600 2    50   Input ~ 0
+PC10
+Text GLabel 6100 3500 2    50   Input ~ 0
+PC11
+Text GLabel 6100 3400 2    50   Input ~ 0
+PC12
+Text GLabel 6100 3700 2    50   Input ~ 0
+PA15
+Text GLabel 6100 5100 2    50   Input ~ 0
+PC6
+Text GLabel 6100 5000 2    50   Input ~ 0
+PC7
+Text GLabel 6100 4900 2    50   Input ~ 0
+PC8
+Text GLabel 6100 4800 2    50   Input ~ 0
+PC9
+Text GLabel 6100 5900 2    50   Input ~ 0
+PD8
+Text GLabel 6100 5800 2    50   Input ~ 0
+PD9
+Text GLabel 6100 5700 2    50   Input ~ 0
+PD10
+Text GLabel 6100 5600 2    50   Input ~ 0
+PD11
+Text GLabel 6100 5500 2    50   Input ~ 0
+PD12
+Text GLabel 6100 5400 2    50   Input ~ 0
+PD13
+Text GLabel 6100 5300 2    50   Input ~ 0
+PD14
+Text GLabel 6100 5200 2    50   Input ~ 0
+PD15
+Text GLabel 6100 6300 2    50   Input ~ 0
+PB12
+Text GLabel 6100 6200 2    50   Input ~ 0
+PB13
+Text GLabel 6100 6100 2    50   Input ~ 0
+PB14
+Text GLabel 6100 6000 2    50   Input ~ 0
+PB15
+Text GLabel 6100 4700 2    50   Input ~ 0
+PA8
+Text GLabel 6100 4600 2    50   Input ~ 0
+PA9
+Text GLabel 6100 4500 2    50   Input ~ 0
+PA10
+Wire Wire Line
+	5450 4500 6100 4500
+Wire Wire Line
+	5450 4600 6100 4600
+Wire Wire Line
+	5450 4700 6100 4700
+Wire Wire Line
+	5450 4800 6100 4800
+Wire Wire Line
+	5450 4900 6100 4900
+Wire Wire Line
+	5450 5000 6100 5000
+Wire Wire Line
+	5450 5100 6100 5100
+Wire Wire Line
+	5450 5200 6100 5200
+Wire Wire Line
+	5450 5300 6100 5300
+Wire Wire Line
+	5450 5400 6100 5400
+Wire Wire Line
+	5450 5500 6100 5500
+Wire Wire Line
+	5450 5600 6100 5600
+Wire Wire Line
+	5450 5700 6100 5700
+Wire Wire Line
+	5450 5800 6100 5800
+Wire Wire Line
+	5450 5900 6100 5900
+Wire Wire Line
+	5450 6000 6100 6000
+Wire Wire Line
+	5450 6100 6100 6100
+Wire Wire Line
+	5450 6200 6100 6200
+Wire Wire Line
+	5450 6300 6100 6300
+Wire Wire Line
+	5450 2100 6100 2100
+Wire Wire Line
+	5450 2200 6100 2200
+Wire Wire Line
+	5450 2300 6100 2300
+Wire Wire Line
+	5450 2400 6100 2400
+Wire Wire Line
+	5450 2500 6100 2500
+Wire Wire Line
+	5450 2600 6100 2600
+Wire Wire Line
+	5450 2700 6100 2700
+Wire Wire Line
+	5450 2800 6100 2800
+Wire Wire Line
+	5450 2900 6100 2900
+Wire Wire Line
+	5450 3000 6100 3000
+Wire Wire Line
+	5450 3100 6100 3100
+Wire Wire Line
+	5450 3200 6100 3200
+Wire Wire Line
+	5450 3300 6100 3300
+Wire Wire Line
+	5450 3400 6100 3400
+Wire Wire Line
+	5450 3500 6100 3500
+Wire Wire Line
+	5450 3600 6100 3600
+Wire Wire Line
+	5450 3700 6100 3700
+Wire Wire Line
+	5450 1800 6100 1800
+Wire Wire Line
+	5450 1900 6100 1900
+Text GLabel 2600 1400 0    50   Input ~ 0
+PE2
+Text GLabel 2600 1500 0    50   Input ~ 0
+PE3
+Text GLabel 2600 1600 0    50   Input ~ 0
+PE4
+Text GLabel 2600 1700 0    50   Input ~ 0
+PE5
+Text GLabel 2600 1800 0    50   Input ~ 0
+PE6
+Wire Wire Line
+	2600 1400 3250 1400
+Wire Wire Line
+	2600 1500 3250 1500
+Wire Wire Line
+	2600 1600 3250 1600
+Wire Wire Line
+	2600 1700 3250 1700
+Wire Wire Line
+	2600 1800 3250 1800
+Text GLabel 2600 2000 0    50   Input ~ 0
+PC13
+Wire Wire Line
+	2600 2000 3250 2000
+Wire Wire Line
+	2600 2100 3250 2100
+Wire Wire Line
+	2600 2200 3250 2200
+Text GLabel 2600 2100 0    50   Input ~ 0
+PC14
+Text GLabel 2600 2200 0    50   Input ~ 0
+PC15
+Text Label 2600 2700 0    50   ~ 0
+RESET
+Wire Wire Line
+	2600 2700 3250 2700
+Text GLabel 2600 2800 0    50   Input ~ 0
+PC0
+Text GLabel 2600 2900 0    50   Input ~ 0
+PC1
+Text GLabel 2600 3000 0    50   Input ~ 0
+PC2
+Text GLabel 2600 3100 0    50   Input ~ 0
+PC3
+Wire Wire Line
+	2600 2800 3250 2800
+Wire Wire Line
+	2600 2900 3250 2900
+Wire Wire Line
+	2600 3000 3250 3000
+Wire Wire Line
+	2600 3100 3250 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5CD8F47A
+P 2600 3300
+F 0 "#PWR?" H 2600 3050 50  0001 C CNN
+F 1 "GND" V 2600 3150 50  0000 R CNN
+F 2 "" H 2600 3300 50  0001 C CNN
+F 3 "" H 2600 3300 50  0001 C CNN
+	1    2600 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 3300 3250 3300
+Text GLabel 2600 3600 0    50   Input ~ 0
+PA0
+Text GLabel 2600 3700 0    50   Input ~ 0
+PA1
+Text GLabel 2600 3800 0    50   Input ~ 0
+PA2
+Text GLabel 2600 3900 0    50   Input ~ 0
+PA3
+Wire Wire Line
+	2600 3600 3250 3600
+Wire Wire Line
+	2600 3700 3250 3700
+Wire Wire Line
+	2600 3800 3250 3800
+Wire Wire Line
+	2600 3900 3250 3900
+Text GLabel 2600 4200 0    50   Input ~ 0
+PA4
+Text GLabel 2600 4300 0    50   Input ~ 0
+PA5
+Text GLabel 2600 4400 0    50   Input ~ 0
+PA6
+Text GLabel 2600 4500 0    50   Input ~ 0
+PA7
+Wire Wire Line
+	3250 4200 2600 4200
+Wire Wire Line
+	3250 4300 2600 4300
+Wire Wire Line
+	3250 4400 2600 4400
+Wire Wire Line
+	3250 4500 2600 4500
+Wire Wire Line
+	3250 4600 2600 4600
+Text GLabel 2600 4600 0    50   Input ~ 0
+PC4
+Text GLabel 2600 4700 0    50   Input ~ 0
+PC5
+Wire Wire Line
+	3250 4700 2600 4700
+Text GLabel 2600 4800 0    50   Input ~ 0
+PB0
+Text GLabel 2600 4900 0    50   Input ~ 0
+PB1
+Wire Wire Line
+	2600 4800 3250 4800
+Wire Wire Line
+	2600 4900 3250 4900
+Text GLabel 2600 5100 0    50   Input ~ 0
+PE7
+Text GLabel 2600 5200 0    50   Input ~ 0
+PE8
+Text GLabel 2600 5300 0    50   Input ~ 0
+PE9
+Text GLabel 2600 5400 0    50   Input ~ 0
+PE10
+Text GLabel 2600 5500 0    50   Input ~ 0
+PE11
+Text GLabel 2600 5600 0    50   Input ~ 0
+PE12
+Text GLabel 2600 5700 0    50   Input ~ 0
+PE13
+Text GLabel 2600 5800 0    50   Input ~ 0
+PE14
+Text GLabel 2600 5900 0    50   Input ~ 0
+PE15
+Wire Wire Line
+	2600 5100 3250 5100
+Wire Wire Line
+	2600 5200 3250 5200
+Wire Wire Line
+	2600 5300 3250 5300
+Wire Wire Line
+	2600 5400 3250 5400
+Wire Wire Line
+	2600 5500 3250 5500
+Wire Wire Line
+	2600 5600 3250 5600
+Wire Wire Line
+	2600 5700 3250 5700
+Wire Wire Line
+	2600 5800 3250 5800
+Wire Wire Line
+	2600 5900 3250 5900
+Text GLabel 2600 6000 0    50   Input ~ 0
+PB10
+Text GLabel 2600 6100 0    50   Input ~ 0
+PB11
+Wire Wire Line
+	2600 6000 3250 6000
+Wire Wire Line
+	2600 6100 3250 6100
+Text HLabel 6100 4300 2    50   Input ~ 0
+D+
+Text HLabel 6100 4400 2    50   Input ~ 0
+D-
+Text HLabel 6100 2100 2    50   Input ~ 0
+SDA1
+Text HLabel 6100 2200 2    50   Input ~ 0
+SCL1
 $EndSCHEMATC
