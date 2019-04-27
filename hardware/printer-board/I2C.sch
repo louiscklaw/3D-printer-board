@@ -559,4 +559,6 @@ F 3 "" H 5750 2900 50  0001 C CNN
 	1    5750 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 5500 2700 0    50   ~ 0
+//FIXME\n\n
 $EndSCHEMATC
