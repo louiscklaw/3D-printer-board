@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 32
+Sheet 30 32
 Title ""
 Date ""
 Rev ""
@@ -90,7 +90,7 @@ P 2750 2200
 AR Path="/5BCBC4D0" Ref="Q1"  Part="1" 
 AR Path="/5BCBA20B/5BCBC4D0" Ref="Q?"  Part="1" 
 AR Path="/5CC2401E/5CC24398/5BCBC4D0" Ref="Q7"  Part="1" 
-F 0 "Q1" H 2950 2250 50  0000 L CNN
+F 0 "Q7" H 2950 2250 50  0000 L CNN
 F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 2125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN

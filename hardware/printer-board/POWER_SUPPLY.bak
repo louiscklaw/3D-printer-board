@@ -1920,17 +1920,6 @@ F 3 "" H 6500 2500 50  0001 C CNN
 	1    6500 2500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L taobao-c:C104,0805 C?
-U 1 1 5CC6F190
-P 6500 2800
-F 0 "C?" H 6600 2850 50  0000 L CNN
-F 1 "C104,0805" H 6600 2800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6500 2800 50  0001 C CNN
-F 3 "~" H 6500 2800 50  0001 C CNN
-	1    6500 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 2500 6500 2650
 $Comp
@@ -1977,4 +1966,15 @@ Wire Wire Line
 Connection ~ 6500 2650
 Wire Wire Line
 	6500 2650 6500 2700
+$Comp
+L taobao-c:C104,0603 C?
+U 1 1 5CC7081A
+P 6500 2800
+F 0 "C?" H 6600 2850 50  0000 L CNN
+F 1 "C104,0603" H 6600 2800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 2800 50  0001 C CNN
+F 3 "~" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
