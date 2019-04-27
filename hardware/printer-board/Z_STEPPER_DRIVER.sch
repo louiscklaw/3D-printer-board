@@ -75,9 +75,9 @@ F 3 "~" H 4000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4400 3400 0    50   ~ 0
-STEP
+Z_STEP
 Text Label 4400 3500 0    50   ~ 0
-DIR
+Z_DIR
 Wire Wire Line
 	4400 3400 5150 3400
 Wire Wire Line
@@ -180,7 +180,7 @@ AR Path="/5CC0A8CF/5CC04D02" Ref="J?"  Part="1"
 AR Path="/5CC0AEC9/5CC04D02" Ref="J?"  Part="1" 
 AR Path="/5CC04D02" Ref="J8"  Part="1" 
 F 0 "J8" H 6980 3092 50  0000 L CNN
-F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
+F 1 "Z" H 6980 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
@@ -225,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
-~EN~
+~Z_EN~
 Wire Wire Line
 	3500 2900 3700 2900
 Wire Wire Line
@@ -321,9 +321,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 4250 5950 4250
 Text HLabel 1000 800  0    50   Input ~ 0
-~EN~
+~Z_EN~
 Text Label 1300 800  0    50   ~ 0
-~EN~
+~Z_EN~
 Wire Wire Line
 	1000 800  1300 800 
 Wire Wire Line
@@ -331,13 +331,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 1000 1300 1000
 Text HLabel 1000 900  0    50   Input ~ 0
-STEP
+Z_STEP
 Text HLabel 1000 1000 0    50   Input ~ 0
-DIR
+Z_DIR
 Text Label 1300 900  0    50   ~ 0
-STEP
+Z_STEP
 Text Label 1300 1000 0    50   ~ 0
-DIR
+Z_DIR
 $Bitmap
 Pos 9350 5200
 Scale 1.000000

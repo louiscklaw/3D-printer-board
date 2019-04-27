@@ -91,9 +91,9 @@ F 3 "~" H 4000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4400 3400 0    50   ~ 0
-STEP
+E0_STEP
 Text Label 4400 3500 0    50   ~ 0
-DIR
+E0_DIR
 Wire Wire Line
 	4400 3400 5150 3400
 Wire Wire Line
@@ -236,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
-~EN~
+~E0_EN~
 Wire Wire Line
 	4600 2800 4750 2800
 Wire Wire Line
@@ -335,9 +335,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 4250 5950 4250
 Text HLabel 1000 800  0    50   Input ~ 0
-~EN~
+~E0_EN~
 Text Label 1300 800  0    50   ~ 0
-~EN~
+~E0_EN~
 Wire Wire Line
 	1000 800  1300 800 
 Wire Wire Line
@@ -345,13 +345,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 1000 1300 1000
 Text HLabel 1000 900  0    50   Input ~ 0
-STEP
+E0_STEP
 Text HLabel 1000 1000 0    50   Input ~ 0
-DIR
+E0_DIR
 Text Label 1300 900  0    50   ~ 0
-STEP
+E0_STEP
 Text Label 1300 1000 0    50   ~ 0
-DIR
+E0_DIR
 $Bitmap
 Pos 9600 5200
 Scale 1.000000

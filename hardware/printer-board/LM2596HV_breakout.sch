@@ -271,7 +271,7 @@ F 3 "~" H 3200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2100 5200 0    100  ~ 0
-60V, 3A, 150kHz, Step-down Switching Regulator  
+60V, 3A, 150kHz, ~E1_STEP~-down Switching Regulator  
 Text Notes 2100 5600 0    50   ~ 0
 - Guaranteed 3A output load current\n- Input voltage range up to 60V \n- Thermal shutdown and current limit protection\n- 3.3V, 5V, 12V and Adjustable output versions
 $Bitmap

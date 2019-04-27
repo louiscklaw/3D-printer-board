@@ -75,9 +75,9 @@ F 3 "~" H 4000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4400 3400 0    50   ~ 0
-STEP
+Z1_STEP
 Text Label 4400 3500 0    50   ~ 0
-DIR
+Z1_DIR
 Wire Wire Line
 	4400 3400 5150 3400
 Wire Wire Line
@@ -180,7 +180,7 @@ AR Path="/5CC0A8CF/5CC04CFD" Ref="J?"  Part="1"
 AR Path="/5CC0AECE/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC04CFD" Ref="J10"  Part="1" 
 F 0 "J10" H 6980 3092 50  0000 L CNN
-F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
+F 1 "Z1" H 6980 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
@@ -225,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
-~EN~
+~Z1_EN~
 Wire Wire Line
 	3500 2900 3700 2900
 Wire Wire Line
@@ -321,9 +321,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 4250 5950 4250
 Text HLabel 1000 800  0    50   Input ~ 0
-~EN~
+~Z1_EN~
 Text Label 1300 800  0    50   ~ 0
-~EN~
+~Z1_EN~
 Wire Wire Line
 	1000 800  1300 800 
 Wire Wire Line
@@ -331,13 +331,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 1000 1300 1000
 Text HLabel 1000 900  0    50   Input ~ 0
-STEP
+Z1_STEP
 Text HLabel 1000 1000 0    50   Input ~ 0
-DIR
+Z1_DIR
 Text Label 1300 900  0    50   ~ 0
-STEP
+Z1_STEP
 Text Label 1300 1000 0    50   ~ 0
-DIR
+Z1_DIR
 $Bitmap
 Pos 9400 5150
 Scale 1.000000
@@ -2265,6 +2265,8 @@ $Comp
 L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC59923
 P 5000 1950
+AR Path="/5CC0AEC9/5CC59923" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0A8C5/5CC59923" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5000 1800 50  0001 C CNN
 F 1 "+3V3_STM32" H 5015 2123 50  0000 C CNN
 F 2 "" H 5000 1950 50  0001 C CNN
@@ -2278,6 +2280,7 @@ U 1 1 5CC59929
 P 4850 2200
 AR Path="/5CC15C35/5CC59929" Ref="R?"  Part="1" 
 AR Path="/5CC0AEC9/5CC59929" Ref="R?"  Part="1" 
+AR Path="/5CC0A8C5/5CC59929" Ref="R?"  Part="1" 
 F 0 "R?" H 4950 2250 50  0000 L CNN
 F 1 "R102,0603" H 4950 2200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2200 50  0001 C CNN
@@ -2291,6 +2294,7 @@ U 1 1 5CC59930
 P 4850 2450
 AR Path="/5CC15C35/5CC59930" Ref="D?"  Part="1" 
 AR Path="/5CC0AEC9/5CC59930" Ref="D?"  Part="1" 
+AR Path="/5CC0A8C5/5CC59930" Ref="D?"  Part="1" 
 F 0 "D?" V 4900 2350 50  0000 R CNN
 F 1 "LED_BLUE,0603" V 4850 2350 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4850 2450 50  0001 C CNN

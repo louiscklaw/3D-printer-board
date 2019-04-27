@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 5 33
 Title ""
 Date ""
 Rev ""
@@ -28,22 +28,6 @@ F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
 F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
 F 3 "" H 5650 3200 50  0001 C CNN
 	1    5650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-r:R103,0603 R?
-U 1 1 5CC04CC8
-P 4650 2200
-AR Path="/5CC02AB8/5CC04CC8" Ref="R?"  Part="1" 
-AR Path="/5CC049BB/5CC04CC8" Ref="R?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04CC8" Ref="R7"  Part="1" 
-AR Path="/5CC0A53C/5CC04CC8" Ref="R?"  Part="1" 
-AR Path="/5CC04CC8" Ref="R7"  Part="1" 
-F 0 "R7" H 4709 2246 50  0000 L CNN
-F 1 "R103,0603" H 4709 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4650 2200 50  0001 C CNN
-F 3 "~" H 4650 2200 50  0001 C CNN
-	1    4650 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -79,9 +63,9 @@ F 3 "~" H 4000 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4400 3400 0    50   ~ 0
-STEP
+Y_STEP
 Text Label 4400 3500 0    50   ~ 0
-DIR
+Y_DIR
 Wire Wire Line
 	4400 3400 5150 3400
 Wire Wire Line
@@ -168,7 +152,7 @@ AR Path="/5CC0A4B9/5CC04D03" Ref="J6"  Part="1"
 AR Path="/5CC0A53C/5CC04D03" Ref="J?"  Part="1" 
 AR Path="/5CC04D03" Ref="J6"  Part="1" 
 F 0 "J6" H 6980 3092 50  0000 L CNN
-F 1 "TO_MOTOR" H 6980 3001 50  0000 L CNN
+F 1 "Y" H 6980 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
@@ -209,20 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3300 5150 3300
 Text Label 4600 2800 0    50   ~ 0
-~EN~
-Wire Wire Line
-	4600 2800 4900 2800
-Wire Wire Line
-	4650 1950 4650 2100
-Wire Wire Line
-	4650 2300 4650 2400
-Wire Wire Line
-	4650 2400 4900 2400
-Wire Wire Line
-	4900 2400 4900 2800
-Connection ~ 4900 2800
-Wire Wire Line
-	4900 2800 5150 2800
+~Y_EN~
 Wire Wire Line
 	3500 2900 3700 2900
 Wire Wire Line
@@ -302,9 +273,9 @@ Wire Wire Line
 Wire Wire Line
 	5750 4250 5950 4250
 Text HLabel 1000 800  0    50   Input ~ 0
-~EN~
+~Y_EN~
 Text Label 1300 800  0    50   ~ 0
-~EN~
+~Y_EN~
 Wire Wire Line
 	1000 800  1300 800 
 Wire Wire Line
@@ -312,13 +283,13 @@ Wire Wire Line
 Wire Wire Line
 	1000 1000 1300 1000
 Text HLabel 1000 900  0    50   Input ~ 0
-STEP
+Y_STEP
 Text HLabel 1000 1000 0    50   Input ~ 0
-DIR
+Y_DIR
 Text Label 1300 900  0    50   ~ 0
-STEP
+Y_STEP
 Text Label 1300 1000 0    50   ~ 0
-DIR
+Y_DIR
 $Bitmap
 Pos 9600 5250
 Scale 1.000000
@@ -1955,17 +1926,6 @@ F 3 "~" H 5650 4250 50  0001 C CNN
 $EndComp
 $Comp
 L taobao-components:+3V3_STM32 #PWR?
-U 1 1 5CC40BFD
-P 4650 1950
-F 0 "#PWR?" H 4650 1800 50  0001 C CNN
-F 1 "+3V3_STM32" H 4665 2123 50  0000 C CNN
-F 2 "" H 4650 1950 50  0001 C CNN
-F 3 "" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CC40CD3
 P 3500 2700
 F 0 "#PWR?" H 3500 2550 50  0001 C CNN
@@ -1997,4 +1957,87 @@ F 3 "" H 6600 3400 50  0001 C CNN
 	1    6600 3400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4600 2800 4850 2800
+$Comp
+L taobao-r:R103,0603 R?
+U 1 1 5CC5FBD8
+P 5000 2200
+AR Path="/5CC02AB8/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC049BB/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0A4B9/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0A53C/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0A8C5/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CA/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0A8CF/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5FBD8" Ref="R?"  Part="1" 
+F 0 "R?" H 5059 2246 50  0000 L CNN
+F 1 "R103,0603" H 5059 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1950 5000 2000
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC5FBE0
+P 5000 1950
+AR Path="/5CC0AEC9/5CC5FBE0" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0A4B9/5CC5FBE0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5000 1800 50  0001 C CNN
+F 1 "+3V3_STM32" H 5015 2123 50  0000 C CNN
+F 2 "" H 5000 1950 50  0001 C CNN
+F 3 "" H 5000 1950 50  0001 C CNN
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-r:R102,0603 R?
+U 1 1 5CC5FBE6
+P 4850 2200
+AR Path="/5CC15C35/5CC5FBE6" Ref="R?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5FBE6" Ref="R?"  Part="1" 
+AR Path="/5CC0A4B9/5CC5FBE6" Ref="R?"  Part="1" 
+F 0 "R?" H 4950 2250 50  0000 L CNN
+F 1 "R102,0603" H 4950 2200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2200 50  0001 C CNN
+F 3 "~" H 4850 2200 50  0001 C CNN
+	1    4850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-led:LED_BLUE,0603 D?
+U 1 1 5CC5FBED
+P 4850 2450
+AR Path="/5CC15C35/5CC5FBED" Ref="D?"  Part="1" 
+AR Path="/5CC0AEC9/5CC5FBED" Ref="D?"  Part="1" 
+AR Path="/5CC0A4B9/5CC5FBED" Ref="D?"  Part="1" 
+F 0 "D?" V 4900 2350 50  0000 R CNN
+F 1 "LED_BLUE,0603" V 4850 2350 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4850 2450 50  0001 C CNN
+F 3 "" V 4850 2450 50  0001 C CNN
+	1    4850 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 2300 4850 2350
+Wire Wire Line
+	4850 2100 4850 2000
+Wire Wire Line
+	5000 2300 5000 2800
+Wire Wire Line
+	4850 2550 4850 2800
+Connection ~ 5000 2000
+Wire Wire Line
+	5000 2000 5000 2100
+Wire Wire Line
+	4850 2000 5000 2000
+Connection ~ 4850 2800
+Wire Wire Line
+	4850 2800 5000 2800
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 2800 5150 2800
 $EndSCHEMATC
