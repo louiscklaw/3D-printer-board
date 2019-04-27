@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:Y_STEPPER_DRIVER-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 35
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -230,51 +230,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 3100 3700 3100
 $Comp
-L power:+5V #PWR?
-U 1 1 5CC04D0E
-P 3500 2700
-AR Path="/5CC02AB8/5CC04D0E" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04D0E" Ref="#PWR0130"  Part="1" 
-AR Path="/5CC0A53C/5CC04D0E" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D0E" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 3500 2550 50  0001 C CNN
-F 1 "+5V" H 3515 2873 50  0000 C CNN
-F 2 "" H 3500 2700 50  0001 C CNN
-F 3 "" H 3500 2700 50  0001 C CNN
-	1    3500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CC04D19
-P 4650 1950
-AR Path="/5CC02AB8/5CC04D19" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04D19" Ref="#PWR0131"  Part="1" 
-AR Path="/5CC0A53C/5CC04D19" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D19" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 4650 1800 50  0001 C CNN
-F 1 "+5V" H 4665 2123 50  0000 C CNN
-F 2 "" H 4650 1950 50  0001 C CNN
-F 3 "" H 4650 1950 50  0001 C CNN
-	1    4650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5CC04D25
-P 6600 3400
-AR Path="/5CC02AB8/5CC04D25" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04D25" Ref="#PWR0132"  Part="1" 
-AR Path="/5CC0A53C/5CC04D25" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D25" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 6600 3250 50  0001 C CNN
-F 1 "+5V" V 6615 3528 50  0000 L CNN
-F 2 "" H 6600 3400 50  0001 C CNN
-F 3 "" H 6600 3400 50  0001 C CNN
-	1    6600 3400
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+12V #PWR?
 U 1 1 5CC04D2A
 P 5400 4050
@@ -328,21 +283,6 @@ Connection ~ 3500 3000
 Wire Wire Line
 	3500 3000 3500 3100
 $Comp
-L taobao-cp:CP100uf,25V C?
-U 1 1 5CC04D44
-P 5650 4250
-AR Path="/5CC02AB8/5CC04D44" Ref="C?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04D44" Ref="C9"  Part="1" 
-AR Path="/5CC0A53C/5CC04D44" Ref="C?"  Part="1" 
-AR Path="/5CC04D44" Ref="C9"  Part="1" 
-F 0 "C9" V 5517 4250 50  0000 C CNN
-F 1 "CP100uf,25V" V 5426 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5650 4250 50  0001 C CNN
-F 3 "~" H 5650 4250 50  0001 C CNN
-	1    5650 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5CC04D50
 P 5950 4250
@@ -361,21 +301,6 @@ Wire Wire Line
 	5400 4250 5550 4250
 Wire Wire Line
 	5750 4250 5950 4250
-$Comp
-L power:+5V #PWR?
-U 1 1 5CC04D55
-P 5400 4250
-AR Path="/5CC02AB8/5CC04D55" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0A4B9/5CC04D55" Ref="#PWR0136"  Part="1" 
-AR Path="/5CC0A53C/5CC04D55" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D55" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 5400 4100 50  0001 C CNN
-F 1 "+5V" V 5415 4378 50  0000 L CNN
-F 2 "" H 5400 4250 50  0001 C CNN
-F 3 "" H 5400 4250 50  0001 C CNN
-	1    5400 4250
-	0    -1   -1   0   
-$EndComp
 Text HLabel 1000 800  0    50   Input ~ 0
 ~EN~
 Text Label 1300 800  0    50   ~ 0
@@ -2017,4 +1942,59 @@ AD 92 35 D2 5B 2F 16 7E 49 FB 99 E4 44 99 B8 36 5F 8F 00 C0 2E 18 61 05 00 B5 EA
 23 B0 02 00 00 40 D5 FE 1F 96 0D 31 F2 6E FC 55 36 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L taobao-c:C104,0603 C?
+U 1 1 5CC40ACD
+P 5650 4250
+F 0 "C?" V 5421 4250 50  0000 C CNN
+F 1 "C104,0603" V 5512 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5650 4250 50  0001 C CNN
+F 3 "~" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC40BFD
+P 4650 1950
+F 0 "#PWR?" H 4650 1800 50  0001 C CNN
+F 1 "+3V3_STM32" H 4665 2123 50  0000 C CNN
+F 2 "" H 4650 1950 50  0001 C CNN
+F 3 "" H 4650 1950 50  0001 C CNN
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC40CD3
+P 3500 2700
+F 0 "#PWR?" H 3500 2550 50  0001 C CNN
+F 1 "+3V3_STM32" H 3515 2873 50  0000 C CNN
+F 2 "" H 3500 2700 50  0001 C CNN
+F 3 "" H 3500 2700 50  0001 C CNN
+	1    3500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC40CEC
+P 5400 4250
+F 0 "#PWR?" H 5400 4100 50  0001 C CNN
+F 1 "+3V3_STM32" V 5415 4378 50  0000 L CNN
+F 2 "" H 5400 4250 50  0001 C CNN
+F 3 "" H 5400 4250 50  0001 C CNN
+	1    5400 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CC40D1A
+P 6600 3400
+F 0 "#PWR?" H 6600 3250 50  0001 C CNN
+F 1 "+3V3_STM32" V 6615 3528 50  0000 L CNN
+F 2 "" H 6600 3400 50  0001 C CNN
+F 3 "" H 6600 3400 50  0001 C CNN
+	1    6600 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
