@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 33
+Sheet 1 32
 Title ""
 Date ""
 Rev ""
@@ -117,7 +117,7 @@ F0 "Thermistors" 50
 F1 "Thermistors.sch" 50
 $EndSheet
 $Sheet
-S 2600 1000 900  700 
+S 1050 6100 900  700 
 U 5CC1F2C3
 F0 "POWER_SUPPLY" 50
 F1 "POWER_SUPPLY.sch" 50
