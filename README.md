@@ -39,6 +39,8 @@ x,y,z min
 x,y,z max
 4 misc
 
+PROBE support
+
 5 AI(temperature sensors)
 hotend0,hotend1,hotend2,hotend3
 heatbed
