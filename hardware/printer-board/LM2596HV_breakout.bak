@@ -26,17 +26,6 @@ F 3 "" H 4650 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-components:VIN #PWR0105
-U 1 1 5BD3A464
-P 2950 2750
-F 0 "#PWR0105" H 2950 2600 50  0001 C CNN
-F 1 "VIN" H 3000 2900 50  0000 C CNN
-F 2 "" H 2950 2750 50  0001 C CNN
-F 3 "" H 2950 2750 50  0001 C CNN
-	1    2950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C103 C3
 U 1 1 5BD3AB56
 P 3600 3350
@@ -271,7 +260,7 @@ F 3 "~" H 3200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2100 5200 0    100  ~ 0
-60V, 3A, 150kHz, ~E1_STEP~-down Switching Regulator  
+60V, 3A, 150kHz, step-down Switching Regulator  
 Text Notes 2100 5600 0    50   ~ 0
 - Guaranteed 3A output load current\n- Input voltage range up to 60V \n- Thermal shutdown and current limit protection\n- 3.3V, 5V, 12V and Adjustable output versions
 $Bitmap
@@ -1260,6 +1249,17 @@ F 1 "+5V" H 8115 3173 50  0000 C CNN
 F 2 "" H 8100 3000 50  0001 C CNN
 F 3 "" H 8100 3000 50  0001 C CNN
 	1    8100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CC7344D
+P 2950 2750
+F 0 "#PWR?" H 2950 2600 50  0001 C CNN
+F 1 "+12V" H 3000 2950 50  0000 C CNN
+F 2 "" H 2950 2750 50  0001 C CNN
+F 3 "" H 2950 2750 50  0001 C CNN
+	1    2950 2750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
