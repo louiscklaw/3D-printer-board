@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 24 32
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -3018,4 +3017,8 @@ Wire Wire Line
 Connection ~ 4750 2300
 Wire Wire Line
 	4750 2300 4100 2300
+Text Label 5100 3050 2    50   ~ 0
+-12V
+Text Label 4250 2300 0    50   ~ 0
+12V_led
 $EndSCHEMATC
