@@ -21,7 +21,7 @@
       )
     )
     (boundary
-      (path pcb 0  90790 -69825  75000 -69825  75000 -43205  90790 -43205
+      (path pcb 0  90790 -69825  75000 -69825  75000 -45000  90790 -45000
             90790 -69825)
     )
     (via "Via[0-1]_800:400_um")
@@ -34,24 +34,24 @@
   )
   (placement
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place C7 86500 -63500 front 90 (PN C104,0603))
-      (place R11 77000 -44000 back 0 (PN R102,0603))
-      (place R4 86500 -59500 front 90 (PN R104,0603))
+      (place C7 86500 -52500 front 270 (PN C104,0603))
+      (place R11 89000 -68000 back 90 (PN R102,0603))
+      (place R4 86500 -49000 front 90 (PN R104,0603))
     )
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place D9 77000 -44000 front 180 (PN LED_BLUE,0603))
+      (place D9 89000 -68000 front 270 (PN LED_BLUE,0603))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R13 83000 -46500 back 180 (PN R103,0603))
+      (place R13 83000 -46500 front 180 (PN R103,0603))
     )
     (component Capacitor_SMD:CP_Elec_6.3x7.7
-      (place C6 83000 -52500 front 0 (PN CP100uf,25V))
+      (place C6 83000 -61000 front 270 (PN CP100uf,25V))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
-      (place J4 79000 -68000 front 90 (PN X))
+      (place J4 78000 -68000 front 90 (PN X))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
-      (place J3 80500 -58500 front 0 (PN MS_SELECT))
+      (place J3 81000 -49000 front 0 (PN MS_SELECT))
     )
     (component "Module:Pololu_Breakout-16_15.2x20.3mm"
       (place U3 76555 -46545 front 0 (PN A4988_MODULE))
@@ -328,9 +328,9 @@
     (net /X_DIR
       (pins U3-8)
     )
-    (class kicad_default "" +12V +3V3_STM32 +5V /DIR /STEP /X_DIR /X_STEP
-      /~EN~ /~X_EN~ GND "Net-(D9-Pad2)" "Net-(J3-Pad1)" "Net-(J3-Pad3)" "Net-(J3-Pad5)"
-      "Net-(J4-Pad1)" "Net-(J4-Pad2)" "Net-(J4-Pad3)" "Net-(J4-Pad4)" "Net-(U3-Pad5)"
+    (class kicad_default "" +12V +3V3_STM32 /X_DIR /X_STEP /~X_EN~ GND "Net-(D9-Pad2)"
+      "Net-(J3-Pad1)" "Net-(J3-Pad3)" "Net-(J3-Pad5)" "Net-(J4-Pad1)" "Net-(J4-Pad2)"
+      "Net-(J4-Pad3)" "Net-(J4-Pad4)" "Net-(U3-Pad5)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

@@ -4453,7 +4453,7 @@
   )
 
   (module Package_TO_SOT_SMD:TO-263-5_TabPin3 (layer B.Cu) (tedit 5A70FBB6) (tstamp 5CCF416C)
-    (at 32 38.5 90)
+    (at 31 28 90)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
     (path /5BD391F5)
