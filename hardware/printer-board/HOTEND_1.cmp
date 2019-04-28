@@ -1,0 +1,51 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun Apr 28 23:14:58 2019
+
+BeginCmp
+TimeStamp = 5CC2B184
+Path = /5CC2240F
+Reference = Q3;
+ValeurCmp = STP55NF06;
+IdModule  = footprint-lib:TO-263-2,drill_array;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC5C559
+Path = /5CC22399
+Reference = J24;
+ValeurCmp = HOT_END;
+IdModule  = footprint-lib:mpt_0,5%2f2-2,54,heatbed;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2B197
+Path = /5CC2239F
+Reference = D8;
+ValeurCmp = LED_RED,0603;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2B160
+Path = /5CC19EDC
+Reference = R32;
+ValeurCmp = R182,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2B14F
+Path = /5CC2239C
+Reference = R38;
+ValeurCmp = R104,0805;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2B13E
+Path = /5CC2239B
+Reference = R31;
+ValeurCmp = R100,0805;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+EndListe
