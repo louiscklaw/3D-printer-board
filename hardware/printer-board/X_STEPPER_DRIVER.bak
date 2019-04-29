@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:X_STEPPER_DRIVER-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 32
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -143,8 +143,8 @@ P 6900 3100
 AR Path="/5CC02AB8/5CC04D01" Ref="J4"  Part="1" 
 AR Path="/5CC049BB/5CC04D01" Ref="J?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D01" Ref="J?"  Part="1" 
-AR Path="/5CC04D01" Ref="J4"  Part="1" 
-F 0 "J4" H 6980 3092 50  0000 L CNN
+AR Path="/5CC04D01" Ref="STEP_X1"  Part="1" 
+F 0 "STEP_X1" H 6980 3092 50  0000 L CNN
 F 1 "X" H 6980 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
@@ -1989,6 +1989,7 @@ AR Path="/5CC0A8C5/5CC5E2CE" Ref="R?"  Part="1"
 AR Path="/5CC0A8CA/5CC5E2CE" Ref="R?"  Part="1" 
 AR Path="/5CC0A8CF/5CC5E2CE" Ref="R?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5E2CE" Ref="R?"  Part="1" 
+AR Path="/5CC5E2CE" Ref="R13"  Part="1" 
 F 0 "R13" H 5059 2246 50  0000 L CNN
 F 1 "R103,0603" H 5059 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 2200 50  0001 C CNN
@@ -2004,6 +2005,7 @@ U 1 1 5CC5E2D6
 P 5000 1950
 AR Path="/5CC0AEC9/5CC5E2D6" Ref="#PWR?"  Part="1" 
 AR Path="/5CC02AB8/5CC5E2D6" Ref="#PWR010"  Part="1" 
+AR Path="/5CC5E2D6" Ref="#PWR010"  Part="1" 
 F 0 "#PWR010" H 5000 1800 50  0001 C CNN
 F 1 "+3V3_STM32" H 5015 2123 50  0000 C CNN
 F 2 "" H 5000 1950 50  0001 C CNN
@@ -2018,6 +2020,7 @@ P 4850 2200
 AR Path="/5CC15C35/5CC5E2DC" Ref="R?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5E2DC" Ref="R?"  Part="1" 
 AR Path="/5CC02AB8/5CC5E2DC" Ref="R11"  Part="1" 
+AR Path="/5CC5E2DC" Ref="R11"  Part="1" 
 F 0 "R11" H 4950 2250 50  0000 L CNN
 F 1 "R102,0603" H 4950 2200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2200 50  0001 C CNN
@@ -2032,6 +2035,7 @@ P 4850 2450
 AR Path="/5CC15C35/5CC5E2E3" Ref="D?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5E2E3" Ref="D?"  Part="1" 
 AR Path="/5CC02AB8/5CC5E2E3" Ref="D9"  Part="1" 
+AR Path="/5CC5E2E3" Ref="D9"  Part="1" 
 F 0 "D9" V 4900 2350 50  0000 R CNN
 F 1 "LED_BLUE,0603" V 4850 2350 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4850 2450 50  0001 C CNN

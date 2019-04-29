@@ -11235,12 +11235,6 @@ Text Label 2600 1000 2    50   ~ 0
 USB-DM3
 Text Label 2600 1100 2    50   ~ 0
 USB-DP3
-Wire Wire Line
-	2600 900  1900 900 
-Wire Wire Line
-	2600 1000 1900 1000
-Wire Wire Line
-	2600 1100 1900 1100
 Text HLabel 1100 800  0    50   Input ~ 0
 OPI_USB-DM2
 Text HLabel 1100 900  0    50   Input ~ 0
@@ -11442,9 +11436,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 800  2600 800 
 Wire Wire Line
-	1550 900  1900 900 
+	1550 900  2600 900 
 Wire Wire Line
-	1550 1000 1900 1000
+	1550 1000 2600 1000
 Wire Wire Line
-	1550 1100 1900 1100
+	1550 1100 2600 1100
 $EndSCHEMATC
