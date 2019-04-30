@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 34
+Sheet 12 33
 Title ""
 Date ""
 Rev ""
@@ -1961,12 +1961,12 @@ Connection ~ 6000 2150
 Wire Wire Line
 	5150 2150 5500 2150
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J26
 U 1 1 5CCBA098
 P 4950 1350
-AR Path="/5CC1F2C3/5CCBA098" Ref="J?"  Part="1" 
+AR Path="/5CC1F2C3/5CCBA098" Ref="J26"  Part="1" 
 AR Path="/5CC2225A/5CCBA098" Ref="J?"  Part="1" 
-F 0 "J?" H 4870 1567 50  0000 C CNN
+F 0 "J26" H 4870 1567 50  0000 C CNN
 F 1 "12V_INPUT_2" H 4870 1476 50  0000 C CNN
 F 2 "footprint-lib:mpt_0,5%2f2-2,54,12V_SRC" H 4950 1350 50  0001 C CNN
 F 3 "~" H 4950 1350 50  0001 C CNN
@@ -1976,10 +1976,10 @@ $EndComp
 Wire Wire Line
 	5150 1350 5500 1350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR040
 U 1 1 5CCBB25F
 P 5300 1550
-F 0 "#PWR?" H 5300 1300 50  0001 C CNN
+F 0 "#PWR040" H 5300 1300 50  0001 C CNN
 F 1 "GND" H 5350 1350 50  0000 C CNN
 F 2 "" H 5300 1550 50  0001 C CNN
 F 3 "" H 5300 1550 50  0001 C CNN
@@ -1991,10 +1991,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 1450 5300 1550
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP12
 U 1 1 5CCBB5DC
 P 5500 1750
-F 0 "JP?" V 5450 1800 50  0000 L CNN
+F 0 "JP12" V 5450 1800 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 5500 1800 50  0000 L CNN
 F 2 "" H 5500 1750 50  0001 C CNN
 F 3 "~" H 5500 1750 50  0001 C CNN

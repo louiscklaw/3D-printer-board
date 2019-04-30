@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 33
 Title ""
 Date ""
 Rev ""
@@ -23,7 +24,7 @@ AR Path="/5CC02AB6/5CC01846" Ref="U?"  Part="1"
 AR Path="/5CC01846" Ref="U1"  Part="1" 
 F 0 "U1" H 9000 5537 60  0000 C CNN
 F 1 "orange_pi_zero" H 9000 5431 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8800 4500 60  0001 C CNN
+F 2 "footprint-lib:orangepi-zero" H 8800 4500 60  0001 C CNN
 F 3 "" H 8800 4500 60  0000 C CNN
 	1    9050 3700
 	1    0    0    -1  

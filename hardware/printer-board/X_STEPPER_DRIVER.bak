@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 1 33
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ AR Path="/5CC0A4B9/5CC04CC1" Ref="U?"  Part="1"
 AR Path="/5CC04CC1" Ref="U3"  Part="1" 
 F 0 "U3" H 5650 3765 50  0000 C CNN
 F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
-F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
+F 2 "footprint-lib:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
 F 3 "" H 5650 3200 50  0001 C CNN
 	1    5650 3150
 	1    0    0    -1  

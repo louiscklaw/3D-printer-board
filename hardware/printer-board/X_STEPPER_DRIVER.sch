@@ -24,7 +24,7 @@ AR Path="/5CC0A4B9/5CC04CC1" Ref="U?"  Part="1"
 AR Path="/5CC04CC1" Ref="U3"  Part="1" 
 F 0 "U3" H 5650 3765 50  0000 C CNN
 F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
-F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
+F 2 "footprint-lib:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
 F 3 "" H 5650 3200 50  0001 C CNN
 	1    5650 3150
 	1    0    0    -1  
@@ -146,7 +146,7 @@ AR Path="/5CC0A4B9/5CC04D01" Ref="J?"  Part="1"
 AR Path="/5CC04D01" Ref="STEP_X1"  Part="1" 
 F 0 "J4" H 6980 3092 50  0000 L CNN
 F 1 "X" H 6980 3001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6900 3100 50  0001 C CNN
+F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  
