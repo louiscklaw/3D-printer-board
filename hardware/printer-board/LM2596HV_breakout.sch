@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 34
+Sheet 3 35
 Title ""
 Date ""
 Rev ""
@@ -1241,10 +1241,10 @@ F 3 "" H 2950 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-c:C103,0603 C1
+L taobao-c:C103,0603 C56
 U 1 1 5CC5D4C8
 P 6800 3650
-F 0 "C1" H 6900 3700 50  0000 L CNN
+F 0 "C56" H 6900 3700 50  0000 L CNN
 F 1 "C103,0603" H 6900 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 3650 50  0001 C CNN
 F 3 "~" H 6800 3650 50  0001 C CNN
