@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 34
+Sheet 29 33
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ AR Path="/5CC130A8/5CC2240E" Ref="J?"  Part="1"
 AR Path="/5CC22025/5CC222D5/5CC2240E" Ref="J25"  Part="1" 
 F 0 "J25" H 5219 2825 50  0000 C CNN
 F 1 "HOT_END" H 5219 2916 50  0000 C CNN
-F 2 "footprint-lib:s2b-ph-kl,hotend_output" H 5300 3150 50  0001 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54,heatbed" H 5300 3150 50  0001 C CNN
 F 3 "~" H 5300 3150 50  0001 C CNN
 	1    5300 3150
 	1    0    0    1   

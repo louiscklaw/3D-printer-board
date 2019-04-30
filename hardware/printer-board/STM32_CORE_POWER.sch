@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 34
+Sheet 21 32
 Title ""
 Date ""
 Rev ""
@@ -1007,74 +1007,10 @@ F 3 "~" H 2800 1550 50  0001 C CNN
 	1    2800 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5C078669
-P 4450 1300
-AR Path="/5C0BBB2B/5C078669" Ref="J?"  Part="1" 
-AR Path="/5C0BFA48/5C078669" Ref="J?"  Part="1" 
-AR Path="/5CC29851/5CC2B423/5C078669" Ref="J46"  Part="1" 
-AR Path="/5C078669" Ref="J46"  Part="1" 
-F 0 "J46" H 4370 1617 50  0000 C CNN
-F 1 "Conn_01x03" H 4370 1526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4450 1300 50  0001 C CNN
-F 3 "~" H 4450 1300 50  0001 C CNN
-	1    4450 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C07899D
-P 4050 1050
-AR Path="/5C0BBB2B/5C07899D" Ref="#PWR?"  Part="1" 
-AR Path="/5C0BFA48/5C07899D" Ref="#PWR?"  Part="1" 
-AR Path="/5CC29851/5CC2B423/5C07899D" Ref="#PWR06"  Part="1" 
-AR Path="/5C07899D" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 4050 800 50  0001 C CNN
-F 1 "GND" H 4055 877 50  0000 C CNN
-F 2 "" H 4050 1050 50  0001 C CNN
-F 3 "" H 4050 1050 50  0001 C CNN
-	1    4050 1050
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	4250 1200 4050 1200
-Wire Wire Line
-	4050 1200 4050 1050
-Wire Wire Line
-	4250 1400 4050 1400
-Wire Wire Line
-	4050 1400 4050 1450
 Text Label 3350 950  2    50   ~ 0
 OUTPUT
 Wire Wire Line
 	2800 950  3350 950 
-Text Label 3700 1300 0    50   ~ 0
-OUTPUT
-Wire Wire Line
-	4250 1300 3700 1300
-$Comp
-L power:+3V3 #PWR05
-U 1 1 5C0C0902
-P 2800 900
-F 0 "#PWR05" H 2800 750 50  0001 C CNN
-F 1 "+3V3" H 2850 1100 50  0000 C CNN
-F 2 "" H 2800 900 50  0001 C CNN
-F 3 "" H 2800 900 50  0001 C CNN
-	1    2800 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR07
-U 1 1 5C0C0B31
-P 4050 1450
-F 0 "#PWR07" H 4050 1300 50  0001 C CNN
-F 1 "+3V3" H 4050 1650 50  0000 C CNN
-F 2 "" H 4050 1450 50  0001 C CNN
-F 3 "" H 4050 1450 50  0001 C CNN
-	1    4050 1450
-	1    0    0    1   
-$EndComp
 $Comp
 L taobao-r:R102,0603 R?
 U 1 1 5C0C1058
@@ -1111,17 +1047,6 @@ Wire Wire Line
 	5100 1450 5100 1600
 Wire Wire Line
 	5100 1800 5100 2050
-$Comp
-L power:+3V3 #PWR08
-U 1 1 5C0C1334
-P 5100 950
-F 0 "#PWR08" H 5100 800 50  0001 C CNN
-F 1 "+3V3" H 5150 1150 50  0000 C CNN
-F 2 "" H 5100 950 50  0001 C CNN
-F 3 "" H 5100 950 50  0001 C CNN
-	1    5100 950 
-	1    0    0    -1  
-$EndComp
 $Comp
 L taobao-led:LED_GREEN,0603 D21
 U 1 1 5C0D46AA
@@ -1214,6 +1139,28 @@ F 1 "+5V" H 1400 1150 50  0000 C CNN
 F 2 "" H 1350 950 50  0001 C CNN
 F 3 "" H 1350 950 50  0001 C CNN
 	1    1350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CC75A45
+P 2800 900
+F 0 "#PWR?" H 2800 750 50  0001 C CNN
+F 1 "+3V3" H 2850 1100 50  0000 C CNN
+F 2 "" H 2800 900 50  0001 C CNN
+F 3 "" H 2800 900 50  0001 C CNN
+	1    2800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CC75A67
+P 5100 950
+F 0 "#PWR?" H 5100 800 50  0001 C CNN
+F 1 "+3V3" H 5150 1150 50  0000 C CNN
+F 2 "" H 5100 950 50  0001 C CNN
+F 3 "" H 5100 950 50  0001 C CNN
+	1    5100 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

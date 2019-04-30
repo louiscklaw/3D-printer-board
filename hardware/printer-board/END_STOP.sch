@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 34
+Sheet 13 32
 Title ""
 Date ""
 Rev ""
@@ -20,9 +20,9 @@ U 1 1 5CC15E3F
 P 3250 2900
 AR Path="/5CC15C35/5CC15E3F" Ref="J27"  Part="1" 
 AR Path="/5CC130A8/5CC15E3F" Ref="J?"  Part="1" 
-F 0 "J27" V 3216 2712 50  0000 R CNN
-F 1 "X_MAX" V 3125 2712 50  0000 R CNN
-F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 2900 50  0001 C CNN
+F 0 "J27" H 3150 3250 50  0000 C CNN
+F 1 "X_MAX" H 3150 3150 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,end_stop" H 3250 2900 50  0001 C CNN
 F 3 "~" H 3250 2900 50  0001 C CNN
 	1    3250 2900
 	-1   0    0    -1  
@@ -33,9 +33,9 @@ U 1 1 5CC15F71
 P 3250 3850
 AR Path="/5CC15C35/5CC15F71" Ref="J28"  Part="1" 
 AR Path="/5CC130A8/5CC15F71" Ref="J?"  Part="1" 
-F 0 "J28" V 3216 3662 50  0000 R CNN
-F 1 "Y_MIN" V 3125 3662 50  0000 R CNN
-F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 3850 50  0001 C CNN
+F 0 "J28" H 3150 4200 50  0000 C CNN
+F 1 "Y_MIN" H 3150 4100 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,end_stop" H 3250 3850 50  0001 C CNN
 F 3 "~" H 3250 3850 50  0001 C CNN
 	1    3250 3850
 	-1   0    0    -1  
@@ -46,9 +46,9 @@ U 1 1 5CC15F77
 P 3250 4750
 AR Path="/5CC15C35/5CC15F77" Ref="J29"  Part="1" 
 AR Path="/5CC130A8/5CC15F77" Ref="J?"  Part="1" 
-F 0 "J29" V 3216 4562 50  0000 R CNN
-F 1 "Y_MAX" V 3125 4562 50  0000 R CNN
-F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 4750 50  0001 C CNN
+F 0 "J29" H 3150 5100 50  0000 C CNN
+F 1 "Y_MAX" H 3150 5000 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,end_stop" H 3250 4750 50  0001 C CNN
 F 3 "~" H 3250 4750 50  0001 C CNN
 	1    3250 4750
 	-1   0    0    -1  
@@ -59,9 +59,9 @@ U 1 1 5CC1606D
 P 3250 5600
 AR Path="/5CC15C35/5CC1606D" Ref="J30"  Part="1" 
 AR Path="/5CC130A8/5CC1606D" Ref="J?"  Part="1" 
-F 0 "J30" V 3216 5412 50  0000 R CNN
-F 1 "Z_MIN" V 3125 5412 50  0000 R CNN
-F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 5600 50  0001 C CNN
+F 0 "J30" H 3150 5950 50  0000 C CNN
+F 1 "Z_MIN" H 3150 5850 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,end_stop" H 3250 5600 50  0001 C CNN
 F 3 "~" H 3250 5600 50  0001 C CNN
 	1    3250 5600
 	-1   0    0    -1  
@@ -72,9 +72,9 @@ U 1 1 5CC16073
 P 3250 6500
 AR Path="/5CC15C35/5CC16073" Ref="J31"  Part="1" 
 AR Path="/5CC130A8/5CC16073" Ref="J?"  Part="1" 
-F 0 "J31" V 3216 6312 50  0000 R CNN
-F 1 "Z_MAX" V 3125 6312 50  0000 R CNN
-F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 6500 50  0001 C CNN
+F 0 "J31" H 3150 6850 50  0000 C CNN
+F 1 "Z_MAX" H 3150 6750 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,end_stop" H 3250 6500 50  0001 C CNN
 F 3 "~" H 3250 6500 50  0001 C CNN
 	1    3250 6500
 	-1   0    0    -1  
