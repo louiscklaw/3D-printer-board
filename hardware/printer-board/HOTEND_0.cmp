@@ -1,11 +1,19 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Apr 28 22:18:08 2019
+Cmp-Mod V01 Created by PcbNew   date = Wed May  1 01:48:16 2019
 
 BeginCmp
-TimeStamp = 5CC5BE0A
+TimeStamp = 5CC88E30
 Path = /5CC19EB5
 Reference = J2;
 ValeurCmp = HOT_END;
-IdModule  = footprint-lib:mpt_0,5%2f2-2,54,hotend;
+IdModule  = footprint-lib:mpt_0,5%2f2-2,54,heatbed;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC88E9E
+Path = /5CC22325
+Reference = Q2;
+ValeurCmp = STP55NF06;
+IdModule  = footprint-lib:TO-263-2,drill_array;
 EndCmp
 
 BeginCmp
@@ -14,14 +22,6 @@ Path = /5CC2232A
 Reference = D5;
 ValeurCmp = LED_RED,0603;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CC2AF99
-Path = /5CC22325
-Reference = Q2;
-ValeurCmp = STP55NF06;
-IdModule  = Package_TO_SOT_SMD:TO-263-2;
 EndCmp
 
 BeginCmp
@@ -41,7 +41,7 @@ IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2AF53
+TimeStamp = 5CC64EFF
 Path = /5CC19EC3
 Reference = R28;
 ValeurCmp = R100,0805;

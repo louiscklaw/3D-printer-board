@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:HOTEND_0-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 33
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -25,7 +25,7 @@ AR Path="/5CC22025/5CC222D0/5CC19EB5" Ref="J2"  Part="1"
 AR Path="/5CC19EB5" Ref="J2"  Part="1" 
 F 0 "J2" H 5400 2950 50  0000 L CNN
 F 1 "HOT_END" H 5400 2850 50  0000 L CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54,hotend" H 5300 2950 50  0001 C CNN
+F 2 "footprint-lib:mpt_0,5%2f2-2,54,heatbed" H 5300 2950 50  0001 C CNN
 F 3 "~" H 5300 2950 50  0001 C CNN
 	1    5300 2950
 	1    0    0    -1  
@@ -41,7 +41,7 @@ AR Path="/5CC22025/5CC222D0/5CC22325" Ref="Q2"  Part="1"
 AR Path="/5CC22325" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3356 3396 50  0000 L CNN
 F 1 "STP55NF06" H 3356 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 3350 3450 50  0001 C CNN
+F 2 "footprint-lib:TO-263-2,drill_array" H 3350 3450 50  0001 C CNN
 F 3 "~" H 3150 3350 50  0001 C CNN
 	1    3150 3350
 	1    0    0    -1  
