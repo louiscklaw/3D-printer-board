@@ -1,0 +1,67 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed May  1 01:25:05 2019
+
+BeginCmp
+TimeStamp = 5CC2121A
+Path = /5CC242F9
+Reference = J38;
+ValeurCmp = TO FAN1;
+IdModule  = footprint-lib:b2b-ph-kl,fan_pwm_out;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC879DE
+Path = /5CC87678
+Reference = Q4;
+ValeurCmp = D882;
+IdModule  = Package_TO_SOT_SMD:SOT-89-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC879A6
+Path = /5CC88B15
+Reference = R36;
+ValeurCmp = R100,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC87F6C
+Path = /5CC24303
+Reference = C33;
+ValeurCmp = CP100uf,16V;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC21284
+Path = /5CC24377
+Reference = D10;
+ValeurCmp = LED_BLUE,0603;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2124D
+Path = /5CC242FD
+Reference = R43;
+ValeurCmp = R182,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2123C
+Path = /5CC04D61
+Reference = R44;
+ValeurCmp = R104,0805;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC2122B
+Path = /5CC24372
+Reference = R42;
+ValeurCmp = R100,0805;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+EndListe
