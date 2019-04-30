@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 35
+Sheet 14 34
 Title ""
 Date ""
 Rev ""
@@ -88,10 +88,4 @@ Text Label 4600 4800 2    50   ~ 0
 STM32_SCL1
 Text Notes 3200 3950 0    50   ~ 0
 When using serial, the UART used for communication with the host\n is fixed to pins PA9 (TX) and PA10 (RX). When using USB, the PA11\n (D-) and PA12 (D+) pins are reserved. The USB code assumes that\n PA12 (D+) has a fixed pullup resistor attached to it.
-$Sheet
-S 6750 5350 800  650 
-U 5CC86673
-F0 "MP1584EN_power" 50
-F1 "MP1584EN_power.sch" 50
-$EndSheet
 $EndSCHEMATC

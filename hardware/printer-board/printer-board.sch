@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 35
+Sheet 1 34
 Title ""
 Date ""
 Rev ""
@@ -21,12 +21,6 @@ F0 "orange_pi" 50
 F1 "orange_pi.sch" 50
 F2 "OPI_USB-DM2" I R 1950 4950 50 
 F3 "OPI_USB-DP2" I R 1950 4850 50 
-$EndSheet
-$Sheet
-S 2150 6050 900  700 
-U 5CC01E08
-F0 "LM2596HV_breakout" 50
-F1 "LM2596HV_breakout.sch" 50
 $EndSheet
 $Sheet
 S 9350 1000 1050 850 
@@ -564,9 +558,15 @@ F3 "st7920_cs_pin" I L 5200 4800 50
 F4 "st7920_sid_pin" I L 5200 5000 50 
 $EndSheet
 $Sheet
-S 2150 6950 900  700 
-U 5CC86276
-F0 "MP2303A_power_supply" 50
-F1 "MP2303A_power_supply.sch" 50
+S 2050 6050 900  700 
+U 5CCA7EF8
+F0 "MP2303A_power_supply_5V" 50
+F1 "MP2303A_power_supply_5V.sch" 50
+$EndSheet
+$Sheet
+S 2050 6950 900  700 
+U 5CCA8A04
+F0 "MP2303A_power_supply_3V3" 50
+F1 "MP2303A_power_supply_3V3.sch" 50
 $EndSheet
 $EndSCHEMATC
