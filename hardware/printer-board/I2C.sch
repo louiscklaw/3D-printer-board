@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 34
+Sheet 13 34
 Title ""
 Date ""
 Rev ""
@@ -25,44 +25,17 @@ F 3 "~" H 7000 3300 50  0001 C CNN
 	1    7000 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L taobao-r:R472,0603 R36
-U 1 1 5CC226ED
-P 5750 3150
-F 0 "R36" H 5692 3196 50  0000 R CNN
-F 1 "R472,0603" H 5692 3105 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 3150 50  0001 C CNN
-F 3 "~" H 5750 3150 50  0001 C CNN
-	1    5750 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-r:R472,0603 R37
-U 1 1 5CC2276F
-P 6100 3150
-F 0 "R37" H 6159 3196 50  0000 L CNN
-F 1 "R472,0603" H 6159 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6100 3150 50  0001 C CNN
-F 3 "~" H 6100 3150 50  0001 C CNN
-	1    6100 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5750 2900 5750 2950
+	5750 2700 5750 2750
 Wire Wire Line
-	5750 2950 6100 2950
+	5750 2750 6000 2750
 Wire Wire Line
-	6100 2950 6100 3050
-Connection ~ 5750 2950
+	6100 2750 6100 2850
 Wire Wire Line
-	5750 2950 5750 3050
-Wire Wire Line
-	6100 2950 6450 2950
-Wire Wire Line
-	6450 2950 6450 3200
+	6100 2750 6450 2750
 Wire Wire Line
 	6450 3200 6800 3200
-Connection ~ 6100 2950
+Connection ~ 6100 2750
 $Comp
 L power:GND #PWR0253
 U 1 1 5CC22873
@@ -78,8 +51,6 @@ Text Label 5550 3400 0    50   ~ 0
 SDA
 Text Label 5550 3500 0    50   ~ 0
 SCL
-Wire Wire Line
-	5550 3400 5750 3400
 Wire Wire Line
 	5550 3500 6100 3500
 Text Label 3150 950  2    50   ~ 0
@@ -543,22 +514,40 @@ Wire Wire Line
 Connection ~ 6100 3500
 Wire Wire Line
 	6100 3500 6800 3500
-Wire Wire Line
-	5750 3250 5750 3400
-Connection ~ 5750 3400
-Wire Wire Line
-	5750 3400 6800 3400
 $Comp
 L power:+5V #PWR0229
 U 1 1 5CC329D0
-P 5750 2900
-F 0 "#PWR0229" H 5750 2750 50  0001 C CNN
-F 1 "+5V" H 5765 3073 50  0000 C CNN
-F 2 "" H 5750 2900 50  0001 C CNN
-F 3 "" H 5750 2900 50  0001 C CNN
-	1    5750 2900
+P 5750 2700
+F 0 "#PWR0229" H 5750 2550 50  0001 C CNN
+F 1 "+5V" H 5765 2873 50  0000 C CNN
+F 2 "" H 5750 2700 50  0001 C CNN
+F 3 "" H 5750 2700 50  0001 C CNN
+	1    5750 2700
 	1    0    0    -1  
 $EndComp
-Text Notes 5500 2700 0    50   ~ 0
-//FIXME\n\n
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5CCAF1F6
+P 6000 3050
+F 0 "RN?" H 6200 3100 50  0000 L CNN
+F 1 "R_Pack04" H 6200 3050 50  0000 L CNN
+F 2 "" V 6275 3050 50  0001 C CNN
+F 3 "~" H 6000 3050 50  0001 C CNN
+	1    6000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3400 6000 3400
+Wire Wire Line
+	6000 3250 6000 3400
+Connection ~ 6000 3400
+Wire Wire Line
+	6000 3400 6800 3400
+Wire Wire Line
+	6000 2850 6000 2750
+Connection ~ 6000 2750
+Wire Wire Line
+	6000 2750 6100 2750
+Wire Wire Line
+	6450 2750 6450 3200
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 34 34
+Sheet 33 34
 Title ""
 Date ""
 Rev ""
@@ -4216,4 +4216,6 @@ F 3 "" H 7050 3250 50  0001 C CNN
 	1    7050 3250
 	1    0    0    -1  
 $EndComp
+Text Notes 4050 2450 0    200  ~ 0
+// FIXME: NEED TO FIX VALUE
 $EndSCHEMATC
