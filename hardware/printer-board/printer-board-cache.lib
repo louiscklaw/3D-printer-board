@@ -83,6 +83,31 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Generic_Conn_01x05
+#
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_02x03_Odd_Even
 #
 DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
@@ -166,6 +191,29 @@ X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Q_NMOS_GDS
 #
 DEF Device_Q_NMOS_GDS Q 0 0 Y N 1 F N
@@ -198,6 +246,38 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Thermistor_NTC
+#
+DEF Device_Thermistor_NTC TH 0 0 N Y 1 F N
+F0 "TH" -175 0 50 V V C CNN
+F1 "Device_Thermistor_NTC" 125 0 50 V V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
+A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
+A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
+A -110 110 10 0 900 0 1 0 N -100 110 -110 120
+A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
+A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
+A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -100 85 -100 110 N
+P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
+P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
+P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Mechanical_Heatsink
 #
 DEF Mechanical_Heatsink HS 0 40 Y Y 1 F N
@@ -227,6 +307,23 @@ S -200 -200 200 75 0 1 10 f
 X GND 1 0 -300 100 U 50 50 1 1 W
 X VO 2 300 0 100 L 50 50 1 1 w
 X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -323,11 +420,65 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-c_C103,0603
+#
+DEF taobao-c_C103,0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-c_C103,0603" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_0603*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-c_C104,0603
 #
 DEF taobao-c_C104,0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "taobao-c_C104,0603" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_0603*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-c_C105,0603
+#
+DEF taobao-c_C105,0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-c_C105,0603" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_0603*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-c_C10pf,0603
+#
+DEF taobao-c_C10pf,0603 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "taobao-c_C10pf,0603" 10 -80 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -727,26 +878,6 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# taobao-cp_CP10uf,25V
-#
-DEF taobao-cp_CP10uf,25V C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "taobao-cp_CP10uf,25V" 10 -80 50 H V L CNN
-F2 "Capacitor_SMD:CP_Elec_4x5.3" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_Elec**4x5.3*
-$ENDFPLIST
-DRAW
-S -60 -12 60 -27 0 1 0 F
-S -60 27 60 12 0 1 0 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 73 D 50 50 1 1 P
-X ~ 2 0 -100 73 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # taobao-cp_CP10uf,50V
 #
 DEF taobao-cp_CP10uf,50V C 0 10 N N 1 F N
@@ -928,6 +1059,42 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# taobao-osc_O_8M
+#
+DEF taobao-osc_O_8M Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "taobao-osc_O_8M" 0 -100 50 H V C CNN
+F2 "Crystal:Crystal_HC49-4H_Vertical" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *HC49*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R0,0603
+#
+DEF taobao-r_R0,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R0,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-r_R100,0805
 #
 DEF taobao-r_R100,0805 R 0 10 N N 1 F N
@@ -1032,11 +1199,62 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# taobao-r_R152,0603
+#
+DEF taobao-r_R152,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R152,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R153,0603
+#
+DEF taobao-r_R153,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R153,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # taobao-r_R182,0603
 #
 DEF taobao-r_R182,0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "taobao-r_R182,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R220,0603
+#
+DEF taobao-r_R220,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R220,0603" 30 -40 50 H V L CNN
 F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1115,6 +1333,23 @@ $FPLIST
  R_*
  Resistor_SMD:R_0805_*
  Resistor_SMD:R_0603_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# taobao-r_R511,0603
+#
+DEF taobao-r_R511,0603 R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "taobao-r_R511,0603" 30 -40 50 H V L CNN
+F2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Resistor_SMD:R_0603*
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N

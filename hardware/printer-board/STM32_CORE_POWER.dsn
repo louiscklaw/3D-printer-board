@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  29825 -38550.4  15375 -38550.4  15375 -29449.6  29825 -29449.6
-            29825 -38550.4)
+      (path pcb 0  30365.5 -27550.4  15825 -27550.4  15825 -15225  30365.5 -15225
+            30365.5 -27550.4)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,29 +34,26 @@
   )
   (placement
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place C38 24500 -30500 front -0 (PN C104,0603))
+      (place C38 26000 -23000 back 270 (PN C104,0603))
     )
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place C37 24625 -32000 back 0 (PN C104,0603))
-      (place R65 24500 -30500 back 180 (PN R102,0603))
-    )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place J46 28000 -31500 front 0 (PN Conn_01x03))
+      (place C37 24000 -23000 back 270 (PN C104,0603))
+      (place R65 25000 -17000 back 0 (PN R102,0603))
     )
     (component "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
-      (place JP2 24500 -34000 front 180 (PN Jumper_NO_Small))
+      (place JP2 21000 -16500 front 180 (PN Jumper_NO_Small))
     )
     (component "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm::1"
-      (place JP1 24500 -37000 front 0 (PN Jumper_NO_Small))
+      (place JP1 17500 -16500 front 180 (PN Jumper_NO_Small))
     )
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place D21 24500 -32000 front 0 (PN LED_GREEN,0603))
+      (place D21 25000 -17000 front 180 (PN "3v3 HEALTHY"))
     )
     (component "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-      (place U14 19000 -34125 back 90 (PN "AMS1117-3.3"))
+      (place U14 19500 -22500 front 90 (PN "AMS1117-3.3"))
     )
     (component w_smd_cap:c_elec_6.3x7.7
-      (place C39 19000 -34000 front 90 (PN CP47uf,50V))
+      (place C39 27000 -23000 front 90 (PN CP47uf,50V))
     )
   )
   (library
@@ -87,26 +84,6 @@
       (outline (path signal 50  1650 -730  -1650 -730))
       (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
       (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -6350))
-      (outline (path signal 100  1270 -6350  -1270 -6350))
-      (outline (path signal 100  -1270 -6350  -1270 635))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 120  -1330 -6410  1330 -6410))
-      (outline (path signal 120  -1330 -1270  -1330 -6410))
-      (outline (path signal 120  1330 -1270  1330 -6410))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 50  -1800 1800  -1800 -6850))
-      (outline (path signal 50  -1800 -6850  1800 -6850))
-      (outline (path signal 50  1800 -6850  1800 1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (pin Rect[A]Pad_1700x1700_um 1 0 0)
-      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
-      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
     )
     (image "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm"
       (outline (path signal 50  1650 -1250  -1650 -1250))
@@ -191,11 +168,6 @@
       (pin Rect[T]Pad_3599.18x1600.2_um 1 2750.82 0)
       (pin Rect[T]Pad_3599.18x1600.2_um 2 -2750.82 0)
     )
-    (padstack Oval[A]Pad_1700x1700_um
-      (shape (path F.Cu 1700  0 0  0 0))
-      (shape (path B.Cu 1700  0 0  0 0))
-      (attach off)
-    )
     (padstack Cust[T]Pad_1000x500_1400x_1500_25_um
       (shape (polygon F.Cu 0  -500 250  -497.592 299.009  -478.47 395.142  -440.961 485.698
             -386.505 567.197  -317.197 636.505  -235.698 690.961  -145.142 728.47
@@ -239,11 +211,6 @@
       (shape (rect F.Cu -1799.59 -800.1 1799.59 800.1))
       (attach off)
     )
-    (padstack Rect[A]Pad_1700x1700_um
-      (shape (rect F.Cu -850 -850 850 850))
-      (shape (rect B.Cu -850 -850 850 850))
-      (attach off)
-    )
     (padstack "Via[0-1]_800:400_um"
       (shape (circle F.Cu 800))
       (shape (circle B.Cu 800))
@@ -255,7 +222,7 @@
       (pins C38-1 JP2-2 U14-2 U14-2@1 C39-1)
     )
     (net GND
-      (pins C38-2 C37-2 J46-1 U14-1 R65-2 C39-2)
+      (pins C38-2 C37-2 U14-1 R65-2 C39-2)
     )
     (net "Net-(D21-Pad1)"
       (pins D21-1 R65-1)
@@ -264,7 +231,7 @@
       (pins C37-1 JP1-2 U14-3)
     )
     (net +3V3
-      (pins J46-2 J46-3 JP2-1 D21-2)
+      (pins JP2-1 D21-2)
     )
     (net +5V
       (pins JP1-1)

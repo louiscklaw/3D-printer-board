@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 32
+Sheet 11 32
 Title ""
 Date ""
 Rev ""
@@ -1028,10 +1028,10 @@ Connection ~ 4250 6400
 Wire Wire Line
 	4250 6400 3450 6400
 $Comp
-L taobao-components:+3V3_STM32 #PWR?
+L taobao-components:+3V3_STM32 #PWR034
 U 1 1 5CC48DF2
 P 3650 1300
-F 0 "#PWR?" H 3650 1150 50  0001 C CNN
+F 0 "#PWR034" H 3650 1150 50  0001 C CNN
 F 1 "+3V3_STM32" H 3665 1473 50  0000 C CNN
 F 2 "" H 3650 1300 50  0001 C CNN
 F 3 "" H 3650 1300 50  0001 C CNN
@@ -1039,10 +1039,10 @@ F 3 "" H 3650 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J19
 U 1 1 5CC5A627
 P 3250 2000
-F 0 "J?" H 3170 2317 50  0000 C CNN
+F 0 "J19" H 3170 2317 50  0000 C CNN
 F 1 "X_MIN" H 3170 2226 50  0000 C CNN
 F 2 "footprint-lib:s3b-ph-kl,end_stop" H 3250 2000 50  0001 C CNN
 F 3 "~" H 3250 2000 50  0001 C CNN

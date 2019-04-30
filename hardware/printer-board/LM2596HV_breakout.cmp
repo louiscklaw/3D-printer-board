@@ -1,0 +1,91 @@
+Cmp-Mod V01 Created by PcbNew   date = Mon Apr 29 00:02:24 2019
+
+BeginCmp
+TimeStamp = 5CD2CF1F
+Path = /5CC5DA3B
+Reference = C2;
+ValeurCmp = CP100uf,50V;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC8915C
+Path = /5CC5D4C8
+Reference = C1;
+ValeurCmp = C103,0603;
+IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC890B9
+Path = /5BD391F5
+Reference = U2;
+ValeurCmp = LM2596HVS;
+IdModule  = Package_TO_SOT_SMD:TO-263-5_TabPin3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC5CFAA
+Path = /5BD4265B
+Reference = C5;
+ValeurCmp = CP220uf,35V;
+IdModule  = w_smd_cap:c_elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE26242
+Path = /5BD4595D
+Reference = R3;
+ValeurCmp = R511;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE258AD
+Path = /5BD45A8B
+Reference = D2;
+ValeurCmp = 5V_STATUS;
+IdModule  = LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD443F0
+Path = /5BD3AB56
+Reference = C3;
+ValeurCmp = C103;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD444E0
+Path = /5BD424C3
+Reference = R2;
+ValeurCmp = RVAR;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD44300
+Path = /5BD4141D
+Reference = R1;
+ValeurCmp = R331;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD441F9
+Path = /5BD40B9F
+Reference = D1;
+ValeurCmp = 1N5824;
+IdModule  = w_smd_diode:do214ac;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BE2FAEA
+Path = /5BD412A6
+Reference = L1;
+ValeurCmp = L_33uH;
+IdModule  = w_smd_inductors:inductor_smd_12.5x7.5mm;
+EndCmp
+
+EndListe

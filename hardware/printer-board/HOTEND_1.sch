@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 32
+Sheet 1 32
 Title ""
 Date ""
 Rev ""
@@ -22,6 +22,7 @@ AR Path="/5CC0B758/5CC22399" Ref="J?"  Part="1"
 AR Path="/5CC12903/5CC22399" Ref="J?"  Part="1" 
 AR Path="/5CC130A8/5CC22399" Ref="J?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC22399" Ref="J24"  Part="1" 
+AR Path="/5CC22399" Ref="J24"  Part="1" 
 F 0 "J24" H 5219 2625 50  0000 C CNN
 F 1 "HOT_END" H 5219 2716 50  0000 C CNN
 F 2 "footprint-lib:mpt_0,5%2f2-2,54,heatbed" H 5300 2950 50  0001 C CNN
@@ -37,9 +38,10 @@ AR Path="/5CC0B758/5CC2240F" Ref="Q?"  Part="1"
 AR Path="/5CC12903/5CC2240F" Ref="Q?"  Part="1" 
 AR Path="/5CC130A8/5CC2240F" Ref="Q?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2240F" Ref="Q3"  Part="1" 
+AR Path="/5CC2240F" Ref="Q3"  Part="1" 
 F 0 "Q3" H 3356 3396 50  0000 L CNN
 F 1 "STP55NF06" H 3356 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 3350 3450 50  0001 C CNN
+F 2 "footprint-lib:TO-263-2,drill_array" H 3350 3450 50  0001 C CNN
 F 3 "~" H 3150 3350 50  0001 C CNN
 	1    3150 3350
 	1    0    0    -1  
@@ -52,6 +54,7 @@ AR Path="/5CC0B758/5CC2239B" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC2239B" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC2239B" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239B" Ref="R31"  Part="1" 
+AR Path="/5CC2239B" Ref="R31"  Part="1" 
 F 0 "R31" V 2304 3350 50  0000 C CNN
 F 1 "R100,0805" V 2395 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3350 50  0001 C CNN
@@ -67,6 +70,7 @@ AR Path="/5CC0B758/5CC2239C" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC2239C" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC2239C" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239C" Ref="R38"  Part="1" 
+AR Path="/5CC2239C" Ref="R38"  Part="1" 
 F 0 "R38" V 2304 3750 50  0000 C CNN
 F 1 "R104,0805" V 2395 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3750 50  0001 C CNN
@@ -82,6 +86,7 @@ AR Path="/5CC0B758/5CC2239D" Ref="#PWR?"  Part="1"
 AR Path="/5CC12903/5CC2239D" Ref="#PWR?"  Part="1" 
 AR Path="/5CC130A8/5CC2239D" Ref="#PWR?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239D" Ref="#PWR0234"  Part="1" 
+AR Path="/5CC2239D" Ref="#PWR0234"  Part="1" 
 F 0 "#PWR0234" H 3250 3700 50  0001 C CNN
 F 1 "GND" H 3255 3777 50  0000 C CNN
 F 2 "" H 3250 3950 50  0001 C CNN
@@ -106,6 +111,7 @@ AR Path="/5CC0B758/5CC19EDC" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC19EDC" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC19EDC" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC19EDC" Ref="R32"  Part="1" 
+AR Path="/5CC19EDC" Ref="R32"  Part="1" 
 F 0 "R32" H 4159 2546 50  0000 L CNN
 F 1 "R182,0603" H 4159 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 2500 50  0001 C CNN
@@ -121,6 +127,7 @@ AR Path="/5CC0B758/5CC2239F" Ref="D?"  Part="1"
 AR Path="/5CC12903/5CC2239F" Ref="D?"  Part="1" 
 AR Path="/5CC130A8/5CC2239F" Ref="D?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239F" Ref="D8"  Part="1" 
+AR Path="/5CC2239F" Ref="D8"  Part="1" 
 F 0 "D8" V 4054 2898 50  0000 L CNN
 F 1 "LED_RED,0603" V 4145 2898 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4100 2800 50  0001 C CNN
@@ -148,13 +155,13 @@ Wire Wire Line
 Wire Wire Line
 	4100 2300 4100 2400
 Text HLabel 1500 900  0    50   Input ~ 0
-HOTEND_EN
+EN2
 Text Label 2300 900  2    50   ~ 0
-HOTEND_EN
+EN2
 Wire Wire Line
 	1500 900  2300 900 
 Text Label 1350 3350 0    50   ~ 0
-HOTEND_EN
+EN2
 Wire Wire Line
 	1350 3350 2000 3350
 Wire Wire Line
@@ -164,51 +171,6 @@ Wire Wire Line
 Connection ~ 2000 3350
 Wire Wire Line
 	2000 3350 2400 3350
-$Comp
-L taobao-components:+12V2 #PWR?
-U 1 1 5CC19F05
-P 2600 4450
-AR Path="/5CC0B758/5CC19F05" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC19F05" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC19F05" Ref="#PWR?"  Part="1" 
-AR Path="/5CC22025/5CC222D3/5CC19F05" Ref="#PWR0235"  Part="1" 
-F 0 "#PWR0235" H 2600 4300 50  0001 C CNN
-F 1 "+12V2" V 2615 4578 50  0000 L CNN
-F 2 "" H 2600 4450 50  0001 C CNN
-F 3 "" H 2600 4450 50  0001 C CNN
-	1    2600 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC19F0B
-P 3250 4450
-AR Path="/5CC0B758/5CC19F0B" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC19F0B" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC19F0B" Ref="#PWR?"  Part="1" 
-AR Path="/5CC22025/5CC222D3/5CC19F0B" Ref="#PWR0236"  Part="1" 
-F 0 "#PWR0236" H 3250 4200 50  0001 C CNN
-F 1 "GND" V 3255 4322 50  0000 R CNN
-F 2 "" H 3250 4450 50  0001 C CNN
-F 3 "" H 3250 4450 50  0001 C CNN
-	1    3250 4450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-cp:CP100uf,16V C28
-U 1 1 5CC19F11
-P 2900 4450
-F 0 "C28" V 3125 4450 50  0000 C CNN
-F 1 "CP100uf,16V" V 3034 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 2900 4450 50  0001 C CNN
-F 3 "~" H 2900 4450 50  0001 C CNN
-	1    2900 4450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2600 4450 2800 4450
-Wire Wire Line
-	3000 4450 3250 4450
 $Bitmap
 Pos 9550 5000
 Scale 1.000000
@@ -3063,4 +3025,8 @@ Wire Wire Line
 Connection ~ 4750 2300
 Wire Wire Line
 	4750 2300 4100 2300
+Text Label 5100 3050 2    50   ~ 0
+-12V
+Text Label 4250 2300 0    50   ~ 0
+12V_led
 $EndSCHEMATC

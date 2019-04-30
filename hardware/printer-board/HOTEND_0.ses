@@ -3,26 +3,23 @@
   (base_design HOTEND_0.dsn)
   (placement
     (resolution um 10)
-    (component Capacitor_SMD:CP_Elec_6.3x5.3
-      (place C27 270000 -305000 back 270)
-    )
-    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place D5 275000 -340000 front 180)
-    )
     (component "Package_TO_SOT_SMD:TO-263-2"
       (place Q2 240000 -435000 front 90)
     )
+    (component "footprint-lib:mpt_0,5%2f2-2,54,hotend"
+      (place J2 215000 -315000 front 0)
+    )
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D5 255000 -325000 front 90)
+    )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R29 255000 -495000 back 270)
+      (place R29 275000 -325000 front 90)
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-      (place R30 230000 -495000 back 270)
+      (place R30 240000 -495000 back 270)
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
       (place R28 200000 -495000 back 270)
-    )
-    (component "footprint-lib:s2b-ph-kl,hotend_output"
-      (place J2 215000 -330000 front 180)
     )
   )
   (was_is
@@ -45,127 +42,93 @@
       )
     )
     (network_out 
-      (net "Net-(D5-Pad1)"
-        (wire
-          (path F.Cu 2500
-            243497 -380253
-            283750 -340000
-          )
-        )
-        (wire
-          (path F.Cu 2500
-            240000 -388762
-            240000 -383750
-            243497 -380253
-          )
-        )
-        (wire
-          (path F.Cu 2500
-            204992 -341749
-            243497 -380253
-          )
-        )
-        (wire
-          (path F.Cu 2500
-            204992 -330000
-            204992 -341749
-          )
-        )
-        (wire
-          (path F.Cu 2500
-            240000 -401250
-            240000 -388762
-          )
-        )
-      )
       (net +12V
         (wire
-          (path B.Cu 2500
-            225008 -330000
-            225008 -456258
-            255000 -486250
+          (path F.Cu 20000
+            275000 -316250
+            275000 -310000
+            264000 -299000
+            243700 -299000
+            227700 -315000
           )
+          (type protect)
         )
       )
       (net "Net-(Q2-Pad1)"
         (wire
           (path F.Cu 2500
+            214600 -459325
             214600 -492750
-            214600 -466497
           )
-        )
-        (wire
-          (path F.Cu 2500
-            195908 -463620
-            198785 -466497
-            214600 -466497
-          )
-        )
-        (via "Via[0-1]_800:400_um" 195908 -463620
         )
         (wire
           (path B.Cu 2500
             200000 -505250
             189736 -494986
-            189736 -469792
-            195908 -463620
+            189736 -479115
+            209526 -459325
+            214600 -459325
           )
         )
-      )
-      (net /HOTEND_EN
-        (wire
-          (path B.Cu 2500
-            200000 -484750
-            230000 -484750
-          )
+        (via "Via[0-1]_800:400_um" 214600 -459325
         )
       )
       (net GND
         (wire
-          (path B.Cu 2500
-            230000 -505250
-            237384 -512634
-            259624 -512634
-            269927 -502331
-            269927 -459000
-          )
-        )
-        (wire
-          (path B.Cu 2500
-            269927 -459000
-            281697 -447230
-            281697 -288697
-            270000 -277000
-          )
-        )
-        (wire
-          (path F.Cu 2500
-            269927 -459000
-            265400 -463527
+          (path F.Cu 22000
             265400 -492750
+            265400 -480475
+            251412 -466487
           )
         )
-        (via "Via[0-1]_800:400_um" 269927 -459000
+        (wire
+          (path B.Cu 22000
+            240000 -505250
+            250008 -505250
+            260014 -495244
+            260014 -475089
+            251412 -466487
+          )
+        )
+        (via "Via[0-1]_800:400_um" 251412 -466487
         )
       )
       (net "Net-(D5-Pad2)"
         (wire
-          (path B.Cu 2500
-            255000 -503750
-            263136 -495614
-            263136 -462466
-            255764 -455094
-            255764 -347874
+          (path F.Cu 2500
+            275000 -333750
+            273738 -333750
+            260488 -320500
+            259250 -320500
+            255000 -316250
           )
+          (type protect)
+        )
+      )
+      (net /EN1
+        (wire
+          (path B.Cu 2500
+            200000 -484750
+            240000 -484750
+          )
+        )
+      )
+      (net "/-12V"
+        (wire
+          (path F.Cu 20000
+            202300 -315000
+            202300 -363550
+            240000 -401250
+          )
+          (type protect)
         )
         (wire
-          (path F.Cu 2500
-            266250 -340000
-            258376 -347874
-            255764 -347874
+          (path F.Cu 20000
+            255000 -333750
+            255000 -386250
+            240000 -401250
           )
-        )
-        (via "Via[0-1]_800:400_um" 255764 -347874
+          (type protect)
         )
       )
     )

@@ -90,7 +90,7 @@ P 2750 2200
 AR Path="/5CC25062" Ref="Q1"  Part="1" 
 AR Path="/5BCBA20B/5CC25062" Ref="Q?"  Part="1" 
 AR Path="/5CC2401E/5CC2464F/5CC25062" Ref="Q9"  Part="1" 
-F 0 "Q1" H 2950 2250 50  0000 L CNN
+F 0 "Q9" H 2950 2250 50  0000 L CNN
 F 1 "SS9013_J3" H 2950 2200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2950 2125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2750 2200 50  0001 L CNN

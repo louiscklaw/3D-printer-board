@@ -19,3 +19,6 @@
 [submodule "software/_ref/klipper"]
 	path = software/_ref/klipper
 	url = git@github.com:KevinOConnor/klipper.git
+[submodule "hardware/_ref/RAMPS_1.7"]
+	path = hardware/_ref/RAMPS_1.7
+	url = git@github.com:MrAlvin/RAMPS_1.7.git
