@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 33
+Sheet 1 34
 Title ""
 Date ""
 Rev ""
@@ -124,14 +124,6 @@ U 5CC2225A
 F0 "I2C" 50
 F1 "I2C.sch" 50
 $EndSheet
-$Sheet
-S 5400 4700 900  700 
-U 5CC19D48
-F0 "SSD1306" 50
-F1 "SSD1306.sch" 50
-F2 "SSD1309_SDA" I L 5400 5150 50 
-F3 "SSD1309_SCL" I L 5400 5250 50 
-$EndSheet
 $Comp
 L taobao-mounting-hole:MOUNT_M3 H3
 U 1 1 5CC19E46
@@ -241,10 +233,6 @@ Wire Wire Line
 	1950 4950 2300 4950
 Wire Wire Line
 	3350 4850 2950 4850
-Wire Wire Line
-	4250 5150 5400 5150
-Wire Wire Line
-	4250 5250 5400 5250
 $Bitmap
 Pos -300 5100
 Scale 1.000000
@@ -565,5 +553,14 @@ F1 "st7920 type lcd.sch" 50
 F2 "st7920_sclk_pin" I L 5400 3850 50 
 F3 "st7920_cs_pin" I L 5400 3750 50 
 F4 "st7920_sid_pin" I L 5400 3950 50 
+$EndSheet
+$Sheet
+S 5200 4700 900  700 
+U 5CC86287
+F0 "sheet5CC86287" 50
+F1 "st7920 type lcd.sch" 50
+F2 "st7920_sclk_pin" I L 5200 4900 50 
+F3 "st7920_cs_pin" I L 5200 4800 50 
+F4 "st7920_sid_pin" I L 5200 5000 50 
 $EndSheet
 $EndSCHEMATC

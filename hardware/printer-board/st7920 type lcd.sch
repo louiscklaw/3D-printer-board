@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 33 33
+Sheet 33 34
 Title ""
 Date ""
 Rev ""
@@ -28,6 +28,7 @@ U 1 1 5CE587EA
 P 1550 950
 AR Path="/5CC19D48/5CE587EA" Ref="JP8"  Part="1" 
 AR Path="/5CC8321E/5CE587EA" Ref="JP?"  Part="1" 
+AR Path="/5CC86287/5CE587EA" Ref="JP?"  Part="1" 
 F 0 "JP?" H 1550 1135 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1550 1044 50  0000 C CNN
 F 2 "" H 1550 950 50  0001 C CNN
@@ -41,6 +42,7 @@ U 1 1 5CE587AA
 P 1550 700
 AR Path="/5CC19D48/5CE587AA" Ref="JP7"  Part="1" 
 AR Path="/5CC8321E/5CE587AA" Ref="JP?"  Part="1" 
+AR Path="/5CC86287/5CE587AA" Ref="JP?"  Part="1" 
 F 0 "JP?" H 1550 885 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1550 794 50  0000 C CNN
 F 2 "" H 1550 700 50  0001 C CNN
@@ -66,6 +68,7 @@ U 1 1 5CC83513
 P 1550 1150
 AR Path="/5CC19D48/5CC83513" Ref="JP?"  Part="1" 
 AR Path="/5CC8321E/5CC83513" Ref="JP?"  Part="1" 
+AR Path="/5CC86287/5CC83513" Ref="JP?"  Part="1" 
 F 0 "JP?" H 1550 1057 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1550 966 50  0000 C CNN
 F 2 "" H 1550 1150 50  0001 C CNN
