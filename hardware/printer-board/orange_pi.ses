@@ -1,0 +1,205 @@
+
+(session orange_pi.ses
+  (base_design orange_pi.dsn)
+  (placement
+    (resolution um 10)
+    (component Capacitor_SMD:CP_Elec_6.3x7.7
+      (place C1 410000 -605000 front 0)
+    )
+    (component Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical
+      (place J1 337000 -719000 front 90)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+      (place JP6 536000 -719000 front 90)
+      (place JP4 486000 -719000 front 90)
+    )
+    (component "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm::1"
+      (place JP5 511000 -719000 front 90)
+      (place JP3 461000 -719000 front 90)
+    )
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D4 424000 -719000 front 90)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place R27 408000 -719000 front 90)
+      (place R7 486000 -719000 back 90)
+    )
+    (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
+      (place R9 441000 -719000 front 270)
+      (place R5 461000 -719000 back 90)
+    )
+    (component "footprint-lib:orangepi-zero"
+      (place U1 801000 -696000 front 90)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "5.0.2-bee76a0~70~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "/USB-DP3"
+        (wire
+          (path F.Cu 2500
+            537000 -680600
+            536000 -681600
+            536000 -711750
+          )
+        )
+      )
+      (net "/USB-DM3"
+        (wire
+          (path F.Cu 2500
+            511600 -680600
+            511000 -681200
+            511000 -711750
+          )
+        )
+      )
+      (net "/USB-DP2"
+        (wire
+          (path F.Cu 2500
+            486000 -680800
+            486000 -711750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            486200 -680600
+            486000 -680800
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            486000 -680800
+            474895 -669695
+            455728 -669695
+            448100 -677323
+            448100 -703150
+            441000 -710250
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            486000 -710250
+            486200 -710050
+            486200 -680600
+          )
+        )
+      )
+      (net "/USB-DM2"
+        (wire
+          (path F.Cu 2500
+            460800 -680600
+            461000 -680800
+            461000 -711750
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            461000 -710250
+            460800 -710050
+            460800 -680600
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 2500
+            387800 -719000
+            375100 -719000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            435400 -680600
+            397000 -719000
+            387800 -719000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            435400 -680600
+            435400 -606600
+            437000 -605000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            424000 -727750
+            432374 -719376
+            432374 -683626
+            435400 -680600
+          )
+        )
+      )
+      (net +5V_PI_SRC
+        (wire
+          (path F.Cu 2500
+            409000 -680600
+            409000 -631000
+            383000 -605000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            408000 -710250
+            408000 -681600
+            409000 -680600
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            410000 -680600
+            409000 -680600
+          )
+        )
+      )
+      (net "Net-(J1-Pad2)"
+        (wire
+          (path B.Cu 2500
+            349700 -719000
+            362953 -732253
+            456497 -732253
+            461000 -727750
+          )
+        )
+      )
+      (net "Net-(J1-Pad3)"
+        (wire
+          (path B.Cu 2500
+            486000 -727750
+            477428 -719178
+            441029 -719178
+            432457 -727750
+            371150 -727750
+            362400 -719000
+          )
+        )
+      )
+      (net "Net-(D4-Pad2)"
+        (wire
+          (path F.Cu 2500
+            408000 -727750
+            408000 -726250
+            424000 -710250
+          )
+        )
+      )
+    )
+  )
+)
