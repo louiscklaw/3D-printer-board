@@ -181,7 +181,7 @@ AR Path="/5CC0AED3/5CC04CFE" Ref="J?"  Part="1"
 AR Path="/5CC04CFE" Ref="J12"  Part="1" 
 F 0 "J12" H 6980 3092 50  0000 L CNN
 F 1 "Z2" H 6980 3001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 6900 3100 50  0001 C CNN
+F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3100 50  0001 C CNN
 F 3 "~" H 6900 3100 50  0001 C CNN
 	1    6900 3100
 	1    0    0    -1  
