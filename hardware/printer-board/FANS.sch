@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 31
+Sheet 21 29
 Title ""
 Date ""
 Rev ""
@@ -31,17 +31,5 @@ S 5450 3250 950  850
 U 5CC24398
 F0 "FAN2" 50
 F1 "FAN2.sch" 50
-$EndSheet
-$Sheet
-S 6650 3250 950  850 
-U 5CC24600
-F0 "FAN3" 50
-F1 "FAN3.sch" 50
-$EndSheet
-$Sheet
-S 7850 3250 950  850 
-U 5CC2464F
-F0 "FAN4" 50
-F1 "FAN4.sch" 50
 $EndSheet
 $EndSCHEMATC
