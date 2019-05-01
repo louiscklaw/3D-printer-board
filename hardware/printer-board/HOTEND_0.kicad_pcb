@@ -140,7 +140,7 @@
     (add_net GND)
   )
 
-  (module footprint-lib:mpt_0,5%2f2-2,54,heatbed locked (layer F.Cu) (tedit 5CC1F5F6) (tstamp 5CC5BE0A)
+  (module footprint-lib:mpt_0,5%2f2-2,54,heatbed locked (layer F.Cu) (tedit 5CC1F5F6) (tstamp 5CC88E30)
     (at 26.5 31.75 180)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /5CC19EB5)
@@ -182,7 +182,7 @@
     )
   )
 
-  (module footprint-lib:TO-263-2,drill_array (layer F.Cu) (tedit 5CC5BA9A) (tstamp 5CC64862)
+  (module footprint-lib:TO-263-2,drill_array (layer F.Cu) (tedit 5CC5BA9A) (tstamp 5CC88E9E)
     (at 24 43.5 90)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
@@ -456,10 +456,10 @@
     )
   )
 
-  (via (at 21.5 50.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (via (at 26.5 50.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (segment (start 23.125 31.75) (end 22.5 32.375) (width 2) (layer F.Cu) (net 1))
   (segment (start 25.23 31.75) (end 23.125 31.75) (width 2) (layer F.Cu) (net 1))
+  (via (at 21.5 50.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (via (at 26.5 50.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (segment (start 20.92499 32.79999) (end 20.5 32.375) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 21.048837 32.79999) (end 20.92499 32.79999) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 21.874775 33.625928) (end 21.048837 32.79999) (width 0.25) (layer F.Cu) (net 4))

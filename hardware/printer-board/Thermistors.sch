@@ -1344,7 +1344,7 @@ U 1 1 5CC3E589
 P 1950 1550
 F 0 "J32" H 2050 1550 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 2050 1450 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1950 1550 50  0001 C CNN
+F 2 "w_conn_jst-ph:b2b-ph-kl" H 1950 1550 50  0001 C CNN
 F 3 "~" H 1950 1550 50  0001 C CNN
 	1    1950 1550
 	1    0    0    -1  
@@ -1425,7 +1425,7 @@ U 1 1 5CC409FE
 P 1950 3100
 F 0 "J43" H 2050 3100 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 2050 3000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1950 3100 50  0001 C CNN
+F 2 "w_conn_jst-ph:b2b-ph-kl" H 1950 3100 50  0001 C CNN
 F 3 "~" H 1950 3100 50  0001 C CNN
 	1    1950 3100
 	1    0    0    -1  
@@ -1506,7 +1506,7 @@ U 1 1 5CC40EDC
 P 1950 4750
 F 0 "J44" H 2050 4750 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 2050 4650 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1950 4750 50  0001 C CNN
+F 2 "w_conn_jst-ph:b2b-ph-kl" H 1950 4750 50  0001 C CNN
 F 3 "~" H 1950 4750 50  0001 C CNN
 	1    1950 4750
 	1    0    0    -1  
@@ -1587,7 +1587,7 @@ U 1 1 5CC4170A
 P 4500 1550
 F 0 "J33" H 4600 1550 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 4600 1450 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4500 1550 50  0001 C CNN
+F 2 "w_conn_jst-ph:b2b-ph-kl" H 4500 1550 50  0001 C CNN
 F 3 "~" H 4500 1550 50  0001 C CNN
 	1    4500 1550
 	1    0    0    -1  

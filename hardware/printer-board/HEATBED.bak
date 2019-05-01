@@ -31,15 +31,15 @@ F 3 "~" H 5250 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q1
+L Device:Q_NMOS_GDS Q5
 U 1 1 5CC0BC7B
 P 3100 3100
-AR Path="/5CC0B758/5CC0BC7B" Ref="Q1"  Part="1" 
+AR Path="/5CC0B758/5CC0BC7B" Ref="Q5"  Part="1" 
 AR Path="/5CC12903/5CC0BC7B" Ref="Q?"  Part="1" 
 AR Path="/5CC1B272/5CC0BC7B" Ref="Q?"  Part="1" 
 AR Path="/5CC1F2C3/5CC0BC7B" Ref="Q?"  Part="1" 
 AR Path="/5CC0BC7B" Ref="Q1"  Part="1" 
-F 0 "Q1" H 3306 3146 50  0000 L CNN
+F 0 "Q5" H 3306 3146 50  0000 L CNN
 F 1 "WSK220N04" H 3306 3055 50  0000 L CNN
 F 2 "footprint-lib:TO-263-2,drill_array" H 3300 3200 50  0001 C CNN
 F 3 "~" H 3100 3100 50  0001 C CNN
