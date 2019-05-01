@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:FAN1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 23 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ AR Path="/5CC130A8/5CC8A035" Ref="J?"  Part="1"
 AR Path="/5CC19D48/5CC8A035" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A035" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A035" Ref="J34"  Part="1" 
-AR Path="/5CC8A035" Ref="J?"  Part="1" 
+AR Path="/5CC8A035" Ref="J34"  Part="1" 
 F 0 "J34" H 4350 3000 50  0000 C CNN
 F 1 "TO FAN1" H 4350 2700 50  0000 C CNN
 F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 4350 2900 50  0001 C CNN
@@ -42,7 +42,7 @@ AR Path="/5CC130A8/5CC24372" Ref="R?"  Part="1"
 AR Path="/5CC19D48/5CC24372" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC24372" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC24372" Ref="R60"  Part="1" 
-AR Path="/5CC24372" Ref="R?"  Part="1" 
+AR Path="/5CC24372" Ref="R60"  Part="1" 
 F 0 "R60" V 2304 3650 50  0000 C CNN
 F 1 "R100,0805" V 2395 3650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3650 50  0001 C CNN
@@ -60,7 +60,7 @@ AR Path="/5CC130A8/5CC8A032" Ref="R?"  Part="1"
 AR Path="/5CC19D48/5CC8A032" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A032" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A032" Ref="R61"  Part="1" 
-AR Path="/5CC8A032" Ref="R?"  Part="1" 
+AR Path="/5CC8A032" Ref="R61"  Part="1" 
 F 0 "R61" V 2304 4050 50  0000 C CNN
 F 1 "R104,0805" V 2395 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 4050 50  0001 C CNN
@@ -78,7 +78,7 @@ AR Path="/5CC130A8/5CC8A038" Ref="#PWR?"  Part="1"
 AR Path="/5CC19D48/5CC8A038" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A038" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A038" Ref="#PWR0166"  Part="1" 
-AR Path="/5CC8A038" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8A038" Ref="#PWR0166"  Part="1" 
 F 0 "#PWR0166" H 3250 4000 50  0001 C CNN
 F 1 "GND" H 3255 4077 50  0000 C CNN
 F 2 "" H 3250 4250 50  0001 C CNN
@@ -105,7 +105,7 @@ AR Path="/5CC130A8/5CC242FD" Ref="R?"  Part="1"
 AR Path="/5CC19D48/5CC242FD" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC242FD" Ref="R?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC242FD" Ref="R63"  Part="1" 
-AR Path="/5CC242FD" Ref="R?"  Part="1" 
+AR Path="/5CC242FD" Ref="R63"  Part="1" 
 F 0 "R63" H 3809 2546 50  0000 L CNN
 F 1 "R182,0603" H 3809 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3750 2500 50  0001 C CNN
@@ -143,7 +143,7 @@ AR Path="/5CC130A8/5CC8A03B" Ref="#PWR?"  Part="1"
 AR Path="/5CC19D48/5CC8A03B" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A03B" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A03B" Ref="#PWR0167"  Part="1" 
-AR Path="/5CC8A03B" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8A03B" Ref="#PWR0167"  Part="1" 
 F 0 "#PWR0167" H 4000 2050 50  0001 C CNN
 F 1 "+12V" H 4015 2373 50  0000 C CNN
 F 2 "" H 4000 2200 50  0001 C CNN
@@ -160,7 +160,7 @@ AR Path="/5CC130A8/5CC8A045" Ref="D?"  Part="1"
 AR Path="/5CC19D48/5CC8A045" Ref="D?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A045" Ref="D?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A045" Ref="D21"  Part="1" 
-AR Path="/5CC8A045" Ref="D?"  Part="1" 
+AR Path="/5CC8A045" Ref="D21"  Part="1" 
 F 0 "D21" V 3704 2898 50  0000 L CNN
 F 1 "LED_BLUE,0603" V 3795 2898 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3750 2800 50  0001 C CNN
@@ -177,7 +177,7 @@ AR Path="/5CC130A8/5CC8A03D" Ref="#PWR?"  Part="1"
 AR Path="/5CC19D48/5CC8A03D" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A03D" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A03D" Ref="#PWR0164"  Part="1" 
-AR Path="/5CC8A03D" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8A03D" Ref="#PWR0164"  Part="1" 
 F 0 "#PWR0164" H 2600 4600 50  0001 C CNN
 F 1 "+12V" V 2615 4878 50  0000 L CNN
 F 2 "" H 2600 4750 50  0001 C CNN
@@ -195,7 +195,7 @@ AR Path="/5CC130A8/5CC8A03F" Ref="#PWR?"  Part="1"
 AR Path="/5CC19D48/5CC8A03F" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A03F" Ref="#PWR?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A03F" Ref="#PWR0165"  Part="1" 
-AR Path="/5CC8A03F" Ref="#PWR?"  Part="1" 
+AR Path="/5CC8A03F" Ref="#PWR0165"  Part="1" 
 F 0 "#PWR0165" H 3100 4500 50  0001 C CNN
 F 1 "GND" H 3105 4577 50  0000 C CNN
 F 2 "" H 3100 4750 50  0001 C CNN
@@ -211,7 +211,7 @@ AR Path="/5CC12903/5CC8A041" Ref="C?"  Part="1"
 AR Path="/5CC19D48/5CC8A041" Ref="C?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A041" Ref="C?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A041" Ref="C37"  Part="1" 
-AR Path="/5CC8A041" Ref="C?"  Part="1" 
+AR Path="/5CC8A041" Ref="C37"  Part="1" 
 F 0 "C37" V 3075 4750 50  0000 C CNN
 F 1 "CP100uf,16V" V 2984 4750 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 2850 4750 50  0001 C CNN
