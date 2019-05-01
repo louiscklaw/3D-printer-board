@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 33
+Sheet 1 32
 Title ""
 Date ""
 Rev ""
@@ -111,12 +111,6 @@ S 1050 6050 900  700
 U 5CC1F2C3
 F0 "POWER_SUPPLY" 50
 F1 "POWER_SUPPLY.sch" 50
-$EndSheet
-$Sheet
-S 1350 1900 900  700 
-U 5CC2225A
-F0 "I2C" 50
-F1 "I2C.sch" 50
 $EndSheet
 $Comp
 L taobao-mounting-hole:MOUNT_M3 H3

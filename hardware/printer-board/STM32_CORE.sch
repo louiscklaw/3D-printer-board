@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 32
+Sheet 13 31
 Title ""
 Date ""
 Rev ""
@@ -25,12 +25,6 @@ F2 "D-" B R 4000 4500 50
 F3 "D+" B R 4000 4600 50 
 F4 "SDA1" B R 4000 4700 50 
 F5 "SCL1" B R 4000 4800 50 
-$EndSheet
-$Sheet
-S 6750 4250 800  650 
-U 5CC2B423
-F0 "STM32_CORE_POWER" 50
-F1 "STM32_CORE_POWER.sch" 50
 $EndSheet
 $Sheet
 S 5700 4250 800  650 
