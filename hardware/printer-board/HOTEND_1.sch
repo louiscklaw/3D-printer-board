@@ -41,7 +41,7 @@ AR Path="/5CC22025/5CC222D3/5CC2240F" Ref="Q3"  Part="1"
 AR Path="/5CC2240F" Ref="Q?"  Part="1" 
 F 0 "Q3" H 3356 3396 50  0000 L CNN
 F 1 "STP55NF06" H 3356 3305 50  0000 L CNN
-F 2 "footprint-lib:TO-263-2,drill_array" H 3350 3450 50  0001 C CNN
+F 2 "footprint-lib:TO-263-2,thermal_vias" H 3350 3450 50  0001 C CNN
 F 3 "~" H 3150 3350 50  0001 C CNN
 	1    3150 3350
 	1    0    0    -1  

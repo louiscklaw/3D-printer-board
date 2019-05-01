@@ -156,17 +156,6 @@ F 3 "~" H 4950 6650 50  0001 C CNN
 	1    4950 6650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:Heatsink HS1
-U 1 1 5CC1A043
-P 5800 6700
-F 0 "HS1" H 5942 6821 50  0000 L CNN
-F 1 "Heatsink" H 5942 6730 50  0000 L CNN
-F 2 "" H 5812 6700 50  0001 C CNN
-F 3 "" H 5812 6700 50  0001 C CNN
-	1    5800 6700
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 3350 4700 900  700 
 U 5CC29851

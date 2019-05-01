@@ -1,51 +1,83 @@
-Cmp-Mod V01 Created by PcbNew   date = Sun Apr 28 23:45:24 2019
+Cmp-Mod V01 Created by PcbNew   date = Wednesday, May 01, 2019 PM07:48:34 HKT
 
 BeginCmp
-TimeStamp = 5CC2BC6C
-Path = /5CC0BC7B
+TimeStamp = 5CCA9C27
+Path = /5CC0B758/5CC0BC7B
 Reference = Q1;
 ValeurCmp = WSK220N04;
-IdModule  = footprint-lib:TO-263-2,drill_array;
+IdModule  = footprint-lib:TO-263-2,thermal_vias;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2BC7F
-Path = /5CC0C24D
-Reference = D3;
+TimeStamp = 5CCAA468
+Path = /5CC0B758/5CC0C24D
+Reference = D8;
 ValeurCmp = LED_RED,0603;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2BC48
-Path = /5CC0C120
-Reference = R26;
+TimeStamp = 5CCAA18B
+Path = /5CC0B758/5CC0C120
+Reference = R28;
 ValeurCmp = R182,0603;
 IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2BC37
-Path = /5CC0BF5E
-Reference = R25;
+TimeStamp = 5CCA9ED2
+Path = /5CC0B758/5CC0BF5E
+Reference = R27;
 ValeurCmp = R104,0805;
 IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2BC26
-Path = /5CC0BDB8
-Reference = R24;
+TimeStamp = 5CCA9EB0
+Path = /5CC0B758/5CC0BDB8
+Reference = R26;
 ValeurCmp = R100,0805;
 IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CC2BC15
-Path = /5CC0B91A
-Reference = J23;
+TimeStamp = 5CCA9915
+Path = /5CC0B758/5CC0B91A
+Reference = J14;
 ValeurCmp = HEATBED;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,heatbed;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CC97AE5
+Path = /5CC19E46
+Reference = H3;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.7mm_M2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCDA043
+Path = /5CC19EB8
+Reference = H4;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.7mm_M2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCDA043
+Path = /5CC19F6E
+Reference = H1;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.7mm_M2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCD93C2
+Path = /5CC19F4A
+Reference = H2;
+ValeurCmp = MOUNT_M3;
+IdModule  = MountingHole:MountingHole_2.7mm_M2.5;
 EndCmp
 
 EndListe

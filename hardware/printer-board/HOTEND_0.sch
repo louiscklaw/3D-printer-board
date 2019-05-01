@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 19 29
 Title ""
 Date ""
 Rev ""
@@ -41,7 +41,7 @@ AR Path="/5CC22025/5CC222D0/5CC22325" Ref="Q2"  Part="1"
 AR Path="/5CC22325" Ref="Q?"  Part="1" 
 F 0 "Q2" H 3356 3396 50  0000 L CNN
 F 1 "STP55NF06" H 3356 3305 50  0000 L CNN
-F 2 "footprint-lib:TO-263-2,drill_array" H 3350 3450 50  0001 C CNN
+F 2 "footprint-lib:TO-263-2,thermal_vias" H 3350 3450 50  0001 C CNN
 F 3 "~" H 3150 3350 50  0001 C CNN
 	1    3150 3350
 	1    0    0    -1  
