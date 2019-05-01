@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Thermistors-cache
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 12 33
 Title ""
 Date ""
 Rev ""
@@ -1308,6 +1308,17 @@ F 3 "~" H 950 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L taobao-cp:CP10uf,50V C29
+U 1 1 5CC3DD4B
+P 950 1750
+F 0 "C29" H 1038 1796 50  0000 L CNN
+F 1 "CP10uf,50V" H 1038 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 950 1750 50  0001 C CNN
+F 3 "~" H 950 1750 50  0001 C CNN
+	1    950  1750
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:GND #PWR0240
 U 1 1 5CC3DD51
 P 950 2100
@@ -1375,6 +1386,17 @@ F 1 "R472,0603" H 1009 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 2850 50  0001 C CNN
 F 3 "~" H 950 2850 50  0001 C CNN
 	1    950  2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP10uf,50V C31
+U 1 1 5CC409ED
+P 950 3300
+F 0 "C31" H 1038 3346 50  0000 L CNN
+F 1 "CP10uf,50V" H 1038 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 950 3300 50  0001 C CNN
+F 3 "~" H 950 3300 50  0001 C CNN
+	1    950  3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1448,6 +1470,17 @@ F 3 "~" H 950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L taobao-cp:CP10uf,50V C35
+U 1 1 5CC40ECB
+P 950 4950
+F 0 "C35" H 1038 4996 50  0000 L CNN
+F 1 "CP10uf,50V" H 1038 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 950 4950 50  0001 C CNN
+F 3 "~" H 950 4950 50  0001 C CNN
+	1    950  4950
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:GND #PWR0275
 U 1 1 5CC40ED1
 P 950 5300
@@ -1515,6 +1548,17 @@ F 1 "R472,0603" H 3559 1255 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 1300 50  0001 C CNN
 F 3 "~" H 3500 1300 50  0001 C CNN
 	1    3500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L taobao-cp:CP10uf,50V C30
+U 1 1 5CC416F9
+P 3500 1750
+F 0 "C30" H 3588 1796 50  0000 L CNN
+F 1 "CP10uf,50V" H 3588 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3500 1750 50  0001 C CNN
+F 3 "~" H 3500 1750 50  0001 C CNN
+	1    3500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1676,6 +1720,17 @@ F 3 "" H 3500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L taobao-cp:CP10uf,50V C36
+U 1 1 5CC40EFD
+P 3500 3650
+F 0 "C36" H 3588 3696 50  0000 L CNN
+F 1 "CP10uf,50V" H 3588 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 3500 3650 50  0001 C CNN
+F 3 "~" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
 L taobao-r:R472,0603 R58
 U 1 1 5CC40EF7
 P 3500 3200
@@ -1701,59 +1756,4 @@ Wire Wire Line
 	4350 3550 4350 3450
 Wire Wire Line
 	4150 3450 4350 3450
-$Comp
-L taobao-c:C105,0603 C1
-U 1 1 5CC8A1BD
-P 950 1750
-F 0 "C1" H 1050 1800 50  0000 L CNN
-F 1 "C105,0603" H 1050 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 1750 50  0001 C CNN
-F 3 "~" H 950 1750 50  0001 C CNN
-	1    950  1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C105,0603 C2
-U 1 1 5CC8A39C
-P 3500 1750
-F 0 "C2" H 3600 1800 50  0000 L CNN
-F 1 "C105,0603" H 3600 1750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 1750 50  0001 C CNN
-F 3 "~" H 3500 1750 50  0001 C CNN
-	1    3500 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C105,0603 C3
-U 1 1 5CC8A496
-P 950 3300
-F 0 "C3" H 1050 3350 50  0000 L CNN
-F 1 "C105,0603" H 1050 3300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 3300 50  0001 C CNN
-F 3 "~" H 950 3300 50  0001 C CNN
-	1    950  3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C105,0603 C4
-U 1 1 5CC8A6C5
-P 3500 3650
-F 0 "C4" H 3600 3700 50  0000 L CNN
-F 1 "C105,0603" H 3600 3650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 3650 50  0001 C CNN
-F 3 "~" H 3500 3650 50  0001 C CNN
-	1    3500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-c:C105,0603 C5
-U 1 1 5CC8A74B
-P 950 4950
-F 0 "C5" H 1050 5000 50  0000 L CNN
-F 1 "C105,0603" H 1050 4950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 950 4950 50  0001 C CNN
-F 3 "~" H 950 4950 50  0001 C CNN
-	1    950  4950
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
