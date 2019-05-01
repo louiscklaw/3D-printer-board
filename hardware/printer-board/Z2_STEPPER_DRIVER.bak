@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Z2_STEPPER_DRIVER-cache
+LIBS:printer-board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 29
 Title ""
 Date ""
 Rev ""
@@ -263,7 +263,7 @@ AR Path="/5CC0A8C5/5CC069CC" Ref="C?"  Part="1"
 AR Path="/5CC0A8CA/5CC069CC" Ref="C39"  Part="1" 
 AR Path="/5CC0A8CF/5CC069CC" Ref="C?"  Part="1" 
 AR Path="/5CC0AED3/5CC069CC" Ref="C?"  Part="1" 
-AR Path="/5CC069CC" Ref="C?"  Part="1" 
+AR Path="/5CC069CC" Ref="C39"  Part="1" 
 F 0 "C39" V 5875 4050 50  0000 C CNN
 F 1 "CP100uf,25V" V 5784 4050 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5650 4050 50  0001 C CNN
