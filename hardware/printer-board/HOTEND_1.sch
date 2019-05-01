@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:HOTEND_1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5CC0B758/5CC22399" Ref="J?"  Part="1"
 AR Path="/5CC12903/5CC22399" Ref="J?"  Part="1" 
 AR Path="/5CC130A8/5CC22399" Ref="J?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC22399" Ref="J32"  Part="1" 
-AR Path="/5CC22399" Ref="J?"  Part="1" 
+AR Path="/5CC22399" Ref="J32"  Part="1" 
 F 0 "J32" H 5219 2625 50  0000 C CNN
 F 1 "HOT_END" H 5219 2716 50  0000 C CNN
 F 2 "footprint-lib:mpt_0,5%2f2-2,54,heatbed" H 5300 2950 50  0001 C CNN
@@ -38,7 +38,7 @@ AR Path="/5CC0B758/5CC2240F" Ref="Q?"  Part="1"
 AR Path="/5CC12903/5CC2240F" Ref="Q?"  Part="1" 
 AR Path="/5CC130A8/5CC2240F" Ref="Q?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2240F" Ref="Q3"  Part="1" 
-AR Path="/5CC2240F" Ref="Q?"  Part="1" 
+AR Path="/5CC2240F" Ref="Q3"  Part="1" 
 F 0 "Q3" H 3356 3396 50  0000 L CNN
 F 1 "STP55NF06" H 3356 3305 50  0000 L CNN
 F 2 "footprint-lib:TO-263-2,thermal_vias" H 3350 3450 50  0001 C CNN
@@ -54,7 +54,7 @@ AR Path="/5CC0B758/5CC2239B" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC2239B" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC2239B" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239B" Ref="R53"  Part="1" 
-AR Path="/5CC2239B" Ref="R?"  Part="1" 
+AR Path="/5CC2239B" Ref="R53"  Part="1" 
 F 0 "R53" V 2304 3350 50  0000 C CNN
 F 1 "R100,0805" V 2395 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3350 50  0001 C CNN
@@ -70,7 +70,7 @@ AR Path="/5CC0B758/5CC2239C" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC2239C" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC2239C" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239C" Ref="R54"  Part="1" 
-AR Path="/5CC2239C" Ref="R?"  Part="1" 
+AR Path="/5CC2239C" Ref="R54"  Part="1" 
 F 0 "R54" V 2304 3750 50  0000 C CNN
 F 1 "R104,0805" V 2395 3750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 3750 50  0001 C CNN
@@ -111,7 +111,7 @@ AR Path="/5CC0B758/5CC19EDC" Ref="R?"  Part="1"
 AR Path="/5CC12903/5CC19EDC" Ref="R?"  Part="1" 
 AR Path="/5CC130A8/5CC19EDC" Ref="R?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC19EDC" Ref="R55"  Part="1" 
-AR Path="/5CC19EDC" Ref="R?"  Part="1" 
+AR Path="/5CC19EDC" Ref="R55"  Part="1" 
 F 0 "R55" H 4159 2546 50  0000 L CNN
 F 1 "R182,0603" H 4159 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4100 2500 50  0001 C CNN
@@ -127,7 +127,7 @@ AR Path="/5CC0B758/5CC2239F" Ref="D?"  Part="1"
 AR Path="/5CC12903/5CC2239F" Ref="D?"  Part="1" 
 AR Path="/5CC130A8/5CC2239F" Ref="D?"  Part="1" 
 AR Path="/5CC22025/5CC222D3/5CC2239F" Ref="D19"  Part="1" 
-AR Path="/5CC2239F" Ref="D?"  Part="1" 
+AR Path="/5CC2239F" Ref="D19"  Part="1" 
 F 0 "D19" V 4054 2898 50  0000 L CNN
 F 1 "LED_RED,0603" V 4145 2898 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4100 2800 50  0001 C CNN

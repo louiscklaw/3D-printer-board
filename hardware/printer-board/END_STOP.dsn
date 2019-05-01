@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  57040.5 -54254.5  32459.5 -54254.5  32459.5 -27745.5
-            57040.5 -27745.5  57040.5 -54254.5)
+      (path pcb 0  23295 -20989.6  808.999 -20989.6  808.999 -909.579  23295 -909.579
+            23295 -20989.6)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,34 +34,34 @@
   )
   (placement
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place D15 42500 -32500 front 90 (PN LED_BLUE,0603))
-      (place D17 43000 -49000 front 270 (PN LED_BLUE,0603))
-      (place D19 47000 -41000 front 90 (PN LED_BLUE,0603))
+      (place D9 10500 -3500 front 90 (PN LED_BLUE,0603))
+      (place D11 10500 -13500 front 90 (PN LED_BLUE,0603))
+      (place D13 22500 -13500 front 90 (PN LED_BLUE,0603))
     )
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place D16 42500 -39500 front 90 (PN LED_BLUE,0603))
-      (place D18 47000 -49500 front 270 (PN LED_BLUE,0603))
-      (place D20 46500 -32500 front 90 (PN LED_BLUE,0603))
+      (place D10 10500 -8500 front 90 (PN LED_BLUE,0603))
+      (place D12 10500 -18500 front 90 (PN LED_BLUE,0603))
+      (place D14 22500 -18500 front 90 (PN LED_BLUE,0603))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R64 46500 -32500 back 270 (PN R102,0603))
-      (place R62 47000 -49500 back 270 (PN R102,0603))
-      (place R59 43000 -30500 back 90 (PN R102,0603))
+      (place R34 22500 -18375 back 270 (PN R102,0603))
+      (place R32 10500 -18500 back 270 (PN R102,0603))
+      (place R29 10500 -3500 back 270 (PN R102,0603))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place R63 47000 -41000 back 270 (PN R102,0603))
-      (place R60 42500 -39500 back 90 (PN R102,0603))
-      (place R61 43000 -49000 back 90 (PN R102,0603))
+      (place R33 22500 -13500 back 270 (PN R102,0603))
+      (place R30 10500 -8500 back 270 (PN R102,0603))
+      (place R31 10500 -13500 back 270 (PN R102,0603))
     )
-    (component "footprint-lib:s3b-ph-kl,end_stop"
-      (place J26 39000 -32000 front 270 (PN X_MIN))
-      (place J30 50500 -41000 front 90 (PN Z_MIN))
-      (place J28 39000 -49000 front 270 (PN Y_MIN))
+    (component "footprint-lib:b3b-ph-kl,end_stop"
+      (place J15 5000 -3000 front 0 (PN X_MIN))
+      (place J19 17000 -13000 front 0 (PN Z_MIN))
+      (place J17 5000 -13000 front 0 (PN Y_MIN))
     )
-    (component "footprint-lib:s3b-ph-kl,end_stop::1"
-      (place J31 50500 -32000 front 90 (PN Z_MAX))
-      (place J29 50500 -50000 front 90 (PN Y_MAX))
-      (place J27 39000 -40500 front 270 (PN X_MAX))
+    (component "footprint-lib:b3b-ph-kl,end_stop::1"
+      (place J20 17000 -18000 front 0 (PN Z_MAX))
+      (place J18 5000 -18000 front 0 (PN Y_MAX))
+      (place J16 5000 -8000 front 0 (PN X_MAX))
     )
   )
   (library
@@ -125,75 +125,67 @@
       (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
       (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
     )
-    (image "footprint-lib:s3b-ph-kl,end_stop"
-      (outline (path signal 381  4064 2286  -4064 2286))
-      (outline (path signal 381  4064 -6350  4064 2286))
-      (outline (path signal 381  -4064 -6350  4064 -6350))
-      (outline (path signal 381  -4064 2286  -4064 -6350))
-      (outline (path signal 381  -4000.5 1399.54  -4000.5 -6299.2))
-      (outline (path signal 381  -3601.72 1399.54  -4000.5 1399.54))
-      (outline (path signal 381  -3601.72 -398.78  -3601.72 1399.54))
-      (outline (path signal 381  3601.72 1399.54  3601.72 -398.78))
-      (outline (path signal 381  4000.5 1399.54  3601.72 1399.54))
-      (outline (path signal 381  4000.5 -6299.2  4000.5 1399.54))
-      (outline (path signal 381  -3799.84 1399.54  -3799.84 -398.78))
-      (outline (path signal 381  3799.84 1399.54  3799.84 -398.78))
-      (outline (path signal 381  -3302 -4099.56  -3302 -2499.36))
-      (outline (path signal 381  -2301.24 -4099.56  -3302 -4099.56))
-      (outline (path signal 381  -2301.24 -2499.36  -2301.24 -4099.56))
-      (outline (path signal 381  -3302 -2499.36  -2301.24 -2499.36))
-      (outline (path signal 381  2296.16 -2499.36  3296.92 -2499.36))
-      (outline (path signal 381  3296.92 -2499.36  3296.92 -4099.56))
-      (outline (path signal 381  3296.92 -4099.56  2296.16 -4099.56))
-      (outline (path signal 381  2296.16 -4099.56  2296.16 -2499.36))
-      (outline (path signal 381  -1501.14 -1998.98  -1501.14 -6299.2))
-      (outline (path signal 381  1498.6 -1998.98  1498.6 -6299.2))
-      (outline (path signal 381  -4000.5 -6299.2  4000.5 -6299.2))
-      (outline (path signal 381  -1501.14 -1998.98  1501.14 -1998.98))
-      (outline (path signal 381  -4000.5 -398.78  4000.5 -398.78))
-      (outline (path signal 381  -2600.96 -6299.2  -2600.96 -4099.56))
-      (outline (path signal 381  -2301.24 -6299.2  -2600.96 -6299.2))
-      (outline (path signal 381  -2301.24 -4099.56  -2301.24 -6299.2))
-      (pin Oval[A]Pad_1500x2500_um 3 1998.98 0)
-      (pin Oval[A]Pad_1500x2500_um 2 0 0)
-      (pin Rect[A]Pad_1500x2500_um 1 -1998.98 0)
+    (image "footprint-lib:b3b-ph-kl,end_stop"
+      (outline (path signal 381  -2600.96 1899.92  -2600.96 1699.26))
+      (outline (path signal 381  -2301.24 1899.92  -2600.96 1899.92))
+      (outline (path signal 381  -2301.24 1699.26  -2301.24 1899.92))
+      (outline (path signal 381  4000.5 1699.26  4000.5 -2799.08))
+      (outline (path signal 381  -4000.5 1699.26  -4000.5 -2799.08))
+      (outline (path signal 381  1501.14 1198.88  1501.14 1699.26))
+      (outline (path signal 381  3500.12 1198.88  1501.14 1198.88))
+      (outline (path signal 381  3500.12 -2301.24  3500.12 1198.88))
+      (outline (path signal 381  -3500.12 1198.88  -3500.12 -2301.24))
+      (outline (path signal 381  -1501.14 1198.88  -3500.12 1198.88))
+      (outline (path signal 381  -1501.14 1699.26  -1501.14 1198.88))
+      (outline (path signal 381  -3500.12 500.38  -4000.5 500.38))
+      (outline (path signal 381  -3500.12 -800.1  -4000.5 -800.1))
+      (outline (path signal 381  3500.12 -800.1  4000.5 -800.1))
+      (outline (path signal 381  4000.5 500.38  3500.12 500.38))
+      (outline (path signal 381  1097.28 -1800.86  1097.28 -2301.24))
+      (outline (path signal 381  899.16 -1800.86  1097.28 -1800.86))
+      (outline (path signal 381  899.16 -2301.24  899.16 -1800.86))
+      (outline (path signal 381  -1099.82 -2301.24  -1099.82 -1800.86))
+      (outline (path signal 381  -1099.82 -1800.86  -901.7 -1800.86))
+      (outline (path signal 381  -901.7 -1800.86  -901.7 -2301.24))
+      (outline (path signal 381  -4000.5 -2799.08  4000.5 -2799.08))
+      (outline (path signal 381  3500.12 -2301.24  -3500.12 -2301.24))
+      (outline (path signal 381  -4000.5 1699.26  4000.5 1699.26))
+      (pin Oval[A]Pad_1198.88x1699.26_um 2 0 0)
+      (pin Oval[A]Pad_1198.88x1699.26_um 3 2001.52 0)
+      (pin Rect[A]Pad_1198.88x1699.26_um 1 -2001.52 0)
     )
-    (image "footprint-lib:s3b-ph-kl,end_stop::1"
-      (outline (path signal 381  -2301.24 -4099.56  -2301.24 -6299.2))
-      (outline (path signal 381  -2301.24 -6299.2  -2600.96 -6299.2))
-      (outline (path signal 381  -2600.96 -6299.2  -2600.96 -4099.56))
-      (outline (path signal 381  -4000.5 -398.78  4000.5 -398.78))
-      (outline (path signal 381  -1501.14 -1998.98  1501.14 -1998.98))
-      (outline (path signal 381  -4000.5 -6299.2  4000.5 -6299.2))
-      (outline (path signal 381  1498.6 -1998.98  1498.6 -6299.2))
-      (outline (path signal 381  -1501.14 -1998.98  -1501.14 -6299.2))
-      (outline (path signal 381  2296.16 -4099.56  2296.16 -2499.36))
-      (outline (path signal 381  3296.92 -4099.56  2296.16 -4099.56))
-      (outline (path signal 381  3296.92 -2499.36  3296.92 -4099.56))
-      (outline (path signal 381  2296.16 -2499.36  3296.92 -2499.36))
-      (outline (path signal 381  -3302 -2499.36  -2301.24 -2499.36))
-      (outline (path signal 381  -2301.24 -2499.36  -2301.24 -4099.56))
-      (outline (path signal 381  -2301.24 -4099.56  -3302 -4099.56))
-      (outline (path signal 381  -3302 -4099.56  -3302 -2499.36))
-      (outline (path signal 381  3799.84 1399.54  3799.84 -398.78))
-      (outline (path signal 381  -3799.84 1399.54  -3799.84 -398.78))
-      (outline (path signal 381  4000.5 -6299.2  4000.5 1399.54))
-      (outline (path signal 381  4000.5 1399.54  3601.72 1399.54))
-      (outline (path signal 381  3601.72 1399.54  3601.72 -398.78))
-      (outline (path signal 381  -3601.72 -398.78  -3601.72 1399.54))
-      (outline (path signal 381  -3601.72 1399.54  -4000.5 1399.54))
-      (outline (path signal 381  -4000.5 1399.54  -4000.5 -6299.2))
-      (outline (path signal 381  -4064 2286  -4064 -6350))
-      (outline (path signal 381  -4064 -6350  4064 -6350))
-      (outline (path signal 381  4064 -6350  4064 2286))
-      (outline (path signal 381  4064 2286  -4064 2286))
-      (pin Rect[A]Pad_1500x2500_um 1 -1998.98 0)
-      (pin Oval[A]Pad_1500x2500_um 2 0 0)
-      (pin Oval[A]Pad_1500x2500_um 3 1998.98 0)
+    (image "footprint-lib:b3b-ph-kl,end_stop::1"
+      (outline (path signal 381  -4000.5 1699.26  4000.5 1699.26))
+      (outline (path signal 381  3500.12 -2301.24  -3500.12 -2301.24))
+      (outline (path signal 381  -4000.5 -2799.08  4000.5 -2799.08))
+      (outline (path signal 381  -901.7 -1800.86  -901.7 -2301.24))
+      (outline (path signal 381  -1099.82 -1800.86  -901.7 -1800.86))
+      (outline (path signal 381  -1099.82 -2301.24  -1099.82 -1800.86))
+      (outline (path signal 381  899.16 -2301.24  899.16 -1800.86))
+      (outline (path signal 381  899.16 -1800.86  1097.28 -1800.86))
+      (outline (path signal 381  1097.28 -1800.86  1097.28 -2301.24))
+      (outline (path signal 381  4000.5 500.38  3500.12 500.38))
+      (outline (path signal 381  3500.12 -800.1  4000.5 -800.1))
+      (outline (path signal 381  -3500.12 -800.1  -4000.5 -800.1))
+      (outline (path signal 381  -3500.12 500.38  -4000.5 500.38))
+      (outline (path signal 381  -1501.14 1699.26  -1501.14 1198.88))
+      (outline (path signal 381  -1501.14 1198.88  -3500.12 1198.88))
+      (outline (path signal 381  -3500.12 1198.88  -3500.12 -2301.24))
+      (outline (path signal 381  3500.12 -2301.24  3500.12 1198.88))
+      (outline (path signal 381  3500.12 1198.88  1501.14 1198.88))
+      (outline (path signal 381  1501.14 1198.88  1501.14 1699.26))
+      (outline (path signal 381  -4000.5 1699.26  -4000.5 -2799.08))
+      (outline (path signal 381  4000.5 1699.26  4000.5 -2799.08))
+      (outline (path signal 381  -2301.24 1699.26  -2301.24 1899.92))
+      (outline (path signal 381  -2301.24 1899.92  -2600.96 1899.92))
+      (outline (path signal 381  -2600.96 1899.92  -2600.96 1699.26))
+      (pin Rect[A]Pad_1198.88x1699.26_um 1 -2001.52 0)
+      (pin Oval[A]Pad_1198.88x1699.26_um 3 2001.52 0)
+      (pin Oval[A]Pad_1198.88x1699.26_um 2 0 0)
     )
-    (padstack Oval[A]Pad_1500x2500_um
-      (shape (path F.Cu 1500  0 -500  0 500))
-      (shape (path B.Cu 1500  0 -500  0 500))
+    (padstack Oval[A]Pad_1198.88x1699.26_um
+      (shape (path F.Cu 1198.88  0 -250.19  0 250.19))
+      (shape (path B.Cu 1198.88  0 -250.19  0 250.19))
       (attach off)
     )
     (padstack RoundRect[T]Pad_1050x950_238.404_um
@@ -210,9 +202,9 @@
             328.898 472.282))
       (attach off)
     )
-    (padstack Rect[A]Pad_1500x2500_um
-      (shape (rect F.Cu -750 -1250 750 1250))
-      (shape (rect B.Cu -750 -1250 750 1250))
+    (padstack Rect[A]Pad_1198.88x1699.26_um
+      (shape (rect F.Cu -599.44 -849.63 599.44 849.63))
+      (shape (rect B.Cu -599.44 -849.63 599.44 849.63))
       (attach off)
     )
     (padstack "Via[0-1]_800:400_um"
@@ -222,51 +214,116 @@
     )
   )
   (network
-    (net /X_MAX
-      (pins R60-1 J27-1)
-    )
     (net GND
-      (pins D15-1 D16-1 D17-1 D18-1 D19-1 D20-1 J26-2 J31-2 J30-2 J29-2 J28-2 J27-2)
+      (pins J15-3 J20-3 J19-3 J18-3 J17-3 J16-3)
     )
-    (net +5V
-      (pins J26-3 J31-3 J30-3 J29-3 J28-3 J27-3)
+    (net "Net-(D14-Pad2)"
+      (pins D14-2 R34-2)
+    )
+    (net "Net-(D13-Pad2)"
+      (pins D13-2 R33-2)
+    )
+    (net "Net-(D9-Pad2)"
+      (pins D9-2 R29-2)
+    )
+    (net "Net-(D12-Pad2)"
+      (pins D12-2 R32-2)
+    )
+    (net "Net-(D11-Pad2)"
+      (pins D11-2 R31-2)
+    )
+    (net "Net-(D10-Pad2)"
+      (pins D10-2 R30-2)
+    )
+    (net /X_MAX
+      (pins D10-1 J16-1)
+    )
+    (net +3V3_STM32
+      (pins R34-1 R33-1 R32-1 R30-1 R29-1 R31-1 J15-2 J20-2 J19-2 J18-2 J17-2 J16-2)
     )
     (net /Y_MIN
-      (pins R61-1 J28-1)
+      (pins D11-1 J17-1)
     )
     (net /Y_MAX
-      (pins R62-1 J29-1)
+      (pins D12-1 J18-1)
     )
     (net /Z_MIN
-      (pins R63-1 J30-1)
+      (pins D13-1 J19-1)
     )
     (net /Z_MAX
-      (pins R64-1 J31-1)
+      (pins D14-1 J20-1)
     )
     (net /X_MIN
-      (pins R59-1 J26-1)
+      (pins D9-1 J15-1)
     )
-    (net "Net-(D17-Pad2)"
-      (pins D17-2 R61-2)
-    )
-    (net "Net-(D15-Pad2)"
-      (pins D15-2 R59-2)
-    )
-    (net "Net-(D16-Pad2)"
-      (pins D16-2 R60-2)
-    )
-    (net "Net-(D18-Pad2)"
-      (pins D18-2 R62-2)
-    )
-    (net "Net-(D19-Pad2)"
-      (pins D19-2 R63-2)
-    )
-    (net "Net-(D20-Pad2)"
-      (pins D20-2 R64-2)
-    )
-    (class kicad_default "" +5V /X_MAX /X_MIN /Y_MAX /Y_MIN /Z_MAX /Z_MIN
-      GND "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)"
-      "Net-(D19-Pad2)" "Net-(D20-Pad2)"
+    (class kicad_default "" +12V +12V2 +3V3 +3V3_STM32 /E0_~E1_STEP~PER_DRIVER/E0_DIR
+      /E0_~E1_STEP~PER_DRIVER/E0_STEP /E0_~E1_STEP~PER_DRIVER/~E0_EN~ /E1_~E1_STEP~PER_DRIVER/E1_DIR
+      /E1_~E1_STEP~PER_DRIVER/E1_STEP /E1_~E1_STEP~PER_DRIVER/~E1_EN~ /END_STOP/X_MAX
+      /END_STOP/X_MIN /END_STOP/Y_MAX /END_STOP/Y_MIN /END_STOP/Z_MAX /END_STOP/Z_MIN
+      /FANS/FAN0/FAN_EN /FANS/FAN1/FAN_EN /FANS/FAN2/FAN_EN "/HEATBED/-12V2"
+      /HEATBED/HEATBED_EN "/HOTENDS/HOTEND_0/-12V" "/HOTENDS/HOTEND_1/-12V"
+      /HOTENDS/HOTEND_EN1 /HOTENDS/HOTEND_EN2 "/POWER_SUPPLY/AM-VIN" /STM32_CORE/STM32_CORE_MCU/BOOT0
+      /STM32_CORE/STM32_CORE_MCU/BOOT1 "/STM32_CORE/STM32_CORE_MCU/GND-CAP1"
+      "/STM32_CORE/STM32_CORE_MCU/GND-CAP2" "/STM32_CORE/STM32_CORE_MCU/GND-VCC3V3"
+      /STM32_CORE/STM32_CORE_MCU/RESET /STM32_CORE/STM32_CORE_MCU/SWCLK /STM32_CORE/STM32_CORE_MCU/SWDIO
+      /STM32_CORE/STM32_SCL1 /STM32_CORE/STM32_SDA1 /Thermistors/AUX_TEMP
+      /Thermistors/HEATBED_TEMP /Thermistors/HOTEND_TEMP0 /Thermistors/HOTEND_TEMP1
+      /Thermistors/PCB_TEMP /X_MAX /X_MIN /X_~E1_STEP~PER_DRIVER/X_DIR /X_~E1_STEP~PER_DRIVER/X_STEP
+      /X_~E1_STEP~PER_DRIVER/~X_EN~ /Y_MAX /Y_MIN /Y_~E1_STEP~PER_DRIVER/Y_DIR
+      /Y_~E1_STEP~PER_DRIVER/Y_STEP /Y_~E1_STEP~PER_DRIVER/~Y_EN~ /Z1_~E1_STEP~PER_DRIVER/Z1_DIR
+      /Z1_~E1_STEP~PER_DRIVER/Z1_STEP /Z1_~E1_STEP~PER_DRIVER/~Z1_EN~ /Z2_~E1_STEP~PER_DRIVER/Z2_DIR
+      /Z2_~E1_STEP~PER_DRIVER/Z2_STEP /Z2_~E1_STEP~PER_DRIVER/~Z2_EN~ /Z3_~E1_STEP~PER_DRIVER/Z3_DIR
+      /Z3_~E1_STEP~PER_DRIVER/Z3_STEP /Z3_~E1_STEP~PER_DRIVER/~Z3_EN~ /Z_MAX
+      /Z_MIN /Z_~E1_STEP~PER_DRIVER/Z_DIR /Z_~E1_STEP~PER_DRIVER/Z_STEP /Z_~E1_STEP~PER_DRIVER/~Z_EN~
+      "/orange_pi/OPI_USB-DM2" "/orange_pi/OPI_USB-DM3" "/orange_pi/OPI_USB-DP2"
+      "/orange_pi/OPI_USB-DP3" "/orange_pi/USB-DM2" "/orange_pi/USB-DM3" "/orange_pi/USB-DP2"
+      "/orange_pi/USB-DP3" "/st7920 type lcd/BEEPER" "/st7920 type lcd/BTN_EN1"
+      "/st7920 type lcd/BTN_EN2" "/st7920 type lcd/BTN_ENC" "/st7920 type lcd/CS"
+      "/st7920 type lcd/DC" "/st7920 type lcd/DI" "/st7920 type lcd/DO" "/st7920 type lcd/KILL"
+      "/st7920 type lcd/LCD_CS" "/st7920 type lcd/LCD_SCLK" "/st7920 type lcd/LCD_SID"
+      "/st7920 type lcd/RESET" "/st7920 type lcd/RST" GND "Net-(C21-Pad1)"
+      "Net-(C22-Pad1)" "Net-(C23-Pad1)" "Net-(C24-Pad1)" "Net-(C46-Pad1)"
+      "Net-(C47-Pad1)" "Net-(C47-Pad2)" "Net-(C48-Pad1)" "Net-(C48-Pad2)"
+      "Net-(C51-Pad1)" "Net-(C52-Pad1)" "Net-(C52-Pad2)" "Net-(C53-Pad1)"
+      "Net-(C53-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)"
+      "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D17-Pad1)" "Net-(D18-Pad2)"
+      "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad1)" "Net-(D20-Pad2)" "Net-(D21-Pad1)"
+      "Net-(D21-Pad2)" "Net-(D22-Pad1)" "Net-(D22-Pad2)" "Net-(D23-Pad2)"
+      "Net-(D24-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)"
+      "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(F1-Pad1)" "Net-(F2-Pad1)"
+      "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J10-Pad1)" "Net-(J10-Pad3)" "Net-(J10-Pad5)"
+      "Net-(J11-Pad1)" "Net-(J11-Pad2)" "Net-(J11-Pad3)" "Net-(J11-Pad4)"
+      "Net-(J12-Pad1)" "Net-(J12-Pad3)" "Net-(J12-Pad5)" "Net-(J13-Pad1)"
+      "Net-(J13-Pad2)" "Net-(J13-Pad3)" "Net-(J13-Pad4)" "Net-(J2-Pad1)" "Net-(J2-Pad3)"
+      "Net-(J2-Pad5)" "Net-(J29-Pad2)" "Net-(J29-Pad3)" "Net-(J3-Pad1)" "Net-(J3-Pad2)"
+      "Net-(J3-Pad3)" "Net-(J3-Pad4)" "Net-(J30-Pad5)" "Net-(J36-Pad1)" "Net-(J36-Pad3)"
+      "Net-(J36-Pad5)" "Net-(J37-Pad1)" "Net-(J37-Pad2)" "Net-(J37-Pad3)"
+      "Net-(J37-Pad4)" "Net-(J38-Pad1)" "Net-(J38-Pad3)" "Net-(J38-Pad5)"
+      "Net-(J39-Pad1)" "Net-(J39-Pad2)" "Net-(J39-Pad3)" "Net-(J39-Pad4)"
+      "Net-(J4-Pad1)" "Net-(J4-Pad3)" "Net-(J4-Pad5)" "Net-(J41-Pad6)" "Net-(J41-Pad7)"
+      "Net-(J41-Pad8)" "Net-(J42-Pad1)" "Net-(J42-Pad2)" "Net-(J42-Pad4)"
+      "Net-(J42-Pad6)" "Net-(J42-Pad7)" "Net-(J5-Pad1)" "Net-(J5-Pad2)" "Net-(J5-Pad3)"
+      "Net-(J5-Pad4)" "Net-(J6-Pad1)" "Net-(J6-Pad3)" "Net-(J6-Pad5)" "Net-(J7-Pad1)"
+      "Net-(J7-Pad2)" "Net-(J7-Pad3)" "Net-(J7-Pad4)" "Net-(J8-Pad1)" "Net-(J8-Pad3)"
+      "Net-(J8-Pad5)" "Net-(J9-Pad1)" "Net-(J9-Pad2)" "Net-(J9-Pad3)" "Net-(J9-Pad4)"
+      "Net-(JP6-Pad1)" "Net-(JP7-Pad1)" "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)"
+      "Net-(Q4-Pad1)" "Net-(Q4-Pad2)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)" "Net-(Q6-Pad1)"
+      "Net-(Q6-Pad2)" "Net-(R75-Pad1)" "Net-(R78-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad101)"
+      "Net-(U1-Pad102)" "Net-(U1-Pad103)" "Net-(U1-Pad104)" "Net-(U1-Pad105)"
+      "Net-(U1-Pad106)" "Net-(U1-Pad107)" "Net-(U1-Pad108)" "Net-(U1-Pad109)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad110)" "Net-(U1-Pad111)" "Net-(U1-Pad112)"
+      "Net-(U1-Pad113)" "Net-(U1-Pad114)" "Net-(U1-Pad115)" "Net-(U1-Pad116)"
+      "Net-(U1-Pad117)" "Net-(U1-Pad118)" "Net-(U1-Pad119)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad120)" "Net-(U1-Pad121)" "Net-(U1-Pad122)" "Net-(U1-Pad123)"
+      "Net-(U1-Pad124)" "Net-(U1-Pad125)" "Net-(U1-Pad126)" "Net-(U1-Pad13)"
+      "Net-(U1-Pad201)" "Net-(U1-Pad202)" "Net-(U1-Pad203)" "Net-(U1-Pad7)"
+      "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U10-Pad5)" "Net-(U11-Pad7)" "Net-(U12-Pad7)"
+      "Net-(U2-Pad5)" "Net-(U3-Pad5)" "Net-(U4-Pad5)" "Net-(U5-Pad5)" "Net-(U6-Pad5)"
+      "Net-(U7-Pad5)" "Net-(U9-Pad5)" PA0 PA1 PA10 PA15 PA2 PA3 PA4 PA5 PA6
+      PA7 PA8 PA9 PB0 PB1 PB10 PB11 PB12 PB13 PB14 PB15 PB3 PB4 PB5 PB8 PB9
+      PC0 PC1 PC10 PC11 PC12 PC13 PC14 PC15 PC2 PC3 PC4 PC5 PC6 PC7 PC8 PC9
+      PD0 PD1 PD10 PD11 PD12 PD13 PD14 PD15 PD2 PD3 PD4 PD5 PD6 PD7 PD8 PD9
+      PE0 PE1 PE10 PE11 PE12 PE13 PE14 PE15 PE2 PE3 PE4 PE5 PE6 PE7 PE8 PE9
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
