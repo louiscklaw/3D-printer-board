@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:END_STOP-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -20,6 +20,7 @@ U 1 1 5CC15E3F
 P 3250 2900
 AR Path="/5CC15C35/5CC15E3F" Ref="J16"  Part="1" 
 AR Path="/5CC130A8/5CC15E3F" Ref="J?"  Part="1" 
+AR Path="/5CC15E3F" Ref="J16"  Part="1" 
 F 0 "J16" H 3150 3250 50  0000 C CNN
 F 1 "X_MAX" H 3150 3150 50  0000 C CNN
 F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 2900 50  0001 C CNN
@@ -33,6 +34,7 @@ U 1 1 5CC15F71
 P 3250 3850
 AR Path="/5CC15C35/5CC15F71" Ref="J17"  Part="1" 
 AR Path="/5CC130A8/5CC15F71" Ref="J?"  Part="1" 
+AR Path="/5CC15F71" Ref="J17"  Part="1" 
 F 0 "J17" H 3150 4200 50  0000 C CNN
 F 1 "Y_MIN" H 3150 4100 50  0000 C CNN
 F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 3850 50  0001 C CNN
@@ -46,6 +48,7 @@ U 1 1 5CC15F77
 P 3250 4750
 AR Path="/5CC15C35/5CC15F77" Ref="J18"  Part="1" 
 AR Path="/5CC130A8/5CC15F77" Ref="J?"  Part="1" 
+AR Path="/5CC15F77" Ref="J18"  Part="1" 
 F 0 "J18" H 3150 5100 50  0000 C CNN
 F 1 "Y_MAX" H 3150 5000 50  0000 C CNN
 F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 4750 50  0001 C CNN
@@ -59,6 +62,7 @@ U 1 1 5CC1606D
 P 3250 5600
 AR Path="/5CC15C35/5CC1606D" Ref="J19"  Part="1" 
 AR Path="/5CC130A8/5CC1606D" Ref="J?"  Part="1" 
+AR Path="/5CC1606D" Ref="J19"  Part="1" 
 F 0 "J19" H 3150 5950 50  0000 C CNN
 F 1 "Z_MIN" H 3150 5850 50  0000 C CNN
 F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 5600 50  0001 C CNN
@@ -72,6 +76,7 @@ U 1 1 5CC16073
 P 3250 6500
 AR Path="/5CC15C35/5CC16073" Ref="J20"  Part="1" 
 AR Path="/5CC130A8/5CC16073" Ref="J?"  Part="1" 
+AR Path="/5CC16073" Ref="J20"  Part="1" 
 F 0 "J20" H 3150 6850 50  0000 C CNN
 F 1 "Z_MAX" H 3150 6750 50  0000 C CNN
 F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 6500 50  0001 C CNN
@@ -85,7 +90,7 @@ U 1 1 5CC162B2
 P 3800 7250
 AR Path="/5CC15C35/5CC162B2" Ref="#PWR082"  Part="1" 
 AR Path="/5CC130A8/5CC162B2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC162B2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC162B2" Ref="#PWR082"  Part="1" 
 F 0 "#PWR082" H 3800 7000 50  0001 C CNN
 F 1 "GND" H 3805 7077 50  0000 C CNN
 F 2 "" H 3800 7250 50  0001 C CNN

@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:Y_STEPPER_DRIVER-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ AR Path="/5CC02AB8/5CC04CBD" Ref="U?"  Part="1"
 AR Path="/5CC049BB/5CC04CBD" Ref="U?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CBD" Ref="U10"  Part="1" 
 AR Path="/5CC0A53C/5CC04CBD" Ref="U?"  Part="1" 
-AR Path="/5CC04CBD" Ref="U?"  Part="1" 
+AR Path="/5CC04CBD" Ref="U10"  Part="1" 
 F 0 "U10" H 5650 3765 50  0000 C CNN
 F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
 F 2 "footprint-lib:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
@@ -38,7 +38,7 @@ AR Path="/5CC02AB8/5CC04CCF" Ref="R?"  Part="1"
 AR Path="/5CC049BB/5CC04CCF" Ref="R?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CCF" Ref="R71"  Part="1" 
 AR Path="/5CC0A53C/5CC04CCF" Ref="R?"  Part="1" 
-AR Path="/5CC04CCF" Ref="R?"  Part="1" 
+AR Path="/5CC04CCF" Ref="R71"  Part="1" 
 F 0 "R71" H 4292 2746 50  0000 R CNN
 F 1 "R104,0603" H 4292 2655 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2700 50  0001 C CNN
@@ -54,7 +54,7 @@ AR Path="/5CC02AB8/5CC04CDF" Ref="J?"  Part="1"
 AR Path="/5CC049BB/5CC04CDF" Ref="J?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CDF" Ref="J38"  Part="1" 
 AR Path="/5CC0A53C/5CC04CDF" Ref="J?"  Part="1" 
-AR Path="/5CC04CDF" Ref="J?"  Part="1" 
+AR Path="/5CC04CDF" Ref="J38"  Part="1" 
 F 0 "J38" H 4050 2767 50  0000 C CNN
 F 1 "MS_SELECT" H 4050 2676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 3000 50  0001 C CNN
@@ -78,7 +78,7 @@ AR Path="/5CC02AB8/5CC04CE2" Ref="#PWR?"  Part="1"
 AR Path="/5CC049BB/5CC04CE2" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CE2" Ref="#PWR0184"  Part="1" 
 AR Path="/5CC0A53C/5CC04CE2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04CE2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04CE2" Ref="#PWR0184"  Part="1" 
 F 0 "#PWR0184" H 4350 2250 50  0001 C CNN
 F 1 "GND" H 4355 2327 50  0000 C CNN
 F 2 "" H 4350 2500 50  0001 C CNN
@@ -112,7 +112,7 @@ AR Path="/5CC02AB8/5CC04CEF" Ref="#PWR?"  Part="1"
 AR Path="/5CC049BB/5CC04CEF" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CEF" Ref="#PWR0190"  Part="1" 
 AR Path="/5CC0A53C/5CC04CEF" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04CEF" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04CEF" Ref="#PWR0190"  Part="1" 
 F 0 "#PWR0190" H 6600 2400 50  0001 C CNN
 F 1 "+12V" H 6615 2723 50  0000 C CNN
 F 2 "" H 6600 2550 50  0001 C CNN
@@ -132,7 +132,7 @@ AR Path="/5CC02AB8/5CC04CF9" Ref="#PWR?"  Part="1"
 AR Path="/5CC049BB/5CC04CF9" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CF9" Ref="#PWR0191"  Part="1" 
 AR Path="/5CC0A53C/5CC04CF9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04CF9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04CF9" Ref="#PWR0191"  Part="1" 
 F 0 "#PWR0191" H 6600 2650 50  0001 C CNN
 F 1 "GND" V 6605 2772 50  0000 R CNN
 F 2 "" H 6600 2900 50  0001 C CNN
@@ -150,7 +150,7 @@ AR Path="/5CC02AB8/5CC04D03" Ref="J?"  Part="1"
 AR Path="/5CC049BB/5CC04D03" Ref="J?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D03" Ref="J39"  Part="1" 
 AR Path="/5CC0A53C/5CC04D03" Ref="J?"  Part="1" 
-AR Path="/5CC04D03" Ref="J?"  Part="1" 
+AR Path="/5CC04D03" Ref="J39"  Part="1" 
 F 0 "J39" H 6980 3092 50  0000 L CNN
 F 1 "Y" H 6980 3001 50  0000 L CNN
 F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3100 50  0001 C CNN
@@ -176,7 +176,7 @@ AR Path="/5CC02AB8/5CC04D04" Ref="#PWR?"  Part="1"
 AR Path="/5CC049BB/5CC04D04" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D04" Ref="#PWR0193"  Part="1" 
 AR Path="/5CC0A53C/5CC04D04" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D04" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D04" Ref="#PWR0193"  Part="1" 
 F 0 "#PWR0193" H 6600 3250 50  0001 C CNN
 F 1 "GND" V 6477 3463 50  0000 C CNN
 F 2 "" H 6600 3500 50  0001 C CNN
@@ -208,7 +208,7 @@ AR Path="/5CC02AB8/5CC04D2A" Ref="#PWR?"  Part="1"
 AR Path="/5CC049BB/5CC04D2A" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D2A" Ref="#PWR0186"  Part="1" 
 AR Path="/5CC0A53C/5CC04D2A" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D2A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D2A" Ref="#PWR0186"  Part="1" 
 F 0 "#PWR0186" H 5400 3900 50  0001 C CNN
 F 1 "+12V" V 5415 4178 50  0000 L CNN
 F 2 "" H 5400 4050 50  0001 C CNN
@@ -223,7 +223,7 @@ P 5650 4050
 AR Path="/5CC02AB8/5CC04D38" Ref="C?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D38" Ref="C41"  Part="1" 
 AR Path="/5CC0A53C/5CC04D38" Ref="C?"  Part="1" 
-AR Path="/5CC04D38" Ref="C?"  Part="1" 
+AR Path="/5CC04D38" Ref="C41"  Part="1" 
 F 0 "C41" V 5875 4050 50  0000 C CNN
 F 1 "CP100uf,25V" V 5784 4050 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5650 4050 50  0001 C CNN
@@ -238,7 +238,7 @@ P 5950 4050
 AR Path="/5CC02AB8/5CC06B6A" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC06B6A" Ref="#PWR0188"  Part="1" 
 AR Path="/5CC0A53C/5CC06B6A" Ref="#PWR?"  Part="1" 
-AR Path="/5CC06B6A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC06B6A" Ref="#PWR0188"  Part="1" 
 F 0 "#PWR0188" H 5950 3800 50  0001 C CNN
 F 1 "GND" V 5955 3922 50  0000 R CNN
 F 2 "" H 5950 4050 50  0001 C CNN
@@ -260,7 +260,7 @@ P 5950 4250
 AR Path="/5CC02AB8/5CC04D50" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04D50" Ref="#PWR0189"  Part="1" 
 AR Path="/5CC0A53C/5CC04D50" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D50" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D50" Ref="#PWR0189"  Part="1" 
 F 0 "#PWR0189" H 5950 4000 50  0001 C CNN
 F 1 "GND" V 5955 4122 50  0000 R CNN
 F 2 "" H 5950 4250 50  0001 C CNN
@@ -1971,6 +1971,7 @@ AR Path="/5CC0A8C5/5CC5FBD8" Ref="R?"  Part="1"
 AR Path="/5CC0A8CA/5CC5FBD8" Ref="R?"  Part="1" 
 AR Path="/5CC0A8CF/5CC5FBD8" Ref="R?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5FBD8" Ref="R?"  Part="1" 
+AR Path="/5CC5FBD8" Ref="R73"  Part="1" 
 F 0 "R73" H 5059 2246 50  0000 L CNN
 F 1 "R103,0603" H 5059 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5000 2200 50  0001 C CNN
@@ -1986,6 +1987,7 @@ U 1 1 5CC5FBE0
 P 5000 1950
 AR Path="/5CC0AEC9/5CC5FBE0" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A4B9/5CC5FBE0" Ref="#PWR0185"  Part="1" 
+AR Path="/5CC5FBE0" Ref="#PWR0185"  Part="1" 
 F 0 "#PWR0185" H 5000 1800 50  0001 C CNN
 F 1 "+3V3_STM32" H 5015 2123 50  0000 C CNN
 F 2 "" H 5000 1950 50  0001 C CNN
@@ -2000,6 +2002,7 @@ P 4850 2200
 AR Path="/5CC15C35/5CC5FBE6" Ref="R?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5FBE6" Ref="R?"  Part="1" 
 AR Path="/5CC0A4B9/5CC5FBE6" Ref="R72"  Part="1" 
+AR Path="/5CC5FBE6" Ref="R72"  Part="1" 
 F 0 "R72" H 4950 2250 50  0000 L CNN
 F 1 "R102,0603" H 4950 2200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4850 2200 50  0001 C CNN
@@ -2014,6 +2017,7 @@ P 4850 2450
 AR Path="/5CC15C35/5CC5FBED" Ref="D?"  Part="1" 
 AR Path="/5CC0AEC9/5CC5FBED" Ref="D?"  Part="1" 
 AR Path="/5CC0A4B9/5CC5FBED" Ref="D24"  Part="1" 
+AR Path="/5CC5FBED" Ref="D24"  Part="1" 
 F 0 "D24" V 4900 2350 50  0000 R CNN
 F 1 "LED_BLUE,0603" V 4850 2350 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4850 2450 50  0001 C CNN
