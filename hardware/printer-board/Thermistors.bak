@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 29
+Sheet 11 29
 Title ""
 Date ""
 Rev ""
@@ -1308,17 +1308,6 @@ F 3 "~" H 950 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L taobao-cp:CP10uf,50V C29
-U 1 1 5CC3DD4B
-P 950 1750
-F 0 "C29" H 1038 1796 50  0000 L CNN
-F 1 "CP10uf,50V" H 1038 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 950 1750 50  0001 C CNN
-F 3 "~" H 950 1750 50  0001 C CNN
-	1    950  1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0240
 U 1 1 5CC3DD51
 P 950 2100
@@ -1756,4 +1745,15 @@ Wire Wire Line
 	4350 3550 4350 3450
 Wire Wire Line
 	4150 3450 4350 3450
+$Comp
+L taobao-cp:CP10uf,50V C29
+U 1 1 5CC3DD4B
+P 950 1750
+F 0 "C29" H 1038 1796 50  0000 L CNN
+F 1 "CP10uf,50V" H 1038 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 950 1750 50  0001 C CNN
+F 3 "~" H 950 1750 50  0001 C CNN
+	1    950  1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
