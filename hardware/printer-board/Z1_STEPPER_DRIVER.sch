@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:Z1_STEPPER_DRIVER-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -26,7 +26,7 @@ AR Path="/5CC0A8C5/5CC04CC0" Ref="U4"  Part="1"
 AR Path="/5CC0A8CA/5CC04CC0" Ref="U?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CC0" Ref="U?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CC0" Ref="U?"  Part="1" 
-AR Path="/5CC04CC0" Ref="U?"  Part="1" 
+AR Path="/5CC04CC0" Ref="U4"  Part="1" 
 F 0 "U4" H 5650 3765 50  0000 C CNN
 F 1 "A4988_MODULE" H 5650 3674 50  0000 C CNN
 F 2 "footprint-lib:Pololu_Breakout-16_15.2x20.3mm" H 5650 3200 50  0001 C CNN
@@ -46,7 +46,7 @@ AR Path="/5CC0A8C5/5CC04CCE" Ref="R14"  Part="1"
 AR Path="/5CC0A8CA/5CC04CCE" Ref="R?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CCE" Ref="R?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CCE" Ref="R?"  Part="1" 
-AR Path="/5CC04CCE" Ref="R?"  Part="1" 
+AR Path="/5CC04CCE" Ref="R14"  Part="1" 
 F 0 "R14" H 4292 2746 50  0000 R CNN
 F 1 "R104,0603" H 4292 2655 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2700 50  0001 C CNN
@@ -66,7 +66,7 @@ AR Path="/5CC0A8C5/5CC04CDA" Ref="J6"  Part="1"
 AR Path="/5CC0A8CA/5CC04CDA" Ref="J?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CDA" Ref="J?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CDA" Ref="J?"  Part="1" 
-AR Path="/5CC04CDA" Ref="J?"  Part="1" 
+AR Path="/5CC04CDA" Ref="J6"  Part="1" 
 F 0 "J6" H 4050 2767 50  0000 C CNN
 F 1 "MS_SELECT" H 4050 2676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 3000 50  0001 C CNN
@@ -94,7 +94,7 @@ AR Path="/5CC0A8C5/5CC0320F" Ref="#PWR036"  Part="1"
 AR Path="/5CC0A8CA/5CC0320F" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC0320F" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC0320F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0320F" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0320F" Ref="#PWR036"  Part="1" 
 F 0 "#PWR036" H 4350 2250 50  0001 C CNN
 F 1 "GND" H 4355 2327 50  0000 C CNN
 F 2 "" H 4350 2500 50  0001 C CNN
@@ -132,7 +132,7 @@ AR Path="/5CC0A8C5/5CC04CF1" Ref="#PWR042"  Part="1"
 AR Path="/5CC0A8CA/5CC04CF1" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CF1" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CF1" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04CF1" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04CF1" Ref="#PWR042"  Part="1" 
 F 0 "#PWR042" H 6600 2400 50  0001 C CNN
 F 1 "+12V" H 6615 2723 50  0000 C CNN
 F 2 "" H 6600 2550 50  0001 C CNN
@@ -156,7 +156,7 @@ AR Path="/5CC0A8C5/5CC04CF2" Ref="#PWR043"  Part="1"
 AR Path="/5CC0A8CA/5CC04CF2" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CF2" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CF2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04CF2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04CF2" Ref="#PWR043"  Part="1" 
 F 0 "#PWR043" H 6600 2650 50  0001 C CNN
 F 1 "GND" V 6605 2772 50  0000 R CNN
 F 2 "" H 6600 2900 50  0001 C CNN
@@ -178,7 +178,7 @@ AR Path="/5CC0A8C5/5CC04CFD" Ref="J7"  Part="1"
 AR Path="/5CC0A8CA/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CFD" Ref="J?"  Part="1" 
-AR Path="/5CC04CFD" Ref="J?"  Part="1" 
+AR Path="/5CC04CFD" Ref="J7"  Part="1" 
 F 0 "J7" H 6980 3092 50  0000 L CNN
 F 1 "Z1" H 6980 3001 50  0000 L CNN
 F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3100 50  0001 C CNN
@@ -208,7 +208,7 @@ AR Path="/5CC0A8C5/5CC04D0C" Ref="#PWR045"  Part="1"
 AR Path="/5CC0A8CA/5CC04D0C" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04D0C" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC04D0C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D0C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D0C" Ref="#PWR045"  Part="1" 
 F 0 "#PWR045" H 6600 3250 50  0001 C CNN
 F 1 "GND" V 6477 3463 50  0000 C CNN
 F 2 "" H 6600 3500 50  0001 C CNN
@@ -244,7 +244,7 @@ AR Path="/5CC0A8C5/5CC06872" Ref="#PWR038"  Part="1"
 AR Path="/5CC0A8CA/5CC06872" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC06872" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC06872" Ref="#PWR?"  Part="1" 
-AR Path="/5CC06872" Ref="#PWR?"  Part="1" 
+AR Path="/5CC06872" Ref="#PWR038"  Part="1" 
 F 0 "#PWR038" H 5400 3900 50  0001 C CNN
 F 1 "+12V" V 5415 4178 50  0000 L CNN
 F 2 "" H 5400 4050 50  0001 C CNN
@@ -263,7 +263,7 @@ AR Path="/5CC0A8C5/5CC04D37" Ref="C6"  Part="1"
 AR Path="/5CC0A8CA/5CC04D37" Ref="C?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04D37" Ref="C?"  Part="1" 
 AR Path="/5CC0AECE/5CC04D37" Ref="C?"  Part="1" 
-AR Path="/5CC04D37" Ref="C?"  Part="1" 
+AR Path="/5CC04D37" Ref="C6"  Part="1" 
 F 0 "C6" V 5875 4050 50  0000 C CNN
 F 1 "CP100uf,25V" V 5784 4050 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 5650 4050 50  0001 C CNN
@@ -282,7 +282,7 @@ AR Path="/5CC0A8C5/5CC04D3C" Ref="#PWR040"  Part="1"
 AR Path="/5CC0A8CA/5CC04D3C" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04D3C" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC04D3C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D3C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D3C" Ref="#PWR040"  Part="1" 
 F 0 "#PWR040" H 5950 3800 50  0001 C CNN
 F 1 "GND" V 5955 3922 50  0000 R CNN
 F 2 "" H 5950 4050 50  0001 C CNN
@@ -308,7 +308,7 @@ AR Path="/5CC0A8C5/5CC04D54" Ref="#PWR041"  Part="1"
 AR Path="/5CC0A8CA/5CC04D54" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0A8CF/5CC04D54" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0AECE/5CC04D54" Ref="#PWR?"  Part="1" 
-AR Path="/5CC04D54" Ref="#PWR?"  Part="1" 
+AR Path="/5CC04D54" Ref="#PWR041"  Part="1" 
 F 0 "#PWR041" H 5950 4000 50  0001 C CNN
 F 1 "GND" V 5955 4122 50  0000 R CNN
 F 2 "" H 5950 4250 50  0001 C CNN

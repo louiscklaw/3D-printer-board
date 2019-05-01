@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:orange_pi-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ P 9050 3700
 AR Path="/5CC0166A/5CC01846" Ref="U1"  Part="1" 
 AR Path="/5CC01E08/5CC01846" Ref="U?"  Part="1" 
 AR Path="/5CC02AB6/5CC01846" Ref="U?"  Part="1" 
-AR Path="/5CC01846" Ref="U?"  Part="1" 
+AR Path="/5CC01846" Ref="U1"  Part="1" 
 F 0 "U1" H 9000 5537 60  0000 C CNN
 F 1 "orange_pi_zero" H 9000 5431 60  0000 C CNN
 F 2 "footprint-lib:orangepi-zero" H 8800 4500 60  0001 C CNN
@@ -36,7 +36,7 @@ P 6400 2350
 AR Path="/5CC0166A/5CC01A30" Ref="#PWR08"  Part="1" 
 AR Path="/5CC01E08/5CC01A30" Ref="#PWR?"  Part="1" 
 AR Path="/5CC02AB6/5CC01A30" Ref="#PWR?"  Part="1" 
-AR Path="/5CC01A30" Ref="#PWR?"  Part="1" 
+AR Path="/5CC01A30" Ref="#PWR08"  Part="1" 
 F 0 "#PWR08" H 6400 2100 50  0001 C CNN
 F 1 "GND" H 6405 2177 50  0000 C CNN
 F 2 "" H 6400 2350 50  0001 C CNN
@@ -55,7 +55,7 @@ P 9350 1200
 AR Path="/5CC0166A/5CC01AC2" Ref="#PWR011"  Part="1" 
 AR Path="/5CC01E08/5CC01AC2" Ref="#PWR?"  Part="1" 
 AR Path="/5CC02AB6/5CC01AC2" Ref="#PWR?"  Part="1" 
-AR Path="/5CC01AC2" Ref="#PWR?"  Part="1" 
+AR Path="/5CC01AC2" Ref="#PWR011"  Part="1" 
 F 0 "#PWR011" H 9350 950 50  0001 C CNN
 F 1 "GND" V 9355 1072 50  0000 R CNN
 F 2 "" H 9350 1200 50  0001 C CNN
@@ -11168,7 +11168,7 @@ P 9350 1650
 AR Path="/5CC0166A/5CC326F9" Ref="#PWR012"  Part="1" 
 AR Path="/5CC01E08/5CC326F9" Ref="#PWR?"  Part="1" 
 AR Path="/5CC02AB6/5CC326F9" Ref="#PWR?"  Part="1" 
-AR Path="/5CC326F9" Ref="#PWR?"  Part="1" 
+AR Path="/5CC326F9" Ref="#PWR012"  Part="1" 
 F 0 "#PWR012" H 9350 1400 50  0001 C CNN
 F 1 "GND" V 9355 1522 50  0000 R CNN
 F 2 "" H 9350 1650 50  0001 C CNN
@@ -11231,21 +11231,21 @@ Wire Wire Line
 	7250 2550 7950 2550
 Wire Wire Line
 	7250 2650 7950 2650
-Text Label 2600 800  2    50   ~ 0
+Text Label 2600 700  2    50   ~ 0
 USB-DM2
-Text Label 2600 900  2    50   ~ 0
+Text Label 2600 800  2    50   ~ 0
 USB-DP2
-Text Label 2600 1000 2    50   ~ 0
+Text Label 2600 1150 2    50   ~ 0
 USB-DM3
-Text Label 2600 1100 2    50   ~ 0
+Text Label 2600 1250 2    50   ~ 0
 USB-DP3
-Text HLabel 1100 800  0    50   Input ~ 0
+Text HLabel 1100 700  0    50   Input ~ 0
 OPI_USB-DM2
-Text HLabel 1100 900  0    50   Input ~ 0
+Text HLabel 1100 800  0    50   Input ~ 0
 OPI_USB-DP2
-Text HLabel 1100 1000 0    50   Input ~ 0
+Text HLabel 1100 1150 0    50   Input ~ 0
 OPI_USB-DM3
-Text HLabel 1100 1100 0    50   Input ~ 0
+Text HLabel 1100 1250 0    50   Input ~ 0
 OPI_USB-DP3
 $Comp
 L taobao-cp:CP100uf,35V C1
@@ -11268,7 +11268,7 @@ U 1 1 5CE44033
 P 4000 5000
 AR Path="/5CC29851/5CC2A1CB/5CE44033" Ref="J?"  Part="1" 
 AR Path="/5CC0166A/5CE44033" Ref="J1"  Part="1" 
-AR Path="/5CE44033" Ref="J?"  Part="1" 
+AR Path="/5CE44033" Ref="J1"  Part="1" 
 F 0 "J1" H 3900 5450 50  0000 C CNN
 F 1 "USB_DEBUG" H 3900 5350 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 4000 5000 50  0001 C CNN
@@ -11279,51 +11279,48 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5CE4403A
-P 4550 4700
+P 4550 5300
 AR Path="/5CC29851/5CC2A1CB/5CE4403A" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0166A/5CE4403A" Ref="#PWR04"  Part="1" 
-AR Path="/5CE4403A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 4550 4550 50  0001 C CNN
-F 1 "+5V" H 4600 4900 50  0000 C CNN
-F 2 "" H 4550 4700 50  0001 C CNN
-F 3 "" H 4550 4700 50  0001 C CNN
-	1    4550 4700
-	1    0    0    -1  
+AR Path="/5CE4403A" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 4550 5150 50  0001 C CNN
+F 1 "+5V" H 4600 5500 50  0000 C CNN
+F 2 "" H 4550 5300 50  0001 C CNN
+F 3 "" H 4550 5300 50  0001 C CNN
+	1    4550 5300
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4550 4700 4550 4800
+	4550 5300 4550 5200
 Wire Wire Line
-	4550 4800 4200 4800
+	4550 5200 4200 5200
 $Comp
 L power:GND #PWR?
 U 1 1 5CE44042
-P 4550 5350
+P 4550 4650
 AR Path="/5CC29851/5CC2A1CB/5CE44042" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0166A/5CE44042" Ref="#PWR05"  Part="1" 
-AR Path="/5CE44042" Ref="#PWR?"  Part="1" 
-F 0 "#PWR05" H 4550 5100 50  0001 C CNN
-F 1 "GND" H 4600 5150 50  0000 C CNN
-F 2 "" H 4550 5350 50  0001 C CNN
-F 3 "" H 4550 5350 50  0001 C CNN
-	1    4550 5350
-	1    0    0    -1  
+AR Path="/5CE44042" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 4550 4400 50  0001 C CNN
+F 1 "GND" H 4600 4450 50  0000 C CNN
+F 2 "" H 4550 4650 50  0001 C CNN
+F 3 "" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4200 5200 4550 5200
+	4200 4800 4550 4800
 Wire Wire Line
-	4550 5200 4550 5350
+	4550 4800 4550 4650
 Wire Wire Line
 	4200 5100 4550 5100
-Wire Wire Line
-	4550 5100 4550 5200
-Connection ~ 4550 5200
 $Comp
 L taobao-r:R220,0603 R?
 U 1 1 5CE4404D
 P 4550 4900
 AR Path="/5CC29851/5CC2A1CB/5CE4404D" Ref="R?"  Part="1" 
 AR Path="/5CC0166A/5CE4404D" Ref="R4"  Part="1" 
-AR Path="/5CE4404D" Ref="R?"  Part="1" 
+AR Path="/5CE4404D" Ref="R4"  Part="1" 
 F 0 "R4" V 4300 4900 50  0000 C CNN
 F 1 "R220,0603" V 4400 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 4900 50  0001 C CNN
@@ -11337,7 +11334,7 @@ U 1 1 5CE44054
 P 4550 5000
 AR Path="/5CC29851/5CC2A1CB/5CE44054" Ref="R?"  Part="1" 
 AR Path="/5CC0166A/5CE44054" Ref="R5"  Part="1" 
-AR Path="/5CE44054" Ref="R?"  Part="1" 
+AR Path="/5CE44054" Ref="R5"  Part="1" 
 F 0 "R5" V 4300 5000 50  0000 C CNN
 F 1 "R220,0603" V 4400 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 5000 50  0001 C CNN
@@ -11355,7 +11352,7 @@ U 1 1 5CE4405F
 P 4750 5250
 AR Path="/5CC29851/5CC2A1CB/5CE4405F" Ref="R?"  Part="1" 
 AR Path="/5CC0166A/5CE4405F" Ref="R6"  Part="1" 
-AR Path="/5CE4405F" Ref="R?"  Part="1" 
+AR Path="/5CE4405F" Ref="R6"  Part="1" 
 F 0 "R6" H 4850 5300 50  0000 L CNN
 F 1 "R152,0603" H 4850 5250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 5250 50  0001 C CNN
@@ -11369,7 +11366,7 @@ U 1 1 5CE44066
 P 4750 5450
 AR Path="/5CC29851/5CC2A1CB/5CE44066" Ref="#PWR?"  Part="1" 
 AR Path="/5CC0166A/5CE44066" Ref="#PWR06"  Part="1" 
-AR Path="/5CE44066" Ref="#PWR?"  Part="1" 
+AR Path="/5CE44066" Ref="#PWR06"  Part="1" 
 F 0 "#PWR06" H 4750 5300 50  0001 C CNN
 F 1 "+3V3_STM32" H 4750 5650 50  0000 C CNN
 F 2 "" H 4750 5450 50  0001 C CNN
@@ -11395,8 +11392,19 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 5CE47FCE
+P 1450 700
+F 0 "JP1" H 1450 900 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1450 800 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 700 50  0001 C CNN
+F 3 "~" H 1450 700 50  0001 C CNN
+	1    1450 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 5CE4801F
 P 1450 800
-F 0 "JP1" H 1450 1000 50  0000 C CNN
+F 0 "JP2" H 1450 1000 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 1450 900 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 800 50  0001 C CNN
 F 3 "~" H 1450 800 50  0001 C CNN
@@ -11404,52 +11412,41 @@ F 3 "~" H 1450 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5CE4801F
-P 1450 900
-F 0 "JP2" H 1450 1100 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 1000 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 900 50  0001 C CNN
-F 3 "~" H 1450 900 50  0001 C CNN
-	1    1450 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Jumper_NO_Small JP3
 U 1 1 5CE48043
-P 1450 1000
-F 0 "JP3" H 1450 1200 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 1100 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1000 50  0001 C CNN
-F 3 "~" H 1450 1000 50  0001 C CNN
-	1    1450 1000
+P 1450 1150
+F 0 "JP3" H 1450 1350 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1450 1250 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1150 50  0001 C CNN
+F 3 "~" H 1450 1150 50  0001 C CNN
+	1    1450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper_NO_Small JP4
 U 1 1 5CE48098
-P 1450 1100
-F 0 "JP4" H 1450 1300 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 1200 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1100 50  0001 C CNN
-F 3 "~" H 1450 1100 50  0001 C CNN
-	1    1450 1100
+P 1450 1250
+F 0 "JP4" H 1450 1450 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1450 1350 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1250 50  0001 C CNN
+F 3 "~" H 1450 1250 50  0001 C CNN
+	1    1450 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	1100 700  1350 700 
+Wire Wire Line
 	1100 800  1350 800 
 Wire Wire Line
-	1100 900  1350 900 
+	1100 1150 1350 1150
 Wire Wire Line
-	1100 1000 1350 1000
+	1100 1250 1350 1250
 Wire Wire Line
-	1100 1100 1350 1100
+	1550 700  2600 700 
 Wire Wire Line
 	1550 800  2600 800 
 Wire Wire Line
-	1550 900  2600 900 
+	1550 1150 2600 1150
 Wire Wire Line
-	1550 1000 2600 1000
-Wire Wire Line
-	1550 1100 2600 1100
+	1550 1250 2600 1250
 $EndSCHEMATC
