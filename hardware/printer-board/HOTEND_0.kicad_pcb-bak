@@ -265,7 +265,7 @@
     (tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
     (path /5CC22325)
     (attr smd)
-    (fp_text reference Q2 (at -2.5 0 180) (layer F.SilkS)
+    (fp_text reference Q2 (at -5.5 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value STP55NF06 (at 0 6.65 90) (layer F.Fab)
