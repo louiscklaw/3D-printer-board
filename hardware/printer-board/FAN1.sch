@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 23 29
 Title ""
 Date ""
 Rev ""
@@ -24,10 +24,10 @@ AR Path="/5CC130A8/5CC8A035" Ref="J?"  Part="1"
 AR Path="/5CC19D48/5CC8A035" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A035" Ref="J?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A035" Ref="J39"  Part="1" 
-AR Path="/5CC8A035" Ref="J1"  Part="1" 
-F 0 "J39" H 4300 2550 50  0000 C CNN
-F 1 "TO FAN1" H 4300 2650 50  0000 C CNN
-F 2 "footprint-lib:s2b-ph-kl,fan_output" H 4350 2900 50  0001 C CNN
+AR Path="/5CC8A035" Ref="J39"  Part="1" 
+F 0 "J39" H 4350 3000 50  0000 C CNN
+F 1 "TO FAN1" H 4350 2700 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 4350 2900 50  0001 C CNN
 F 3 "~" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    -1  
@@ -211,7 +211,7 @@ AR Path="/5CC12903/5CC8A041" Ref="C?"  Part="1"
 AR Path="/5CC19D48/5CC8A041" Ref="C?"  Part="1" 
 AR Path="/5CC2401E/5CC242A1/5CC8A041" Ref="C?"  Part="1" 
 AR Path="/5CC2401E/5CC24321/5CC8A041" Ref="C34"  Part="1" 
-AR Path="/5CC8A041" Ref="C1"  Part="1" 
+AR Path="/5CC8A041" Ref="C34"  Part="1" 
 F 0 "C34" V 3075 4750 50  0000 C CNN
 F 1 "CP100uf,16V" V 2984 4750 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 2850 4750 50  0001 C CNN
@@ -3067,7 +3067,7 @@ U 1 1 5CC8A047
 P 3150 3650
 F 0 "Q1" H 3350 3700 50  0000 L CNN
 F 1 "D882" H 3350 3650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3350 3750 50  0001 C CNN
+F 2 "footprint-lib:SOT-89-3,thermal_vias" H 3350 3750 50  0001 C CNN
 F 3 "" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	1    0    0    -1  

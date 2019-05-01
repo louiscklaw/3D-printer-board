@@ -3,21 +3,27 @@
   (base_design FAN2.dsn)
   (placement
     (resolution um 10)
-    (component "Diode_SMD:D_SOD-323_HandSoldering"
-      (place D12 235000 -325000 front 0)
+    (component Capacitor_SMD:CP_Elec_6.3x5.3
+      (place C1 75000 -165000 front 180)
     )
-    (component "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-      (place Q1 230500 -300000 back 270)
+    (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+      (place D1 115000 -30000 front 270)
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R50 230000 -290000 front 0)
-      (place R48 230000 -305000 front 0)
+      (place R49 70000 -70000 back 90)
+      (place R1 115000 -30000 back 90)
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place R49 230000 -275000 front 0)
+      (place R3 85000 -70000 back 270)
     )
-    (component "footprint-lib:s2b-ph-kl,fan_output"
-      (place J40 195000 -300000 front 270)
+    (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+      (place R4 50000 -70000 back 270)
+    )
+    (component "footprint-lib:SOT-89-3,thermal_vias"
+      (place Q6 70000 -95000 front 270)
+    )
+    (component "footprint-lib:b2b-ph-kl,fan_pwm_out"
+      (place J1 70000 -35000 front 180)
     )
   )
   (was_is
@@ -40,74 +46,209 @@
       )
     )
     (network_out 
-      (net VDD
+      (net GND
         (wire
           (path F.Cu 2500
-            221250 -305000
-            221250 -290000
+            46218 -80200
+            36912 -80200
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            55000 -80200
+            46218 -80200
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            46218 -80200
+            46218 -164218
+            47000 -165000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            50000 -80250
+            49950 -80200
+            36912 -80200
+          )
+        )
+        (via "Via[0-1]_800:400_um" 36912 -80200
+        )
+      )
+      (net +12V
+        (wire
+          (path B.Cu 2500
+            80008 -35000
+            89255 -35000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            89255 -35000
+            93005 -38750
+            115000 -38750
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            80008 -35000
+            89255 -35000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            89255 -35000
+            103000 -48745
+            103000 -165000
           )
         )
       )
-      (net /FAN_PWM_OUTPUT
+      (net "Net-(D1-Pad1)"
         (wire
-          (path B.Cu 2500
-            230500 -285000
-            237753 -285000
+          (path F.Cu 2500
+            59992 -35000
+            69239 -35000
           )
         )
         (wire
           (path F.Cu 2500
-            238750 -305000
-            227003 -316747
-            210786 -316747
+            69239 -35000
+            69239 -25753
+            73742 -21250
+            115000 -21250
           )
         )
         (wire
           (path B.Cu 2500
-            237753 -285000
-            247254 -294501
-            247254 -326301
-            245801 -327754
-            215642 -327754
-            210786 -322898
-            210786 -316747
-          )
-        )
-        (via "Via[0-1]_800:400_um" 210786 -316747
-        )
-      )
-      (net "Net-(Q1-Pad1)"
-        (wire
-          (path B.Cu 2500
-            240000 -315000
-            232747 -315000
+            59992 -35000
+            69239 -35000
           )
         )
         (wire
           (path B.Cu 2500
-            209744 -290000
-            215000 -290000
-            232747 -307747
-            232747 -315000
-          )
-        )
-        (via "Via[0-1]_800:400_um" 209744 -290000
-        )
-        (wire
-          (path F.Cu 2500
-            221250 -275000
-            209744 -286506
-            209744 -290000
+            69239 -35000
+            69239 -60489
+            70000 -61250
           )
         )
       )
-      (net /STM32_FAN_RPM
+      (net /FAN_EN
+        (wire
+          (path B.Cu 2500
+            50000 -59750
+            60250 -70000
+            76250 -70000
+            85000 -61250
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
         (wire
           (path F.Cu 2500
-            238750 -290000
-            247500 -298750
-            247500 -325000
+            106184 -29934
+            115000 -38750
           )
+        )
+        (wire
+          (path B.Cu 2500
+            115000 -21250
+            114868 -21250
+            106184 -29934
+          )
+        )
+        (via "Via[0-1]_800:400_um" 106184 -29934
+        )
+      )
+      (net "Net-(Q6-Pad2)"
+        (wire
+          (path F.Cu 2500
+            70000 -105160
+            71827 -105160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            82700 -105160
+            71827 -105160
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            70000 -105160
+            70000 -108335
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            70000 -121670
+            70000 -108335
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            70000 -81665
+            70000 -94238
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            70000 -97540
+            70000 -78750
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            70000 -105160
+            70000 -97540
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            70000 -94238
+            70000 -97540
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            57300 -105160
+            70000 -105160
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            82700 -105160
+            82700 -97540
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            57300 -105160
+            57300 -97540
+          )
+        )
+      )
+      (net "Net-(Q6-Pad1)"
+        (wire
+          (path F.Cu 2500
+            85000 -69447
+            95266 -69447
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            85000 -78750
+            85963 -78750
+            95266 -69447
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            85000 -80200
+            85000 -69447
+          )
+        )
+        (via "Via[0-1]_800:400_um" 95266 -69447
         )
       )
     )

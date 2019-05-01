@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 29
+Sheet 24 29
 Title ""
 Date ""
 Rev ""
@@ -3077,7 +3077,7 @@ U 1 1 5CC8A046
 P 3150 3650
 F 0 "Q6" H 3350 3700 50  0000 L CNN
 F 1 "D882" H 3350 3650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3350 3750 50  0001 C CNN
+F 2 "footprint-lib:SOT-89-3,thermal_vias" H 3350 3750 50  0001 C CNN
 F 3 "" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	1    0    0    -1  
