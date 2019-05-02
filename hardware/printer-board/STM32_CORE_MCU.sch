@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 28
+Sheet 14 27
 Title ""
 Date ""
 Rev ""
@@ -11929,22 +11929,8 @@ Text GLabel 6100 5200 2    50   Input ~ 0
 PD15
 Text GLabel 6100 6300 2    50   Input ~ 0
 PB12
-Text GLabel 6100 6200 2    50   Input ~ 0
-PB13
-Text GLabel 6100 6100 2    50   Input ~ 0
-PB14
-Text GLabel 6100 6000 2    50   Input ~ 0
-PB15
 Text GLabel 6100 4700 2    50   Input ~ 0
 PA8
-Text GLabel 6100 4600 2    50   Input ~ 0
-PA9
-Text GLabel 6100 4500 2    50   Input ~ 0
-PA10
-Wire Wire Line
-	5450 4500 6100 4500
-Wire Wire Line
-	5450 4600 6100 4600
 Wire Wire Line
 	5450 4700 6100 4700
 Wire Wire Line
@@ -13067,4 +13053,80 @@ Text Label 1250 700  2    50   ~ 0
 USB_DM
 Text Label 1250 800  2    50   ~ 0
 USB_DP
+Text Notes -4150 550  0    50   ~ 0
+General considerations:\n\nThe STM32 port currently requires an 8 MHz crystal for correct operation\n\nGeneral considerations:\nWhen using serial, the UART used for communication with the host is fixed to pins PA9 (TX) and PA10 (RX). \nWhen using USB, the PA11 (D-) and PA12 (D+) pins are reserved. \nThe USB code assumes that PA12 (D+) has a fixed pullup resistor attached to it.\n\nSWD pins (PA13/PA14) are enabled for debugging and cannot be used for any I/O. \nSPI uses pins PB13/PB14/PB15, but the pins can be used as general I/O if SPI is not used.\n\nAnalog inputs\nAll ADC-capable pins can be used as analog inputs with the same naming as digital I/O pins. \nSmall packages MCUs (e.g. LFQP48) have 10 channels (PA0-PA7, PB0-PB1), \nwhile larger package devices have 16 channels (PA0-PA7, PB0-PB1, PC0-PC5).\n
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5CD16324
+P 6750 4600
+F 0 "J?" H 6829 4642 50  0000 L CNN
+F 1 "STM32_GTR" H 6829 4551 50  0000 L CNN
+F 2 "" H 6750 4600 50  0001 C CNN
+F 3 "~" H 6750 4600 50  0001 C CNN
+	1    6750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CD163F4
+P 6450 4750
+F 0 "#PWR?" H 6450 4500 50  0001 C CNN
+F 1 "GND" H 6455 4577 50  0000 C CNN
+F 2 "" H 6450 4750 50  0001 C CNN
+F 3 "" H 6450 4750 50  0001 C CNN
+	1    6450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4700 6450 4700
+Wire Wire Line
+	6450 4700 6450 4750
+Wire Wire Line
+	5450 4500 6550 4500
+Wire Wire Line
+	5450 4600 6550 4600
+Text Label 6100 6200 2    50   ~ 0
+SCK
+Text Label 6100 6100 2    50   ~ 0
+MISO2
+Text Label 6100 6000 2    50   ~ 0
+MOSI2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5CD58101
+P 7550 6100
+F 0 "J?" H 7630 6092 50  0000 L CNN
+F 1 "SPI_DEBUG" H 7630 6001 50  0000 L CNN
+F 2 "" H 7550 6100 50  0001 C CNN
+F 3 "~" H 7550 6100 50  0001 C CNN
+	1    7550 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6000 7100 6000
+Wire Wire Line
+	7350 6100 7100 6100
+Wire Wire Line
+	7350 6200 7100 6200
+Text Label 7100 6200 0    50   ~ 0
+SCK
+Text Label 7100 6100 0    50   ~ 0
+MISO2
+Text Label 7100 6000 0    50   ~ 0
+MOSI2
+$Comp
+L power:GND #PWR?
+U 1 1 5CD96D8C
+P 7200 6400
+F 0 "#PWR?" H 7200 6150 50  0001 C CNN
+F 1 "GND" H 7205 6227 50  0000 C CNN
+F 2 "" H 7200 6400 50  0001 C CNN
+F 3 "" H 7200 6400 50  0001 C CNN
+	1    7200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 6400 7200 6300
+Wire Wire Line
+	7200 6300 7350 6300
 $EndSCHEMATC

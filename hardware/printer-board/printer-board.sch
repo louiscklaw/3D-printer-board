@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 28
+Sheet 1 27
 Title ""
 Date ""
 Rev ""
@@ -484,13 +484,17 @@ Wire Wire Line
 Wire Wire Line
 	2600 5350 2600 5450
 $Sheet
-S 5500 4050 900  1400
+S 5800 4200 900  1400
 U 5CC8321E
 F0 "st7920 type lcd" 50
 F1 "st7920 type lcd.sch" 50
-F2 "st7920_sclk_pin" I L 5500 4250 50 
-F3 "st7920_cs_pin" I L 5500 4150 50 
-F4 "st7920_sid_pin" I L 5500 4350 50 
+F2 "st7920_sclk_pin" I L 5800 4400 50 
+F3 "st7920_cs_pin" I L 5800 4300 50 
+F4 "st7920_sid_pin" I L 5800 4500 50 
+F5 "st7920_encoder_pin1" I L 5800 4700 50 
+F6 "st7920_encoder_pin2" I L 5800 4800 50 
+F7 "st7920_kill_pin" I L 5800 5100 50 
+F8 "st7920_click_pin" I L 5800 4900 50 
 $EndSheet
 $Sheet
 S 2050 6050 900  700 
