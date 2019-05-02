@@ -169,7 +169,7 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5CC04CFD
-P 6900 3100
+P 6900 3200
 AR Path="/5CC02AB8/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC049BB/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC0A4B9/5CC04CFD" Ref="J?"  Part="1" 
@@ -179,12 +179,12 @@ AR Path="/5CC0A8CA/5CC04CFD" Ref="J?"  Part="1"
 AR Path="/5CC0A8CF/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC0AECE/5CC04CFD" Ref="J?"  Part="1" 
 AR Path="/5CC04CFD" Ref="J7"  Part="1" 
-F 0 "J7" H 6980 3092 50  0000 L CNN
-F 1 "Z1" H 6980 3001 50  0000 L CNN
-F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3100 50  0001 C CNN
-F 3 "~" H 6900 3100 50  0001 C CNN
-	1    6900 3100
-	1    0    0    -1  
+F 0 "J7" H 6980 3192 50  0000 L CNN
+F 1 "Z1" H 6980 3101 50  0000 L CNN
+F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3200 50  0001 C CNN
+F 3 "~" H 6900 3200 50  0001 C CNN
+	1    6900 3200
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	6150 3000 6700 3000

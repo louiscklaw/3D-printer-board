@@ -11247,17 +11247,6 @@ Text HLabel 1100 1150 0    50   Input ~ 0
 OPI_USB-DM3
 Text HLabel 1100 1250 0    50   Input ~ 0
 OPI_USB-DP3
-$Comp
-L taobao-cp:CP100uf,35V C1
-U 1 1 5CE43439
-P 9000 1200
-F 0 "C1" V 9250 1200 50  0000 C CNN
-F 1 "CP100uf,35V" V 9150 1200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9000 1200 50  0001 C CNN
-F 3 "~" H 9000 1200 50  0001 C CNN
-	1    9000 1200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6400 2150 7950 2150
 Wire Wire Line
@@ -11389,64 +11378,23 @@ Wire Wire Line
 	4650 4900 5700 4900
 Wire Wire Line
 	4750 5000 5700 5000
+Wire Wire Line
+	1100 700  2600 700 
+Wire Wire Line
+	1100 800  2600 800 
+Wire Wire Line
+	1100 1150 2600 1150
+Wire Wire Line
+	1100 1250 2600 1250
 $Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5CE47FCE
-P 1450 700
-F 0 "JP1" H 1450 900 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 800 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 700 50  0001 C CNN
-F 3 "~" H 1450 700 50  0001 C CNN
-	1    1450 700 
-	1    0    0    -1  
+L taobao-cp:CP100uf,10V C1
+U 1 1 5CCCEC7F
+P 9000 1200
+F 0 "C1" V 9225 1200 50  0000 C CNN
+F 1 "CP100uf,10V" V 9134 1200 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 9000 1200 50  0001 C CNN
+F 3 "~" H 9000 1200 50  0001 C CNN
+	1    9000 1200
+	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:Jumper_NO_Small JP2
-U 1 1 5CE4801F
-P 1450 800
-F 0 "JP2" H 1450 1000 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 900 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 800 50  0001 C CNN
-F 3 "~" H 1450 800 50  0001 C CNN
-	1    1450 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP3
-U 1 1 5CE48043
-P 1450 1150
-F 0 "JP3" H 1450 1350 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 1250 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1150 50  0001 C CNN
-F 3 "~" H 1450 1150 50  0001 C CNN
-	1    1450 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NO_Small JP4
-U 1 1 5CE48098
-P 1450 1250
-F 0 "JP4" H 1450 1450 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 1450 1350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1450 1250 50  0001 C CNN
-F 3 "~" H 1450 1250 50  0001 C CNN
-	1    1450 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 700  1350 700 
-Wire Wire Line
-	1100 800  1350 800 
-Wire Wire Line
-	1100 1150 1350 1150
-Wire Wire Line
-	1100 1250 1350 1250
-Wire Wire Line
-	1550 700  2600 700 
-Wire Wire Line
-	1550 800  2600 800 
-Wire Wire Line
-	1550 1150 2600 1150
-Wire Wire Line
-	1550 1250 2600 1250
 $EndSCHEMATC
