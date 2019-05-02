@@ -808,8 +808,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 2700 6100 2850
 Connection ~ 6100 2700
-Wire Wire Line
-	6100 2700 6000 2700
 Text HLabel 6350 2600 2    50   Input ~ 0
 D-
 Text HLabel 6350 2700 2    50   Input ~ 0
@@ -821,5 +819,5 @@ Wire Wire Line
 Wire Wire Line
 	5800 2600 6350 2600
 Wire Wire Line
-	5800 2700 6000 2700
+	5800 2700 6100 2700
 $EndSCHEMATC
