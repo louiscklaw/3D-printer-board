@@ -186,7 +186,7 @@ U 5CC2401E
 F0 "FANS" 50
 F1 "FANS.sch" 50
 $EndSheet
-Text Notes 4900 5700 0    50   ~ 10
+Text Notes 9600 5500 0    50   ~ 10
 Design goals:
 $Sheet
 S 8100 3100 1050 850 
@@ -484,13 +484,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 5350 2600 5450
 $Sheet
-S 5500 4700 900  700 
+S 5500 4050 900  1400
 U 5CC8321E
 F0 "st7920 type lcd" 50
 F1 "st7920 type lcd.sch" 50
-F2 "st7920_sclk_pin" I L 5500 4900 50 
-F3 "st7920_cs_pin" I L 5500 4800 50 
-F4 "st7920_sid_pin" I L 5500 5000 50 
+F2 "st7920_sclk_pin" I L 5500 4250 50 
+F3 "st7920_cs_pin" I L 5500 4150 50 
+F4 "st7920_sid_pin" I L 5500 4350 50 
 $EndSheet
 $Sheet
 S 2050 6050 900  700 
