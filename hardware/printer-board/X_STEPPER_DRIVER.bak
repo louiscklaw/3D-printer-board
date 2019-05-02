@@ -39,7 +39,7 @@ AR Path="/5CC0A4B9/5CC02DA4" Ref="R?"  Part="1"
 AR Path="/5CC02DA4" Ref="R8"  Part="1" 
 F 0 "R8" H 4292 2746 50  0000 R CNN
 F 1 "R104,0603" H 4292 2655 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4350 2700 50  0001 C CNN
 F 3 "~" H 4350 2700 50  0001 C CNN
 	1    4350 2700
 	1    0    0    -1  

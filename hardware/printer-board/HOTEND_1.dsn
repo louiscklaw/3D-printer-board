@@ -21,9 +21,26 @@
       )
     )
     (boundary
-      (path pcb 0  12675 -25845  1325 -25845  1325 -2261.5  12675 -2261.5
-            12675 -25845)
+      (path pcb 0  98147 -85.185  98750 -334.936  99267.8 -732.233  99665.1 -1250
+            99914.8 -1852.95  100000 -2500  100000 -32500  99914.8 -33147
+            99665.1 -33750  99267.8 -34267.8  98750 -34665.1  98147 -34914.8
+            97500 -35000  82500 -35000  81853 -35085.2  81250 -35334.9  80732.2 -35732.2
+            80334.9 -36250  80085.2 -36853  80000 -37500  80000 -61000  80085.2 -61647
+            80334.9 -62250  80732.2 -62767.8  81250 -63165.1  81853 -63414.8
+            82500 -63500  97500 -63500  98147 -63585.2  98750 -63834.9  99267.8 -64232.2
+            99665.1 -64750  99914.8 -65353  100000 -66000  100000 -97500
+            99914.8 -98147  99665.1 -98750  99267.8 -99267.8  98750 -99665.1
+            98147 -99914.8  97500 -100000  2500 -100000  1852.95 -99914.8
+            1250 -99665.1  732.233 -99267.8  334.936 -98750  85.185 -98147
+            0 -97500  0 -2500  85.185 -1852.95  334.936 -1250  732.233 -732.233
+            1250 -334.936  1852.95 -85.185  2500 0  97500 0  98147 -85.185)
     )
+    (keepout "" (polygon signal 0  58000 -44000  57617.3 -44076.1  57292.9 -44292.9  57076.1 -44617.3
+            57000 -45000  57000 -61000  57076.1 -61382.7  57292.9 -61707.1
+            57617.3 -61923.9  58000 -62000  73000 -62000  73382.7 -61923.9
+            73707.1 -61707.1  73923.9 -61382.7  74000 -61000  74000 -45000
+            73923.9 -44617.3  73707.1 -44292.9  73382.7 -44076.1  73000 -44000
+            58000 -44000))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -33,26 +50,70 @@
     )
   )
   (placement
+    (component MountingHole:MountingHole_2.7mm_M2.5
+      (place H3 3000 -97000 front 0 (PN MOUNT_M3))
+      (place H4 97000 -97000 front 0 (PN MOUNT_M3))
+      (place H1 3000 -3000 front 0 (PN MOUNT_M3))
+    )
+    (component MountingHole:MountingHole_2.7mm_M2.5::1
+      (place H2 97000 -3000 front 0 (PN MOUNT_M3))
+    )
     (component "footprint-lib:TO-263-2,thermal_vias"
-      (place Q3 7000 -17500 front 90 (PN STP55NF06))
+      (place Q3 73250 -15000 front 90 (PN STP55NF06))
     )
     (component LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place D19 9500 -8000 front 0 (PN LED_RED,0603))
+      (place D19 75750 -5500 front 0 (PN LED_RED,0603))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place R55 9500 -8000 back 0 (PN R182,0603))
+      (place R55 75750 -5500 back 0 (PN R182,0603))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
-      (place R54 9500 -22500 back 270 (PN R104,0805))
+      (place R54 75750 -20000 back 270 (PN R104,0805))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1
-      (place R53 4500 -22500 back 270 (PN R100,0805))
+      (place R53 70750 -20000 back 270 (PN R100,0805))
     )
     (component "footprint-lib:mpt_0,5%2f2-2,54,heatbed"
-      (place J32 4500 -5500 front 180 (PN HOT_END))
+      (place J32 70750 -3000 front 180 (PN HOT_END))
     )
   )
   (library
+    (image MountingHole:MountingHole_2.7mm_M2.5
+      (outline (path signal 150  2700 0  2621.54 -646.152  2390.73 -1254.75  2020.98 -1790.43
+            1533.78 -2222.06  957.433 -2524.54  325.449 -2680.31  -325.449 -2680.31
+            -957.433 -2524.54  -1533.78 -2222.06  -2020.98 -1790.43  -2390.73 -1254.75
+            -2621.54 -646.152  -2700 0  -2621.54 646.152  -2390.73 1254.75
+            -2020.98 1790.43  -1533.78 2222.06  -957.433 2524.54  -325.449 2680.31
+            325.449 2680.31  957.433 2524.54  1533.78 2222.06  2020.98 1790.43
+            2390.73 1254.75  2621.54 646.152  2700 0))
+      (outline (path signal 50  2950 0  2870.48 -680.317  2636.22 -1323.96  2259.83 -1896.22
+            1761.62 -2366.26  1168.43 -2708.74  512.262 -2905.18  -171.527 -2945.01
+            -846.07 -2826.07  -1475 -2554.78  -2024.41 -2145.75  -2464.69 -1621.05
+            -2772.09 -1008.96  -2930.05 -342.474  -2930.05 342.474  -2772.09 1008.96
+            -2464.69 1621.05  -2024.41 2145.75  -1475 2554.78  -846.07 2826.07
+            -171.527 2945.01  512.262 2905.18  1168.43 2708.74  1761.62 2366.26
+            2259.83 1896.22  2636.22 1323.96  2870.48 680.317  2950 0))
+      (keepout "" (circle F.Cu 2700))
+      (keepout "" (circle B.Cu 2700))
+    )
+    (image MountingHole:MountingHole_2.7mm_M2.5::1
+      (outline (path signal 50  2950 0  2870.48 -680.317  2636.22 -1323.96  2259.83 -1896.22
+            1761.62 -2366.26  1168.43 -2708.74  512.262 -2905.18  -171.527 -2945.01
+            -846.07 -2826.07  -1475 -2554.78  -2024.41 -2145.75  -2464.69 -1621.05
+            -2772.09 -1008.96  -2930.05 -342.474  -2930.05 342.474  -2772.09 1008.96
+            -2464.69 1621.05  -2024.41 2145.75  -1475 2554.78  -846.07 2826.07
+            -171.527 2945.01  512.262 2905.18  1168.43 2708.74  1761.62 2366.26
+            2259.83 1896.22  2636.22 1323.96  2870.48 680.317  2950 0))
+      (outline (path signal 150  2700 0  2621.54 -646.152  2390.73 -1254.75  2020.98 -1790.43
+            1533.78 -2222.06  957.433 -2524.54  325.449 -2680.31  -325.449 -2680.31
+            -957.433 -2524.54  -1533.78 -2222.06  -2020.98 -1790.43  -2390.73 -1254.75
+            -2621.54 -646.152  -2700 0  -2621.54 646.152  -2390.73 1254.75
+            -2020.98 1790.43  -1533.78 2222.06  -957.433 2524.54  -325.449 2680.31
+            325.449 2680.31  957.433 2524.54  1533.78 2222.06  2020.98 1790.43
+            2390.73 1254.75  2621.54 646.152  2700 0))
+      (keepout "" (circle F.Cu 2700))
+      (keepout "" (circle B.Cu 2700))
+    )
     (image "footprint-lib:TO-263-2,thermal_vias"
       (outline (path signal 50  8320 5650  -8320 5650))
       (outline (path signal 50  8320 -5650  8320 5650))
@@ -291,7 +352,7 @@
     (net /EN2
       (pins R54-2 R53-2)
     )
-    (class kicad_default "" +12V +12V2 +3V3 "/-12V" /E0_~E1_STEP~PER_DRIVER/E0_DIR
+    (class kicad_default "" +12V +12V2 +3V3 +5V "/-12V" /E0_~E1_STEP~PER_DRIVER/E0_DIR
       /E0_~E1_STEP~PER_DRIVER/E0_STEP /E0_~E1_STEP~PER_DRIVER/~E0_EN~ /E1_~E1_STEP~PER_DRIVER/E1_DIR
       /E1_~E1_STEP~PER_DRIVER/E1_STEP /E1_~E1_STEP~PER_DRIVER/~E1_EN~ /EN2
       /END_STOP/X_MAX /END_STOP/X_MIN /END_STOP/Y_MAX /END_STOP/Y_MIN /END_STOP/Z_MAX
@@ -310,32 +371,31 @@
       /Z2_~E1_STEP~PER_DRIVER/~Z2_EN~ /Z3_~E1_STEP~PER_DRIVER/Z3_DIR /Z3_~E1_STEP~PER_DRIVER/Z3_STEP
       /Z3_~E1_STEP~PER_DRIVER/~Z3_EN~ /Z_~E1_STEP~PER_DRIVER/Z_DIR /Z_~E1_STEP~PER_DRIVER/Z_STEP
       /Z_~E1_STEP~PER_DRIVER/~Z_EN~ "/orange_pi/OPI_USB-DM2" "/orange_pi/OPI_USB-DM3"
-      "/orange_pi/OPI_USB-DP2" "/orange_pi/OPI_USB-DP3" "/orange_pi/USB-DM2"
-      "/orange_pi/USB-DM3" "/orange_pi/USB-DP2" "/orange_pi/USB-DP3" "/st7920 type lcd/BEEPER"
+      "/orange_pi/OPI_USB-DP2" "/orange_pi/OPI_USB-DP3" "/st7920 type lcd/BEEPER"
       "/st7920 type lcd/BTN_EN1" "/st7920 type lcd/BTN_EN2" "/st7920 type lcd/BTN_ENC"
       "/st7920 type lcd/CS" "/st7920 type lcd/DC" "/st7920 type lcd/DI" "/st7920 type lcd/DO"
       "/st7920 type lcd/KILL" "/st7920 type lcd/LCD_CS" "/st7920 type lcd/LCD_SCLK"
       "/st7920 type lcd/LCD_SID" "/st7920 type lcd/RESET" "/st7920 type lcd/RST"
       GND "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" "Net-(C24-Pad1)"
+      "Net-(C36-Pad2)" "Net-(C37-Pad2)" "Net-(C38-Pad2)" "Net-(C43-Pad1)"
       "Net-(C46-Pad1)" "Net-(C47-Pad1)" "Net-(C47-Pad2)" "Net-(C48-Pad1)"
       "Net-(C48-Pad2)" "Net-(C51-Pad1)" "Net-(C52-Pad1)" "Net-(C52-Pad2)"
       "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D17-Pad1)"
-      "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad1)" "Net-(D20-Pad2)"
-      "Net-(D21-Pad1)" "Net-(D21-Pad2)" "Net-(D22-Pad1)" "Net-(D22-Pad2)"
-      "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)"
-      "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(F1-Pad1)"
-      "Net-(F2-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J10-Pad1)" "Net-(J10-Pad3)"
-      "Net-(J10-Pad5)" "Net-(J11-Pad1)" "Net-(J11-Pad2)" "Net-(J11-Pad3)"
-      "Net-(J11-Pad4)" "Net-(J12-Pad1)" "Net-(J12-Pad3)" "Net-(J12-Pad5)"
-      "Net-(J13-Pad1)" "Net-(J13-Pad2)" "Net-(J13-Pad3)" "Net-(J13-Pad4)"
-      "Net-(J2-Pad1)" "Net-(J2-Pad3)" "Net-(J2-Pad5)" "Net-(J29-Pad2)" "Net-(J29-Pad3)"
-      "Net-(J3-Pad1)" "Net-(J3-Pad2)" "Net-(J3-Pad3)" "Net-(J3-Pad4)" "Net-(J30-Pad5)"
-      "Net-(J36-Pad1)" "Net-(J36-Pad3)" "Net-(J36-Pad5)" "Net-(J37-Pad1)"
-      "Net-(J37-Pad2)" "Net-(J37-Pad3)" "Net-(J37-Pad4)" "Net-(J38-Pad1)"
-      "Net-(J38-Pad3)" "Net-(J38-Pad5)" "Net-(J39-Pad1)" "Net-(J39-Pad2)"
-      "Net-(J39-Pad3)" "Net-(J39-Pad4)" "Net-(J4-Pad1)" "Net-(J4-Pad3)" "Net-(J4-Pad5)"
-      "Net-(J41-Pad6)" "Net-(J41-Pad7)" "Net-(J41-Pad8)" "Net-(J42-Pad1)"
+      "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
+      "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+      "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)"
+      "Net-(F1-Pad1)" "Net-(F2-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)"
+      "Net-(J10-Pad1)" "Net-(J10-Pad3)" "Net-(J10-Pad5)" "Net-(J11-Pad1)"
+      "Net-(J11-Pad2)" "Net-(J11-Pad3)" "Net-(J11-Pad4)" "Net-(J12-Pad1)"
+      "Net-(J12-Pad3)" "Net-(J12-Pad5)" "Net-(J13-Pad1)" "Net-(J13-Pad2)"
+      "Net-(J13-Pad3)" "Net-(J13-Pad4)" "Net-(J2-Pad1)" "Net-(J2-Pad3)" "Net-(J2-Pad5)"
+      "Net-(J29-Pad2)" "Net-(J29-Pad3)" "Net-(J3-Pad1)" "Net-(J3-Pad2)" "Net-(J3-Pad3)"
+      "Net-(J3-Pad4)" "Net-(J30-Pad5)" "Net-(J36-Pad1)" "Net-(J36-Pad3)" "Net-(J36-Pad5)"
+      "Net-(J37-Pad1)" "Net-(J37-Pad2)" "Net-(J37-Pad3)" "Net-(J37-Pad4)"
+      "Net-(J38-Pad1)" "Net-(J38-Pad3)" "Net-(J38-Pad5)" "Net-(J39-Pad1)"
+      "Net-(J39-Pad2)" "Net-(J39-Pad3)" "Net-(J39-Pad4)" "Net-(J4-Pad1)" "Net-(J4-Pad3)"
+      "Net-(J4-Pad5)" "Net-(J41-Pad6)" "Net-(J41-Pad7)" "Net-(J41-Pad8)" "Net-(J42-Pad1)"
       "Net-(J42-Pad2)" "Net-(J42-Pad4)" "Net-(J42-Pad6)" "Net-(J42-Pad7)"
       "Net-(J5-Pad1)" "Net-(J5-Pad2)" "Net-(J5-Pad3)" "Net-(J5-Pad4)" "Net-(J6-Pad1)"
       "Net-(J6-Pad3)" "Net-(J6-Pad5)" "Net-(J7-Pad1)" "Net-(J7-Pad2)" "Net-(J7-Pad3)"
