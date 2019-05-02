@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  16955 -12075  7400 -12075  7400 -810.139  16955 -810.139
-            16955 -12075)
+      (path pcb 0  31997 -20439.9  17495 -20439.9  17495 -4995  31997 -4995
+            31997 -20439.9)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,22 +34,22 @@
   )
   (placement
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-      (place C54 9100 -3600 back 180 (PN C332,0603))
-      (place C52 9100 -1900 front 0 (PN C104,0603))
-      (place C50 9100 -1900 back 0 (PN C103,0603))
-      (place R85 9100 -5400 back 0 (PN R562,0603))
-      (place R83 16100 -10400 back 90 (PN R333,0603))
+      (place C54 27000 -11250 front 180 (PN C226,6.3v,0603))
+      (place C52 24000 -5750 front 0 (PN C332,0603))
+      (place C50 23000 -16000 front 0 (PN C106,0603))
     )
     (component Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place C53 10200 -10300 back 90 (PN C226,6.3v,0603))
-      (place C51 9075 -3600 front 180 (PN C106,0603))
-      (place R84 9100 -5400 front 0 (PN R103,0603))
+      (place C53 20250 -16500 front 90 (PN C103,0603))
+      (place C51 18250 -9000 front 270 (PN C104,0603))
+      (place R77 27500 -5750 front 0 (PN R562,0603))
+      (place R78 27000 -7750 front 0 (PN R103,0603))
+      (place R79 27000 -9500 front 180 (PN R333,0603))
     )
-    (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-      (place U11 13200 -9300 front 0 (PN MP2303A_ALT))
+    (component "footprint-lib:SOIC-8_3.9x4.9mm_P1.27mm,thermal_via"
+      (place U12 22274 -10889 front 90 (PN MP2303A_ALT))
     )
     (component w_smd_inductors:inductor_smd_4.8x2.8mm
-      (place L3 14000 -3500 front 90 (PN L_15uH))
+      (place L3 29250 -17750 front 90 (PN L_15uH))
     )
   )
   (library
@@ -81,7 +81,7 @@
       (pin RoundRect[T]Pad_1050x950_238.404_um 2 875 0)
       (pin RoundRect[T]Pad_1050x950_238.404_um 1 -875 0)
     )
-    (image "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+    (image "footprint-lib:SOIC-8_3.9x4.9mm_P1.27mm,thermal_via"
       (outline (path signal 100  -950 2450  1950 2450))
       (outline (path signal 100  1950 2450  1950 -2450))
       (outline (path signal 100  1950 -2450  -1950 -2450))
@@ -106,6 +106,18 @@
       (pin Rect[T]Pad_1550x600_um 6 2700 -635)
       (pin Rect[T]Pad_1550x600_um 7 2700 635)
       (pin Rect[T]Pad_1550x600_um 8 2700 1905)
+      (pin Rect[A]Pad_1200x1500_um @1 -889 1524)
+      (pin Rect[A]Pad_1200x1500_um @2 0 1524)
+      (pin Rect[A]Pad_1200x1500_um @3 889 1524)
+      (pin Rect[A]Pad_1200x1500_um @4 -889 508)
+      (pin Rect[A]Pad_1200x1500_um @5 889 508)
+      (pin Rect[A]Pad_1200x1500_um @6 0 508)
+      (pin Rect[A]Pad_1200x1500_um @7 -889 -508)
+      (pin Rect[A]Pad_1200x1500_um @8 889 -508)
+      (pin Rect[A]Pad_1200x1500_um @9 0 -508)
+      (pin Rect[A]Pad_1200x1500_um @10 -889 -1524)
+      (pin Rect[A]Pad_1200x1500_um @11 889 -1524)
+      (pin Rect[A]Pad_1200x1500_um @12 0 -1524)
     )
     (image w_smd_inductors:inductor_smd_4.8x2.8mm
       (outline (path signal 381  1998.98 0  1918.01 -563.178  1681.65 -1080.73  1309.05 -1510.73
@@ -142,6 +154,11 @@
       (shape (rect F.Cu -2647.95 -999.49 2647.95 999.49))
       (attach off)
     )
+    (padstack Rect[A]Pad_1200x1500_um
+      (shape (rect F.Cu -600 -750 600 750))
+      (shape (rect B.Cu -600 -750 600 750))
+      (attach off)
+    )
     (padstack Rect[T]Pad_1550x600_um
       (shape (rect F.Cu -775 -300 775 300))
       (attach off)
@@ -153,39 +170,39 @@
     )
   )
   (network
-    (net +3V3
-      (pins C53-1 R83-1 L3-2)
-    )
-    (net "Net-(C50-Pad1)"
-      (pins C50-1 U11-3 L3-1)
-    )
-    (net "Net-(R83-Pad2)"
-      (pins U11-5 R84-1 R83-2)
-    )
     (net GND
-      (pins C53-2 C52-2 C51-2 U11-4 R85-2 R84-2)
+      (pins C54-2 C51-2 C50-2 R77-2 R78-2 U12-4)
     )
-    (net "Net-(C54-Pad2)"
-      (pins C54-2 R85-1)
+    (net +3V3
+      (pins C54-1 R79-1 L3-2)
     )
-    (net "Net-(C50-Pad2)"
-      (pins C50-2 U11-1)
+    (net "Net-(C53-Pad1)"
+      (pins C53-1 U12-3 L3-1)
     )
     (net +12V
-      (pins C51-1 U11-2)
+      (pins C50-1 U12-2)
     )
-    (net "Net-(C54-Pad1)"
-      (pins C54-1 U11-6)
+    (net "Net-(C53-Pad2)"
+      (pins C53-2 U12-1)
     )
-    (net "Net-(U11-Pad7)"
-      (pins U11-7)
+    (net "Net-(R78-Pad1)"
+      (pins R78-1 R79-2 U12-5)
     )
     (net "Net-(C52-Pad1)"
-      (pins C52-1 U11-8)
+      (pins C52-1 U12-6)
     )
-    (class kicad_default "" +12V +3V3 GND "Net-(C50-Pad1)" "Net-(C50-Pad2)"
-      "Net-(C52-Pad1)" "Net-(C54-Pad1)" "Net-(C54-Pad2)" "Net-(R83-Pad2)"
-      "Net-(U11-Pad7)"
+    (net "Net-(U12-Pad7)"
+      (pins U12-7)
+    )
+    (net "Net-(C51-Pad1)"
+      (pins C51-1 U12-8)
+    )
+    (net "Net-(C52-Pad2)"
+      (pins C52-2 R77-1)
+    )
+    (class kicad_default "" +12V +3V3 GND "Net-(C51-Pad1)" "Net-(C52-Pad1)"
+      "Net-(C52-Pad2)" "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(R78-Pad1)"
+      "Net-(U12-Pad7)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
