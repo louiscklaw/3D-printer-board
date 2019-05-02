@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 27
+Sheet 1 28
 Title ""
 Date ""
 Rev ""
@@ -487,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5350 2600 5450
 $Sheet
-S 5800 4200 900  1400
+S 5800 4200 950  1050
 U 5CC8321E
 F0 "st7920 type lcd" 50
 F1 "st7920 type lcd.sch" 50
@@ -713,4 +713,10 @@ Wire Wire Line
 	2550 3100 2700 3100
 Wire Wire Line
 	2550 3200 2700 3200
+$Sheet
+S 5800 5500 950  600 
+U 5CE3BAD7
+F0 "SSD1306_SPI" 50
+F1 "SSD1306_SPI.sch" 50
+$EndSheet
 $EndSCHEMATC
