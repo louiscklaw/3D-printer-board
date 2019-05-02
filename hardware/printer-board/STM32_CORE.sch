@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 29
+Sheet 13 28
 Title ""
 Date ""
 Rev ""
@@ -32,14 +32,6 @@ U 5CC2BD61
 F0 "STM32_CORE_IO" 50
 F1 "STM32_CORE_IO.sch" 50
 $EndSheet
-$Sheet
-S 4700 4250 800  650 
-U 5CC2A1CB
-F0 "STM32_CORE_USB" 50
-F1 "STM32_CORE_USB.sch" 50
-F2 "D-" B L 4700 4500 50 
-F3 "D+" B L 4700 4600 50 
-$EndSheet
 Text HLabel 1200 900  0    50   Input ~ 0
 STM32_D-
 Text HLabel 1200 1000 0    50   Input ~ 0
@@ -48,9 +40,9 @@ Wire Wire Line
 	4000 4500 4700 4500
 Wire Wire Line
 	4000 4600 4700 4600
-Text Label 4550 4500 2    50   ~ 0
+Text Label 4700 4500 2    50   ~ 0
 STM32_D-
-Text Label 4550 4600 2    50   ~ 0
+Text Label 4700 4600 2    50   ~ 0
 STM32_D+
 Wire Wire Line
 	1200 900  1900 900 
