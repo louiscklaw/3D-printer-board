@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 29
+Sheet 22 29
 Title ""
 Date ""
 Rev ""
@@ -168,61 +168,6 @@ F 3 "" V 3750 2800 50  0001 C CNN
 	1    3750 2800
 	0    1    -1   0   
 $EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5CC24301
-P 2600 4750
-AR Path="/5CC12903/5CC24301" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC24301" Ref="#PWR?"  Part="1" 
-AR Path="/5CC19D48/5CC24301" Ref="#PWR?"  Part="1" 
-AR Path="/5CC2401E/5CC242A1/5CC24301" Ref="#PWR0160"  Part="1" 
-AR Path="/5CC2401E/5CC24321/5CC24301" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24301" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR0160" H 2600 4600 50  0001 C CNN
-F 1 "+12V" V 2615 4878 50  0000 L CNN
-F 2 "" H 2600 4750 50  0001 C CNN
-F 3 "" H 2600 4750 50  0001 C CNN
-	1    2600 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5CC24302
-P 3100 4750
-AR Path="/5CC0B758/5CC24302" Ref="#PWR?"  Part="1" 
-AR Path="/5CC12903/5CC24302" Ref="#PWR?"  Part="1" 
-AR Path="/5CC130A8/5CC24302" Ref="#PWR?"  Part="1" 
-AR Path="/5CC19D48/5CC24302" Ref="#PWR?"  Part="1" 
-AR Path="/5CC2401E/5CC242A1/5CC24302" Ref="#PWR0161"  Part="1" 
-AR Path="/5CC2401E/5CC24321/5CC24302" Ref="#PWR?"  Part="1" 
-AR Path="/5CC24302" Ref="#PWR0161"  Part="1" 
-F 0 "#PWR0161" H 3100 4500 50  0001 C CNN
-F 1 "GND" H 3105 4577 50  0000 C CNN
-F 2 "" H 3100 4750 50  0001 C CNN
-F 3 "" H 3100 4750 50  0001 C CNN
-	1    3100 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L taobao-cp:CP100uf,16V C?
-U 1 1 5CC8A040
-P 2850 4750
-AR Path="/5CC12903/5CC8A040" Ref="C?"  Part="1" 
-AR Path="/5CC19D48/5CC8A040" Ref="C?"  Part="1" 
-AR Path="/5CC2401E/5CC242A1/5CC8A040" Ref="C36"  Part="1" 
-AR Path="/5CC2401E/5CC24321/5CC8A040" Ref="C?"  Part="1" 
-AR Path="/5CC8A040" Ref="C36"  Part="1" 
-F 0 "C36" V 3075 4750 50  0000 C CNN
-F 1 "CP100uf,16V" V 2984 4750 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 2850 4750 50  0001 C CNN
-F 3 "~" H 2850 4750 50  0001 C CNN
-	1    2850 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2600 4750 2750 4750
-Wire Wire Line
-	2950 4750 3100 4750
 $Bitmap
 Pos 9550 5050
 Scale 1.000000
@@ -3090,7 +3035,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2200 4000 2300
 Wire Wire Line
-	3250 3000 3750 3000
+	3250 3000 3400 3000
 Wire Wire Line
 	3250 3000 3250 3050
 Connection ~ 3750 3000
@@ -3103,4 +3048,25 @@ Wire Wire Line
 Wire Wire Line
 	4000 2300 4000 2900
 Connection ~ 4000 2300
+$Comp
+L taobao-cp:CP1uf,50V C36
+U 1 1 5CCC20EB
+P 3400 2600
+F 0 "C36" H 3488 2646 50  0000 L CNN
+F 1 "CP1uf,50V" H 3488 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 3400 2600 50  0001 C CNN
+F 3 "~" H 3400 2600 50  0001 C CNN
+	1    3400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2300 3400 2300
+Wire Wire Line
+	3400 2300 3400 2500
+Connection ~ 3750 2300
+Wire Wire Line
+	3400 2700 3400 3000
+Connection ~ 3400 3000
+Wire Wire Line
+	3400 3000 3750 3000
 $EndSCHEMATC
