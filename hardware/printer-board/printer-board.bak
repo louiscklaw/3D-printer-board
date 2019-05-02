@@ -73,8 +73,8 @@ U 5CC0AECE
 F0 "E1_~E1_STEP~PER_DRIVER" 50
 F1 "E1_STEPPER_DRIVER.sch" 50
 F2 "~E1_EN~" I L 8300 4200 50 
-F3 "E1_STEP" I L 8300 4350 50 
-F4 "E1_DIR" I L 8300 4500 50 
+F3 "E1_STEP" I L 8300 4300 50 
+F4 "E1_DIR" I L 8300 4400 50 
 $EndSheet
 $Sheet
 S 2700 950  900  700 
@@ -101,8 +101,8 @@ U 5CC1B272
 F0 "Thermistors" 50
 F1 "Thermistors.sch" 50
 F2 "HEATBED_TEMP" O R 5150 950 50 
-F3 "HOTEND_TEMP1" O R 5150 1050 50 
-F4 "HOTEND_TEMP2" O R 5150 1150 50 
+F3 "HOTEND_TEMP0" O R 5150 1050 50 
+F4 "HOTEND_TEMP1" O R 5150 1150 50 
 F5 "AUX_TEMP" O R 5150 1300 50 
 F6 "PCB_TEMP" O R 5150 1400 50 
 $EndSheet
@@ -522,11 +522,11 @@ Wire Wire Line
 Wire Wire Line
 	2450 4850 3800 4850
 Text GLabel 5500 4300 0    50   Input ~ 0
-PB8
+PA15
 Text GLabel 5500 4400 0    50   Input ~ 0
-PB9
+PC10
 Text GLabel 5500 4500 0    50   Input ~ 0
-PB10
+PC11
 Wire Wire Line
 	5500 4300 5800 4300
 Wire Wire Line
@@ -534,13 +534,13 @@ Wire Wire Line
 Wire Wire Line
 	5500 4500 5800 4500
 Text GLabel 5500 4700 0    50   Input ~ 0
-PB5
+PC12
 Text GLabel 5500 4800 0    50   Input ~ 0
-PB6
+PD0
 Text GLabel 5500 4900 0    50   Input ~ 0
-PB7
+PD1
 Text GLabel 5500 5100 0    50   Input ~ 0
-PA8
+PD2
 Wire Wire Line
 	5500 4700 5800 4700
 Wire Wire Line
@@ -570,29 +570,29 @@ Wire Wire Line
 Wire Wire Line
 	5150 1400 5250 1400
 Text GLabel 2550 1100 0    50   Input ~ 0
-PA8
+PC6
 Wire Wire Line
 	2550 1100 2700 1100
 Text GLabel 2550 2050 0    50   Input ~ 0
-PA9
+PD15
 Text GLabel 2550 2150 0    50   Input ~ 0
-PA10
+PD14
 Wire Wire Line
 	2700 2050 2550 2050
 Wire Wire Line
 	2700 2150 2550 2150
 Text GLabel 5750 950  0    50   Input ~ 0
-PB2
+PD8
 Text GLabel 5750 1050 0    50   Input ~ 0
-PB3
+PE9
 Text GLabel 5750 1150 0    50   Input ~ 0
-PB4
+PD10
 Text GLabel 5750 1250 0    50   Input ~ 0
-PB5
+PD11
 Text GLabel 5750 1350 0    50   Input ~ 0
-PB6
+PD12
 Text GLabel 5750 1450 0    50   Input ~ 0
-PB7
+PD13
 Wire Wire Line
 	5750 950  5850 950 
 Wire Wire Line
@@ -605,60 +605,54 @@ Wire Wire Line
 	5750 1350 5850 1350
 Wire Wire Line
 	5750 1450 5850 1450
-Text GLabel 8150 3150 0    50   Input ~ 0
-PC0
 Wire Wire Line
 	8150 3150 8300 3150
 Wire Wire Line
 	8150 3250 8300 3250
 Wire Wire Line
 	8150 3350 8300 3350
-Text GLabel 8150 3250 0    50   Input ~ 0
-PC1
-Text GLabel 8150 3350 0    50   Input ~ 0
-PC2
 Text GLabel 8150 4200 0    50   Input ~ 0
-PC3
+PD3
 Text GLabel 8150 4300 0    50   Input ~ 0
-PC4
+PD4
 Text GLabel 8150 4400 0    50   Input ~ 0
-PC5
+PD5
 Text GLabel 9800 1050 0    50   Input ~ 0
-PC6
+PE7
 Text GLabel 9800 1150 0    50   Input ~ 0
-PC7
+PE8
 Text GLabel 9800 1250 0    50   Input ~ 0
-PC8
+PE9
 Text GLabel 9800 2100 0    50   Input ~ 0
-PC9
+PC0
 Text GLabel 9800 2200 0    50   Input ~ 0
-PC10
+PC1
 Text GLabel 9800 2300 0    50   Input ~ 0
-PC11
-Text GLabel 9800 3150 0    50   Input ~ 0
-PC12
-Text GLabel 9800 3250 0    50   Input ~ 0
-PC13
+PC2
 Text GLabel 9800 3350 0    50   Input ~ 0
+PC15
+Text GLabel 9800 3150 0    50   Input ~ 0
+PC13
+Text GLabel 9800 3250 0    50   Input ~ 0
 PC14
 Text GLabel 9800 4200 0    50   Input ~ 0
-PD0
+PE2
 Text GLabel 9800 4300 0    50   Input ~ 0
-PD1
+PE3
 Text GLabel 9800 4400 0    50   Input ~ 0
-PD2
+PE4
 Text GLabel 8100 1050 0    50   Input ~ 0
-PD3
+PE13
 Text GLabel 8100 1150 0    50   Input ~ 0
-PD4
+PE14
 Text GLabel 8100 1250 0    50   Input ~ 0
-PD5
+PE15
 Text GLabel 8100 2100 0    50   Input ~ 0
-PD6
+PE10
 Text GLabel 8100 2200 0    50   Input ~ 0
-PD7
+PE11
 Text GLabel 8100 2300 0    50   Input ~ 0
-PD8
+PE12
 Wire Wire Line
 	8150 4200 8300 4200
 Wire Wire Line
@@ -719,4 +713,10 @@ U 5CE3BAD7
 F0 "SSD1306_SPI" 50
 F1 "SSD1306_SPI.sch" 50
 $EndSheet
+Text GLabel 8150 3150 0    50   Input ~ 0
+PD6
+Text GLabel 8150 3250 0    50   Input ~ 0
+PD7
+Text GLabel 8150 3350 0    50   Input ~ 0
+PB3
 $EndSCHEMATC
