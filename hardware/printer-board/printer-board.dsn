@@ -50,9 +50,12 @@
     )
   )
   (placement
+    (component Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical
+      (place J1 91400 -65400 front 270 (PN USB_DEBUG))
+      (place J28 37400 -42600 front 0 (PN SWD))
+    )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
       (place R8 93500 -78625 front 270 (PN R104,0603))
-      (place R49 51625 -51000 back 180 (PN R152,0603))
       (place R47 51500 -50250 front 0 (PN R220,0603))
       (place R2 78250 -61500 front 90 (PN R153,0603))
       (place R5 84500 -70800 back 90 (PN R220,0603))
@@ -109,7 +112,7 @@
       (place C36 21500 -13750 front 0 (PN CP1uf,50V))
     )
     (component Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder::1
-      (place R48 51500 -51750 front 0 (PN R220,0603))
+      (place R48 51500 -51750 front 0 (PN R152,0603))
       (place R1 76250 -61500 front 90 (PN R153,0603))
       (place R4 86100 -70800 back 90 (PN R220,0603))
       (place R7 50800 -70800 back 270 (PN R102,0603))
@@ -155,7 +158,6 @@
     )
     (component Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical::1
       (place J30 29400 -42800 front 0 (PN PWR_DEBUG))
-      (place J1 91400 -65400 front 270 (PN USB_DEBUG))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical
       (place J41 39000 -38400 front 180 (PN EXP1))
@@ -198,9 +200,6 @@
     )
     (component "Crystal:Crystal_HC49-4H_Vertical"
       (place Y1 30582.7 -64010.4 front 315 (PN O_8M))
-    )
-    (component Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical
-      (place J28 37400 -42600 front 0 (PN SWD))
     )
     (component Button_Switch_SMD:SW_SPST_CK_RS282G05A3
       (place SW1 47586.9 -67961.8 front 225 (PN SW_Push))
@@ -381,6 +380,29 @@
     )
   )
   (library
+    (image Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical
+      (outline (path signal 100  -525 635  1050 635))
+      (outline (path signal 100  1050 635  1050 -4445))
+      (outline (path signal 100  1050 -4445  -1050 -4445))
+      (outline (path signal 100  -1050 -4445  -1050 110))
+      (outline (path signal 100  -1050 110  -525 635))
+      (outline (path signal 120  -1110 -4505  -307.53 -4505))
+      (outline (path signal 120  307.53 -4505  1110 -4505))
+      (outline (path signal 120  -1110 -760  -1110 -4505))
+      (outline (path signal 120  1110 -760  1110 -4505))
+      (outline (path signal 120  -1110 -760  -563.471 -760))
+      (outline (path signal 120  563.471 -760  1110 -760))
+      (outline (path signal 120  -1110 0  -1110 760))
+      (outline (path signal 120  -1110 760  0 760))
+      (outline (path signal 50  -1550 1150  -1550 -4950))
+      (outline (path signal 50  -1550 -4950  1550 -4950))
+      (outline (path signal 50  1550 -4950  1550 1150))
+      (outline (path signal 50  1550 1150  -1550 1150))
+      (pin Rect[A]Pad_1000x1000_um 1 0 0)
+      (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
+      (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
+      (pin Oval[A]Pad_1000x1000_um 4 0 -3810)
+    )
     (image Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder
       (outline (path signal 100  -800 -400  -800 400))
       (outline (path signal 100  -800 400  800 400))
@@ -838,29 +860,6 @@
       (outline (path signal 50  8500 2800  -3600 2800))
       (pin Round[A]Pad_1500_um 1 0 0)
       (pin Round[A]Pad_1500_um 2 4880 0)
-    )
-    (image Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical
-      (outline (path signal 100  -525 635  1050 635))
-      (outline (path signal 100  1050 635  1050 -4445))
-      (outline (path signal 100  1050 -4445  -1050 -4445))
-      (outline (path signal 100  -1050 -4445  -1050 110))
-      (outline (path signal 100  -1050 110  -525 635))
-      (outline (path signal 120  -1110 -4505  -307.53 -4505))
-      (outline (path signal 120  307.53 -4505  1110 -4505))
-      (outline (path signal 120  -1110 -760  -1110 -4505))
-      (outline (path signal 120  1110 -760  1110 -4505))
-      (outline (path signal 120  -1110 -760  -563.471 -760))
-      (outline (path signal 120  563.471 -760  1110 -760))
-      (outline (path signal 120  -1110 0  -1110 760))
-      (outline (path signal 120  -1110 760  0 760))
-      (outline (path signal 50  -1550 1150  -1550 -4950))
-      (outline (path signal 50  -1550 -4950  1550 -4950))
-      (outline (path signal 50  1550 -4950  1550 1150))
-      (outline (path signal 50  1550 1150  -1550 1150))
-      (pin Rect[A]Pad_1000x1000_um 1 0 0)
-      (pin Oval[A]Pad_1000x1000_um 2 0 -1270)
-      (pin Oval[A]Pad_1000x1000_um 3 0 -2540)
-      (pin Oval[A]Pad_1000x1000_um 4 0 -3810)
     )
     (image Button_Switch_SMD:SW_SPST_CK_RS282G05A3
       (outline (path signal 50  -4900 -2050  -4900 2050))
@@ -2072,10 +2071,10 @@
   )
   (network
     (net GND
-      (pins R8-1 C1-2 R1-2 R2-2 J29-4 J29-5 C44-2 J30-1 J41-9 J42-9 U8-20 U8-10 U8-27
-        U8-74 U8-99 R46-2 R45-2 R43-2 J28-1 C29-1 C28-1 C25-1 C27-1 C26-1 C30-2 C31-2
-        C32-2 C24-2 C23-2 C22-2 C21-2 SW1-1 C55-1 U1-2 J1-1 D1-1 C2-2 C3-1 U2-15 U2-9
-        C41-2 C42-1 R71-1 U10-15 U10-9 C4-2 C5-1 R11-1 U3-9 U3-15 C6-2 C7-1 R14-1
+      (pins J1-1 R8-1 C1-2 R1-2 R2-2 J29-4 J29-5 C44-2 J30-1 J41-9 J42-9 U8-20 U8-10
+        U8-27 U8-74 U8-99 R46-2 R45-2 R43-2 J28-1 C29-1 C28-1 C25-1 C27-1 C26-1 C30-2
+        C31-2 C32-2 C24-2 C23-2 C22-2 C21-2 SW1-1 C55-1 U1-2 D1-1 C2-2 C3-1 U2-15
+        U2-9 C41-2 C42-1 R71-1 U10-15 U10-9 C4-2 C5-1 R11-1 U3-9 U3-15 C6-2 C7-1 R14-1
         U4-9 U4-15 C39-2 C40-1 R68-1 U9-9 U9-15 C8-2 C9-1 R17-1 U5-15 U5-9 C10-2 C11-1
         R20-1 U6-15 U6-9 C12-2 C13-1 R23-1 U7-9 U7-15 J15-3 J20-3 J19-3 J18-3 J17-3
         J16-3 Q1-3 R27-1 R51-1 Q2-3 Q3-3 R54-1 C15-2 C17-2 C18-2 C14-2 C16-2 TH1-2
@@ -2084,7 +2083,7 @@
         J26-2 J27-2)
     )
     (net +3V3
-      (pins R49-2 J30-2 U8-22 U8-50 U8-11 U8-28 U8-75 U8-100 L1-1 R42-2 R41-2 R40-2
+      (pins R48-2 J30-2 U8-22 U8-50 U8-11 U8-28 U8-75 U8-100 L1-1 R42-2 R41-2 R40-2
         D17-2 J28-4 C29-2 C28-2 C25-2 C27-2 C26-2 C55-2 R6-2 C3-2 J2-2 J2-4 J2-6 R9-1
         R10-1 U2-10 C42-2 J38-6 J38-4 J38-2 R72-1 R73-1 U10-10 C5-2 J4-2 J4-4 J4-6
         R12-1 R13-1 U3-10 C7-2 J6-6 J6-4 J6-2 R15-1 R16-1 U4-10 C40-2 J36-6 J36-4
@@ -2255,12 +2254,6 @@
     (net "Net-(U3-Pad5)"
       (pins U3-5 U3-6)
     )
-    (net /X_~E1_STEP~PER_DRIVER/X_DIR
-      (pins U2-8)
-    )
-    (net /X_~E1_STEP~PER_DRIVER/X_STEP
-      (pins U2-7)
-    )
     (net "Net-(U2-Pad5)"
       (pins U2-6 U2-5)
     )
@@ -2272,9 +2265,6 @@
     )
     (net "Net-(J2-Pad1)"
       (pins R8-2 J2-1 U2-2)
-    )
-    (net /X_~E1_STEP~PER_DRIVER/~X_EN~
-      (pins D2-1 R10-2 U2-1)
     )
     (net "Net-(U10-Pad5)"
       (pins U10-6 U10-5)
@@ -2300,17 +2290,8 @@
     (net "Net-(D1-Pad2)"
       (pins D1-2 R7-1)
     )
-    (net "Net-(J1-Pad3)"
-      (pins J1-3 R5-2)
-    )
-    (net "Net-(J1-Pad2)"
-      (pins J1-2 R4-2)
-    )
     (net +5V
-      (pins C1-1 J29-1 C44-1 J30-3 J41-10 U1-1 J1-5 R7-2 C49-1 R76-1 L2-2)
-    )
-    (net "Net-(J1-Pad4)"
-      (pins J1-4)
+      (pins J1-4 C1-1 J29-1 C44-1 J30-3 J41-10 U1-1 R7-2 C49-1 R76-1 L2-2)
     )
     (net "Net-(J7-Pad4)"
       (pins U4-14 J7-4)
@@ -2378,12 +2359,6 @@
     (net "Net-(J9-Pad4)"
       (pins U5-14 J9-4)
     )
-    (net /Z3_~E1_STEP~PER_DRIVER/Z3_DIR
-      (pins U5-8)
-    )
-    (net /Z3_~E1_STEP~PER_DRIVER/Z3_STEP
-      (pins U5-7)
-    )
     (net "Net-(U5-Pad5)"
       (pins U5-6 U5-5)
     )
@@ -2395,9 +2370,6 @@
     )
     (net "Net-(J8-Pad1)"
       (pins J8-1 R17-2 U5-2)
-    )
-    (net /Z3_~E1_STEP~PER_DRIVER/~Z3_EN~
-      (pins D5-1 R19-2 U5-1)
     )
     (net "Net-(D5-Pad2)"
       (pins D5-2 R18-2)
@@ -2547,10 +2519,10 @@
       (pins U8-6 C23-1)
     )
     (net PC13
-      (pins U8-7)
+      (pins U8-7 U9-7)
     )
     (net PC14
-      (pins U8-8)
+      (pins U8-8 U9-8)
     )
     (net PE2
       (pins U8-1)
@@ -2562,19 +2534,19 @@
       (pins U8-3)
     )
     (net PC2
-      (pins U8-17)
+      (pins U8-17 U6-8)
     )
     (net PC3
-      (pins U8-18)
+      (pins U8-18 D7-1 R25-2 U7-1)
     )
     (net "Net-(C21-Pad1)"
       (pins U8-21 L1-2 C21-1)
     )
     (net PA0
-      (pins U8-23)
+      (pins U8-23 C14-1 R35-2 J21-1)
     )
     (net PA1
-      (pins U8-24)
+      (pins U8-24 C16-1 R37-2 J23-1)
     )
     (net PC4
       (pins U8-33)
@@ -2600,17 +2572,8 @@
     (net PB12
       (pins U8-51)
     )
-    (net PB13
-      (pins U8-52)
-    )
-    (net PB14
-      (pins U8-53)
-    )
-    (net PB15
-      (pins U8-54)
-    )
     (net PD8
-      (pins U8-55)
+      (pins U8-55 U10-8)
     )
     (net PD9
       (pins U8-56)
@@ -2622,7 +2585,7 @@
       (pins U8-25)
     )
     (net PA3
-      (pins U8-26)
+      (pins U8-26 C17-1 R38-2 J24-1)
     )
     (net PE10
       (pins U8-41)
@@ -2649,13 +2612,13 @@
       (pins U8-13 Y1-2 C24-1)
     )
     (net PC0
-      (pins U8-15)
+      (pins U8-15 D6-1 R22-2 U6-1)
     )
     (net PC1
-      (pins U8-16)
+      (pins U8-16 U6-7)
     )
     (net PA4
-      (pins U8-29)
+      (pins U8-29 C18-1 R39-2 TH1-1)
     )
     (net PA5
       (pins U8-30)
@@ -2676,7 +2639,7 @@
       (pins U8-46)
     )
     (net PB10
-      (pins U8-47)
+      (pins J41-3 U8-47)
     )
     (net PB11
       (pins U8-48)
@@ -2691,76 +2654,76 @@
       (pins U8-62)
     )
     (net PC6
-      (pins U8-63)
+      (pins U8-63 D3-1 R13-2 U3-1)
     )
     (net PC7
-      (pins U8-64)
+      (pins U8-64 U3-7)
     )
     (net PC8
-      (pins U8-65)
+      (pins U8-65 U3-8)
     )
     (net PC9
-      (pins U8-66)
+      (pins U8-66 D4-1 R16-2 U4-1)
     )
     (net PA8
-      (pins U8-67)
+      (pins J42-10 U8-67 R27-2 R26-2)
     )
     (net PA9
-      (pins U8-68)
+      (pins R51-2 R50-2)
     )
     (net PA10
-      (pins U8-69)
+      (pins R54-2 R53-2)
     )
     (net PA15
       (pins U8-77)
     )
     (net PC10
-      (pins U8-78)
+      (pins U8-78 U4-7)
     )
     (net PC11
-      (pins U8-79)
+      (pins U8-79 U4-8)
     )
     (net PC12
-      (pins U8-80)
+      (pins U8-80 D23-1 R70-2 U9-1)
     )
     (net PD0
-      (pins U8-81)
+      (pins U8-81 D5-1 R19-2 U5-1)
     )
     (net PD1
-      (pins U8-82)
+      (pins U8-82 U5-7)
     )
     (net PD2
-      (pins U8-83)
+      (pins U8-83 U5-8)
     )
     (net PD3
-      (pins U8-84)
+      (pins U8-84 D2-1 R10-2 U2-1)
     )
     (net PD4
-      (pins U8-85)
+      (pins U8-85 U2-7)
     )
     (net PD5
-      (pins U8-86)
+      (pins U8-86 U2-8)
     )
     (net PD6
-      (pins U8-87)
+      (pins U8-87 D24-1 R73-2 U10-1)
     )
     (net PD7
-      (pins U8-88)
+      (pins U8-88 U10-7)
     )
     (net PB3
-      (pins U8-89)
+      (pins U8-89 D10-1 J16-1)
     )
     (net PB4
-      (pins U8-90)
+      (pins U8-90 D11-1 J17-1)
     )
     (net PB5
-      (pins U8-91)
+      (pins J42-5 U8-91 D12-1 J18-1)
     )
     (net PB8
-      (pins U8-95)
+      (pins J41-4 U8-95)
     )
     (net PB9
-      (pins U8-96 R44-1)
+      (pins J41-5 U8-96 R44-1)
     )
     (net PE0
       (pins U8-97)
@@ -2823,10 +2786,10 @@
       (pins U8-14 C32-1 SW1-2)
     )
     (net "/orange_pi/OPI_USB-DM2"
-      (pins R47-1 R2-1 U8-70 U1-3 R4-1)
+      (pins J1-2 R2-1 J29-2 R4-2)
     )
     (net "/orange_pi/OPI_USB-DP2"
-      (pins R49-1 R48-1 R1-1 U8-71 U1-4 R5-1 R6-1)
+      (pins J1-3 R47-2 R1-1 J29-3 R5-2)
     )
     (net /STM32_CORE/STM32_CORE_MCU/SWDIO
       (pins U8-72 J28-3)
@@ -2846,17 +2809,8 @@
     (net /STM32_CORE/STM32_CORE_MCU/BOOT0
       (pins U8-94 R46-1 JP6-2)
     )
-    (net /Thermistors/AUX_TEMP
-      (pins C17-1 R38-2 J24-1)
-    )
-    (net /Thermistors/HOTEND_TEMP1
-      (pins C16-1 R37-2 J23-1)
-    )
     (net /Thermistors/HOTEND_TEMP0
       (pins C15-1 R36-2 J22-1)
-    )
-    (net /Thermistors/HEATBED_TEMP
-      (pins C14-1 R35-2 J21-1)
     )
     (net "/HEATBED/-12V2"
       (pins Q1-2 Q1-2@1 Q1-2@2 Q1-2@3 Q1-2@4 Q1-2@5 Q1-2@6 Q1-2@7 Q1-2@8 Q1-2@9 Q1-2@10
@@ -2879,110 +2833,11 @@
         Q3-2@31 Q3-2@32 Q3-2@33 Q3-2@34 Q3-2@35 Q3-2@36 Q3-2@37 Q3-2@38 Q3-2@39 Q3-2@40
         Q3-2@41 Q3-2@42 Q3-2@43 Q3-2@44 Q3-2@45 D19-1 J32-2)
     )
-    (net /END_STOP/Z_MAX
-      (pins D14-1 J20-1)
-    )
-    (net /END_STOP/Z_MIN
-      (pins D13-1 J19-1)
-    )
-    (net /END_STOP/Y_MAX
-      (pins D12-1 J18-1)
-    )
-    (net /END_STOP/Y_MIN
-      (pins D11-1 J17-1)
-    )
-    (net /END_STOP/X_MAX
-      (pins D10-1 J16-1)
-    )
-    (net /END_STOP/X_MIN
-      (pins D9-1 J15-1)
-    )
-    (net /Z_~E1_STEP~PER_DRIVER/~Z_EN~
-      (pins D3-1 R13-2 U3-1)
-    )
-    (net /Z_~E1_STEP~PER_DRIVER/Z_STEP
-      (pins U3-7)
-    )
-    (net /Z_~E1_STEP~PER_DRIVER/Z_DIR
-      (pins U3-8)
-    )
-    (net /Z2_~E1_STEP~PER_DRIVER/~Z2_EN~
-      (pins D23-1 R70-2 U9-1)
-    )
-    (net /Z2_~E1_STEP~PER_DRIVER/Z2_STEP
-      (pins U9-7)
-    )
-    (net /Z2_~E1_STEP~PER_DRIVER/Z2_DIR
-      (pins U9-8)
-    )
-    (net /E1_~E1_STEP~PER_DRIVER/~E1_EN~
-      (pins D7-1 R25-2 U7-1)
-    )
     (net /E1_~E1_STEP~PER_DRIVER/E1_STEP
       (pins U7-7)
     )
     (net /E1_~E1_STEP~PER_DRIVER/E1_DIR
       (pins U7-8)
-    )
-    (net /Z1_~E1_STEP~PER_DRIVER/~Z1_EN~
-      (pins D4-1 R16-2 U4-1)
-    )
-    (net /Z1_~E1_STEP~PER_DRIVER/Z1_STEP
-      (pins U4-7)
-    )
-    (net /Z1_~E1_STEP~PER_DRIVER/Z1_DIR
-      (pins U4-8)
-    )
-    (net /Y_~E1_STEP~PER_DRIVER/Y_DIR
-      (pins U10-8)
-    )
-    (net /Y_~E1_STEP~PER_DRIVER/Y_STEP
-      (pins U10-7)
-    )
-    (net /Y_~E1_STEP~PER_DRIVER/~Y_EN~
-      (pins D24-1 R73-2 U10-1)
-    )
-    (net /E0_~E1_STEP~PER_DRIVER/E0_DIR
-      (pins U6-8)
-    )
-    (net /E0_~E1_STEP~PER_DRIVER/E0_STEP
-      (pins U6-7)
-    )
-    (net /E0_~E1_STEP~PER_DRIVER/~E0_EN~
-      (pins D6-1 R22-2 U6-1)
-    )
-    (net /HEATBED/HEATBED_EN
-      (pins R27-2 R26-2)
-    )
-    (net /FANS/FAN0/FAN_EN
-      (pins R57-2 R56-2)
-    )
-    (net /HOTENDS/HOTEND_EN1
-      (pins R51-2 R50-2)
-    )
-    (net /FANS/FAN1/FAN_EN
-      (pins R60-2 R61-2)
-    )
-    (net /HOTENDS/HOTEND_EN2
-      (pins R54-2 R53-2)
-    )
-    (net /FANS/FAN2/FAN_EN
-      (pins R64-2 R65-2)
-    )
-    (net /Thermistors/PCB_TEMP
-      (pins C18-1 R39-2 TH1-1)
-    )
-    (net "Net-(J29-Pad3)"
-      (pins R48-2 J29-3)
-    )
-    (net "Net-(J29-Pad2)"
-      (pins R47-2 J29-2)
-    )
-    (net "/orange_pi/OPI_USB-DP3"
-      (pins U1-6)
-    )
-    (net "/orange_pi/OPI_USB-DM3"
-      (pins U1-5)
     )
     (net "/POWER_SUPPLY/AM-VIN"
       (pins D16-1)
@@ -2993,14 +2848,8 @@
     (net "Net-(J42-Pad2)"
       (pins J42-2)
     )
-    (net "/st7920 type lcd/BTN_EN2"
-      (pins J42-3)
-    )
     (net "Net-(J42-Pad4)"
       (pins J42-4)
-    )
-    (net "/st7920 type lcd/BTN_EN1"
-      (pins J42-5)
     )
     (net "Net-(J42-Pad6)"
       (pins J42-6)
@@ -3011,9 +2860,6 @@
     (net "/st7920 type lcd/RESET"
       (pins J42-8)
     )
-    (net "/st7920 type lcd/KILL"
-      (pins J42-10)
-    )
     (net "Net-(J41-Pad8)"
       (pins J41-8)
     )
@@ -3022,18 +2868,6 @@
     )
     (net "Net-(J41-Pad6)"
       (pins J41-6)
-    )
-    (net "/st7920 type lcd/LCD_SCLK"
-      (pins J41-5)
-    )
-    (net "/st7920 type lcd/LCD_CS"
-      (pins J41-4)
-    )
-    (net "/st7920 type lcd/LCD_SID"
-      (pins J41-3)
-    )
-    (net "/st7920 type lcd/BTN_ENC"
-      (pins J41-2)
     )
     (net "/st7920 type lcd/BEEPER"
       (pins J41-1)
@@ -3050,47 +2884,90 @@
     (net "Net-(C36-Pad2)"
       (pins C36-2 D20-1 R58-1 J33-2)
     )
-    (class kicad_default "" +12V +12V2 +3V3 +3V3_STM32 +5V +5V_PI_SRC "/-12V"
-      "/-12V2" "/AM-VIN" /AUX_TEMP /BOOT0 /BOOT1 /D+ "/D-" /E0_DIR /E0_STEP
-      /E0_~E1_STEP~PER_DRIVER/E0_DIR /E0_~E1_STEP~PER_DRIVER/E0_STEP /E0_~E1_STEP~PER_DRIVER/~E0_EN~
-      /E1_DIR /E1_STEP /E1_~E1_STEP~PER_DRIVER/E1_DIR /E1_~E1_STEP~PER_DRIVER/E1_STEP
-      /E1_~E1_STEP~PER_DRIVER/~E1_EN~ /EN1 /EN2 /END_STOP/X_MAX /END_STOP/X_MIN
-      /END_STOP/Y_MAX /END_STOP/Y_MIN /END_STOP/Z_MAX /END_STOP/Z_MIN /FANS/FAN0/FAN_EN
-      /FANS/FAN1/FAN_EN /FANS/FAN2/FAN_EN /FAN_EN "/GND-CAP1" "/GND-CAP2"
-      "/GND-VCC3V3" "/HEATBED/-12V2" /HEATBED/HEATBED_EN /HEATBED_EN /HEATBED_TEMP
-      "/HOTENDS/HOTEND_0/-12V" "/HOTENDS/HOTEND_1/-12V" /HOTENDS/HOTEND_EN1
-      /HOTENDS/HOTEND_EN2 /HOTEND_TEMP0 /HOTEND_TEMP1 "/OPI_USB-DM2" "/OPI_USB-DM3"
-      "/OPI_USB-DP2" "/OPI_USB-DP3" /PCB_TEMP "/POWER_SUPPLY/AM-VIN" /RESET
-      /SCL1 /SDA1 /STM32_CORE/STM32_CORE_MCU/BOOT0 /STM32_CORE/STM32_CORE_MCU/BOOT1
+    (net /STM32_CORE/STM32_CORE_MCU/SCK
+      (pins U8-52)
+    )
+    (net /STM32_CORE/STM32_CORE_MCU/MISO2
+      (pins U8-53)
+    )
+    (net /STM32_CORE/STM32_CORE_MCU/MOSI2
+      (pins U8-54)
+    )
+    (net "Net-(J43-Pad2)"
+      (pins U8-68)
+    )
+    (net "Net-(J43-Pad1)"
+      (pins U8-69)
+    )
+    (net /STM32_CORE/STM32_CORE_MCU/DM
+      (pins U8-70)
+    )
+    (net /STM32_CORE/STM32_CORE_MCU/DP
+      (pins R48-1 R47-1 U8-71)
+    )
+    (net "/orange_pi/USB-DM2"
+      (pins U1-3 R4-1)
+    )
+    (net "/orange_pi/USB-DP2"
+      (pins U1-4 R5-1 R6-1)
+    )
+    (net "/orange_pi/USB-DM3"
+      (pins U1-5)
+    )
+    (net "/orange_pi/USB-DP3"
+      (pins U1-6)
+    )
+    (net PB6
+      (pins J42-3 D13-1 J19-1)
+    )
+    (net PB2
+      (pins D9-1 J15-1)
+    )
+    (net PB7
+      (pins J41-2 D14-1 J20-1)
+    )
+    (net PA11
+      (pins R57-2 R56-2)
+    )
+    (net PA12
+      (pins R60-2 R61-2)
+    )
+    (net PA13
+      (pins R64-2 R65-2)
+    )
+    (class kicad_default "" +12V +12V2 +3V3 +5V /E0_~E1_STEP~PER_DRIVER/E0_DIR
+      /E0_~E1_STEP~PER_DRIVER/E0_STEP /E0_~E1_STEP~PER_DRIVER/~E0_EN~ /E1_~E1_STEP~PER_DRIVER/E1_DIR
+      /E1_~E1_STEP~PER_DRIVER/E1_STEP /E1_~E1_STEP~PER_DRIVER/~E1_EN~ /END_STOP/X_MAX
+      /END_STOP/X_MIN /END_STOP/Y_MAX /END_STOP/Y_MIN /END_STOP/Z_MAX /END_STOP/Z_MIN
+      /FANS/FAN0/FAN_EN /FANS/FAN1/FAN_EN /FANS/FAN2/FAN_EN "/HEATBED/-12V2"
+      /HEATBED/HEATBED_EN "/HOTENDS/HOTEND_0/-12V" "/HOTENDS/HOTEND_1/-12V"
+      /HOTENDS/HOTEND_EN1 /HOTENDS/HOTEND_EN2 "/POWER_SUPPLY/AM-VIN" /SSD1306_SPI/CS
+      /SSD1306_SPI/DC /SSD1306_SPI/DI /SSD1306_SPI/DO /SSD1306_SPI/RST /STM32_CORE/STM32_CORE_MCU/BOOT0
+      /STM32_CORE/STM32_CORE_MCU/BOOT1 /STM32_CORE/STM32_CORE_MCU/DM /STM32_CORE/STM32_CORE_MCU/DP
       "/STM32_CORE/STM32_CORE_MCU/GND-CAP1" "/STM32_CORE/STM32_CORE_MCU/GND-CAP2"
-      "/STM32_CORE/STM32_CORE_MCU/GND-VCC3V3" /STM32_CORE/STM32_CORE_MCU/RESET
+      "/STM32_CORE/STM32_CORE_MCU/GND-VCC3V3" /STM32_CORE/STM32_CORE_MCU/MISO2
+      /STM32_CORE/STM32_CORE_MCU/MOSI2 /STM32_CORE/STM32_CORE_MCU/RESET /STM32_CORE/STM32_CORE_MCU/SCK
       /STM32_CORE/STM32_CORE_MCU/SWCLK /STM32_CORE/STM32_CORE_MCU/SWDIO /STM32_CORE/STM32_SCL1
-      /STM32_CORE/STM32_SDA1 /SWCLK /SWDIO /Thermistors/AUX_TEMP /Thermistors/HEATBED_TEMP
+      /STM32_CORE/STM32_SDA1 /Thermistors/AUX_TEMP /Thermistors/HEATBED_TEMP
       /Thermistors/HOTEND_TEMP0 /Thermistors/HOTEND_TEMP1 /Thermistors/PCB_TEMP
-      "/USB-DM2" "/USB-DM3" "/USB-DP2" "/USB-DP3" /X_MAX /X_MIN /X_~E1_STEP~PER_DRIVER/X_DIR
-      /X_~E1_STEP~PER_DRIVER/X_STEP /X_~E1_STEP~PER_DRIVER/~X_EN~ /Y_DIR /Y_MAX
-      /Y_MIN /Y_STEP /Y_~E1_STEP~PER_DRIVER/Y_DIR /Y_~E1_STEP~PER_DRIVER/Y_STEP
-      /Y_~E1_STEP~PER_DRIVER/~Y_EN~ /Z1_DIR /Z1_STEP /Z1_~E1_STEP~PER_DRIVER/Z1_DIR
-      /Z1_~E1_STEP~PER_DRIVER/Z1_STEP /Z1_~E1_STEP~PER_DRIVER/~Z1_EN~ /Z2_DIR
-      /Z2_STEP /Z2_~E1_STEP~PER_DRIVER/Z2_DIR /Z2_~E1_STEP~PER_DRIVER/Z2_STEP
-      /Z2_~E1_STEP~PER_DRIVER/~Z2_EN~ /Z3_~E1_STEP~PER_DRIVER/Z3_DIR /Z3_~E1_STEP~PER_DRIVER/Z3_STEP
-      /Z3_~E1_STEP~PER_DRIVER/~Z3_EN~ /Z_DIR /Z_MAX /Z_MIN /Z_STEP /Z_~E1_STEP~PER_DRIVER/Z_DIR
-      /Z_~E1_STEP~PER_DRIVER/Z_STEP /Z_~E1_STEP~PER_DRIVER/~Z_EN~ "/orange_pi/OPI_USB-DM2"
-      "/orange_pi/OPI_USB-DM3" "/orange_pi/OPI_USB-DP2" "/orange_pi/OPI_USB-DP3"
-      "/orange_pi/USB-DM2" "/orange_pi/USB-DM3" "/orange_pi/USB-DP2" "/orange_pi/USB-DP3"
-      "/st7920 type lcd/BEEPER" "/st7920 type lcd/BTN_EN1" "/st7920 type lcd/BTN_EN2"
-      "/st7920 type lcd/BTN_ENC" "/st7920 type lcd/CS" "/st7920 type lcd/DC"
-      "/st7920 type lcd/DI" "/st7920 type lcd/DO" "/st7920 type lcd/KILL"
+      /X_~E1_STEP~PER_DRIVER/X_DIR /X_~E1_STEP~PER_DRIVER/X_STEP /X_~E1_STEP~PER_DRIVER/~X_EN~
+      /Y_~E1_STEP~PER_DRIVER/Y_DIR /Y_~E1_STEP~PER_DRIVER/Y_STEP /Y_~E1_STEP~PER_DRIVER/~Y_EN~
+      /Z1_~E1_STEP~PER_DRIVER/Z1_DIR /Z1_~E1_STEP~PER_DRIVER/Z1_STEP /Z1_~E1_STEP~PER_DRIVER/~Z1_EN~
+      /Z2_~E1_STEP~PER_DRIVER/Z2_DIR /Z2_~E1_STEP~PER_DRIVER/Z2_STEP /Z2_~E1_STEP~PER_DRIVER/~Z2_EN~
+      /Z3_~E1_STEP~PER_DRIVER/Z3_DIR /Z3_~E1_STEP~PER_DRIVER/Z3_STEP /Z3_~E1_STEP~PER_DRIVER/~Z3_EN~
+      /Z_~E1_STEP~PER_DRIVER/Z_DIR /Z_~E1_STEP~PER_DRIVER/Z_STEP /Z_~E1_STEP~PER_DRIVER/~Z_EN~
+      "/orange_pi/OPI_USB-DM2" "/orange_pi/OPI_USB-DM3" "/orange_pi/OPI_USB-DP2"
+      "/orange_pi/OPI_USB-DP3" "/orange_pi/USB-DM2" "/orange_pi/USB-DM3" "/orange_pi/USB-DP2"
+      "/orange_pi/USB-DP3" "/st7920 type lcd/BEEPER" "/st7920 type lcd/BTN_EN1"
+      "/st7920 type lcd/BTN_EN2" "/st7920 type lcd/BTN_ENC" "/st7920 type lcd/KILL"
       "/st7920 type lcd/LCD_CS" "/st7920 type lcd/LCD_SCLK" "/st7920 type lcd/LCD_SID"
-      "/st7920 type lcd/RESET" "/st7920 type lcd/RST" /~E0_EN~ /~E1_EN~ /~Y_EN~
-      /~Z1_EN~ /~Z2_EN~ /~Z_EN~ GND "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)"
+      "/st7920 type lcd/RESET" GND "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)"
       "Net-(C24-Pad1)" "Net-(C36-Pad2)" "Net-(C37-Pad2)" "Net-(C38-Pad2)"
-      "Net-(C43-Pad1)" "Net-(C46-Pad1)" "Net-(C47-Pad1)" "Net-(C47-Pad2)"
-      "Net-(C48-Pad1)" "Net-(C48-Pad2)" "Net-(C51-Pad1)" "Net-(C52-Pad1)"
-      "Net-(C52-Pad2)" "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)"
-      "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
-      "Net-(D17-Pad1)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad1)"
-      "Net-(D20-Pad2)" "Net-(D21-Pad1)" "Net-(D21-Pad2)" "Net-(D22-Pad1)"
+      "Net-(C46-Pad1)" "Net-(C47-Pad1)" "Net-(C47-Pad2)" "Net-(C48-Pad1)"
+      "Net-(C48-Pad2)" "Net-(C51-Pad1)" "Net-(C52-Pad1)" "Net-(C52-Pad2)"
+      "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
+      "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D17-Pad1)"
+      "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
       "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
       "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)"
       "Net-(F1-Pad1)" "Net-(F2-Pad1)" "Net-(J1-Pad2)" "Net-(J1-Pad3)" "Net-(J1-Pad4)"
@@ -3105,28 +2982,29 @@
       "Net-(J39-Pad2)" "Net-(J39-Pad3)" "Net-(J39-Pad4)" "Net-(J4-Pad1)" "Net-(J4-Pad3)"
       "Net-(J4-Pad5)" "Net-(J41-Pad6)" "Net-(J41-Pad7)" "Net-(J41-Pad8)" "Net-(J42-Pad1)"
       "Net-(J42-Pad2)" "Net-(J42-Pad4)" "Net-(J42-Pad6)" "Net-(J42-Pad7)"
-      "Net-(J5-Pad1)" "Net-(J5-Pad2)" "Net-(J5-Pad3)" "Net-(J5-Pad4)" "Net-(J6-Pad1)"
-      "Net-(J6-Pad3)" "Net-(J6-Pad5)" "Net-(J7-Pad1)" "Net-(J7-Pad2)" "Net-(J7-Pad3)"
-      "Net-(J7-Pad4)" "Net-(J8-Pad1)" "Net-(J8-Pad3)" "Net-(J8-Pad5)" "Net-(J9-Pad1)"
-      "Net-(J9-Pad2)" "Net-(J9-Pad3)" "Net-(J9-Pad4)" "Net-(JP6-Pad1)" "Net-(JP7-Pad1)"
-      "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q4-Pad2)"
-      "Net-(Q5-Pad1)" "Net-(Q5-Pad2)" "Net-(Q6-Pad1)" "Net-(Q6-Pad2)" "Net-(R75-Pad1)"
-      "Net-(R78-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad101)" "Net-(U1-Pad102)"
-      "Net-(U1-Pad103)" "Net-(U1-Pad104)" "Net-(U1-Pad105)" "Net-(U1-Pad106)"
-      "Net-(U1-Pad107)" "Net-(U1-Pad108)" "Net-(U1-Pad109)" "Net-(U1-Pad11)"
-      "Net-(U1-Pad110)" "Net-(U1-Pad111)" "Net-(U1-Pad112)" "Net-(U1-Pad113)"
-      "Net-(U1-Pad114)" "Net-(U1-Pad115)" "Net-(U1-Pad116)" "Net-(U1-Pad117)"
-      "Net-(U1-Pad118)" "Net-(U1-Pad119)" "Net-(U1-Pad12)" "Net-(U1-Pad120)"
-      "Net-(U1-Pad121)" "Net-(U1-Pad122)" "Net-(U1-Pad123)" "Net-(U1-Pad124)"
-      "Net-(U1-Pad125)" "Net-(U1-Pad126)" "Net-(U1-Pad13)" "Net-(U1-Pad201)"
-      "Net-(U1-Pad202)" "Net-(U1-Pad203)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
-      "Net-(U1-Pad9)" "Net-(U10-Pad5)" "Net-(U11-Pad7)" "Net-(U12-Pad7)" "Net-(U2-Pad5)"
-      "Net-(U3-Pad5)" "Net-(U4-Pad5)" "Net-(U5-Pad5)" "Net-(U6-Pad5)" "Net-(U7-Pad5)"
-      "Net-(U9-Pad5)" PA0 PA1 PA10 PA15 PA2 PA3 PA4 PA5 PA6 PA7 PA8 PA9 PB0
-      PB1 PB10 PB11 PB12 PB13 PB14 PB15 PB3 PB4 PB5 PB8 PB9 PC0 PC1 PC10 PC11
-      PC12 PC13 PC14 PC15 PC2 PC3 PC4 PC5 PC6 PC7 PC8 PC9 PD0 PD1 PD10 PD11
-      PD12 PD13 PD14 PD15 PD2 PD3 PD4 PD5 PD6 PD7 PD8 PD9 PE0 PE1 PE10 PE11
-      PE12 PE13 PE14 PE15 PE2 PE3 PE4 PE5 PE6 PE7 PE8 PE9
+      "Net-(J43-Pad1)" "Net-(J43-Pad2)" "Net-(J5-Pad1)" "Net-(J5-Pad2)" "Net-(J5-Pad3)"
+      "Net-(J5-Pad4)" "Net-(J6-Pad1)" "Net-(J6-Pad3)" "Net-(J6-Pad5)" "Net-(J7-Pad1)"
+      "Net-(J7-Pad2)" "Net-(J7-Pad3)" "Net-(J7-Pad4)" "Net-(J8-Pad1)" "Net-(J8-Pad3)"
+      "Net-(J8-Pad5)" "Net-(J9-Pad1)" "Net-(J9-Pad2)" "Net-(J9-Pad3)" "Net-(J9-Pad4)"
+      "Net-(JP6-Pad1)" "Net-(JP7-Pad1)" "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q3-Pad1)"
+      "Net-(Q4-Pad1)" "Net-(Q4-Pad2)" "Net-(Q5-Pad1)" "Net-(Q5-Pad2)" "Net-(Q6-Pad1)"
+      "Net-(Q6-Pad2)" "Net-(R75-Pad1)" "Net-(R78-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad101)"
+      "Net-(U1-Pad102)" "Net-(U1-Pad103)" "Net-(U1-Pad104)" "Net-(U1-Pad105)"
+      "Net-(U1-Pad106)" "Net-(U1-Pad107)" "Net-(U1-Pad108)" "Net-(U1-Pad109)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad110)" "Net-(U1-Pad111)" "Net-(U1-Pad112)"
+      "Net-(U1-Pad113)" "Net-(U1-Pad114)" "Net-(U1-Pad115)" "Net-(U1-Pad116)"
+      "Net-(U1-Pad117)" "Net-(U1-Pad118)" "Net-(U1-Pad119)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad120)" "Net-(U1-Pad121)" "Net-(U1-Pad122)" "Net-(U1-Pad123)"
+      "Net-(U1-Pad124)" "Net-(U1-Pad125)" "Net-(U1-Pad126)" "Net-(U1-Pad13)"
+      "Net-(U1-Pad201)" "Net-(U1-Pad202)" "Net-(U1-Pad203)" "Net-(U1-Pad7)"
+      "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U10-Pad5)" "Net-(U11-Pad7)" "Net-(U12-Pad7)"
+      "Net-(U2-Pad5)" "Net-(U3-Pad5)" "Net-(U4-Pad5)" "Net-(U5-Pad5)" "Net-(U6-Pad5)"
+      "Net-(U7-Pad5)" "Net-(U9-Pad5)" PA0 PA1 PA10 PA11 PA12 PA13 PA15 PA2
+      PA3 PA4 PA5 PA6 PA7 PA8 PA9 PB0 PB1 PB10 PB11 PB12 PB13 PB14 PB15 PB2
+      PB3 PB4 PB5 PB6 PB7 PB8 PB9 PC0 PC1 PC10 PC11 PC12 PC13 PC14 PC15 PC2
+      PC3 PC4 PC5 PC6 PC7 PC8 PC9 PD0 PD1 PD10 PD11 PD12 PD13 PD14 PD15 PD2
+      PD3 PD4 PD5 PD6 PD7 PD8 PD9 PE0 PE1 PE10 PE11 PE12 PE13 PE14 PE15 PE2
+      PE3 PE4 PE5 PE6 PE7 PE8 PE9
       (circuit
         (use_via Via[0-1]_800:400_um)
       )
@@ -3137,33 +3015,5 @@
     )
   )
   (wiring
-    (wire (path F.Cu 250  27750 -6520  27492.4 -6520  26603.2 -7409.2)(net GND)(type protect))
-    (wire (path B.Cu 250  27500 -6275  26603.2 -7171.8  26603.2 -7409.2)(net GND)(type protect))
-    (wire (path F.Cu 250  28249.2 -2000  27324.5 -2000  25380.6 -3943.9  25380.6 -11430.6
-            27700 -13750)(net +12V)(type protect))
-    (wire (path B.Cu 250  28249.2 -2000  29452 -797.2  32547.2 -797.2  33375 -1625)(net +12V)(type protect))
-    (wire (path B.Cu 250  27500 -4225  28650 -5375  29850 -5375  31000 -4225)(net /FANS/FAN1/FAN_EN)(type protect))
-    (wire (path B.Cu 250  29250 -8254  29250 -6250)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  29250 -9333.5  29250 -10667)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  29250 -9016  29250 -9333.5)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  29250 -7923.8  29250 -6666.5)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  29250 -8254  29250 -7923.8)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  29250 -8254  29250 -9016)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path B.Cu 250  30520 -9016  29250 -9016)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path B.Cu 250  27980 -9016  29250 -9016)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  30520 -9016  30520 -8254)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  27980 -9016  27980 -8254)(net "Net-(Q5-Pad2)")(type protect))
-    (wire (path F.Cu 250  30750 -6520  32330.8 -6520)(net "Net-(Q5-Pad1)")(type protect))
-    (wire (path B.Cu 250  31000 -6275  31245 -6520  32330.8 -6520)(net "Net-(Q5-Pad1)")(type protect))
-    (wire (path F.Cu 250  32288.8 -3080.8  33058.3 -3080.8  33375 -3397.5)(net "Net-(D21-Pad2)")(type protect))
-    (wire (path B.Cu 250  33375 -3375  33080.8 -3080.8  32288.8 -3080.8)(net "Net-(D21-Pad2)")(type protect))
-    (wire (path F.Cu 250  31300 -13750  30691.2 -13750  25831 -8889.8  25831 -6338.6
-            29326.1 -2843.5  29326.1 -2000)(net "Net-(C37-Pad2)")(type protect))
-    (wire (path F.Cu 250  30250.8 -2000  29326.1 -2000)(net "Net-(C37-Pad2)")(type protect))
-    (wire (path F.Cu 250  33375 -1647.5  33022.5 -2000  30250.8 -2000)(net "Net-(C37-Pad2)")(type protect))
-    (wire (path B.Cu 250  30250.8 -2000  29326.1 -2000  29326.1 -4423.9  29250 -4500)(net "Net-(C37-Pad2)")(type protect))
-    (via "Via[0-1]_800:400_um"  26603.2 -7409.2 (net GND)(type protect))
-    (via "Via[0-1]_800:400_um"  32330.8 -6520 (net "Net-(Q5-Pad1)")(type protect))
-    (via "Via[0-1]_800:400_um"  32288.8 -3080.8 (net "Net-(D21-Pad2)")(type protect))
   )
 )

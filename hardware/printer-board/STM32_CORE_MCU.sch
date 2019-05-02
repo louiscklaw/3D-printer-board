@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 27
+Sheet 14 28
 Title ""
 Date ""
 Rev ""
@@ -12903,8 +12903,8 @@ L Connector_Generic:Conn_01x05 J?
 U 1 1 5CCBF6B5
 P 5800 -2250
 AR Path="/5CC29851/5CC2A1CB/5CCBF6B5" Ref="J?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6B5" Ref="J?"  Part="1" 
-F 0 "J?" H 5700 -1800 50  0000 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6B5" Ref="J29"  Part="1" 
+F 0 "J29" H 5700 -1800 50  0000 C CNN
 F 1 "USB_DEBUG" H 5700 -1900 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 5800 -2250 50  0001 C CNN
 F 3 "~" H 5800 -2250 50  0001 C CNN
@@ -12916,8 +12916,8 @@ L power:+5V #PWR?
 U 1 1 5CCBF6BC
 P 6350 -2550
 AR Path="/5CC29851/5CC2A1CB/5CCBF6BC" Ref="#PWR?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6BC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6350 -2700 50  0001 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6BC" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 6350 -2700 50  0001 C CNN
 F 1 "+5V" H 6400 -2350 50  0000 C CNN
 F 2 "" H 6350 -2550 50  0001 C CNN
 F 3 "" H 6350 -2550 50  0001 C CNN
@@ -12933,8 +12933,8 @@ L power:GND #PWR?
 U 1 1 5CCBF6C4
 P 6350 -1900
 AR Path="/5CC29851/5CC2A1CB/5CCBF6C4" Ref="#PWR?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6C4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6350 -2150 50  0001 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6C4" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 6350 -2150 50  0001 C CNN
 F 1 "GND" H 6400 -2100 50  0000 C CNN
 F 2 "" H 6350 -1900 50  0001 C CNN
 F 3 "" H 6350 -1900 50  0001 C CNN
@@ -12955,8 +12955,8 @@ L taobao-r:R220,0603 R?
 U 1 1 5CCBF6CF
 P 6600 -2350
 AR Path="/5CC29851/5CC2A1CB/5CCBF6CF" Ref="R?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6CF" Ref="R?"  Part="1" 
-F 0 "R?" V 6350 -2350 50  0000 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6CF" Ref="R3"  Part="1" 
+F 0 "R3" V 6350 -2350 50  0000 C CNN
 F 1 "R220,0603" V 6450 -2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 -2350 50  0001 C CNN
 F 3 "~" H 6600 -2350 50  0001 C CNN
@@ -12968,8 +12968,8 @@ L taobao-r:R220,0603 R?
 U 1 1 5CCBF6D6
 P 6600 -2250
 AR Path="/5CC29851/5CC2A1CB/5CCBF6D6" Ref="R?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6D6" Ref="R?"  Part="1" 
-F 0 "R?" V 6750 -2250 50  0000 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6D6" Ref="R47"  Part="1" 
+F 0 "R47" V 6750 -2250 50  0000 C CNN
 F 1 "R220,0603" V 6850 -2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 -2250 50  0001 C CNN
 F 3 "~" H 6600 -2250 50  0001 C CNN
@@ -12981,8 +12981,8 @@ L taobao-r:R152,0603 R?
 U 1 1 5CCBF6DD
 P 7350 -1800
 AR Path="/5CC29851/5CC2A1CB/5CCBF6DD" Ref="R?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6DD" Ref="R?"  Part="1" 
-F 0 "R?" H 7450 -1750 50  0000 L CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6DD" Ref="R48"  Part="1" 
+F 0 "R48" H 7450 -1750 50  0000 L CNN
 F 1 "R152,0603" H 7450 -1800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7350 -1800 50  0001 C CNN
 F 3 "~" H 7350 -1800 50  0001 C CNN
@@ -12994,8 +12994,8 @@ L taobao-components:+3V3_STM32 #PWR?
 U 1 1 5CCBF6E4
 P 7350 -1350
 AR Path="/5CC29851/5CC2A1CB/5CCBF6E4" Ref="#PWR?"  Part="1" 
-AR Path="/5CC29851/5CC2989A/5CCBF6E4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7350 -1500 50  0001 C CNN
+AR Path="/5CC29851/5CC2989A/5CCBF6E4" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 7350 -1500 50  0001 C CNN
 F 1 "+3V3_STM32" H 7350 -1150 50  0000 C CNN
 F 2 "" H 7350 -1350 50  0001 C CNN
 F 3 "" H 7350 -1350 50  0001 C CNN
@@ -13056,10 +13056,10 @@ USB_DP
 Text Notes -4150 550  0    50   ~ 0
 General considerations:\n\nThe STM32 port currently requires an 8 MHz crystal for correct operation\n\nGeneral considerations:\nWhen using serial, the UART used for communication with the host is fixed to pins PA9 (TX) and PA10 (RX). \nWhen using USB, the PA11 (D-) and PA12 (D+) pins are reserved. \nThe USB code assumes that PA12 (D+) has a fixed pullup resistor attached to it.\n\nSWD pins (PA13/PA14) are enabled for debugging and cannot be used for any I/O. \nSPI uses pins PB13/PB14/PB15, but the pins can be used as general I/O if SPI is not used.\n\nAnalog inputs\nAll ADC-capable pins can be used as analog inputs with the same naming as digital I/O pins. \nSmall packages MCUs (e.g. LFQP48) have 10 channels (PA0-PA7, PB0-PB1), \nwhile larger package devices have 16 channels (PA0-PA7, PB0-PB1, PC0-PC5).\n\nSPI\nSPI uses pin PB13 (SCK), PB14 (MISO) and PB15 (MOSI). The clock speed range is 0.15..18 MHz. Chip select pins do not have any restrictions.
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J43
 U 1 1 5CD16324
 P 6750 4600
-F 0 "J?" H 6829 4642 50  0000 L CNN
+F 0 "J43" H 6829 4642 50  0000 L CNN
 F 1 "STM32_GTR" H 6829 4551 50  0000 L CNN
 F 2 "" H 6750 4600 50  0001 C CNN
 F 3 "~" H 6750 4600 50  0001 C CNN
@@ -13067,10 +13067,10 @@ F 3 "~" H 6750 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0145
 U 1 1 5CD163F4
 P 6450 4750
-F 0 "#PWR?" H 6450 4500 50  0001 C CNN
+F 0 "#PWR0145" H 6450 4500 50  0001 C CNN
 F 1 "GND" H 6455 4577 50  0000 C CNN
 F 2 "" H 6450 4750 50  0001 C CNN
 F 3 "" H 6450 4750 50  0001 C CNN
@@ -13092,10 +13092,10 @@ MISO2
 Text Label 6100 6000 2    50   ~ 0
 MOSI2
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J44
 U 1 1 5CD58101
 P 7550 6100
-F 0 "J?" H 7630 6092 50  0000 L CNN
+F 0 "J44" H 7630 6092 50  0000 L CNN
 F 1 "SPI_DEBUG" H 7630 6001 50  0000 L CNN
 F 2 "" H 7550 6100 50  0001 C CNN
 F 3 "~" H 7550 6100 50  0001 C CNN
@@ -13115,10 +13115,10 @@ MISO2
 Text Label 7100 6000 0    50   ~ 0
 MOSI2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0147
 U 1 1 5CD96D8C
 P 7200 6400
-F 0 "#PWR?" H 7200 6150 50  0001 C CNN
+F 0 "#PWR0147" H 7200 6150 50  0001 C CNN
 F 1 "GND" H 7205 6227 50  0000 C CNN
 F 2 "" H 7200 6400 50  0001 C CNN
 F 3 "" H 7200 6400 50  0001 C CNN
