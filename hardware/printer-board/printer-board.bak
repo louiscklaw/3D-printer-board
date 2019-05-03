@@ -549,16 +549,6 @@ Wire Wire Line
 	5500 4900 5800 4900
 Wire Wire Line
 	5500 5100 5800 5100
-Text GLabel 5250 1400 2    50   Input ~ 0
-PA0
-Text GLabel 5250 1300 2    50   Input ~ 0
-PA1
-Text GLabel 5250 1150 2    50   Input ~ 0
-PA2
-Text GLabel 5250 1050 2    50   Input ~ 0
-PA3
-Text GLabel 5250 950  2    50   Input ~ 0
-PA4
 Wire Wire Line
 	5150 950  5250 950 
 Wire Wire Line
@@ -584,7 +574,7 @@ Wire Wire Line
 Text GLabel 5750 950  0    50   Input ~ 0
 PD8
 Text GLabel 5750 1050 0    50   Input ~ 0
-PE9
+PD9
 Text GLabel 5750 1150 0    50   Input ~ 0
 PD10
 Text GLabel 5750 1250 0    50   Input ~ 0
@@ -719,4 +709,14 @@ Text GLabel 8150 3250 0    50   Input ~ 0
 PD7
 Text GLabel 8150 3350 0    50   Input ~ 0
 PB3
+Text GLabel 5250 1400 2    50   Input ~ 0
+PA4
+Text GLabel 5250 1300 2    50   Input ~ 0
+PA3
+Text GLabel 5250 1150 2    50   Input ~ 0
+PA2
+Text GLabel 5250 1050 2    50   Input ~ 0
+PA1
+Text GLabel 5250 950  2    50   Input ~ 0
+PA0
 $EndSCHEMATC
