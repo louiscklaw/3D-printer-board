@@ -1147,4 +1147,39 @@ Wire Wire Line
 Connection ~ 3800 6600
 Wire Wire Line
 	3800 6600 3800 7250
+$Comp
+L Connector_Generic:Conn_01x06 J45
+U 1 1 5CD1988B
+P 6400 5650
+F 0 "J45" H 6500 5650 50  0000 L CNN
+F 1 "END_SWITCH_DEBUG" H 6500 5550 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 6400 5650 50  0001 C CNN
+F 3 "~" H 6400 5650 50  0001 C CNN
+	1    6400 5650
+	1    0    0    -1  
+$EndComp
+Text Label 5850 5450 0    50   ~ 0
+X_MIN
+Text Label 5850 5550 0    50   ~ 0
+X_MAX
+Text Label 5850 5650 0    50   ~ 0
+Y_MIN
+Text Label 5850 5750 0    50   ~ 0
+Y_MAX
+Text Label 5850 5850 0    50   ~ 0
+Z_MIN
+Text Label 5850 5950 0    50   ~ 0
+Z_MAX
+Wire Wire Line
+	5850 5450 6200 5450
+Wire Wire Line
+	5850 5550 6200 5550
+Wire Wire Line
+	5850 5650 6200 5650
+Wire Wire Line
+	5850 5750 6200 5750
+Wire Wire Line
+	5850 5850 6200 5850
+Wire Wire Line
+	5850 5950 6200 5950
 $EndSCHEMATC
