@@ -1,6 +1,6 @@
-update=Friday, May 03, 2019 PM02:30:39 HKT
+update=Sat May  4 00:18:40 2019
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -237,7 +237,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=12V_10A
+Name=12V
 Clearance=0.2
 TrackWidth=1.25
 ViaDiameter=0.8
@@ -248,17 +248,6 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=12V_5A
-Clearance=0.2
-TrackWidth=0.5
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/3]
 Name=3V3
 Clearance=0.2
 TrackWidth=0.25
@@ -269,7 +258,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/4]
+[pcbnew/Netclasses/3]
 Name=5V
 Clearance=0.2
 TrackWidth=0.5
@@ -280,7 +269,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/5]
+[pcbnew/Netclasses/4]
 Name=GND
 Clearance=0.2
 TrackWidth=1.5
