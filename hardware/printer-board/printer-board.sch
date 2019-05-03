@@ -627,11 +627,11 @@ Text GLabel 9800 4300 0    50   Input ~ 0
 PE3
 Text GLabel 9800 4400 0    50   Input ~ 0
 PE4
-Text GLabel 8100 1050 0    50   Input ~ 0
-PE13
 Text GLabel 8100 1250 0    50   Input ~ 0
-PE14
+PE13
 Text GLabel 8100 1150 0    50   Input ~ 0
+PE14
+Text GLabel 8100 1050 0    50   Input ~ 0
 PE15
 Text GLabel 8100 2300 0    50   Input ~ 0
 PE10
