@@ -571,17 +571,17 @@ Wire Wire Line
 	2700 2050 2550 2050
 Wire Wire Line
 	2700 2150 2550 2150
-Text GLabel 5750 950  0    50   Input ~ 0
-PD8
-Text GLabel 5750 1050 0    50   Input ~ 0
-PD9
-Text GLabel 5750 1150 0    50   Input ~ 0
-PD10
-Text GLabel 5750 1250 0    50   Input ~ 0
-PD11
-Text GLabel 5750 1350 0    50   Input ~ 0
-PD12
 Text GLabel 5750 1450 0    50   Input ~ 0
+PD8
+Text GLabel 5750 1350 0    50   Input ~ 0
+PD9
+Text GLabel 5750 1250 0    50   Input ~ 0
+PD10
+Text GLabel 5750 1150 0    50   Input ~ 0
+PD11
+Text GLabel 5750 1050 0    50   Input ~ 0
+PD12
+Text GLabel 5750 950  0    50   Input ~ 0
 PD13
 Wire Wire Line
 	5750 950  5850 950 

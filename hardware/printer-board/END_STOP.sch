@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:printer-board-cache
+LIBS:END_STOP-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 28
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -1182,4 +1182,6 @@ Wire Wire Line
 	5850 5850 6200 5850
 Wire Wire Line
 	5850 5950 6200 5950
+Text Notes 2550 2100 0    50   ~ 0
+COM ? SENSOR\nNO ? POWER\nNC ? GND
 $EndSCHEMATC
