@@ -17,7 +17,7 @@ $EndDescr
 $Comp
 L Connector:Screw_Terminal_01x02 J?
 U 1 1 5CC8A034
-P 4350 2900
+P 5500 2900
 AR Path="/5CC0B758/5CC8A034" Ref="J?"  Part="1" 
 AR Path="/5CC12903/5CC8A034" Ref="J?"  Part="1" 
 AR Path="/5CC130A8/5CC8A034" Ref="J?"  Part="1" 
@@ -27,11 +27,11 @@ AR Path="/5CC2401E/5CC24321/5CC8A034" Ref="J?"  Part="1"
 AR Path="/5CC8A034" Ref="J35"  Part="1" 
 AR Path="/5CC2401E/5CC24398/5CC8A034" Ref="J35"  Part="1" 
 AR Path="/5CC2401E/5CE3779D/5CC8A034" Ref="J?"  Part="1" 
-F 0 "J35" H 4300 2550 50  0000 C CNN
-F 1 "TO FAN2" H 4300 2650 50  0000 C CNN
-F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 4350 2900 50  0001 C CNN
-F 3 "~" H 4350 2900 50  0001 C CNN
-	1    4350 2900
+F 0 "J35" H 5450 2550 50  0000 C CNN
+F 1 "FAN2" H 5450 2650 50  0000 C CNN
+F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 5500 2900 50  0001 C CNN
+F 3 "~" H 5500 2900 50  0001 C CNN
+	1    5500 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -126,7 +126,7 @@ $EndComp
 Wire Wire Line
 	3750 2700 3750 2600
 Wire Wire Line
-	4150 2900 4000 2900
+	5300 2900 4000 2900
 Text HLabel 1250 900  0    50   Input ~ 0
 FAN2_EN
 Text Label 2050 900  2    50   ~ 0
@@ -176,7 +176,7 @@ AR Path="/5CC24377" Ref="D22"  Part="1"
 AR Path="/5CC2401E/5CC24398/5CC24377" Ref="D22"  Part="1" 
 AR Path="/5CC2401E/5CE3779D/5CC24377" Ref="D?"  Part="1" 
 F 0 "D22" V 3704 2898 50  0000 L CNN
-F 1 "LED_BLUE,0603" V 3795 2898 50  0000 L CNN
+F 1 "FAN2_EN" V 3795 2898 50  0000 L CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3750 2800 50  0001 C CNN
 F 3 "" V 3750 2800 50  0001 C CNN
 	1    3750 2800
@@ -3058,7 +3058,7 @@ Wire Wire Line
 	3250 3000 3250 3050
 Connection ~ 3750 3000
 Wire Wire Line
-	3750 3000 4150 3000
+	3750 3000 5300 3000
 Wire Wire Line
 	4000 2300 3750 2300
 Wire Wire Line
@@ -3476,4 +3476,8 @@ Wire Wire Line
 	3450 3000 3750 3000
 Wire Wire Line
 	3450 2800 3450 3000
+Text Label 4750 2900 2    50   ~ 0
+FAN2_P
+Text Label 4750 3000 2    50   ~ 0
+FAN2_N
 $EndSCHEMATC
