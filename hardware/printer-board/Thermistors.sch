@@ -1756,4 +1756,35 @@ F 3 "~" H 950 4950 50  0001 C CNN
 	1    950  4950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J47
+U 1 1 5CD2F161
+P 6450 2800
+F 0 "J47" H 6350 3250 50  0000 C CNN
+F 1 "TEMP_DEBUG" H 6350 3150 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 6450 2800 50  0001 C CNN
+F 3 "~" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	-1   0    0    -1  
+$EndComp
+Text Label 7400 2700 2    50   ~ 0
+HEATBED_TEMP
+Text Label 7400 2800 2    50   ~ 0
+HOTEND_TEMP0
+Text Label 7400 2900 2    50   ~ 0
+HOTEND_TEMP1
+Text Label 7400 3000 2    50   ~ 0
+AUX_TEMP
+Wire Wire Line
+	6650 2700 7400 2700
+Wire Wire Line
+	6650 2800 7400 2800
+Wire Wire Line
+	6650 2900 7400 2900
+Wire Wire Line
+	6650 3000 7400 3000
+Text Label 7400 2600 2    50   ~ 0
+PCB_TEMP
+Wire Wire Line
+	7400 2600 6650 2600
 $EndSCHEMATC
