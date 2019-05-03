@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:printer-board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -122,58 +122,6 @@ Wire Wire Line
 	7950 2250 8050 2250
 Wire Wire Line
 	8050 2150 7950 2150
-$Comp
-L taobao-sd:SD_M4 D15
-U 1 1 5CC20016
-P 6000 3550
-AR Path="/5CC1F2C3/5CC20016" Ref="D15"  Part="1" 
-AR Path="/5CC2225A/5CC20016" Ref="D?"  Part="1" 
-AR Path="/5CC20016" Ref="D15"  Part="1" 
-F 0 "D15" V 5954 3618 50  0000 L CNN
-F 1 "SD_M4" V 6045 3618 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6000 3550 50  0001 C CNN
-F 3 "~" V 6000 3550 50  0001 C CNN
-	1    6000 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L taobao-sd:SD_M4 D16
-U 1 1 5CC200A7
-P 6450 3350
-AR Path="/5CC1F2C3/5CC200A7" Ref="D16"  Part="1" 
-AR Path="/5CC2225A/5CC200A7" Ref="D?"  Part="1" 
-AR Path="/5CC200A7" Ref="D16"  Part="1" 
-F 0 "D16" H 6450 3145 50  0000 C CNN
-F 1 "SD_M4" H 6450 3236 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6450 3350 50  0001 C CNN
-F 3 "~" V 6450 3350 50  0001 C CNN
-	1    6450 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0100
-U 1 1 5CC2014F
-P 6000 3850
-AR Path="/5CC1F2C3/5CC2014F" Ref="#PWR0100"  Part="1" 
-AR Path="/5CC2225A/5CC2014F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC2014F" Ref="#PWR0100"  Part="1" 
-F 0 "#PWR0100" H 6000 3600 50  0001 C CNN
-F 1 "GND" H 6005 3677 50  0000 C CNN
-F 2 "" H 6000 3850 50  0001 C CNN
-F 3 "" H 6000 3850 50  0001 C CNN
-	1    6000 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 3850 6000 3650
-Wire Wire Line
-	6000 3450 6000 3350
-Wire Wire Line
-	6350 3350 6000 3350
-Text Label 7150 3350 2    50   ~ 0
-AM-VIN
-Wire Wire Line
-	6550 3350 7150 3350
 $Bitmap
 Pos 9000 5750
 Scale 1.000000
@@ -1897,11 +1845,6 @@ Wire Wire Line
 	5150 2250 5250 2250
 Wire Wire Line
 	5250 2250 5250 2550
-Connection ~ 6000 3350
-Wire Wire Line
-	5800 2150 6000 2150
-Wire Wire Line
-	6000 2150 6000 3350
 $Comp
 L power:GND #PWR0102
 U 1 1 5CC6F3BF
@@ -1962,10 +1905,7 @@ Wire Wire Line
 Connection ~ 7200 2150
 Wire Wire Line
 	7200 2150 7950 2150
-Wire Wire Line
-	6650 2150 6000 2150
 Connection ~ 6650 2150
-Connection ~ 6000 2150
 Wire Wire Line
 	5150 2150 5500 2150
 $Comp
@@ -2020,4 +1960,16 @@ Wire Wire Line
 Connection ~ 5500 2150
 Wire Wire Line
 	5500 2150 5600 2150
+Wire Wire Line
+	5800 2150 6650 2150
+Wire Notes Line
+	3550 750  5400 750 
+Wire Notes Line
+	5400 750  5400 1700
+Wire Notes Line
+	5400 1700 3550 1700
+Wire Notes Line
+	3550 1700 3550 750 
+Text Notes 3550 850  0    50   ~ 0
+optional to get another source for +12v2\n
 $EndSCHEMATC

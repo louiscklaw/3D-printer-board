@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -39,8 +39,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.1)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.1)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -374,10 +374,6 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +12V)
-    (add_net +12V2)
-    (add_net +3V3)
-    (add_net +5V)
     (add_net /HEATBED/-12V2)
     (add_net /HOTENDS/HOTEND_0/-12V)
     (add_net /HOTENDS/HOTEND_1/-12V)
@@ -658,6 +654,8 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +12V)
+    (add_net +12V2)
   )
 
   (net_class 3V3 ""
@@ -667,6 +665,7 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +3V3)
   )
 
   (net_class 5V ""
@@ -676,6 +675,7 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +5V)
   )
 
   (net_class GND ""
@@ -2443,7 +2443,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer B.Cu) (tedit 5B301BBE) (tstamp 5CCB474D)
-    (at 73.8869 100.9618 45)
+    (at 73.8869 100.962 45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CC29851/5CC2989A/5CC7D55B)
@@ -2623,7 +2623,7 @@
   )
 
   (module Button_Switch_SMD:SW_SPST_CK_RS282G05A3 (layer F.Cu) (tedit 5A7A67D2) (tstamp 5CCB486E)
-    (at 73.8869 100.9618 225)
+    (at 73.8869 100.962 225)
     (descr https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf)
     (tags "SPST button tactile switch")
     (path /5CC29851/5CC2989A/5CC7D354)
