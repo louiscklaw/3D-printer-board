@@ -1,7 +1,7 @@
 
 (rules PCB END_STOP
   (snap_angle 
-    none
+    fortyfive_degree
   )
   (autoroute_settings
     (fanout off)
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 1)
     (start_ripup_costs 100)
-    (start_pass_no 88)
+    (start_pass_no 795)
     (layer_rule F.Cu
-      (active on)
-      (preferred_direction horizontal)
-      (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.1)
-    )
-    (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.9)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
     )
   )
   (rule
@@ -46,11 +46,35 @@
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
   )
+  (via 
+    "Via[0-1]_800:400_um-12V" "Via[0-1]_800:400_um" 12V
+  )
+  (via 
+    "Via[0-1]_800:400_um-3V3" "Via[0-1]_800:400_um" 3V3
+  )
+  (via 
+    "Via[0-1]_800:400_um-5V" "Via[0-1]_800:400_um" 5V
+  )
+  (via 
+    "Via[0-1]_800:400_um-GND" "Via[0-1]_800:400_um" GND
+  )
   (via_rule
     default "Via[0-1]_800:400_um"
   )
   (via_rule
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    12V "Via[0-1]_800:400_um-12V"
+  )
+  (via_rule
+    3V3 "Via[0-1]_800:400_um-3V3"
+  )
+  (via_rule
+    5V "Via[0-1]_800:400_um-5V"
+  )
+  (via_rule
+    GND "Via[0-1]_800:400_um-GND"
   )
   (class default
     (clearance_class default)
@@ -63,12 +87,52 @@
     )
   )
   (class "kicad_default"
-    GND "Net-(D14-Pad2)" "Net-(D13-Pad2)" "Net-(D9-Pad2)" "Net-(D12-Pad2)" "Net-(D11-Pad2)" "Net-(D10-Pad2)" "/X_MAX"
-    "+3V3_STM32" "/Y_MIN" "/Y_MAX" "/Z_MIN" "/Z_MAX" "/X_MIN"
+    GND "Net-(D14-Pad2)" "Net-(D13-Pad2)" "Net-(D9-Pad2)" "Net-(D12-Pad2)" "Net-(D11-Pad2)" "Net-(D10-Pad2)" "/X_MIN"
+    "/X_MAX" "/Y_MIN" "/Y_MAX" "/Z_MIN" "/Z_MAX" "+3V3_STM32"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 12V
+    (clearance_class 12V)
+    (via_rule 12V)
+    (rule
+      (width 1250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 3V3
+    (clearance_class 3V3)
+    (via_rule 3V3)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 5V
+    (clearance_class 5V)
+    (via_rule 5V)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 1500.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
