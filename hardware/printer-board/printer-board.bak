@@ -521,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 4850 2450 4850
 Wire Wire Line
-	2450 4850 3800 4850
+	2450 4850 3450 4850
 Text GLabel 5500 4300 0    50   Input ~ 0
 PA15
 Text GLabel 5500 4400 0    50   Input ~ 0
@@ -747,4 +747,49 @@ Text GLabel 5750 1700 0    50   Input ~ 0
 PB5
 Wire Wire Line
 	5750 1700 5850 1700
+$Comp
+L taobao-r:R152,0603 R?
+U 1 1 5CD0017E
+P 3450 4600
+AR Path="/5CC29851/5CC2A1CB/5CD0017E" Ref="R?"  Part="1" 
+AR Path="/5CC0166A/5CD0017E" Ref="R?"  Part="1" 
+AR Path="/5CD0017E" Ref="R?"  Part="1" 
+F 0 "R?" H 3550 4650 50  0000 L CNN
+F 1 "R152,0603" H 3550 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 4600 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L taobao-components:+3V3_STM32 #PWR?
+U 1 1 5CD00184
+P 3450 4200
+AR Path="/5CC29851/5CC2A1CB/5CD00184" Ref="#PWR?"  Part="1" 
+AR Path="/5CC0166A/5CD00184" Ref="#PWR?"  Part="1" 
+AR Path="/5CD00184" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 4050 50  0001 C CNN
+F 1 "+3V3_STM32" H 3450 4400 50  0000 C CNN
+F 2 "" H 3450 4200 50  0001 C CNN
+F 3 "" H 3450 4200 50  0001 C CNN
+	1    3450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4500 3450 4200
+Wire Wire Line
+	3450 4850 3450 4700
+Wire Notes Line
+	3600 4750 3600 4400
+Wire Notes Line
+	3600 4400 2450 4400
+Wire Notes Line
+	2450 4750 3600 4750
+Text Notes 2450 4350 0    50   ~ 0
+THIS IS OPTIONAL\nREFER TO STM32 SIDE
+Connection ~ 3450 4850
+Wire Wire Line
+	3450 4850 3800 4850
+Wire Notes Line
+	2450 4400 2450 4750
 $EndSCHEMATC
