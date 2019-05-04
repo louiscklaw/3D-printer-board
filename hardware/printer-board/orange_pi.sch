@@ -11325,36 +11325,6 @@ Wire Wire Line
 	4200 4900 4700 4900
 Wire Wire Line
 	4200 5000 4700 5000
-$Comp
-L taobao-r:R152,0603 R?
-U 1 1 5CE4405F
-P 5100 5250
-AR Path="/5CC29851/5CC2A1CB/5CE4405F" Ref="R?"  Part="1" 
-AR Path="/5CC0166A/5CE4405F" Ref="R6"  Part="1" 
-AR Path="/5CE4405F" Ref="R6"  Part="1" 
-F 0 "R6" H 5200 5300 50  0000 L CNN
-F 1 "R152,0603" H 5200 5250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 5250 50  0001 C CNN
-F 3 "~" H 5100 5250 50  0001 C CNN
-	1    5100 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L taobao-components:+3V3_STM32 #PWR?
-U 1 1 5CE44066
-P 5100 5650
-AR Path="/5CC29851/5CC2A1CB/5CE44066" Ref="#PWR?"  Part="1" 
-AR Path="/5CC0166A/5CE44066" Ref="#PWR06"  Part="1" 
-AR Path="/5CE44066" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 5100 5500 50  0001 C CNN
-F 1 "+3V3_STM32" H 5100 5850 50  0000 C CNN
-F 2 "" H 5100 5650 50  0001 C CNN
-F 3 "" H 5100 5650 50  0001 C CNN
-	1    5100 5650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5100 5350 5100 5650
 Text Label 5700 4900 2    50   ~ 0
 USB-DM2
 Text Label 5700 5000 2    50   ~ 0
@@ -11376,25 +11346,10 @@ F 3 "~" H 9000 1200 50  0001 C CNN
 	1    9000 1200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4900 5000 5100 5000
-Wire Wire Line
-	5100 5000 5100 5150
-Connection ~ 5100 5000
-Wire Wire Line
-	5100 5000 5700 5000
-Wire Notes Line
-	4950 5100 4950 5450
-Wire Notes Line
-	4950 5450 6100 5450
-Wire Notes Line
-	6100 5450 6100 5100
-Wire Notes Line
-	6100 5100 4950 5100
-Text Notes 5250 5450 0    50   ~ 0
-THIS IS OPTIONAL\nREFER TO STM32 SIDE
 Text Label 4300 4900 0    50   ~ 0
 OPI_USB-DM2
 Text Label 4300 5000 0    50   ~ 0
 OPI_USB-DP2
+Wire Wire Line
+	4900 5000 5700 5000
 $EndSCHEMATC
