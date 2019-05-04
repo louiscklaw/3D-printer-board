@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (autoroute on)
+    (eu.mihosoft.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 1)
     (start_ripup_costs 100)
-    (start_pass_no 795)
+    (start_pass_no 101)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -88,7 +88,8 @@
   )
   (class "kicad_default"
     GND "Net-(D14-Pad2)" "Net-(D13-Pad2)" "Net-(D9-Pad2)" "Net-(D12-Pad2)" "Net-(D11-Pad2)" "Net-(D10-Pad2)" "/X_MIN"
-    "/X_MAX" "/Y_MIN" "/Y_MAX" "/Z_MIN" "/Z_MAX" "+3V3_STM32"
+    "/X_MAX" "/Y_MIN" "/Y_MAX" "/Z_MIN" "/Z_MAX" "+3V3_STM32" "Net-(D13-Pad1)" "Net-(D14-Pad1)"
+    "Net-(D15-Pad2)" "Net-(D15-Pad1)" "Net-(J1-Pad2)" "Net-(J15-Pad2)" +12V
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
