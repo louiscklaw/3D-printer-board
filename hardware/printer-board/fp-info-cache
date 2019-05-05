@@ -1,4 +1,4 @@
-19392552120213242
+19374223982346355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -66058,6 +66058,62 @@ rotary encoder
 0
 5
 4
+Sensors.pretty
+DHT11_Temperature_Humidity
+
+
+0
+3
+3
+Sensors.pretty
+DHT22_Temperature_Humidity
+
+
+0
+4
+4
+Sensors.pretty
+Logo_5mm
+
+
+0
+0
+0
+Sensors.pretty
+Logo_25mm
+
+
+0
+0
+0
+Sensors.pretty
+Photoresistor
+
+
+0
+3
+3
+Sensors.pretty
+PIR_Motion_Sensor
+Pyroelectric Infrared Motion Sensor
+pyroelectric infrared motion sensor ir pir
+0
+3
+3
+Sensors.pretty
+RF_Receiver_433_MHz
+433 MHz RF Receiver
+rf receiver 433 mhz
+0
+4
+4
+Sensors.pretty
+RF_Transmitter_433_MHz
+
+
+0
+3
+3
 Sensor_Audio
 Infineon_PG-LLGA-5-1
 Infineon_PG-LLGA-5-1 StepUp generated footprint, https://www.infineon.com/cms/en/product/packages/PG-LLGA/PG-LLGA-5-1/
@@ -72442,160 +72498,6 @@ Keystone type 3009 coin cell retainer
 0
 3
 2
-w_battery_holders.pretty
-keystone_103
-Keystone type 103 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_104
-Keystone type 104 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_105
-Keystone type 105 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_106
-Keystone type 106 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_107
-Keystone type 107 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_301
-Keystone type 301 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_499
-Keystone type 499 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_500
-Keystone type 500 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_501
-Keystone type 501 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_502
-Keystone type 502 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_1025
-Keystone type 1025 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_1025-7
-Keystone type 1025-7 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_1026
-Keystone type 1026 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_1027
-Keystone type 1027 battery holder
-
-0
-2
-2
-w_battery_holders.pretty
-keystone_2990
-Keystone type 2990 negative battery contact
-
-0
-2
-1
-w_battery_holders.pretty
-keystone_2991
-Keystone type 2991 negative battery contact
-
-0
-2
-1
-w_battery_holders.pretty
-keystone_2992
-Keystone type 2992 negative battery contact
-
-0
-2
-1
-w_battery_holders.pretty
-keystone_2993
-Keystone type 2993 negative battery contact
-
-0
-1
-1
-w_battery_holders.pretty
-keystone_3000
-Keystone type 3000 coin cell retainer
-
-0
-3
-2
-w_battery_holders.pretty
-keystone_3001
-Keystone type 3001 coin cell retainer
-
-0
-3
-2
-w_battery_holders.pretty
-keystone_3008
-Keystone type 3008 coin cell retainer
-
-0
-3
-2
-w_battery_holders.pretty
-keystone_3009
-Keystone type 3009 coin cell retainer
-
-0
-3
-2
 w_capacitors
 cnpa_10x33mm
 capacitor, axial 10x33mm
@@ -75257,6 +75159,20 @@ gmkds_3-2-7,62
 2
 2
 w_conn_gmkds
+gmkds_3-3-7,62
+3-way 7,62mm pitch terminal block, Phoenix GMKDS series
+
+0
+3
+3
+w_conn_gmkds.pretty
+gmkds_3-2-7,62
+2-way 7,62mm pitch terminal block, Phoenix GMKDS series
+
+0
+2
+2
+w_conn_gmkds.pretty
 gmkds_3-3-7,62
 3-way 7,62mm pitch terminal block, Phoenix GMKDS series
 
