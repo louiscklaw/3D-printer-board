@@ -1,38 +1,35 @@
 ### PCB tryout for louis 3d printer
-
-*front:
+* front:
 ![PCB Front](https://raw.githubusercontent.com/louiscklaw/3D-printer-board/feature/renumbering/hardware/printer-board/renders/z_printer-board.png?raw=true "Front")
 
-*back:
+* back:
 ![PCB Back](https://raw.githubusercontent.com/louiscklaw/3D-printer-board/feature/renumbering/hardware/printer-board/renders/Z_printer-board.png?raw=true "Back")
 
-#
 
-`st-flash /home/logic/_del/7/generic_boot20_pc13.bin 0x8000000`
+### to initialize the stm32 with klipper firmware
+* to flash klipper with stm32duino: 
+    * `wget 'https://github.com/rogerclarkmelbourne/STM32duino-bootloader/raw/master/binaries/generic_boot20_pc13.bin'`
+    * `st-flash /home/logic/_del/7/generic_boot20_pc13.bin 0x8000000`
+    * `dfu-util -d 1eaf:0003 -a 2 -R -D out/klipper.bin`
+
+* to flash klipper by st-link
+    * `st-flash write klipper.out 0x8000000`
 
 ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
-to flash stm32
-
-wget 'https://github.com/rogerclarkmelbourne/STM32duino-bootloader/raw/master/binaries/generic_boot20_pc13.bin'
-
-stm32flash -w generic_boot20_pc13.bin -v -g 0 /dev/ttyAMA0
-
-dfu-util -d 1eaf:0003 -a 2 -R -D out/klipper.bin
-
 
 ### TODO
-tidy
+[x] tidy
 need to confirm about PC13
 
 pinmapping
 https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
 
 ### design goal
-10 channels 10 stepper motors
-*x
-*y
-*z0,z1,z2,z3
-*e0,e1,e2,e3
+* [] ~~10~~ 8 channels and ~~10~~ 8 stepper motors
+* x
+* y
+* z0,z1,z2,z3
+* e0,e1,~~e2,e3~~
 
 5 channels PWM control(high power) heaters
 *hotend0, hotend1, hotend2, hotend3
