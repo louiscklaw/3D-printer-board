@@ -31,20 +31,19 @@ https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
     - [x] z0,z1,z2,z3
     - [x] e0,e1,~~e2,e3~~
 
-~~5~~ 3 channels PWM control(high power) heaters
-*hotend0, hotend1, ~~hotend2, hotend3~~
-*heatbed
+- [x] ~~5~~ 3 channels PWM control(high power) heaters
+    - [x] hotend0, hotend1, ~~hotend2, hotend3~~
+    - [x] heatbed
 
-~~5~~ 3 channels PWM control(low power) fans
-*hotend0, hotend1, ~~hotend2, hotend3~~
-*heatbed
+- [x] ~~5~~ 3 channels PWM control(low power) fans
+    - [x] hotend0, hotend1, ~~hotend2, hotend3~~
+    - [x] heatbed
 
-6 + 4 DI
-x,y,z min
-x,y,z max
-4 misc
-
-PROBE support
+- [x] 6 + ~~4~~ 1 DI
+    - [x] x,y,z min
+    - [x] x,y,z max
+    - [x] ~~4 misc~~ 
+    - [x] PROBE support
 
 5 AI(temperature sensors)
 hotend0,hotend1,hotend2,hotend3
