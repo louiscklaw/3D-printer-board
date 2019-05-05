@@ -1,4 +1,4 @@
-0
+19392552120213242
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84797,6 +84797,1497 @@ SMT trimmer, Murata PVZ2R
 0
 3
 3
+w_smd_strip
+bb02-hp04
+Smd dual-row strip connector, 2x2 pin, 2.54mm pitch
+
+0
+4
+4
+w_smd_strip
+bb02-hp04_peg
+Smd dual-row strip connector, 2x2 pin with pegs, 2.54mm pitch
+
+0
+4
+4
+w_smd_strip
+bb02-hp06
+Smd dual-row strip connector, 3x2 pin, 2.54mm pitch
+
+0
+6
+6
+w_smd_strip
+bb02-hp06_peg
+Smd dual-row strip connector, 3x2 pin with pegs, 2.54mm pitch
+
+0
+6
+6
+w_smd_strip
+bb02-hp08
+Smd dual-row strip connector, 4x2 pin, 2.54mm pitch
+
+0
+8
+8
+w_smd_strip
+bb02-hp08_peg
+Smd dual-row strip connector, 4x2 pin with pegs, 2.54mm pitch
+
+0
+8
+8
+w_smd_strip
+bb02-hp10
+Smd dual-row strip connector, 5x2 pin, 2.54mm pitch
+
+0
+10
+10
+w_smd_strip
+bb02-hp10_peg
+Smd dual-row strip connector, 5x2 pin with pegs, 2.54mm pitch
+
+0
+10
+10
+w_smd_strip
+bb02-hp12
+Smd dual-row strip connector, 6x2 pin, 2.54mm pitch
+
+0
+12
+12
+w_smd_strip
+bb02-hp12_peg
+Smd dual-row strip connector, 6x2 pin with pegs, 2.54mm pitch
+
+0
+12
+12
+w_smd_strip
+bb02-hp14
+Smd dual-row strip connector, 7x2 pin, 2.54mm pitch
+
+0
+14
+14
+w_smd_strip
+bb02-hp14_peg
+Smd dual-row strip connector, 7x2 pin with pegs, 2.54mm pitch
+
+0
+14
+14
+w_smd_strip
+bb02-hp16
+Smd dual-row strip connector, 8x2 pin, 2.54mm pitch
+
+0
+16
+16
+w_smd_strip
+bb02-hp16_peg
+Smd dual-row strip connector, 8x2 pin with pegs, 2.54mm pitch
+
+0
+16
+16
+w_smd_strip
+bb02-hp18
+Smd dual-row strip connector, 9x2 pin, 2.54mm pitch
+
+0
+18
+18
+w_smd_strip
+bb02-hp18_peg
+Smd dual-row strip connector, 9x2 pin with pegs, 2.54mm pitch
+
+0
+18
+18
+w_smd_strip
+bb02-hp20
+Smd dual-row strip connector, 10x2 pin, 2.54mm pitch
+
+0
+20
+20
+w_smd_strip
+bb02-hp20_peg
+Smd dual-row strip connector, 10x2 pin with pegs, 2.54mm pitch
+
+0
+20
+20
+w_smd_strip
+bb02-hp22
+Smd dual-row strip connector, 11x2 pin, 2.54mm pitch
+
+0
+22
+22
+w_smd_strip
+bb02-hp22_peg
+Smd dual-row strip connector, 11x2 pin with pegs, 2.54mm pitch
+
+0
+22
+22
+w_smd_strip
+bb02-hp24
+Smd dual-row strip connector, 12x2 pin, 2.54mm pitch
+
+0
+24
+24
+w_smd_strip
+bb02-hp24_peg
+Smd dual-row strip connector, 12x2 pin with pegs, 2.54mm pitch
+
+0
+24
+24
+w_smd_strip
+bb02-hp26
+Smd dual-row strip connector, 13x2 pin, 2.54mm pitch
+
+0
+26
+26
+w_smd_strip
+bb02-hp26_peg
+Smd dual-row strip connector, 13x2 pin with pegs, 2.54mm pitch
+
+0
+26
+26
+w_smd_strip
+bb02-hp28
+Smd dual-row strip connector, 14x2 pin, 2.54mm pitch
+
+0
+28
+28
+w_smd_strip
+bb02-hp28_peg
+Smd dual-row strip connector, 14x2 pin with pegs, 2.54mm pitch
+
+0
+28
+28
+w_smd_strip
+bb02-hp30
+Smd dual-row strip connector, 15x2 pin, 2.54mm pitch
+
+0
+30
+30
+w_smd_strip
+bb02-hp30_peg
+Smd dual-row strip connector, 15x2 pin with pegs, 2.54mm pitch
+
+0
+30
+30
+w_smd_strip
+bb02-hp32
+Smd dual-row strip connector, 16x2 pin, 2.54mm pitch
+
+0
+32
+32
+w_smd_strip
+bb02-hp32_peg
+Smd dual-row strip connector, 16x2 pin with pegs, 2.54mm pitch
+
+0
+32
+32
+w_smd_strip
+bb02-hp34
+Smd dual-row strip connector, 17x2 pin, 2.54mm pitch
+
+0
+34
+34
+w_smd_strip
+bb02-hp34_peg
+Smd dual-row strip connector, 17x2 pin with pegs, 2.54mm pitch
+
+0
+34
+34
+w_smd_strip
+bb02-hp36
+Smd dual-row strip connector, 18x2 pin, 2.54mm pitch
+
+0
+36
+36
+w_smd_strip
+bb02-hp36_peg
+Smd dual-row strip connector, 18x2 pin with pegs, 2.54mm pitch
+
+0
+36
+36
+w_smd_strip
+bb02-hp38
+Smd dual-row strip connector, 19x2 pin, 2.54mm pitch
+
+0
+38
+38
+w_smd_strip
+bb02-hp38_peg
+Smd dual-row strip connector, 19x2 pin with pegs, 2.54mm pitch
+
+0
+38
+38
+w_smd_strip
+bb02-hp40
+Smd dual-row strip connector, 20x2 pin, 2.54mm pitch
+
+0
+40
+40
+w_smd_strip
+bb02-hp40_peg
+Smd dual-row strip connector, 20x2 pin with pegs, 2.54mm pitch
+
+0
+40
+40
+w_smd_strip
+bb02-hp42
+Smd dual-row strip connector, 21x2 pin, 2.54mm pitch
+
+0
+42
+42
+w_smd_strip
+bb02-hp42_peg
+Smd dual-row strip connector, 21x2 pin with pegs, 2.54mm pitch
+
+0
+42
+42
+w_smd_strip
+bb02-hp44
+Smd dual-row strip connector, 22x2 pin, 2.54mm pitch
+
+0
+44
+44
+w_smd_strip
+bb02-hp44_peg
+Smd dual-row strip connector, 22x2 pin with pegs, 2.54mm pitch
+
+0
+44
+44
+w_smd_strip
+bb02-hp46
+Smd dual-row strip connector, 23x2 pin, 2.54mm pitch
+
+0
+46
+46
+w_smd_strip
+bb02-hp46_peg
+Smd dual-row strip connector, 23x2 pin with pegs, 2.54mm pitch
+
+0
+46
+46
+w_smd_strip
+bb02-hp48
+Smd dual-row strip connector, 24x2 pin, 2.54mm pitch
+
+0
+48
+48
+w_smd_strip
+bb02-hp48_peg
+Smd dual-row strip connector, 24x2 pin with pegs, 2.54mm pitch
+
+0
+48
+48
+w_smd_strip
+bb02-hp50
+Smd dual-row strip connector, 25x2 pin, 2.54mm pitch
+
+0
+50
+50
+w_smd_strip
+bb02-hp50_peg
+Smd dual-row strip connector, 25x2 pin with pegs, 2.54mm pitch
+
+0
+50
+50
+w_smd_strip
+bb02-hp52
+Smd dual-row strip connector, 26x2 pin, 2.54mm pitch
+
+0
+52
+52
+w_smd_strip
+bb02-hp52_peg
+Smd dual-row strip connector, 26x2 pin with pegs, 2.54mm pitch
+
+0
+52
+52
+w_smd_strip
+bb02-hp54
+Smd dual-row strip connector, 27x2 pin, 2.54mm pitch
+
+0
+54
+54
+w_smd_strip
+bb02-hp54_peg
+Smd dual-row strip connector, 27x2 pin with pegs, 2.54mm pitch
+
+0
+54
+54
+w_smd_strip
+bb02-hp56
+Smd dual-row strip connector, 28x2 pin, 2.54mm pitch
+
+0
+56
+56
+w_smd_strip
+bb02-hp56_peg
+Smd dual-row strip connector, 28x2 pin with pegs, 2.54mm pitch
+
+0
+56
+56
+w_smd_strip
+bb02-hp58
+Smd dual-row strip connector, 29x2 pin, 2.54mm pitch
+
+0
+58
+58
+w_smd_strip
+bb02-hp58_peg
+Smd dual-row strip connector, 29x2 pin with pegs, 2.54mm pitch
+
+0
+58
+58
+w_smd_strip
+bb02-hp60
+Smd dual-row strip connector, 30x2 pin, 2.54mm pitch
+
+0
+60
+60
+w_smd_strip
+bb02-hp60_peg
+Smd dual-row strip connector, 30x2 pin with pegs, 2.54mm pitch
+
+0
+60
+60
+w_smd_strip
+bb02-hp62
+Smd dual-row strip connector, 31x2 pin, 2.54mm pitch
+
+0
+62
+62
+w_smd_strip
+bb02-hp62_peg
+Smd dual-row strip connector, 31x2 pin with pegs, 2.54mm pitch
+
+0
+62
+62
+w_smd_strip
+bb02-hp64
+Smd dual-row strip connector, 32x2 pin, 2.54mm pitch
+
+0
+64
+64
+w_smd_strip
+bb02-hp64_peg
+Smd dual-row strip connector, 32x2 pin with pegs, 2.54mm pitch
+
+0
+64
+64
+w_smd_strip
+bb02-hp66
+Smd dual-row strip connector, 33x2 pin, 2.54mm pitch
+
+0
+66
+66
+w_smd_strip
+bb02-hp66_peg
+Smd dual-row strip connector, 33x2 pin with pegs, 2.54mm pitch
+
+0
+66
+66
+w_smd_strip
+bb02-hp68
+Smd dual-row strip connector, 34x2 pin, 2.54mm pitch
+
+0
+68
+68
+w_smd_strip
+bb02-hp68_peg
+Smd dual-row strip connector, 34x2 pin with pegs, 2.54mm pitch
+
+0
+68
+68
+w_smd_strip
+bb02-hp70
+Smd dual-row strip connector, 35x2 pin, 2.54mm pitch
+
+0
+70
+70
+w_smd_strip
+bb02-hp70_peg
+Smd dual-row strip connector, 35x2 pin with pegs, 2.54mm pitch
+
+0
+70
+70
+w_smd_strip
+bb02-hp72
+Smd dual-row strip connector, 36x2 pin, 2.54mm pitch
+
+0
+72
+72
+w_smd_strip
+bb02-hp72_peg
+Smd dual-row strip connector, 36x2 pin with pegs, 2.54mm pitch
+
+0
+72
+72
+w_smd_strip
+bb02-hp74
+Smd dual-row strip connector, 37x2 pin, 2.54mm pitch
+
+0
+74
+74
+w_smd_strip
+bb02-hp74_peg
+Smd dual-row strip connector, 37x2 pin with pegs, 2.54mm pitch
+
+0
+74
+74
+w_smd_strip
+bb02-hp76
+Smd dual-row strip connector, 38x2 pin, 2.54mm pitch
+
+0
+76
+76
+w_smd_strip
+bb02-hp76_peg
+Smd dual-row strip connector, 38x2 pin with pegs, 2.54mm pitch
+
+0
+76
+76
+w_smd_strip
+bb02-hp78
+Smd dual-row strip connector, 39x2 pin, 2.54mm pitch
+
+0
+78
+78
+w_smd_strip
+bb02-hp78_peg
+Smd dual-row strip connector, 39x2 pin with pegs, 2.54mm pitch
+
+0
+78
+78
+w_smd_strip
+bb02-hp80
+Smd dual-row strip connector, 40x2 pin, 2.54mm pitch
+
+0
+80
+80
+w_smd_strip
+bb02-hp80_peg
+Smd dual-row strip connector, 40x2 pin with pegs, 2.54mm pitch
+
+0
+80
+80
+w_smd_strip
+bb02-hy02a
+Smd strip connector, 2 pin, 2.54mm pitch
+
+0
+2
+2
+w_smd_strip
+bb02-hy03a
+Smd strip connector, 3 pin, 2.54mm pitch
+
+0
+3
+3
+w_smd_strip
+bb02-hy04a
+Smd strip connector, 4 pin, 2.54mm pitch
+
+0
+4
+4
+w_smd_strip
+bb02-hy05a
+Smd strip connector, 5 pin, 2.54mm pitch
+
+0
+5
+5
+w_smd_strip
+bb02-hy06a
+Smd strip connector, 6 pin, 2.54mm pitch
+
+0
+6
+6
+w_smd_strip
+bb02-hy07a
+Smd strip connector, 7 pin, 2.54mm pitch
+
+0
+7
+7
+w_smd_strip
+bb02-hy08a
+Smd strip connector, 8 pin, 2.54mm pitch
+
+0
+8
+8
+w_smd_strip
+bb02-hy09a
+Smd strip connector, 9 pin, 2.54mm pitch
+
+0
+9
+9
+w_smd_strip
+bb02-hy10a
+Smd strip connector, 10 pin, 2.54mm pitch
+
+0
+10
+10
+w_smd_strip
+bb02-hy11a
+Smd strip connector, 11 pin, 2.54mm pitch
+
+0
+11
+11
+w_smd_strip
+bb02-hy12a
+Smd strip connector, 12 pin, 2.54mm pitch
+
+0
+12
+12
+w_smd_strip
+bb02-hy13a
+Smd strip connector, 13 pin, 2.54mm pitch
+
+0
+13
+13
+w_smd_strip
+bb02-hy14a
+Smd strip connector, 14 pin, 2.54mm pitch
+
+0
+14
+14
+w_smd_strip
+bb02-hy15a
+Smd strip connector, 15 pin, 2.54mm pitch
+
+0
+15
+15
+w_smd_strip
+bb02-hy16a
+Smd strip connector, 16 pin, 2.54mm pitch
+
+0
+16
+16
+w_smd_strip
+bb02-hy17a
+Smd strip connector, 17 pin, 2.54mm pitch
+
+0
+17
+17
+w_smd_strip
+bb02-hy18a
+Smd strip connector, 18 pin, 2.54mm pitch
+
+0
+18
+18
+w_smd_strip
+bb02-hy19a
+Smd strip connector, 19 pin, 2.54mm pitch
+
+0
+19
+19
+w_smd_strip
+bb02-hy20a
+Smd strip connector, 20 pin, 2.54mm pitch
+
+0
+20
+20
+w_smd_strip
+bb02-hy21a
+Smd strip connector, 21 pin, 2.54mm pitch
+
+0
+21
+21
+w_smd_strip
+bb02-hy22a
+Smd strip connector, 22 pin, 2.54mm pitch
+
+0
+22
+22
+w_smd_strip
+bb02-hy23a
+Smd strip connector, 23 pin, 2.54mm pitch
+
+0
+23
+23
+w_smd_strip
+bb02-hy24a
+Smd strip connector, 24 pin, 2.54mm pitch
+
+0
+24
+24
+w_smd_strip
+bb02-hy25a
+Smd strip connector, 25 pin, 2.54mm pitch
+
+0
+25
+25
+w_smd_strip
+bb02-hy26a
+Smd strip connector, 26 pin, 2.54mm pitch
+
+0
+26
+26
+w_smd_strip
+bb02-hy27a
+Smd strip connector, 27 pin, 2.54mm pitch
+
+0
+27
+27
+w_smd_strip
+bb02-hy28a
+Smd strip connector, 28 pin, 2.54mm pitch
+
+0
+28
+28
+w_smd_strip
+bb02-hy29a
+Smd strip connector, 29 pin, 2.54mm pitch
+
+0
+29
+29
+w_smd_strip
+bb02-hy30a
+Smd strip connector, 30 pin, 2.54mm pitch
+
+0
+30
+30
+w_smd_strip
+bb02-hy31a
+Smd strip connector, 31 pin, 2.54mm pitch
+
+0
+31
+31
+w_smd_strip
+bb02-hy32a
+Smd strip connector, 32 pin, 2.54mm pitch
+
+0
+32
+32
+w_smd_strip
+bb02-hy33a
+Smd strip connector, 33 pin, 2.54mm pitch
+
+0
+33
+33
+w_smd_strip
+bb02-hy34a
+Smd strip connector, 34 pin, 2.54mm pitch
+
+0
+34
+34
+w_smd_strip
+bb02-hy35a
+Smd strip connector, 35 pin, 2.54mm pitch
+
+0
+35
+35
+w_smd_strip
+bb02-hy36a
+Smd strip connector, 36 pin, 2.54mm pitch
+
+0
+36
+36
+w_smd_strip
+bb02-hy37a
+Smd strip connector, 37 pin, 2.54mm pitch
+
+0
+37
+37
+w_smd_strip
+bb02-hy38a
+Smd strip connector, 38 pin, 2.54mm pitch
+
+0
+38
+38
+w_smd_strip
+bb02-hy39a
+Smd strip connector, 39 pin, 2.54mm pitch
+
+0
+39
+39
+w_smd_strip
+bb02-hy40a
+Smd strip connector, 40 pin, 2.54mm pitch
+
+0
+40
+40
+w_smd_strip
+bb080_06
+Smd dual-row strip connector, 3x2 pin, GCT BB080 series
+
+0
+6
+6
+w_smd_strip
+bb080_06_peg
+Smd dual-row strip connector, 3x2 pin with pegs, GCT BB080 series
+
+0
+6
+6
+w_smd_strip
+bb080_08
+Smd dual-row strip connector, 4x2 pin, GCT BB080 series
+
+0
+8
+8
+w_smd_strip
+bb080_08_peg
+Smd dual-row strip connector, 4x2 pin with pegs, GCT BB080 series
+
+0
+8
+8
+w_smd_strip
+bb080_10
+Smd dual-row strip connector, 5x2 pin, GCT BB080 series
+
+0
+10
+10
+w_smd_strip
+bb080_10_peg
+Smd dual-row strip connector, 5x2 pin with pegs, GCT BB080 series
+
+0
+10
+10
+w_smd_strip
+bb080_12
+Smd dual-row strip connector, 6x2 pin, GCT BB080 series
+
+0
+12
+12
+w_smd_strip
+bb080_12_peg
+Smd dual-row strip connector, 6x2 pin with pegs, GCT BB080 series
+
+0
+12
+12
+w_smd_strip
+bb080_14
+Smd dual-row strip connector, 7x2 pin, GCT BB080 series
+
+0
+14
+14
+w_smd_strip
+bb080_14_peg
+Smd dual-row strip connector, 7x2 pin with pegs, GCT BB080 series
+
+0
+14
+14
+w_smd_strip
+bb080_16
+Smd dual-row strip connector, 8x2 pin, GCT BB080 series
+
+0
+16
+16
+w_smd_strip
+bb080_16_peg
+Smd dual-row strip connector, 8x2 pin with pegs, GCT BB080 series
+
+0
+16
+16
+w_smd_strip
+bb080_18
+Smd dual-row strip connector, 9x2 pin, GCT BB080 series
+
+0
+18
+18
+w_smd_strip
+bb080_18_peg
+Smd dual-row strip connector, 9x2 pin with pegs, GCT BB080 series
+
+0
+18
+18
+w_smd_strip
+bb080_20
+Smd dual-row strip connector, 10x2 pin, GCT BB080 series
+
+0
+20
+20
+w_smd_strip
+bb080_20_peg
+Smd dual-row strip connector, 10x2 pin with pegs, GCT BB080 series
+
+0
+20
+20
+w_smd_strip
+bb080_22
+Smd dual-row strip connector, 11x2 pin, GCT BB080 series
+
+0
+22
+22
+w_smd_strip
+bb080_22_peg
+Smd dual-row strip connector, 11x2 pin with pegs, GCT BB080 series
+
+0
+22
+22
+w_smd_strip
+bb080_24
+Smd dual-row strip connector, 12x2 pin, GCT BB080 series
+
+0
+24
+24
+w_smd_strip
+bb080_24_peg
+Smd dual-row strip connector, 12x2 pin with pegs, GCT BB080 series
+
+0
+24
+24
+w_smd_strip
+bb080_26
+Smd dual-row strip connector, 13x2 pin, GCT BB080 series
+
+0
+26
+26
+w_smd_strip
+bb080_26_peg
+Smd dual-row strip connector, 13x2 pin with pegs, GCT BB080 series
+
+0
+26
+26
+w_smd_strip
+bb080_28
+Smd dual-row strip connector, 14x2 pin, GCT BB080 series
+
+0
+28
+28
+w_smd_strip
+bb080_28_peg
+Smd dual-row strip connector, 14x2 pin with pegs, GCT BB080 series
+
+0
+28
+28
+w_smd_strip
+bb080_30
+Smd dual-row strip connector, 15x2 pin, GCT BB080 series
+
+0
+30
+30
+w_smd_strip
+bb080_30_peg
+Smd dual-row strip connector, 15x2 pin with pegs, GCT BB080 series
+
+0
+30
+30
+w_smd_strip
+bb080_32
+Smd dual-row strip connector, 16x2 pin, GCT BB080 series
+
+0
+32
+32
+w_smd_strip
+bb080_32_peg
+Smd dual-row strip connector, 16x2 pin with pegs, GCT BB080 series
+
+0
+32
+32
+w_smd_strip
+bb080_34
+Smd dual-row strip connector, 17x2 pin, GCT BB080 series
+
+0
+34
+34
+w_smd_strip
+bb080_34_peg
+Smd dual-row strip connector, 17x2 pin with pegs, GCT BB080 series
+
+0
+34
+34
+w_smd_strip
+bb080_36
+Smd dual-row strip connector, 18x2 pin, GCT BB080 series
+
+0
+36
+36
+w_smd_strip
+bb080_36_peg
+Smd dual-row strip connector, 18x2 pin with pegs, GCT BB080 series
+
+0
+36
+36
+w_smd_strip
+bb080_38
+Smd dual-row strip connector, 19x2 pin, GCT BB080 series
+
+0
+38
+38
+w_smd_strip
+bb080_38_peg
+Smd dual-row strip connector, 19x2 pin with pegs, GCT BB080 series
+
+0
+38
+38
+w_smd_strip
+bb080_40
+Smd dual-row strip connector, 20x2 pin, GCT BB080 series
+
+0
+40
+40
+w_smd_strip
+bb080_40_peg
+Smd dual-row strip connector, 20x2 pin with pegs, GCT BB080 series
+
+0
+40
+40
+w_smd_strip
+bb080_42
+Smd dual-row strip connector, 21x2 pin, GCT BB080 series
+
+0
+42
+42
+w_smd_strip
+bb080_42_peg
+Smd dual-row strip connector, 21x2 pin with pegs, GCT BB080 series
+
+0
+42
+42
+w_smd_strip
+bb080_44
+Smd dual-row strip connector, 22x2 pin, GCT BB080 series
+
+0
+44
+44
+w_smd_strip
+bb080_44_peg
+Smd dual-row strip connector, 22x2 pin with pegs, GCT BB080 series
+
+0
+44
+44
+w_smd_strip
+bb080_46
+Smd dual-row strip connector, 23x2 pin, GCT BB080 series
+
+0
+46
+46
+w_smd_strip
+bb080_46_peg
+Smd dual-row strip connector, 23x2 pin with pegs, GCT BB080 series
+
+0
+46
+46
+w_smd_strip
+bb080_48
+Smd dual-row strip connector, 24x2 pin, GCT BB080 series
+
+0
+48
+48
+w_smd_strip
+bb080_48_peg
+Smd dual-row strip connector, 24x2 pin with pegs, GCT BB080 series
+
+0
+48
+48
+w_smd_strip
+bb080_50
+Smd dual-row strip connector, 25x2 pin, GCT BB080 series
+
+0
+50
+50
+w_smd_strip
+bb080_50_peg
+Smd dual-row strip connector, 25x2 pin with pegs, GCT BB080 series
+
+0
+50
+50
+w_smd_strip
+bb080_52
+Smd dual-row strip connector, 26x2 pin, GCT BB080 series
+
+0
+52
+52
+w_smd_strip
+bb080_52_peg
+Smd dual-row strip connector, 26x2 pin with pegs, GCT BB080 series
+
+0
+52
+52
+w_smd_strip
+bb080_54
+Smd dual-row strip connector, 27x2 pin, GCT BB080 series
+
+0
+54
+54
+w_smd_strip
+bb080_54_peg
+Smd dual-row strip connector, 27x2 pin with pegs, GCT BB080 series
+
+0
+54
+54
+w_smd_strip
+bb080_56
+Smd dual-row strip connector, 28x2 pin, GCT BB080 series
+
+0
+56
+56
+w_smd_strip
+bb080_56_peg
+Smd dual-row strip connector, 28x2 pin with pegs, GCT BB080 series
+
+0
+56
+56
+w_smd_strip
+bb080_58
+Smd dual-row strip connector, 29x2 pin, GCT BB080 series
+
+0
+58
+58
+w_smd_strip
+bb080_58_peg
+Smd dual-row strip connector, 29x2 pin with pegs, GCT BB080 series
+
+0
+58
+58
+w_smd_strip
+bb080_60
+Smd dual-row strip connector, 30x2 pin, GCT BB080 series
+
+0
+60
+60
+w_smd_strip
+bb080_60_peg
+Smd dual-row strip connector, 30x2 pin with pegs, GCT BB080 series
+
+0
+60
+60
+w_smd_strip
+bb080_62
+Smd dual-row strip connector, 31x2 pin, GCT BB080 series
+
+0
+62
+62
+w_smd_strip
+bb080_62_peg
+Smd dual-row strip connector, 31x2 pin with pegs, GCT BB080 series
+
+0
+62
+62
+w_smd_strip
+bb080_64
+Smd dual-row strip connector, 32x2 pin, GCT BB080 series
+
+0
+64
+64
+w_smd_strip
+bb080_64_peg
+Smd dual-row strip connector, 32x2 pin with pegs, GCT BB080 series
+
+0
+64
+64
+w_smd_strip
+bb080_66
+Smd dual-row strip connector, 33x2 pin, GCT BB080 series
+
+0
+66
+66
+w_smd_strip
+bb080_66_peg
+Smd dual-row strip connector, 33x2 pin with pegs, GCT BB080 series
+
+0
+66
+66
+w_smd_strip
+bb080_68
+Smd dual-row strip connector, 34x2 pin, GCT BB080 series
+
+0
+68
+68
+w_smd_strip
+bb080_68_peg
+Smd dual-row strip connector, 34x2 pin with pegs, GCT BB080 series
+
+0
+68
+68
+w_smd_strip
+bb080_70
+Smd dual-row strip connector, 35x2 pin, GCT BB080 series
+
+0
+70
+70
+w_smd_strip
+bb080_70_peg
+Smd dual-row strip connector, 35x2 pin with pegs, GCT BB080 series
+
+0
+70
+70
+w_smd_strip
+bb080_72
+Smd dual-row strip connector, 36x2 pin, GCT BB080 series
+
+0
+72
+72
+w_smd_strip
+bb080_72_peg
+Smd dual-row strip connector, 36x2 pin with pegs, GCT BB080 series
+
+0
+72
+72
+w_smd_strip
+bb080_74
+Smd dual-row strip connector, 37x2 pin, GCT BB080 series
+
+0
+74
+74
+w_smd_strip
+bb080_74_peg
+Smd dual-row strip connector, 37x2 pin with pegs, GCT BB080 series
+
+0
+74
+74
+w_smd_strip
+bb080_76
+Smd dual-row strip connector, 38x2 pin, GCT BB080 series
+
+0
+76
+76
+w_smd_strip
+bb080_76_peg
+Smd dual-row strip connector, 38x2 pin with pegs, GCT BB080 series
+
+0
+76
+76
+w_smd_strip
+bb080_78
+Smd dual-row strip connector, 39x2 pin, GCT BB080 series
+
+0
+78
+78
+w_smd_strip
+bb080_78_peg
+Smd dual-row strip connector, 39x2 pin with pegs, GCT BB080 series
+
+0
+78
+78
+w_smd_strip
+bb080_80
+Smd dual-row strip connector, 40x2 pin, GCT BB080 series
+
+0
+80
+80
+w_smd_strip
+bb080_80_peg
+Smd dual-row strip connector, 40x2 pin with pegs, GCT BB080 series
+
+0
+80
+80
+w_smd_strip
+bb080_82
+Smd dual-row strip connector, 41x2 pin, GCT BB080 series
+
+0
+82
+82
+w_smd_strip
+bb080_82_peg
+Smd dual-row strip connector, 41x2 pin with pegs, GCT BB080 series
+
+0
+82
+82
+w_smd_strip
+bb080_84
+Smd dual-row strip connector, 42x2 pin, GCT BB080 series
+
+0
+84
+84
+w_smd_strip
+bb080_84_peg
+Smd dual-row strip connector, 42x2 pin with pegs, GCT BB080 series
+
+0
+84
+84
+w_smd_strip
+bb080_86
+Smd dual-row strip connector, 43x2 pin, GCT BB080 series
+
+0
+86
+86
+w_smd_strip
+bb080_86_peg
+Smd dual-row strip connector, 43x2 pin with pegs, GCT BB080 series
+
+0
+86
+86
+w_smd_strip
+bb080_88
+Smd dual-row strip connector, 44x2 pin, GCT BB080 series
+
+0
+88
+88
+w_smd_strip
+bb080_88_peg
+Smd dual-row strip connector, 44x2 pin with pegs, GCT BB080 series
+
+0
+88
+88
+w_smd_strip
+bb080_90
+Smd dual-row strip connector, 45x2 pin, GCT BB080 series
+
+0
+90
+90
+w_smd_strip
+bb080_90_peg
+Smd dual-row strip connector, 45x2 pin with pegs, GCT BB080 series
+
+0
+90
+90
+w_smd_strip
+bb080_92
+Smd dual-row strip connector, 46x2 pin, GCT BB080 series
+
+0
+92
+92
+w_smd_strip
+bb080_92_peg
+Smd dual-row strip connector, 46x2 pin with pegs, GCT BB080 series
+
+0
+92
+92
+w_smd_strip
+bb080_94
+Smd dual-row strip connector, 47x2 pin, GCT BB080 series
+
+0
+94
+94
+w_smd_strip
+bb080_94_peg
+Smd dual-row strip connector, 47x2 pin with pegs, GCT BB080 series
+
+0
+94
+94
+w_smd_strip
+bb080_96
+Smd dual-row strip connector, 48x2 pin, GCT BB080 series
+
+0
+96
+96
+w_smd_strip
+bb080_96_peg
+Smd dual-row strip connector, 48x2 pin with pegs, GCT BB080 series
+
+0
+96
+96
+w_smd_strip
+bb080_98
+Smd dual-row strip connector, 49x2 pin, GCT BB080 series
+
+0
+98
+98
+w_smd_strip
+bb080_98_peg
+Smd dual-row strip connector, 49x2 pin with pegs, GCT BB080 series
+
+0
+98
+98
+w_smd_strip
+bb080_100
+Smd dual-row strip connector, 50x2 pin, GCT BB080 series
+
+0
+100
+100
+w_smd_strip
+bb080_100_peg
+Smd dual-row strip connector, 50x2 pin with pegs, GCT BB080 series
+
+0
+100
+100
 w_smd_trans
 d-pak
 D-pak
@@ -85157,6 +86648,734 @@ Knitter MFP 116 DG-RA
 w_switch
 switch_mmp122-r
 Knitter MMP122-R
+
+0
+3
+3
+w_to
+hzip25-100f
+HZIP25-1.00F
+
+0
+25
+25
+w_to
+ipak
+IPAK
+
+0
+3
+3
+w_to
+ipak-sp
+IPAK Standard pinout
+
+0
+3
+3
+w_to
+ipak_std
+IPAK, standard design without bended pins
+
+0
+3
+3
+w_to
+ipak_std-sp
+IPAK, standard design without bended pins, standard pinout
+
+0
+3
+3
+w_to
+Multiwatt11
+MultiWatt 11 pins
+
+0
+11
+11
+w_to
+Multiwatt15
+MultiWatt 15 pins
+
+0
+15
+15
+w_to
+Pentawatt
+Pentawatt 5 pins
+
+0
+5
+5
+w_to
+Pentawatt-sp
+Pentawatt 5 pins, standard numbering
+
+0
+5
+5
+w_to
+sot82
+SOT82
+
+0
+3
+3
+w_to
+sot82-sp
+SOT82, standard pinout
+
+0
+3
+3
+w_to
+sot82_std
+SOT82, standard design without bended pins
+
+0
+3
+3
+w_to
+sot82_std-sp
+SOT82, standard design without bended pins, standard pinout
+
+0
+3
+3
+w_to
+to3-2
+TO3, 2 pins
+
+0
+4
+3
+w_to
+to3-4
+TO3, 4 pins
+
+0
+6
+5
+w_to
+to3-8
+TO3, 8 pins
+
+0
+10
+9
+w_to
+to18
+TO18 package
+
+0
+3
+3
+w_to
+to18-4
+TO18, 4 pins
+
+0
+4
+4
+w_to
+to92_3
+TO92
+
+0
+3
+3
+w_to
+to92_3-sp
+TO92, standard pinout
+
+0
+3
+3
+w_to
+to92_3_flat
+TO92 flat pins
+
+0
+3
+3
+w_to
+to92_3_flat-sp
+TO92 flat pins, standard pinout
+
+0
+3
+3
+w_to
+to99
+TO99 package
+
+0
+8
+8
+w_to
+to220
+TO220
+
+0
+3
+3
+w_to
+to220-2
+TO220, 2 pins
+
+0
+2
+2
+w_to
+to220-2-horiz
+TO220, 2 pins, horizontal
+
+0
+3
+3
+w_to
+to220-2-horiz-sp
+TO220, 2 pins, horizontal, standard pinout
+
+0
+3
+3
+w_to
+to220-2-horiz_5770
+TO220, 2 pins, horizontal, with Aavid 5770 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-horiz_5770-sp
+TO220, 2 pins, horizontal, standard pinout, with Aavid 5770 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-horiz_5771
+TO220, 2 pins, horizontal, with Aavid 5771 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-horiz_5771-sp
+TO220, 2 pins, horizontal, standard pinout, with Aavid 5771 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-horiz_5772
+TO220, 2 pins, horizontal, with Aavid 5772 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-horiz_5772-sp
+TO220, 2 pins, horizontal, standard pinout, with Aavid 5772 type Heatsink
+
+0
+2
+2
+w_to
+to220-2-sp
+TO220, 2 pins, standard pinout
+
+0
+2
+2
+w_to
+to220-2_11cw
+TO220, 2 pins, with 11°C/W heat sink
+
+0
+4
+2
+w_to
+to220-2_11cw-sp
+TO220, 2 pins, standard pinout, with 11°C/W heat sink
+
+0
+4
+2
+w_to
+to220-2_14cw
+TO220, 2 pins, with 14°C/W heat sink
+
+0
+4
+2
+w_to
+to220-2_14cw-sp
+TO220, 2 pins, standard pinout, with 14°C/W heat sink
+
+0
+4
+2
+w_to
+to220-2_5770
+TO220, 2 pins, with Aavid 5770 type heatsink
+
+0
+3
+2
+w_to
+to220-2_5770-sp
+TO220, 2 pins, standard pinout, with Aavid 5770 type heatsink
+
+0
+3
+2
+w_to
+to220-2_5771
+TO220, 2 pins, with Aavid 5771 type heatsink
+
+0
+3
+2
+w_to
+to220-2_5771-sp
+TO220, 2 pins, standard pinout, with Aavid 5771 type heatsink
+
+0
+3
+2
+w_to
+to220-2_5772
+TO220, 2 pins, with Aavid 5772 type heatsink
+
+0
+3
+2
+w_to
+to220-2_5772-sp
+TO220, 2 pins, standard pinout, with Aavid 5772 type heatsink
+
+0
+3
+2
+w_to
+to220-5
+TO220, 5pins
+
+0
+5
+5
+w_to
+to220-5-horiz
+TO220, 5 pins, horizontal
+
+0
+6
+6
+w_to
+to220-5-horiz-sp
+TO220, 5 pins, horizontal, standard pinout
+
+0
+6
+6
+w_to
+to220-5-horiz_5770
+TO220, 5 pins, horizontal, with Aavid 5770 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-horiz_5770-sp
+TO220, 5 pins, horizontal, standard pinout, with Aavid 5770 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-horiz_5771
+TO220, 5 pins, horizontal, with Aavid 5771 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-horiz_5771-sp
+TO220, 5 pins, horizontal, standard pinout, with Aavid 5771 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-horiz_5772
+TO220, 5 pins, horizontal, with Aavid 5772 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-horiz_5772-sp
+TO220, 5 pins, horizontal, standard pinout, with Aavid 5772 type Heatsink
+
+0
+5
+5
+w_to
+to220-5-sp
+TO220, 5pins, standard pinout
+
+0
+5
+5
+w_to
+to220-5_11cw
+TO220, 5pins, with 11°C/W Aavid 0S172 type heat sink
+
+0
+7
+5
+w_to
+to220-5_11cw-sp
+TO220, 5pins, standard pinout, with 11°C/W Aavid 0S172 type heat sink
+
+0
+7
+5
+w_to
+to220-5_14cw
+TO220, 5pins, with 14°C/W Aavid 0S172 type heat sink
+
+0
+7
+5
+w_to
+to220-5_14cw-sp
+TO220, 5pins, standard pinout, with 14°C/W Aavid 0S172 type heat sink
+
+0
+7
+5
+w_to
+to220-5_5770
+TO220, 5 pins, with Aavid 5770 type heatsink
+
+0
+6
+5
+w_to
+to220-5_5770-sp
+TO220, 5 pins, standard pinout, with Aavid 5770 type heatsink
+
+0
+6
+5
+w_to
+to220-5_5771
+TO220, 5 pins, with Aavid 5771 type heatsink
+
+0
+6
+5
+w_to
+to220-5_5771-sp
+TO220, 5 pins, standard pinout, with Aavid 5771 type heatsink
+
+0
+6
+5
+w_to
+to220-5_5772
+TO220, 5 pins, with Aavid 5772 type heatsink
+
+0
+6
+5
+w_to
+to220-5_5772-sp
+TO220, 5 pins, standard pinout, with Aavid 5772 type heatsink
+
+0
+6
+5
+w_to
+to220-15
+TO220, 15pins
+
+0
+15
+15
+w_to
+to220-horiz
+TO220, horizontal
+
+0
+4
+4
+w_to
+to220-horiz-sp
+TO220, horizontal, standard pinout
+
+0
+4
+4
+w_to
+to220-horiz_5770
+TO220, horizontal, with Aavid 5770 type Heatsink
+
+0
+3
+3
+w_to
+to220-horiz_5770-sp
+TO220, horizontal, standard pinout, with Aavid 5770 type Heatsink
+
+0
+3
+3
+w_to
+to220-horiz_5771
+TO220, horizontal, with Aavid 5771 type Heatsink
+
+0
+3
+3
+w_to
+to220-horiz_5771-sp
+TO220, horizontal, standard pinout, with Aavid 5771 type Heatsink
+
+0
+3
+3
+w_to
+to220-horiz_5772
+TO220, horizontal, with Aavid 5772 type Heatsink
+
+0
+3
+3
+w_to
+to220-horiz_5772-sp
+TO220, horizontal, standard pinout, with Aavid 5772 type Heatsink
+
+0
+3
+3
+w_to
+to220-sp
+TO220, standard pinout
+
+0
+3
+3
+w_to
+to220_11cw
+TO220 with 11°C/W heat sink
+
+0
+5
+3
+w_to
+to220_11cw-sp
+TO220, standard pinout, with 11°C/W heat sink
+
+0
+5
+3
+w_to
+to220_14cw
+TO220 with 14°C/W heat sink
+
+0
+5
+3
+w_to
+to220_14cw-sp
+TO220, standard pinout, with 14°C/W heat sink
+
+0
+5
+3
+w_to
+to220_5770
+TO220, with Aavid 5770 type heatsink
+
+0
+4
+3
+w_to
+to220_5770-sp
+TO220, standard pinout, with Aavid 5770 type heatsink
+
+0
+4
+3
+w_to
+to220_5771
+TO220, with Aavid 5771 type heatsink
+
+0
+4
+3
+w_to
+to220_5771-sp
+TO220, standard pinout, with Aavid 5771 type heatsink
+
+0
+4
+3
+w_to
+to220_5772
+TO220, with Aavid 5772 type heatsink
+
+0
+4
+3
+w_to
+to220_5772-sp
+TO220, standard pinout, with Aavid 5772 type heatsink
+
+0
+4
+3
+w_to
+to220_std
+TO220, standard design witount bended pins
+
+0
+3
+3
+w_to
+to220_std-sp
+TO220, standard design witount bended pins, standard pinout
+
+0
+3
+3
+w_to
+to220_std_11cw
+TO220, standard design, with 11°C/W heat sink
+
+0
+5
+3
+w_to
+to220_std_11cw-sp
+TO220, standard design, standard pinout, with 11°C/W heat sink
+
+0
+5
+3
+w_to
+to220_std_14cw
+TO220, standard design, with 14°C/W heat sink
+
+0
+5
+3
+w_to
+to220_std_14cw-sp
+TO220, standard design, standard pinout, with 14°C/W heat sink
+
+0
+5
+3
+w_to
+to220_std_5770
+TO220, standard design, with Aavid 5770 type heatsink
+
+0
+4
+3
+w_to
+to220_std_5770-sp
+TO220, standard design, standard pinout, with Aavid 5770 type heatsink
+
+0
+4
+3
+w_to
+to220_std_5771
+TO220, standard design, with Aavid 5771 type heatsink
+
+0
+4
+3
+w_to
+to220_std_5771-sp
+TO220, standard design, standard pinout, with Aavid 5771 type heatsink
+
+0
+4
+3
+w_to
+to220_std_5772
+TO220, standard design, with Aavid 5772 type heatsink
+
+0
+4
+3
+w_to
+to220_std_5772-sp
+TO220, standard design, standard pinout, with Aavid 5772 type heatsink
+
+0
+4
+3
+w_to
+to225
+TO225
+
+0
+3
+3
+w_to
+to225-sp
+TO225, standard pinout
+
+0
+3
+3
+w_to
+to225_std
+TO225, standard design without bended pins
+
+0
+3
+3
+w_to
+to225_std-sp
+TO225, standard design without bended pins, standard pinout
+
+0
+3
+3
+w_to
+to247
+TO247
+
+0
+3
+3
+w_to
+to247-sp
+TO247, standard pinout
+
+0
+3
+3
+w_to
+top3
+TOP3
+
+0
+3
+3
+w_to
+top3-sp
+TOP3, standard pinout
 
 0
 3

@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = Sunday, May 05, 2019 PM04:45:04 HKT
+Cmp-Mod V01 Created by PcbNew   date = Sunday, May 05, 2019 PM04:54:02 HKT
+
+BeginCmp
+TimeStamp = 5CCF189F
+Path = /5CC2401E/5CC242A1/5CC87678
+Reference = Q4;
+ValeurCmp = D882;
+IdModule  = footprint-lib:SOT-89-3,thermal_vias;
+EndCmp
 
 BeginCmp
 TimeStamp = 5CD0CD7C
@@ -22,78 +30,6 @@ Path = /5CC29851/5CC2989A/5CC7E390
 Reference = R42;
 ValeurCmp = R0,0603;
 IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CCF189F
-Path = /5CC2401E/5CC242A1/5CC87678
-Reference = Q4;
-ValeurCmp = D882;
-IdModule  = Package_TO_SOT_SMD:SOT-89-3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD66BD2
-Path = /5CE3BAD7/5CE3C58A
-Reference = C33;
-ValeurCmp = C104,0603;
-IdModule  = Capacitor_SMD:CP_Elec_6.3x5.3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD63342
-Path = /5CC29851/5CC2989A/5CCBF6DD
-Reference = R48;
-ValeurCmp = R152,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD62977
-Path = /5CD201F7
-Reference = J46;
-ValeurCmp = HOTEND_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD62928
-Path = /5CC29851/5CC2989A/5CD58101
-Reference = J44;
-ValeurCmp = SPI_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD6290E
-Path = /5CC29851/5CC2989A/5CD16324
-Reference = J43;
-ValeurCmp = STM32_GTR;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD61FF5
-Path = /5CC0166A/5CE44033
-Reference = J1;
-ValeurCmp = USB_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD5D554
-Path = /5CC1B272/5CD2F161
-Reference = J47;
-ValeurCmp = TEMP_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD5D3F5
-Path = /5CE3BAD7/5CE3C56F
-Reference = J40;
-ValeurCmp = SPI_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
@@ -652,7 +588,7 @@ BeginCmp
 TimeStamp = 5CD61F79
 Path = /5CC29851/5CC2989A/5CC7D354
 Reference = SW1;
-ValeurCmp = SW_Push;
+ValeurCmp = RESET;
 IdModule  = Button_Switch_SMD:SW_SPST_CK_RS282G05A3;
 EndCmp
 
