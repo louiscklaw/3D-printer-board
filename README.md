@@ -53,7 +53,7 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 * hotends = 2 * 20W = 80W ~= 3A
 
 * 12 + 5 + 3 = 20A
-* take 0.5 Diversity factor => 10A
+* guess taking 0.5 as Diversity factor => 10A
 
 ### Thing TODO on next REV:
 - [ ] replacement for Orange Pi as too big in size
