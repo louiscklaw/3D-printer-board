@@ -57,7 +57,7 @@ AR Path="/5CC0A53C/5CC04CDF" Ref="J?"  Part="1"
 AR Path="/5CC04CDF" Ref="J38"  Part="1" 
 F 0 "J38" H 4050 2767 50  0000 C CNN
 F 1 "MS_SELECT" H 4050 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4000 3000 50  0001 C CNN
 F 3 "~" H 4000 3000 50  0001 C CNN
 	1    4000 3000
 	-1   0    0    -1  
