@@ -25,11 +25,11 @@ pinmapping
 https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
 
 ### design goal
-* [] ~~10~~ 8 channels and ~~10~~ 8 stepper motors
-* x
-* y
-* z0,z1,z2,z3
-* e0,e1,~~e2,e3~~
+- [x] ~~10~~ 8 channels and ~~10~~ 8 stepper motors
+    - [x] x
+    - [x] y
+    - [x] z0,z1,z2,z3
+    - [x] e0,e1,~~e2,e3~~
 
 5 channels PWM control(high power) heaters
 *hotend0, hotend1, hotend2, hotend3
