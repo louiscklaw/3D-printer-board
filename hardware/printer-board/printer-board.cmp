@@ -1,31 +1,79 @@
-Cmp-Mod V01 Created by PcbNew   date = Sat May  4 21:28:04 2019
+Cmp-Mod V01 Created by PcbNew   date = Sunday, May 05, 2019 PM04:45:04 HKT
 
 BeginCmp
-TimeStamp = 5CCF0A7E
-Path = /5CC29851/5CC2989A/5CCB2F89
-Reference = J28;
-ValeurCmp = SWD;
+TimeStamp = 5CD0CD7C
+Path = /5CC0A4B9/5CC04CDF
+Reference = J38;
+ValeurCmp = MS_SELECT;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCE527A
+Path = /5CC29851/5CC2989A/5CC82CA9
+Reference = R44;
+ValeurCmp = R102,0603;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCFB54E
+Path = /5CC29851/5CC2989A/5CC7E390
+Reference = R42;
+ValeurCmp = R0,0603;
+IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCF189F
+Path = /5CC2401E/5CC242A1/5CC87678
+Reference = Q4;
+ValeurCmp = D882;
+IdModule  = Package_TO_SOT_SMD:SOT-89-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CD66BD2
+Path = /5CE3BAD7/5CE3C58A
+Reference = C33;
+ValeurCmp = C104,0603;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x5.3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CD63342
+Path = /5CC29851/5CC2989A/5CCBF6DD
+Reference = R48;
+ValeurCmp = R152,0603;
+IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CD62977
+Path = /5CD201F7
+Reference = J46;
+ValeurCmp = HOTEND_DEBUG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CD62928
+Path = /5CC29851/5CC2989A/5CD58101
+Reference = J44;
+ValeurCmp = SPI_DEBUG;
 IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCDD6A7
-Path = /5CC1B272/5CD2F161
-Reference = J47;
-ValeurCmp = TEMP_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical;
+TimeStamp = 5CD6290E
+Path = /5CC29851/5CC2989A/5CD16324
+Reference = J43;
+ValeurCmp = STM32_GTR;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCDD5AA
-Path = /5CE3BAD7/5CE3C56F
-Reference = J40;
-ValeurCmp = SPI_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CCDCD41
+TimeStamp = 5CD61FF5
 Path = /5CC0166A/5CE44033
 Reference = J1;
 ValeurCmp = USB_DEBUG;
@@ -33,19 +81,35 @@ IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCDC58F
-Path = /5CE3BAD7/5CE3C58A
-Reference = C33;
-ValeurCmp = C104,0603;
-IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
+TimeStamp = 5CD5D554
+Path = /5CC1B272/5CD2F161
+Reference = J47;
+ValeurCmp = TEMP_DEBUG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCE753D
+TimeStamp = 5CD5D3F5
+Path = /5CE3BAD7/5CE3C56F
+Reference = J40;
+ValeurCmp = SPI_DEBUG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CD19CBE
 Path = /5CC0166A/5CC01846
 Reference = U1;
 ValeurCmp = orange_pi_zero;
 IdModule  = footprint-lib:orangepi-zero;
+EndCmp
+
+BeginCmp
+TimeStamp = 5CCF0A7E
+Path = /5CC29851/5CC2989A/5CCB2F89
+Reference = J28;
+ValeurCmp = SWD;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
 EndCmp
 
 BeginCmp
@@ -105,7 +169,7 @@ IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCDF970
+TimeStamp = 5CD59419
 Path = /5CC15C35/5CCD9FE8
 Reference = J48;
 ValeurCmp = HOTEND_PROBE;
@@ -148,7 +212,7 @@ BeginCmp
 TimeStamp = 5CCC748C
 Path = /5CCA7EF8/5CCACF4E
 Reference = R76;
-ValeurCmp = R333,0603;
+ValeurCmp = R183,0603;
 IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -297,14 +361,6 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCFA7A9
-Path = /5CD201F7
-Reference = J46;
-ValeurCmp = HOTEND_DEBUG;
-IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
-EndCmp
-
-BeginCmp
 TimeStamp = 5CCF0000
 Path = /5CC15C35/5CD1988B
 Reference = J45;
@@ -358,14 +414,6 @@ Path = /5CC2401E/5CC24321/5CCC3211
 Reference = C37;
 ValeurCmp = CP1uf,50V;
 IdModule  = Capacitor_SMD:CP_Elec_4x5.3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD61B32
-Path = /5CC29851/5CC2989A/5CCBF6DD
-Reference = R48;
-ValeurCmp = R152,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
@@ -465,25 +513,9 @@ IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCE527A
-Path = /5CC29851/5CC2989A/5CC82CA9
-Reference = R44;
-ValeurCmp = R102,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
 TimeStamp = 5CCFB5B7
 Path = /5CC29851/5CC2989A/5CC7E3E9
 Reference = R43;
-ValeurCmp = R0,0603;
-IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CCFB54E
-Path = /5CC29851/5CC2989A/5CC7E390
-Reference = R42;
 ValeurCmp = R0,0603;
 IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
@@ -681,18 +713,10 @@ IdModule  = MountingHole:MountingHole_2.7mm_M2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CD19CBE
-Path = /5CC0166A/5CC01846
-Reference = U1;
-ValeurCmp = orange_pi_zero;
-IdModule  = footprint-lib:orangepi-zero;
-EndCmp
-
-BeginCmp
 TimeStamp = 5CCFB62B
 Path = /5CC0166A/5CC32901
 Reference = D1;
-ValeurCmp = 5V HEALTHY;
+ValeurCmp = OPi_5V;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -745,10 +769,10 @@ IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CD0C9D1
+TimeStamp = 5CD861C1
 Path = /5CC02AB8/5CC5E2E3
 Reference = D2;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -801,18 +825,10 @@ IdModule  = Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CD0CD7C
-Path = /5CC0A4B9/5CC04CDF
-Reference = J38;
-ValeurCmp = MS_SELECT;
-IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CD0C674
+TimeStamp = 5CCE91ED
 Path = /5CC0A4B9/5CC5FBED
 Reference = D24;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -881,10 +897,10 @@ IdModule  = Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CD0CFB9
+TimeStamp = 5CD85FC7
 Path = /5CC0A53C/5CC57FDB
 Reference = D3;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1028,7 +1044,7 @@ BeginCmp
 TimeStamp = 5CD0FE62
 Path = /5CC0A8CA/5CC5B1D7
 Reference = D23;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1100,7 +1116,7 @@ BeginCmp
 TimeStamp = 5CCE0F32
 Path = /5CC0A8CF/5CC5CA3C
 Reference = D5;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1172,7 +1188,7 @@ BeginCmp
 TimeStamp = 5CCD829E
 Path = /5CC0AEC9/5CC4C265
 Reference = D6;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1244,7 +1260,7 @@ BeginCmp
 TimeStamp = 5CCD84FC
 Path = /5CC0AECE/5CC5529D
 Reference = D7;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1372,7 +1388,7 @@ BeginCmp
 TimeStamp = 5CCF26C0
 Path = /5CC22025/5CC222D0/5CC19EB5
 Reference = J31;
-ValeurCmp = HOT_END;
+ValeurCmp = HOT_END0;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,heatbed;
 EndCmp
 
@@ -1420,7 +1436,7 @@ BeginCmp
 TimeStamp = 5CCF2954
 Path = /5CC22025/5CC222D3/5CC22399
 Reference = J32;
-ValeurCmp = HOT_END;
+ValeurCmp = HOT_END1;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,heatbed;
 EndCmp
 
@@ -1516,7 +1532,7 @@ BeginCmp
 TimeStamp = 5CCF1548
 Path = /5CC1B272/5CC4170A
 Reference = J24;
-ValeurCmp = AUX_TEMP;
+ValeurCmp = AUX_T;
 IdModule  = w_conn_jst-ph:b2b-ph-kl;
 EndCmp
 
@@ -1524,7 +1540,7 @@ BeginCmp
 TimeStamp = 5CCF14FA
 Path = /5CC1B272/5CC40EDC
 Reference = J23;
-ValeurCmp = HOTEND_TEMP1;
+ValeurCmp = HOTEND_T1;
 IdModule  = w_conn_jst-ph:b2b-ph-kl;
 EndCmp
 
@@ -1532,7 +1548,7 @@ BeginCmp
 TimeStamp = 5CCCD7C3
 Path = /5CC1B272/5CC3E589
 Reference = J21;
-ValeurCmp = HEATBED_TEMP;
+ValeurCmp = HEATBED_T;
 IdModule  = w_conn_jst-ph:b2b-ph-kl;
 EndCmp
 
@@ -1540,7 +1556,7 @@ BeginCmp
 TimeStamp = 5CCF145E
 Path = /5CC1B272/5CC409FE
 Reference = J22;
-ValeurCmp = HOTEND_TEMP0;
+ValeurCmp = HOTEND_T0;
 IdModule  = w_conn_jst-ph:b2b-ph-kl;
 EndCmp
 
@@ -1548,7 +1564,7 @@ BeginCmp
 TimeStamp = 5CCF1D5F
 Path = /5CC2401E/5CC242A1/5CC8A044
 Reference = D20;
-ValeurCmp = FAN0_EN;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1585,14 +1601,6 @@ IdModule  = Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCF189F
-Path = /5CC2401E/5CC242A1/5CC87678
-Reference = Q4;
-ValeurCmp = D882;
-IdModule  = footprint-lib:SOT-89-3,thermal_vias;
-EndCmp
-
-BeginCmp
 TimeStamp = 5CCF184E
 Path = /5CC2401E/5CC242A1/5CC242F9
 Reference = J33;
@@ -1601,10 +1609,10 @@ IdModule  = footprint-lib:b2b-ph-kl,fan_pwm_out;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCF1810
+TimeStamp = 5CD499E3
 Path = /5CC2401E/5CC24321/5CC8A045
 Reference = D21;
-ValeurCmp = FAN1_EN;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1649,7 +1657,7 @@ IdModule  = footprint-lib:SOT-89-3,thermal_vias;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCF2364
+TimeStamp = 5CD49631
 Path = /5CC2401E/5CC24321/5CC8A035
 Reference = J34;
 ValeurCmp = FAN1;
@@ -1660,7 +1668,7 @@ BeginCmp
 TimeStamp = 5CCF2326
 Path = /5CC2401E/5CC24398/5CC24377
 Reference = D22;
-ValeurCmp = FAN2_EN;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1732,7 +1740,7 @@ BeginCmp
 TimeStamp = 5CCF2BA1
 Path = /5CC1F2C3/5CCBA098
 Reference = J25;
-ValeurCmp = 12V_INPUT_2;
+ValeurCmp = 12V_IN2;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,12V_SRC;
 EndCmp
 
@@ -1740,7 +1748,7 @@ BeginCmp
 TimeStamp = 5CCF2B5C
 Path = /5CC1F2C3/5CC1F612
 Reference = J26;
-ValeurCmp = 12V_INPUT;
+ValeurCmp = 12V_IN;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,12V_SRC;
 EndCmp
 
@@ -1748,7 +1756,7 @@ BeginCmp
 TimeStamp = 5CCF2B17
 Path = /5CC1F2C3/5CC1F9B4
 Reference = J27;
-ValeurCmp = 12V_OUT;
+ValeurCmp = 12V/OUT;
 IdModule  = footprint-lib:mpt_0,5%2f2-2,54,12V_SRC;
 EndCmp
 
@@ -1769,7 +1777,7 @@ IdModule  = w_misc_comp:fuse_smf;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCC8422
+TimeStamp = 5CCFC6F8
 Path = /5CC15C35/5CC36FE8
 Reference = R34;
 ValeurCmp = R102,0603;
@@ -1777,7 +1785,7 @@ IdModule  = Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCC8411
+TimeStamp = 5CCFC6C8
 Path = /5CC15C35/5CC35E90
 Reference = R33;
 ValeurCmp = R102,0603;
@@ -1868,7 +1876,7 @@ BeginCmp
 TimeStamp = 5CCC82E6
 Path = /5CC15C35/5CC36FEE
 Reference = D14;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = ↑;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1876,15 +1884,15 @@ BeginCmp
 TimeStamp = 5CCC82D3
 Path = /5CC15C35/5CC35E96
 Reference = D13;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = Z↓;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCC82C0
+TimeStamp = 5CCFB2DD
 Path = /5CC15C35/5CC34FB2
 Reference = D12;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = ↑;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1892,15 +1900,15 @@ BeginCmp
 TimeStamp = 5CCC82AD
 Path = /5CC15C35/5CC34354
 Reference = D11;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = Y↓;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCC829A
+TimeStamp = 5CCF3A55
 Path = /5CC15C35/5CC3306C
 Reference = D10;
-ValeurCmp = LED_BLUE,0603;
+ValeurCmp = ↑;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1908,7 +1916,7 @@ BeginCmp
 TimeStamp = 5CCC8287
 Path = /5CC15C35/5CC31941
 Reference = D9;
-ValeurCmp = XMIN;
+ValeurCmp = X↓;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
