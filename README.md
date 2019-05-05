@@ -1,3 +1,11 @@
+### PCB tryout for louis 3d printer
+
+*front:
+![Alt text](blob/feature/renumbering/hardware/printer-board/renders/front_printer-board.png?raw=true "Title")
+
+*back:
+![Alt text](blob/feature/renumbering/hardware/printer-board/renders/back_printer-board.png?raw=true?raw=true "Title")
+
 #
 
 `st-flash /home/logic/_del/7/generic_boot20_pc13.bin 0x8000000`
@@ -89,3 +97,6 @@ SPI
 SPI uses pin PB13 (SCK), PB14 (MISO) and PB15 (MOSI). 
 The clock speed range is 0.15..18 MHz. 
 Chip select pins do not have any restrictions.
+
+
+
