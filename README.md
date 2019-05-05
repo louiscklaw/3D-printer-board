@@ -45,16 +45,17 @@ https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
     - [x] ~~4 misc~~ 
     - [x] PROBE support
 
-5 AI(temperature sensors)
-hotend0,hotend1,hotend2,hotend3
-heatbed
+- [x] ~~5~~ 4 + 1  AI(temperature sensors)
+    - [x] hotend0,hotend1,~~hotend2,hotend3~~, AUX
+    - [x] heatbed
+    - [x] PCB temperature self monitoring
 
-I2C output
-possibily some digital output channel
-possibily some SSR channel
+~~I2C output~~
+~~possibily some digital output channel~~
+~~possibily some SSR channel~~
 
 
-PCB temperature self monitoring
+
 
 
 
