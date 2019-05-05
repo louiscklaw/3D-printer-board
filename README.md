@@ -18,8 +18,8 @@
 ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 
 ### TODO
-[x] tidy
-need to confirm about PC13
+- [x] tidy
+- [x] need to confirm about ~~PC13~~ PB9 as debug pin
 
 pinmapping
 https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
