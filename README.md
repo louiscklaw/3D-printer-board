@@ -50,9 +50,10 @@ https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
     - [x] heatbed
     - [x] PCB temperature self monitoring
 
-~~I2C output~~
-~~possibily some digital output channel~~
-~~possibily some SSR channel~~
+### Thing to do on next rev:
+- [ ] I2C output
+- [ ] possibily some digital output channel
+- [ ] possibily some SSR channel
 
 
 
