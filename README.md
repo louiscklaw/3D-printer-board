@@ -17,12 +17,9 @@
 
 ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 
-### TODO
+### TODO on this REV:
 - [x] tidy
 - [x] need to confirm about ~~PC13~~ PB9 as debug pin
-
-pinmapping
-https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
 
 ### Design goal on REV1:
 - [x] ~~10~~ 8 channels and ~~10~~ 8 stepper motors
@@ -64,7 +61,11 @@ https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
 - [ ] possibily some digital output channel
 - [ ] possibily some SSR channel
 
-### Constrains on STM32:
+### Misc:
+* pinmapping
+    * https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
+
+* Constrains on STM32:
 > When using serial, the UART used for communication with the host is fixed to pins PA9 (TX) and PA10 (RX). 
 > When using USB, the PA11 (D-) and PA12 (D+) pins are reserved. 
 > The USB code assumes that PA12 (D+) has a fixed pullup resistor attached to it.
