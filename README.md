@@ -1,10 +1,10 @@
 ### PCB tryout for louis 3d printer
 
 *front:
-![Alt text](blob/feature/renumbering/hardware/printer-board/renders/front_printer-board.png?raw=true "Title")
+![PCB Front](https://raw.githubusercontent.com/louiscklaw/3D-printer-board/feature/renumbering/hardware/printer-board/renders/z_printer-board.png?raw=true "Front")
 
 *back:
-![Alt text](blob/feature/renumbering/hardware/printer-board/renders/back_printer-board.png?raw=true?raw=true "Title")
+![PCB Back](https://raw.githubusercontent.com/louiscklaw/3D-printer-board/feature/renumbering/hardware/printer-board/renders/Z_printer-board.png?raw=true "Back")
 
 #
 
