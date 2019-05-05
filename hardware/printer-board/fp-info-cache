@@ -1,4 +1,4 @@
-19374223982346355
+19374224343656355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45252,7 +45252,7 @@ TO-263-2,thermal_vias
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
 D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
 0
-52
+51
 3
 footprint-lib
 TO-263-5_TabPin3,heat_drill
