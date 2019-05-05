@@ -39,7 +39,7 @@ https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
     - [x] hotend0, hotend1, ~~hotend2, hotend3~~
     - [x] heatbed
 
-- [x] 6 + ~~4~~ 1 DI
+- [x] 6 and ~~4~~ 1 DI
     - [x] x,y,z min
     - [x] x,y,z max
     - [x] ~~4 misc~~ 
