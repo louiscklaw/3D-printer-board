@@ -1,5 +1,5 @@
 Drill report for /home/logic/_workspace/3D-printer-board/hardware/printer-board/printer-board.kicad_pcb
-Created on Mon May  6 18:12:32 2019
+Created on Mon May  6 19:06:48 2019
 
 Copper Layer Stackup:
     =============================================================
@@ -10,17 +10,17 @@ Copper Layer Stackup:
 Drill file 'printer-board-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (485 holes)
+    T1  0.40mm  0.016"  (546 holes)
     T2  0.50mm  0.020"  (1 hole)
     T3  0.60mm  0.024"  (4 holes)
     T4  0.65mm  0.026"  (16 holes)
     T5  0.70mm  0.028"  (67 holes)
-    T6  0.76mm  0.030"  (174 holes)
+    T6  0.76mm  0.030"  (42 holes)
     T7  0.80mm  0.031"  (130 holes)
     T8  1.00mm  0.039"  (72 holes)
     T9  1.10mm  0.043"  (12 holes)
 
-    Total plated holes count 961
+    Total plated holes count 890
 
 
 Drill file 'printer-board-NPTH.drl' contains
