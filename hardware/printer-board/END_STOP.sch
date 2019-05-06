@@ -988,8 +988,6 @@ Wire Wire Line
 	4250 4900 4250 4800
 Wire Wire Line
 	4250 5350 4250 5500
-Wire Wire Line
-	4250 5500 3450 5500
 $Comp
 L taobao-r:R102,0603 R34
 U 1 1 5CC36FE8
@@ -1033,7 +1031,6 @@ F 3 "" H 4100 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 2900 3650 2900
-Connection ~ 3650 2900
 Wire Wire Line
 	3450 3000 3800 3000
 Connection ~ 3800 3000
@@ -1041,7 +1038,6 @@ Wire Wire Line
 	3800 3000 3800 3950
 Wire Wire Line
 	3450 3850 3650 3850
-Connection ~ 3650 3850
 Wire Wire Line
 	3450 3950 3800 3950
 Connection ~ 3800 3950
@@ -1049,7 +1045,6 @@ Wire Wire Line
 	3800 3950 3800 4850
 Wire Wire Line
 	3450 4750 3650 4750
-Connection ~ 3650 4750
 Wire Wire Line
 	3450 4850 3800 4850
 Connection ~ 3800 4850
@@ -1057,7 +1052,6 @@ Wire Wire Line
 	3800 4850 3800 5700
 Wire Wire Line
 	3450 5600 3650 5600
-Connection ~ 3650 5600
 Wire Wire Line
 	3450 5700 3800 5700
 Connection ~ 3800 5700
@@ -1230,11 +1224,7 @@ Connection ~ 4250 2800
 Wire Wire Line
 	4250 2800 4650 2800
 Wire Wire Line
-	3650 2900 3650 3850
-Wire Wire Line
 	3650 3850 3650 4750
-Wire Wire Line
-	3650 4750 3650 5600
 Wire Wire Line
 	3650 5600 3650 6500
 Wire Wire Line
@@ -1364,4 +1354,66 @@ Text Label 1650 1600 2    50   ~ 0
 HOTEND_PROBE
 Wire Wire Line
 	1100 1600 1650 1600
+$Comp
+L power:+12V #PWR0195
+U 1 1 5CD07A9A
+P 3250 3450
+F 0 "#PWR0195" H 3250 3300 50  0001 C CNN
+F 1 "+12V" H 3300 3650 50  0000 C CNN
+F 2 "" H 3250 3450 50  0001 C CNN
+F 3 "" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5CD07AA4
+P 3450 3450
+F 0 "JP3" V 3400 3350 50  0000 R CNN
+F 1 "SolderJumper_2_Open" V 3450 3350 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 3450 50  0001 C CNN
+F 3 "~" H 3450 3450 50  0001 C CNN
+	1    3450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3450 3300 3450
+Text Notes 1400 3050 0    50   ~ 0
+assume dry contact here
+Connection ~ 3650 3850
+Wire Wire Line
+	4250 5500 3450 5500
+Wire Wire Line
+	3550 5150 3650 5150
+Wire Wire Line
+	3200 5150 3250 5150
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 5CD18A57
+P 3400 5150
+F 0 "JP4" V 3350 5050 50  0000 R CNN
+F 1 "SolderJumper_2_Open" V 3400 5050 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3400 5150 50  0001 C CNN
+F 3 "~" H 3400 5150 50  0001 C CNN
+	1    3400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0196
+U 1 1 5CD18A4D
+P 3200 5150
+F 0 "#PWR0196" H 3200 5000 50  0001 C CNN
+F 1 "+12V" H 3250 5350 50  0000 C CNN
+F 2 "" H 3200 5150 50  0001 C CNN
+F 3 "" H 3200 5150 50  0001 C CNN
+	1    3200 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 5150 3650 5600
+Connection ~ 3650 5600
+Wire Wire Line
+	3600 3450 3650 3450
+Wire Wire Line
+	3650 3450 3650 3850
 $EndSCHEMATC
