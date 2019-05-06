@@ -1,4 +1,4 @@
-19374225066615355
+19375783059169355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44282,6 +44282,13 @@ MC-306
 4
 4
 footprint-lib
+MountingHole_2.7mm_M2.5,rpi_like
+Mounting Hole 2.7mm, no annular, M2.5
+mounting hole 2.7mm no annular m2.5
+0
+0
+0
+footprint-lib
 mouse-bite-2mm-5mm-slot
 
 
@@ -44391,7 +44398,7 @@ orangepi-zero
 
 
 0
-46
+42
 42
 footprint-lib
 PC_FAN_s4b-ph-kl
