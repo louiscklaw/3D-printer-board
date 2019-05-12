@@ -1,4 +1,4 @@
-19375783140825355
+19411774703716355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44016,6 +44016,13 @@ EMI Filter
 19
 4
 footprint-lib
+9013,J3,SOT23
+SOT23
+
+0
+3
+3
+footprint-lib
 aboutme_louislabs_com
 
 
@@ -44029,6 +44036,13 @@ AllWinner-A64(FBGA396)
 0
 399
 399
+footprint-lib
+AMS1117_SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+8
+4
 footprint-lib
 AQ_mpt_0,5%2f4-2,54
 4-way 2.54mm pitch terminal block, Phoenix MPT series
@@ -44072,6 +44086,13 @@ JST PH series connector, B4B-PH-KL
 4
 4
 footprint-lib
+BLUEPILL_SWD
+BLUEPILL SWD TERMINAL
+BLUEPILL SWD STM32
+0
+4
+4
+footprint-lib
 conn_01_04_board_splitter
 
 
@@ -44100,6 +44121,13 @@ CUI-PJ-102A_dc-barrel-jack
 3
 2
 footprint-lib
+D882,SOT-89-3,thermal_vias
+D882,SOT-89-3,thermal_vias
+D882, SOT-89-3
+0
+12
+3
+footprint-lib
 DC_SOCKET
 
 
@@ -44118,14 +44146,14 @@ ESP-12
 
 
 0
-16
+18
 16
 footprint-lib
 ESP-WROOM-32_MODULE
 
 
 0
-52
+53
 39
 footprint-lib
 FBGA96
@@ -44254,6 +44282,13 @@ louislabs_qr_logo
 0
 0
 footprint-lib
+louislabs_sign
+
+
+0
+99
+1
+footprint-lib
 LQFP-48_7x7mm_Pitch0.5mm
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
@@ -44271,6 +44306,13 @@ footprint-lib
 L_CD54
 Inductor SMD, 5mm x h.4mm, Wurth LQS
 
+0
+2
+2
+footprint-lib
+L_CD127_shielded
+Choke, SMD, 12x12mm 8mm height
+Choke SMD
 0
 2
 2
@@ -44316,6 +44358,13 @@ mouse-bite-2mm-slot
 0
 0
 0
+footprint-lib
+MP2303,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
+SOIC 1.27
+0
+20
+8
 footprint-lib
 mpt_0,5%2f2-2,54
 2-way 2.54mm pitch terminal block, Phoenix MPT series
@@ -44401,12 +44450,33 @@ orangepi-zero
 42
 42
 footprint-lib
+OSC_3225
+Miniature Crystal Clock Oscillator Abracon ASE series, http://www.abracon.com/Oscillators/ASEseries.pdf, hand-soldering, 3.2x2.5mm^2 package
+SMD SMT crystal oscillator hand-soldering 3225
+0
+4
+4
+footprint-lib
 PC_FAN_s4b-ph-kl
 JST PH series connector, S4B-PH-KL
 
 0
 4
 4
+footprint-lib
+PhoenixContact_MCV-G_02x5.08mm_Vertical
+Generic Phoenix Contact connector footprint for series: MCV-G; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V
+phoenix_contact connector MCV_01x02_G_5.08mm
+0
+2
+2
+footprint-lib
+PhoenixContact_MCV_1,5_3-G-5.08_1x03_P5.08mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/3-G-5.08; number of pins: 03; pin pitch: 5.08mm; Vertical || order number: 1836309 8A 320V
+phoenix_contact connector MCV_01x03_G_5.08mm
+0
+3
+3
 footprint-lib
 PinHeader_2x03_P2.54mm_Vertical_with_soldering_jumper
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
@@ -45193,8 +45263,8 @@ SOP 1.27
 16
 footprint-lib
 SOT-89-3,thermal_vias
-SOT-89-3
-SOT-89-3
+SOT-89-3,thermal_vias
+SOT-89-3,thermal_vias
 0
 12
 3
@@ -45205,6 +45275,13 @@ CMS SOT
 0
 4
 4
+footprint-lib
+SS12,do214ac
+DO214AC SS12
+SS12
+0
+2
+2
 footprint-lib
 SSOP-20_4.4x6.5mm_Pitch0.65mm
 SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
@@ -45234,12 +45311,26 @@ JST PH series connector, S3B-PH-KL
 3
 3
 footprint-lib
+STP55NF06,TO-263-2,thermal_vias
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+51
+3
+footprint-lib
 SUNTECH_ST-TF-003A
 
 
 0
 13
 10
+footprint-lib
+SW_SPST_CK_RS282G05A3
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
 footprint-lib
 SW_SPST_PTS645
 C&K Components SPST SMD PTS645 Series 6mm Tact Switch
@@ -45311,6 +45402,13 @@ USB_B_F_X2
 12
 12
 footprint-lib
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
+6
+footprint-lib
 USB_PN87520_HOST_PTH
 
 
@@ -45351,6 +45449,13 @@ JST PH series connector, S3B-PH-KL
 
 0
 3
+3
+footprint-lib
+WSK220N04,TO-263-2,thermal_vias
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+51
 3
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
@@ -76173,83 +76278,6 @@ CONN DEV AMP MODU
 0
 22
 22
-w_conn_mpt
-mpt_0,5%2f2-2,54
-2-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-2
-2
-w_conn_mpt
-mpt_0,5%2f3-2,54
-3-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-3
-3
-w_conn_mpt
-mpt_0,5%2f4-2,54
-4-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-4
-4
-w_conn_mpt
-mpt_0,5%2f5-2,54
-5-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-5
-5
-w_conn_mpt
-mpt_0,5%2f6-2,54
-6-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-6
-6
-w_conn_mpt
-mpt_0,5%2f7-2,54
-7-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-7
-7
-w_conn_mpt
-mpt_0,5%2f8-2,54
-8-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-8
-8
-w_conn_mpt
-mpt_0,5%2f9-2,54
-9-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-9
-9
-w_conn_mpt
-mpt_0,5%2f10-2,54
-10-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-10
-10
-w_conn_mpt
-mpt_0,5%2f11-2,54
-11-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-11
-11
-w_conn_mpt
-mpt_0,5%2f12-2,54
-12-way 2.54mm pitch terminal block, Phoenix MPT series
-
-0
-12
-12
 w_conn_panelmate
 panelmate_smd_2
 PanelMate connector 2-way, Molex P/N 53780-0270

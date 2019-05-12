@@ -25,3 +25,9 @@
 [submodule "software/_ref/kicadScripts"]
 	path = software/_ref/kicadScripts
 	url = https://github.com/gregdavill/kicadScripts
+[submodule "hardware/_ref/zum"]
+	path = hardware/_ref/zum
+	url = git@github.com:bq/zum.git
+[submodule "hardware/_ref/OmniBoard"]
+	path = hardware/_ref/OmniBoard
+	url = git@github.com:bqlabs/OmniBoard.git
