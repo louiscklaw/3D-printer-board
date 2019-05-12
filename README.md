@@ -61,6 +61,7 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 - [ ] I2C output
 - [ ] possibily some digital output channel
 - [ ] possibily some SSR channel
+- [ ] make use of the swd test pin footprint
 
 ### Misc:
 * pinmapping
