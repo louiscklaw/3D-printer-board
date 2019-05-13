@@ -28,6 +28,8 @@ def gen_md():
             local('cp %s %s' % (MD_MARKDOWN_FILE, PROJ_README))
             local("sed -i 's/img/%s/g' %s " % (DOC_MARKDOWN_IMG_PATH.replace('/','\/'), PROJ_README))
 
+            local('convert -resize 25% ./documentation/markdown/img/populating_1.png ./documentation/markdown/img/populating_1.png')
+
 @task
 def gen_html():
     # p.map(threaded_local,['id'])
