@@ -1,15 +1,22 @@
 
 
-
+## hardware
 ### PCB tryout for louis 3d printer
-* PCB look like:
+* PCB outlook:
 	* front:
-![test front](./documentation/markdown/img/populating_1.png | width=100)
+![test front](./documentation/markdown/img/populating_1.png "test front")
 
-	* back:
-![test back](./documentation/markdown/img/populating_2.png | width=100)
+### Features / Specifications
+* Compact size: 100mm x 100mm
+* RepRapDiscount SmartController compatible pin header on board
+* up to 8 stepper motor channel
+* up to 3 channels PWM control(high power) heaters
+* up to 3 channels PWM control(low power) fans
+* 6 end stop connectors
+* 4 temperature monitoring channel
+* SWD for firmware download
 
-
+## software
 ### to initialize the stm32 with klipper firmware
 * to flash klipper with stm32duino:
     * `wget 'https://github.com/rogerclarkmelbourne/STM32duino-bootloader/raw/master/binaries/generic_boot20_pc13.bin'`
@@ -20,36 +27,6 @@
     * `st-flash write klipper.out 0x8000000`
 
 ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
-
-### TODO on this REV:
-- [x] tidy
-- [x] need to confirm about ~~PC13~~ PB9 as debug pin
-
-### Design goal on REV1:
-- [x] ~~10~~ 8 channels and ~~10~~ 8 stepper motors
-    - [x] x
-    - [x] y
-    - [x] z0,z1,z2,z3
-    - [x] e0,e1,~~e2,e3~~
-
-- [x] ~~5~~ 3 channels PWM control(high power) heaters
-    - [x] hotend0, hotend1, ~~hotend2, hotend3~~
-    - [x] heatbed
-
-- [x] ~~5~~ 3 channels PWM control(low power) fans
-    - [x] hotend0, hotend1, ~~hotend2, hotend3~~
-    - [x] heatbed
-
-- [x] 6 and ~~4~~ 1 DI
-    - [x] x,y,z min
-    - [x] x,y,z max
-    - [x] ~~4 misc~~
-    - [x] PROBE support
-
-- [x] ~~5~~ 4 + 1  AI(temperature sensors)
-    - [x] hotend0,hotend1,~~hotend2,hotend3~~, AUX
-    - [x] heatbed
-    - [x] PCB temperature self monitoring
 
 ### Board source current estimation (**Rough/TBC**):
 * stepper motors = 10 * 0.5A ~= 5A
