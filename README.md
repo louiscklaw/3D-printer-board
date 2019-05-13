@@ -4,10 +4,10 @@
 ### PCB tryout for louis 3d printer
 * PCB look like:
 	* front:
-![test front](./documentation/markdown/img/populating_1.png "test front" | width=100)
+![test front](./documentation/markdown/img/populating_1.png | width=100)
 
 	* back:
-![test back](./documentation/markdown/img/populating_2.png "test back" | width=100)
+![test back](./documentation/markdown/img/populating_2.png | width=100)
 
 
 ### to initialize the stm32 with klipper firmware
