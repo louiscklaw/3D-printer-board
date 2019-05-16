@@ -181,7 +181,7 @@ AR Path="/5CC0AEC9/5CC04D02" Ref="J?"  Part="1"
 AR Path="/5CC04D02" Ref="J5"  Part="1" 
 F 0 "J5" H 6980 3192 50  0000 L CNN
 F 1 "Z" H 6980 3101 50  0000 L CNN
-F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3200 50  0001 C CNN
+F 2 "footprint-lib:b4b-xh-2.54,stepper_terminal" H 6900 3200 50  0001 C CNN
 F 3 "~" H 6900 3200 50  0001 C CNN
 	1    6900 3200
 	1    0    0    1   
