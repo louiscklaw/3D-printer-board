@@ -4261,4 +4261,8 @@ F 3 "" H 7050 3250 50  0001 C CNN
 	1    7050 3250
 	1    0    0    -1  
 $EndComp
+Text Notes 1800 3550 0    50   ~ 0
+//FIXME: UPDATE TO 1206 here
+Text Notes 4700 4050 3    50   ~ 0
+//fixme: bind leg 4 to pad
 $EndSCHEMATC
