@@ -1362,7 +1362,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3200 3150 3400
 Wire Wire Line
-	3150 3200 3750 3200
+	3150 3200 3300 3200
 Connection ~ 3150 3200
 Wire Wire Line
 	4050 3350 3750 3350
@@ -1532,19 +1532,6 @@ Wire Wire Line
 	8750 4100 8550 4100
 Connection ~ 8550 4100
 $Comp
-L Connector:Conn_01x03_Female J49
-U 1 1 5CE0CAFD
-P 2500 3200
-AR Path="/5CDF433D/5CE0CAFD" Ref="J49"  Part="1" 
-AR Path="/5CDFFA9C/5CE0CAFD" Ref="J50"  Part="1" 
-F 0 "J50" H 2350 2850 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 2350 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 2500 3200 50  0001 C CNN
-F 3 "~" H 2500 3200 50  0001 C CNN
-	1    2500 3200
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR06
 U 1 1 5CE11654
 P 3100 2950
@@ -1590,4 +1577,33 @@ F 3 "" H 7200 2950 50  0001 C CNN
 	1    7200 2950
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x03_Female J49
+U 1 1 5CE0CAFD
+P 2500 3200
+AR Path="/5CDF433D/5CE0CAFD" Ref="J49"  Part="1" 
+AR Path="/5CDFFA9C/5CE0CAFD" Ref="J50"  Part="1" 
+F 0 "J50" H 2350 2850 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 2350 2950 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 2500 3200 50  0001 C CNN
+F 3 "~" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0204
+U 1 1 5CE640AA
+P 3300 3050
+F 0 "#PWR0204" H 3300 2900 50  0001 C CNN
+F 1 "+12V" H 3350 3250 50  0000 C CNN
+F 2 "" H 3300 3050 50  0001 C CNN
+F 3 "" H 3300 3050 50  0001 C CNN
+	1    3300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3050 3300 3200
+Connection ~ 3300 3200
+Wire Wire Line
+	3300 3200 3750 3200
 $EndSCHEMATC
