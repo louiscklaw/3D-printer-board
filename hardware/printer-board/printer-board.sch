@@ -120,7 +120,7 @@ U 1 1 5CC19E46
 P 4950 7150
 F 0 "H3" H 5050 7196 50  0000 L CNN
 F 1 "MOUNT_M3" H 5050 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 7150 50  0001 C CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 4950 7150 50  0001 C CNN
 F 3 "~" H 4950 7150 50  0001 C CNN
 	1    4950 7150
 	1    0    0    -1  
@@ -131,7 +131,7 @@ U 1 1 5CC19EB8
 P 4950 7350
 F 0 "H4" H 5050 7396 50  0000 L CNN
 F 1 "MOUNT_M3" H 5050 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 7350 50  0001 C CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 4950 7350 50  0001 C CNN
 F 3 "~" H 4950 7350 50  0001 C CNN
 	1    4950 7350
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 5CC19F4A
 P 4950 6900
 F 0 "H2" H 5050 6946 50  0000 L CNN
 F 1 "MOUNT_M3" H 5050 6855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 6900 50  0001 C CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 4950 6900 50  0001 C CNN
 F 3 "~" H 4950 6900 50  0001 C CNN
 	1    4950 6900
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 5CC19F6E
 P 4950 6650
 F 0 "H1" H 5050 6696 50  0000 L CNN
 F 1 "MOUNT_M3" H 5050 6605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 4950 6650 50  0001 C CNN
+F 2 "footprint-lib:MountingHole_2.7mm_M2.5,rpi_like" H 4950 6650 50  0001 C CNN
 F 3 "~" H 4950 6650 50  0001 C CNN
 	1    4950 6650
 	1    0    0    -1  
