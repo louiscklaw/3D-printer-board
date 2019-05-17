@@ -1300,7 +1300,7 @@ AR Path="/5CDF433D/5CDF1242" Ref="L4"  Part="1"
 AR Path="/5CDFFA9C/5CDF1242" Ref="L5"  Part="1" 
 F 0 "L5" V 7750 3200 50  0000 C CNN
 F 1 "L_15uH" V 7650 3200 50  0000 C CNN
-F 2 "footprint-lib:L_SMD_ALL" H 7550 3200 50  0001 C CNN
+F 2 "w_smd_inductors:inductor_smd_6.8x3.8mm" H 7550 3200 50  0001 C CNN
 F 3 "test_datasheet" H 7550 3200 50  0001 C CNN
 	1    7550 3200
 	0    -1   -1   0   
