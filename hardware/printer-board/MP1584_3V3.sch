@@ -5,7 +5,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 29 30
+Sheet 27 28
 Title ""
 Date ""
 Rev ""
@@ -1157,7 +1157,7 @@ AR Path="/5CDF433D/5CDEC59B" Ref="U13"  Part="1"
 AR Path="/5CDFFA9C/5CDEC59B" Ref="U?"  Part="1" 
 F 0 "U13" H 5800 4050 50  0000 C CNN
 F 1 "MP1584" H 5800 3950 50  0000 C CNN
-F 2 "footprint-lib:MP2303,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via" H 5800 2500 50  0001 C CNN
+F 2 "footprint-lib:MP1584,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via" H 5800 2500 50  0001 C CNN
 F 3 "" H 5800 3350 50  0001 C CNN
 	1    5800 3350
 	1    0    0    -1  
