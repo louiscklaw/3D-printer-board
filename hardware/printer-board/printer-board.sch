@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 28
+Sheet 1 29
 Title ""
 Date ""
 Rev ""
@@ -792,4 +792,10 @@ Wire Wire Line
 	3450 4850 3800 4850
 Wire Notes Line
 	2450 4400 2450 4750
+$Sheet
+S 3050 6950 900  700 
+U 5CDF433D
+F0 "MP1584_3V3" 50
+F1 "MP1584_3V3.sch" 50
+$EndSheet
 $EndSCHEMATC
