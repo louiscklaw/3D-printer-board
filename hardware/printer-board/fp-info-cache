@@ -1,4 +1,4 @@
-19471881417861240
+19435145039401355
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44373,6 +44373,13 @@ Choke SMD
 2
 2
 footprint-lib
+L_SMD_ALL
+Inductor, Wuerth Elektronik, Wuerth_HCI-1040, 10.2mmx10.2mm
+inductor Wuerth hci smd
+0
+2
+2
+footprint-lib
 MC-306
 <b>MC-306 CRYSTAL UNIT</b><p>Source: MC-306_405_406_E07X.PDF
 
@@ -44414,6 +44421,13 @@ mouse-bite-2mm-slot
 0
 0
 0
+footprint-lib
+MP1584,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
+MP1584
+MP1584 SOIC-8
+0
+20
+9
 footprint-lib
 MP2303,SOIC-8_3.9x4.9mm_P1.27mm,thermal_via
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)
@@ -49349,132 +49363,6 @@ solder jumper open
 0
 5
 3
-kicad-jst-xh.pretty
-JST_B2B-XH-A-2.54
-JST XH series connector, JST_B2B-XH-A
-connector jst xh
-0
-2
-2
-kicad-jst-xh.pretty
-JST_B3B-XH-A-2.54
-JST XH series connector, JST_B3B-XH-A
-connector jst xh
-0
-3
-3
-kicad-jst-xh.pretty
-JST_B4B-XH-A-2.54
-JST XH series connector, JST_B4B-XH-A
-connector jst xh
-0
-4
-4
-kicad-jst-xh.pretty
-JST_B5B-XH-A-2.54
-JST XH series connector, JST_B5B-XH-A
-connector jst xh
-0
-5
-5
-kicad-jst-xh.pretty
-JST_B6B-XH-A-2.54
-JST XH series connector, JST_B6B-XH-A
-connector jst xh
-0
-6
-6
-kicad-jst-xh.pretty
-JST_B7B-XH-A-2.54
-JST XH series connector, JST_B7B-XH-A
-connector jst xh
-0
-7
-7
-kicad-jst-xh.pretty
-JST_B8B-XH-A-2.54
-JST XH series connector, JST_B8B-XH-A
-connector jst xh
-0
-8
-8
-kicad-jst-xh.pretty
-JST_B9B-XH-A-2.54
-JST XH series connector, JST_B9B-XH-A
-connector jst xh
-0
-9
-9
-kicad-jst-xh.pretty
-JST_B10B-XH-A-2.54
-JST XH series connector, JST_B10B-XH-A
-connector jst xh
-0
-10
-10
-kicad-jst-xh.pretty
-JST_B11B-XH-A-2.54
-JST XH series connector, JST_B11B-XH-A
-connector jst xh
-0
-11
-11
-kicad-jst-xh.pretty
-JST_B12B-XH-A-2.54
-JST XH series connector, JST_B12B-XH-A
-connector jst xh
-0
-12
-12
-kicad-jst-xh.pretty
-JST_B13B-XH-A-2.54
-JST XH series connector, JST_B13B-XH-A
-connector jst xh
-0
-13
-13
-kicad-jst-xh.pretty
-JST_B14B-XH-A-2.54
-JST XH series connector, JST_B14B-XH-A
-connector jst xh
-0
-14
-14
-kicad-jst-xh.pretty
-JST_B15B-XH-A-2.54
-JST XH series connector, JST_B15B-XH-A
-connector jst xh
-0
-15
-15
-kicad-jst-xh.pretty
-JST_B16B-XH-A-2.54
-JST XH series connector, JST_B16B-XH-A
-connector jst xh
-0
-16
-16
-kicad-jst-xh.pretty
-JST_B17B-XH-A-2.54
-JST XH series connector, JST_B17B-XH-A
-connector jst xh
-0
-17
-17
-kicad-jst-xh.pretty
-JST_B18B-XH-A-2.54
-JST XH series connector, JST_B18B-XH-A
-connector jst xh
-0
-18
-18
-kicad-jst-xh.pretty
-JST_B20B-XH-A-2.54
-JST XH series connector, JST_B20B-XH-A
-connector jst xh
-0
-20
-20
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
