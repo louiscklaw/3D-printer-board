@@ -5,7 +5,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 30
+Sheet 1 28
 Title ""
 Date ""
 Rev ""
@@ -500,18 +500,6 @@ F5 "st7920_encoder_pin1" I L 5800 4700 50
 F6 "st7920_encoder_pin2" I L 5800 4800 50 
 F7 "st7920_kill_pin" I L 5800 5100 50 
 F8 "st7920_click_pin" I L 5800 4900 50 
-$EndSheet
-$Sheet
-S 2050 6050 900  700 
-U 5CCA7EF8
-F0 "MP2303A_power_supply_5V" 50
-F1 "MP2303A_power_supply_5V.sch" 50
-$EndSheet
-$Sheet
-S 2050 6950 900  700 
-U 5CCA8A04
-F0 "MP2303A_power_supply_3V3" 50
-F1 "MP2303A_power_supply_3V3.sch" 50
 $EndSheet
 Connection ~ 2450 4850
 Connection ~ 2600 4950
