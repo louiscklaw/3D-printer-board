@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:printer-board-cache
-LIBS:MP1584-tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -132,7 +131,7 @@ Wire Wire Line
 Text Label 1350 3650 0    50   ~ 0
 FAN0_EN
 Wire Wire Line
-	1350 3650 2000 3650
+	1350 3650 1800 3650
 Wire Wire Line
 	2400 4050 2000 4050
 Wire Wire Line
@@ -3030,18 +3029,18 @@ $EndComp
 $Comp
 L taobao-r:R100,0603 R58
 U 1 1 5CC8A048
-P 3250 3150
+P 3250 3250
 AR Path="/5CC2401E/5CC242A1/5CC8A048" Ref="R58"  Part="1" 
 AR Path="/5CC2401E/5CE37797/5CC8A048" Ref="R?"  Part="1" 
-F 0 "R58" H 3350 3200 50  0000 L CNN
-F 1 "R100,0603" H 3350 3150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3150 50  0001 C CNN
-F 3 "~" H 3250 3150 50  0001 C CNN
-	1    3250 3150
+F 0 "R58" H 3350 3300 50  0000 L CNN
+F 1 "R100,0603" H 3350 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3250 50  0001 C CNN
+F 3 "~" H 3250 3250 50  0001 C CNN
+	1    3250 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 3250 3250 3450
+	3250 3350 3250 3450
 Wire Wire Line
 	3750 2900 3750 3000
 Wire Wire Line
@@ -3049,7 +3048,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 3000 3400 3000
 Wire Wire Line
-	3250 3000 3250 3050
+	3250 3000 3250 3150
 Connection ~ 3750 3000
 Wire Wire Line
 	3750 3000 4750 3000
@@ -3087,4 +3086,30 @@ Text Label 4500 2900 2    50   ~ 0
 FAN0_P
 Text Label 4500 3000 2    50   ~ 0
 FAN0_N
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CE017DB
+P 1800 3500
+F 0 "TP?" H 1900 3650 50  0000 L CNN
+F 1 "FAN0_EN_TP" H 1900 3550 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2000 3500 50  0001 C CNN
+F 3 "~" H 2000 3500 50  0001 C CNN
+	1    1800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3500 1800 3650
+Connection ~ 1800 3650
+Wire Wire Line
+	1800 3650 2000 3650
+Wire Notes Line
+	3100 3100 3100 3400
+Wire Notes Line
+	3100 3400 4100 3400
+Wire Notes Line
+	4100 3400 4100 3100
+Wire Notes Line
+	4100 3100 3100 3100
+Text Notes 4100 3400 2    50   ~ 0
+optional
 $EndSCHEMATC

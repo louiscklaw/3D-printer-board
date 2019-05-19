@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:printer-board-cache
-LIBS:MP1584-tryout-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3008,29 +3007,12 @@ F 3 "" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L taobao-r:R100,0603 R62
-U 1 1 5CC8A049
-P 3250 3150
-AR Path="/5CC2401E/5CC24321/5CC8A049" Ref="R62"  Part="1" 
-AR Path="/5CC2401E/5CE3779A/5CC8A049" Ref="R?"  Part="1" 
-F 0 "R62" H 3350 3200 50  0000 L CNN
-F 1 "R100,0603" H 3350 3150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3150 50  0001 C CNN
-F 3 "~" H 3250 3150 50  0001 C CNN
-	1    3250 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3250 3250 3250 3450
 Wire Wire Line
 	3750 2900 3750 3000
 Wire Wire Line
 	4000 2200 4000 2300
 Wire Wire Line
 	3250 3000 3400 3000
-Wire Wire Line
-	3250 3000 3250 3050
 Connection ~ 3750 3000
 Wire Wire Line
 	3750 3000 4900 3000
@@ -3087,4 +3069,31 @@ Text Label 4500 2900 2    50   ~ 0
 FAN1_P
 Text Label 4500 3000 2    50   ~ 0
 FAN1_N
+Wire Notes Line
+	3150 3400 4150 3400
+Wire Notes Line
+	4150 3400 4150 3100
+Wire Notes Line
+	4150 3100 3150 3100
+Text Notes 4150 3400 2    50   ~ 0
+optional
+Wire Notes Line
+	3150 3100 3150 3400
+Wire Wire Line
+	3250 3350 3250 3450
+Wire Wire Line
+	3250 3000 3250 3150
+$Comp
+L taobao-r:R100,0603 R62
+U 1 1 5CC8A049
+P 3250 3250
+AR Path="/5CC2401E/5CC24321/5CC8A049" Ref="R62"  Part="1" 
+AR Path="/5CC2401E/5CE3779A/5CC8A049" Ref="R?"  Part="1" 
+F 0 "R62" H 3350 3300 50  0000 L CNN
+F 1 "R100,0603" H 3350 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3250 50  0001 C CNN
+F 3 "~" H 3250 3250 50  0001 C CNN
+	1    3250 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
