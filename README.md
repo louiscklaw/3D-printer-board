@@ -56,8 +56,7 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 * 12 + 5 + 3 = 20A
 * guess taking 0.5 as Diversity factor => 10A
 
-### Thing TODO on next REV:
-- [ ] replacement for Orange Pi as too big in size
+### Thing TODO on next REV(rev/20190518-print1):
 - [ ] I2C output
 - [ ] possibily some digital output channel
 - [ ] possibily some SSR channel
@@ -76,6 +75,10 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 - [ ] add diode to xmin, xmax, ymin, ymax, like zmax and zmin for active sensors
 - [ ] dry contact test ok
 - [ ] add connected=high to the boot1 and boot0 pin
+
+### Thing TODO on next REV (xxxxxxx):
+- [ ] replacement for Orange Pi as too big in size
+
 
 ### Misc:
 * pinmapping
