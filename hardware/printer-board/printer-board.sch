@@ -792,4 +792,26 @@ U 5CDFFA9C
 F0 "MP1584_5V" 50
 F1 "MP1584_5V.sch" 50
 $EndSheet
+$Comp
+L Mechanical:Heatsink HS?
+U 1 1 5CE5572F
+P 5850 6700
+F 0 "HS?" H 6000 6850 50  0000 L CNN
+F 1 "heaters" H 6000 6750 50  0000 L CNN
+F 2 "" H 5862 6700 50  0001 C CNN
+F 3 "~" H 5862 6700 50  0001 C CNN
+	1    5850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS?
+U 1 1 5CE55971
+P 5850 6950
+F 0 "HS?" H 6000 7100 50  0000 L CNN
+F 1 "fans" H 6000 7000 50  0000 L CNN
+F 2 "" H 5862 6950 50  0001 C CNN
+F 3 "~" H 5862 6950 50  0001 C CNN
+	1    5850 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
