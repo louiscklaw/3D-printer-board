@@ -57,6 +57,7 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 * guess taking 0.5 as Diversity factor => 10A
 
 ### Thing TODO on next REV(rev/20190518-print1):
+- [*] fix inductor footprint (1210)
 - [ ] I2C output
 - [ ] possibily some digital output channel
 - [ ] possibily some SSR channel
@@ -107,3 +108,19 @@ ref: https://github.com/KevinOConnor/klipper/blob/master/docs/Bootloaders.md
 > SPI uses pin PB13 (SCK), PB14 (MISO) and PB15 (MOSI). The clock speed range is 0.15..18 MHz.  Chip select pins do not have any restrictions.
 
 ref: https://github.com/KevinOConnor/klipper/blob/master/docs/stm32f1.md
+
+### to test indicival pins in stm32
+```
+./klippy-env/bin/python ./klipper/klippy/console.py /dev/ttyACM0 250000
+
+allocate_oids count=1
+config_analog_in oid=0 pin=PA0
+finalize_config crc=0
+get_config
+query_analog_in oid=0 clock={clock} sample_ticks=20000 sample_count=8 rest_ticks=6000000 min_value=12005 max_value=32303 range_check_count=4
+```
+
+
+
+### Ref:
+https://github.com/Creworker/orange-pi
