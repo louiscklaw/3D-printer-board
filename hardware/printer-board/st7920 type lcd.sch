@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 28
+Sheet 25 27
 Title ""
 Date ""
 Rev ""
@@ -34049,4 +34049,12 @@ Text Label 8550 2550 2    50   ~ 0
 kill_pin
 Wire Wire Line
 	7700 2550 8550 2550
+NoConn ~ 7200 1750
+NoConn ~ 7700 1650
+NoConn ~ 7700 1750
+NoConn ~ 7700 2150
+NoConn ~ 7700 2250
+NoConn ~ 7700 2350
+NoConn ~ 7200 2150
+NoConn ~ 7200 2450
 $EndSCHEMATC

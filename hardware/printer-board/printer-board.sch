@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 28
+Sheet 1 27
 Title ""
 Date ""
 Rev ""
@@ -667,12 +667,6 @@ Wire Wire Line
 	2550 3100 2700 3100
 Wire Wire Line
 	2550 3200 2700 3200
-$Sheet
-S 5800 5500 950  600 
-U 5CE3BAD7
-F0 "SSD1306_SPI" 50
-F1 "SSD1306_SPI.sch" 50
-$EndSheet
 Text GLabel 8150 3150 0    50   Input ~ 0
 PD6
 Text GLabel 8150 3250 0    50   Input ~ 0

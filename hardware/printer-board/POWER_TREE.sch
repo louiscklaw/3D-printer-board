@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 28
+Sheet 15 27
 Title ""
 Date ""
 Rev ""
@@ -66,17 +66,6 @@ Wire Wire Line
 	1550 1550 1950 1550
 Wire Wire Line
 	1950 1550 1950 1400
-$Comp
-L power:+12V #PWR0148
-U 1 1 5CCA90B1
-P 1550 5450
-F 0 "#PWR0148" H 1550 5300 50  0001 C CNN
-F 1 "+12V" H 1600 5650 50  0000 C CNN
-F 2 "" H 1550 5450 50  0001 C CNN
-F 3 "" H 1550 5450 50  0001 C CNN
-	1    1550 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 3800 1950 3800
 Wire Wire Line
