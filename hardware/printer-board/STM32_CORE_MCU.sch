@@ -11011,17 +11011,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 1900 2100 1900
 $Comp
-L taobao-osc:O_8M Y1
-U 1 1 5CC8706B
-P 2150 2700
-F 0 "Y1" H 2150 2950 50  0000 C CNN
-F 1 "O_8M" H 2150 2850 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 2150 2700 50  0001 C CNN
-F 3 "~" H 2150 2700 50  0001 C CNN
-	1    2150 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L taobao-c:C10pf,0603 C22
 U 1 1 5CC87247
 P 1950 2900
@@ -11063,7 +11052,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 3000 2350 3100
 Wire Wire Line
-	2350 3100 2150 3100
+	2350 3100 2250 3100
 Connection ~ 2150 3100
 Wire Wire Line
 	1950 2800 1950 2700
@@ -13111,4 +13100,24 @@ NoConn ~ 6100 4900
 NoConn ~ 6100 5000
 Text GLabel 2600 4600 0    50   Input ~ 0
 PC4
+$Comp
+L taobao-osc:O_8M,3225 Y1
+U 1 1 5D3227F9
+P 2150 2700
+F 0 "Y1" H 2150 2925 50  0000 C CNN
+F 1 "O_8M,3225" H 2150 2834 50  0000 C CNN
+F 2 "footprint-lib:OSC_3225" H 2150 2700 50  0001 C CNN
+F 3 "~" H 2150 2700 50  0001 C CNN
+	1    2150 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2850 2150 2950
+Wire Wire Line
+	2150 2950 2250 2950
+Wire Wire Line
+	2250 2950 2250 3100
+Connection ~ 2250 3100
+Wire Wire Line
+	2250 3100 2150 3100
 $EndSCHEMATC
