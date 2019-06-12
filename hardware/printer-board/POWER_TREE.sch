@@ -136,10 +136,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 2000 4100 2000
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP8
 U 1 1 5D0FE873
 P 1850 1550
-F 0 "JP?" H 1850 1755 50  0000 C CNN
+F 0 "JP8" H 1850 1755 50  0000 C CNN
 F 1 "5V_PI_EN" H 1850 1664 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1850 1550 50  0001 C CNN
 F 3 "~" H 1850 1550 50  0001 C CNN
@@ -151,10 +151,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 1550 1550 1550
 $Comp
-L my_solder_jumper:SolderJumper_2_Open_round JP?
+L my_solder_jumper:SolderJumper_2_Open_round JP9
 U 1 1 5D1050BF
 P 1850 2300
-F 0 "JP?" H 1850 2505 50  0000 C CNN
+F 0 "JP9" H 1850 2505 50  0000 C CNN
 F 1 "3V_EN" H 1850 2414 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1850 2300 50  0001 C CNN
 F 3 "~" H 1850 2300 50  0001 C CNN
