@@ -28,7 +28,7 @@ AR Path="/5CC242F9" Ref="J33"  Part="1"
 AR Path="/5CC2401E/5CE37797/5CC242F9" Ref="J?"  Part="1" 
 F 0 "J33" H 4900 2550 50  0000 C CNN
 F 1 "FAN0" H 4900 2650 50  0000 C CNN
-F 2 "footprint-lib:b2b-ph-kl,fan_pwm_out" H 4950 2900 50  0001 C CNN
+F 2 "footprint-lib:XH_TEMPERATURE_SENSOR_TERMINAL_2.54" H 4950 2900 50  0001 C CNN
 F 3 "~" H 4950 2900 50  0001 C CNN
 	1    4950 2900
 	1    0    0    -1  

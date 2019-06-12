@@ -15,20 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x03 J16
-U 1 1 5CC15E3F
-P 3250 2900
-AR Path="/5CC15C35/5CC15E3F" Ref="J16"  Part="1" 
-AR Path="/5CC130A8/5CC15E3F" Ref="J?"  Part="1" 
-AR Path="/5CC15E3F" Ref="J16"  Part="1" 
-F 0 "J16" H 3150 3250 50  0000 C CNN
-F 1 "X_MAX" H 3150 3150 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 2900 50  0001 C CNN
-F 3 "~" H 3250 2900 50  0001 C CNN
-	1    3250 2900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J17
 U 1 1 5CC15F71
 P 3250 3850
@@ -37,23 +23,9 @@ AR Path="/5CC130A8/5CC15F71" Ref="J?"  Part="1"
 AR Path="/5CC15F71" Ref="J17"  Part="1" 
 F 0 "J17" H 3150 4200 50  0000 C CNN
 F 1 "Y_MIN" H 3150 4100 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 3850 50  0001 C CNN
+F 2 "kicad-jst-xh.pretty:JST_B3B-XH-A-2.54" H 3250 3850 50  0001 C CNN
 F 3 "~" H 3250 3850 50  0001 C CNN
 	1    3250 3850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J18
-U 1 1 5CC15F77
-P 3250 4750
-AR Path="/5CC15C35/5CC15F77" Ref="J18"  Part="1" 
-AR Path="/5CC130A8/5CC15F77" Ref="J?"  Part="1" 
-AR Path="/5CC15F77" Ref="J18"  Part="1" 
-F 0 "J18" H 3150 5100 50  0000 C CNN
-F 1 "Y_MAX" H 3150 5000 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 4750 50  0001 C CNN
-F 3 "~" H 3250 4750 50  0001 C CNN
-	1    3250 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -65,23 +37,9 @@ AR Path="/5CC130A8/5CC1606D" Ref="J?"  Part="1"
 AR Path="/5CC1606D" Ref="J19"  Part="1" 
 F 0 "J19" H 3150 5950 50  0000 C CNN
 F 1 "Z_MIN" H 3150 5850 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 5600 50  0001 C CNN
+F 2 "kicad-jst-xh.pretty:JST_B3B-XH-A-2.54" H 3250 5600 50  0001 C CNN
 F 3 "~" H 3250 5600 50  0001 C CNN
 	1    3250 5600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J20
-U 1 1 5CC16073
-P 3250 6500
-AR Path="/5CC15C35/5CC16073" Ref="J20"  Part="1" 
-AR Path="/5CC130A8/5CC16073" Ref="J?"  Part="1" 
-AR Path="/5CC16073" Ref="J20"  Part="1" 
-F 0 "J20" H 3150 6850 50  0000 C CNN
-F 1 "Z_MAX" H 3150 6750 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 6500 50  0001 C CNN
-F 3 "~" H 3250 6500 50  0001 C CNN
-	1    3250 6500
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -100,56 +58,30 @@ F 3 "" H 3800 7250 50  0001 C CNN
 $EndComp
 Text Label 4650 1900 2    50   ~ 0
 X_MIN
-Text Label 4650 2800 2    50   ~ 0
-X_MAX
 Text Label 4650 3750 2    50   ~ 0
 Y_MIN
 Wire Wire Line
 	4650 3750 4250 3750
-Text Label 4650 4650 2    50   ~ 0
-Y_MAX
-Wire Wire Line
-	4650 4650 4250 4650
 Text Label 5400 5500 2    50   ~ 0
 Z_MIN
-Text Label 5400 6400 2    50   ~ 0
-Z_MAX
 Text HLabel 1100 1000 0    50   Input ~ 0
 X_MIN
-Text HLabel 1100 1100 0    50   Input ~ 0
-X_MAX
 Text HLabel 1100 1200 0    50   Input ~ 0
 Y_MIN
-Text HLabel 1100 1300 0    50   Input ~ 0
-Y_MAX
 Text HLabel 1100 1400 0    50   Input ~ 0
 Z_MIN
-Text HLabel 1100 1500 0    50   Input ~ 0
-Z_MAX
 Text Label 1650 1000 2    50   ~ 0
 X_MIN
-Text Label 1650 1100 2    50   ~ 0
-X_MAX
 Text Label 1650 1200 2    50   ~ 0
 Y_MIN
-Text Label 1650 1300 2    50   ~ 0
-Y_MAX
 Text Label 1650 1400 2    50   ~ 0
 Z_MIN
-Text Label 1650 1500 2    50   ~ 0
-Z_MAX
 Wire Wire Line
 	1100 1000 1650 1000
 Wire Wire Line
-	1100 1100 1650 1100
-Wire Wire Line
 	1100 1200 1650 1200
 Wire Wire Line
-	1100 1300 1650 1300
-Wire Wire Line
 	1100 1400 1650 1400
-Wire Wire Line
-	1100 1500 1650 1500
 $Bitmap
 Pos 9650 5750
 Scale 1.000000
@@ -875,32 +807,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 1550 4250 1600
 $Comp
-L taobao-r:R102,0603 R30
-U 1 1 5CC33066
-P 4250 2400
-F 0 "R30" H 4150 2450 50  0000 R CNN
-F 1 "R102,0603" H 4150 2400 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 2400 50  0001 C CNN
-F 3 "~" H 4250 2400 50  0001 C CNN
-	1    4250 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L taobao-led:LED_BLUE,0603 D10
-U 1 1 5CC3306C
-P 4250 2650
-F 0 "D10" V 4300 2750 50  0000 L CNN
-F 1 "↑" V 4250 2750 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4250 2650 50  0001 C CNN
-F 3 "" V 4250 2650 50  0001 C CNN
-	1    4250 2650
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	4250 2500 4250 2550
-Wire Wire Line
-	4250 2300 4250 2150
-$Comp
 L taobao-r:R102,0603 R31
 U 1 1 5CC3434E
 P 4250 3250
@@ -930,37 +836,6 @@ Connection ~ 4250 3750
 Wire Wire Line
 	4250 3750 3450 3750
 $Comp
-L taobao-r:R102,0603 R32
-U 1 1 5CC34FAC
-P 4250 4150
-F 0 "R32" H 4150 4200 50  0000 R CNN
-F 1 "R102,0603" H 4150 4150 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 4150 50  0001 C CNN
-F 3 "~" H 4250 4150 50  0001 C CNN
-	1    4250 4150
-	-1   0    0    -1  
-$EndComp
-$Comp
-L taobao-led:LED_BLUE,0603 D12
-U 1 1 5CC34FB2
-P 4250 4400
-F 0 "D12" V 4300 4500 50  0000 L CNN
-F 1 "↑" V 4250 4500 50  0000 L CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4250 4400 50  0001 C CNN
-F 3 "" V 4250 4400 50  0001 C CNN
-	1    4250 4400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	4250 4250 4250 4300
-Wire Wire Line
-	4250 4050 4250 3950
-Wire Wire Line
-	4250 4500 4250 4650
-Connection ~ 4250 4650
-Wire Wire Line
-	4250 4650 3450 4650
-$Comp
 L taobao-r:R102,0603 R33
 U 1 1 5CC35E90
 P 4250 5000
@@ -989,36 +864,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 5350 4250 5500
 $Comp
-L taobao-r:R102,0603 R34
-U 1 1 5CC36FE8
-P 4250 5900
-F 0 "R34" H 4150 5950 50  0000 R CNN
-F 1 "R102,0603" H 4150 5900 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 5900 50  0001 C CNN
-F 3 "~" H 4250 5900 50  0001 C CNN
-	1    4250 5900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L taobao-led:LED_BLUE,0603 D14
-U 1 1 5CC36FEE
-P 4250 6150
-F 0 "D14" V 4300 6050 50  0000 R CNN
-F 1 "↑" V 4250 6050 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4250 6150 50  0001 C CNN
-F 3 "" V 4250 6150 50  0001 C CNN
-	1    4250 6150
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	4250 6000 4250 6050
-Wire Wire Line
-	4250 5800 4250 5700
-Wire Wire Line
-	4250 6250 4250 6400
-Wire Wire Line
-	4250 6400 3450 6400
-$Comp
 L taobao-components:+3V3_STM32 #PWR081
 U 1 1 5CC48DF2
 P 4100 1100
@@ -1030,40 +875,15 @@ F 3 "" H 4100 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 2900 3650 2900
-Wire Wire Line
-	3450 3000 3800 3000
-Connection ~ 3800 3000
-Wire Wire Line
-	3800 3000 3800 3950
-Wire Wire Line
 	3450 3850 3650 3850
 Wire Wire Line
 	3450 3950 3800 3950
 Connection ~ 3800 3950
 Wire Wire Line
-	3800 3950 3800 4850
-Wire Wire Line
-	3450 4750 3650 4750
-Wire Wire Line
-	3450 4850 3800 4850
-Connection ~ 3800 4850
-Wire Wire Line
-	3800 4850 3800 5700
-Wire Wire Line
 	3450 5600 3650 5600
 Wire Wire Line
 	3450 5700 3800 5700
 Connection ~ 3800 5700
-Wire Wire Line
-	3800 5700 3800 6600
-Wire Wire Line
-	3450 6500 3650 6500
-Wire Wire Line
-	3450 6600 3800 6600
-Connection ~ 3800 6600
-Wire Wire Line
-	3800 6600 3800 7250
 $Comp
 L Connector_Generic:Conn_01x06 J45
 U 1 1 5CD1988B
@@ -1110,7 +930,7 @@ AR Path="/5CC130A8/5CCD9FE8" Ref="J?"  Part="1"
 AR Path="/5CCD9FE8" Ref="J?"  Part="1" 
 F 0 "J48" H 6550 2150 50  0000 L CNN
 F 1 "HOTEND_PROBE" H 6550 2050 50  0000 L CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 6450 2100 50  0001 C CNN
+F 2 "footprint-lib:XH_PROBE_TERMINAL_2.54" H 6450 2100 50  0001 C CNN
 F 3 "~" H 6450 2100 50  0001 C CNN
 	1    6450 2100
 	-1   0    0    -1  
@@ -1158,10 +978,7 @@ $EndComp
 Wire Wire Line
 	6650 2100 6750 2100
 Wire Wire Line
-	3800 2100 3800 3000
-Wire Wire Line
 	3450 2100 3800 2100
-Connection ~ 3650 2000
 Wire Wire Line
 	3450 2000 3650 2000
 $Comp
@@ -1170,7 +987,7 @@ U 1 1 5CC5A627
 P 3250 2000
 F 0 "J15" H 3170 2317 50  0000 C CNN
 F 1 "X_MIN" H 3170 2226 50  0000 C CNN
-F 2 "footprint-lib:b3b-ph-kl,end_stop" H 3250 2000 50  0001 C CNN
+F 2 "kicad-jst-xh.pretty:JST_B3B-XH-A-2.54" H 3250 2000 50  0001 C CNN
 F 3 "~" H 3250 2000 50  0001 C CNN
 	1    3250 2000
 	-1   0    0    -1  
@@ -1213,44 +1030,17 @@ Wire Wire Line
 Wire Wire Line
 	7450 1100 7450 1400
 Wire Wire Line
-	3650 2000 3650 2900
-Wire Wire Line
 	4250 1200 4250 1350
-Wire Wire Line
-	3450 2800 4250 2800
-Wire Wire Line
-	4250 2750 4250 2800
-Connection ~ 4250 2800
-Wire Wire Line
-	4250 2800 4650 2800
-Wire Wire Line
-	3650 3850 3650 4750
-Wire Wire Line
-	3650 5600 3650 6500
 Wire Wire Line
 	4100 1100 4100 1200
 Wire Wire Line
 	4100 1200 4250 1200
-Wire Wire Line
-	4100 1200 4100 2150
-Wire Wire Line
-	4100 2150 4250 2150
 Connection ~ 4100 1200
 Wire Wire Line
-	4100 2150 4100 3150
-Wire Wire Line
 	4100 3150 4250 3150
-Connection ~ 4100 2150
-Wire Wire Line
-	4100 3150 4100 3950
-Wire Wire Line
-	4100 3950 4250 3950
 Connection ~ 4100 3150
 Wire Wire Line
-	4100 3950 4100 4800
-Wire Wire Line
 	4100 4800 4250 4800
-Connection ~ 4100 3950
 $Comp
 L power:+12V #PWR0168
 U 1 1 5CD6D986
@@ -1323,31 +1113,10 @@ F 3 "~" V 4750 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 4800 4100 5700
-Wire Wire Line
-	4100 5700 4250 5700
-Connection ~ 4100 4800
-Wire Wire Line
 	4250 5500 4650 5500
 Connection ~ 4250 5500
 Wire Wire Line
 	4850 5500 5400 5500
-$Comp
-L taobao-sd:SD_1N5817_SS12 D26
-U 1 1 5CD9D0CB
-P 4750 6400
-F 0 "D26" H 4750 6650 50  0000 C CNN
-F 1 "SD_1N5817_SS12" H 4750 6550 50  0000 C CNN
-F 2 "w_smd_diode:do214ac" V 4750 6400 50  0001 C CNN
-F 3 "~" V 4750 6400 50  0001 C CNN
-	1    4750 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 6400 4650 6400
-Connection ~ 4250 6400
-Wire Wire Line
-	4850 6400 5400 6400
 Text HLabel 1100 1600 0    50   Input ~ 0
 HOTEND_PROBE
 Text Label 1650 1600 2    50   ~ 0
@@ -1380,7 +1149,6 @@ Wire Wire Line
 	3250 3450 3300 3450
 Text Notes 1400 3050 0    50   ~ 0
 assume dry contact here
-Connection ~ 3650 3850
 Wire Wire Line
 	4250 5500 3450 5500
 Wire Wire Line
@@ -1411,9 +1179,18 @@ F 3 "" H 3200 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 5150 3650 5600
-Connection ~ 3650 5600
 Wire Wire Line
 	3600 3450 3650 3450
 Wire Wire Line
 	3650 3450 3650 3850
+Wire Wire Line
+	3800 2100 3800 3950
+Wire Wire Line
+	4100 1200 4100 3150
+Wire Wire Line
+	3800 3950 3800 5700
+Wire Wire Line
+	4100 3150 4100 4800
+Wire Wire Line
+	3800 5700 3800 7250
 $EndSCHEMATC

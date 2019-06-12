@@ -25,7 +25,7 @@ AR Path="/5CC1F2C3/5CC0B91A" Ref="J?"  Part="1"
 AR Path="/5CC0B91A" Ref="J14"  Part="1" 
 F 0 "J14" H 5169 2375 50  0000 C CNN
 F 1 "HEATBED" H 5169 2466 50  0000 C CNN
-F 2 "footprint-lib:mpt_0,5%2f2-2,54,heatbed" H 5250 2700 50  0001 C CNN
+F 2 "2EDGK:2EDGR-2" H 5250 2700 50  0001 C CNN
 F 3 "~" H 5250 2700 50  0001 C CNN
 	1    5250 2700
 	1    0    0    -1  
