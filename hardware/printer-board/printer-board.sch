@@ -693,7 +693,7 @@ PD6
 Text GLabel 8150 3250 0    50   Input ~ 0
 PD7
 Text GLabel 8150 3350 0    50   Input ~ 0
-PB3
+PC3
 Text GLabel 5250 1400 2    50   Input ~ 0
 PA4
 Text GLabel 5250 1300 2    50   Input ~ 0
@@ -815,5 +815,5 @@ F 3 "~" H 5862 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 12050 850  0    50   ~ 0
-LOGS:\n\n20190612:\n    - update and check mp1584 circuit\n    - resume orange pi symbol\n    - 
+LOGS:\n\n20190612:\n    - update and check mp1584 circuit\n    - resume orange pi symbol\n    - fix fans terminals
 $EndSCHEMATC
