@@ -10833,17 +10833,6 @@ Wire Wire Line
 	10850 5050 10500 5050
 Connection ~ 10500 5050
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5CC7D354
-P 9850 4000
-F 0 "SW1" V 9900 4150 50  0000 L CNN
-F 1 "RST" V 9850 4150 50  0000 L CNN
-F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 9850 4200 50  0001 C CNN
-F 3 "" H 9850 4200 50  0001 C CNN
-	1    9850 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0137
 U 1 1 5CC7D464
 P 10050 4300
@@ -10865,8 +10854,6 @@ F 3 "~" H 10100 4000 50  0001 C CNN
 	1    10100 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9850 4200 9850 4250
 Wire Wire Line
 	9850 4250 10050 4250
 Wire Wire Line
@@ -13120,4 +13107,17 @@ Wire Wire Line
 Connection ~ 2250 3100
 Wire Wire Line
 	2250 3100 2150 3100
+$Comp
+L my_solder_jumper:SolderJumper_2_Open_round JP10
+U 1 1 5D3A5A9F
+P 9850 3950
+F 0 "JP10" V 9804 4018 50  0000 L CNN
+F 1 "RST" V 9895 4018 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9850 3950 50  0001 C CNN
+F 3 "~" H 9850 3950 50  0001 C CNN
+	1    9850 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 4100 9850 4250
 $EndSCHEMATC
