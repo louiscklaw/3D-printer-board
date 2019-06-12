@@ -11834,30 +11834,16 @@ Text GLabel 6100 3700 2    50   Input ~ 0
 PA15
 Text GLabel 6100 5100 2    50   Input ~ 0
 PC6
-Text GLabel 6100 5000 2    50   Input ~ 0
-PC7
-Text GLabel 6100 4900 2    50   Input ~ 0
-PC8
-Text GLabel 6100 4800 2    50   Input ~ 0
-PC9
-Text GLabel 6100 5900 2    50   Input ~ 0
-PD8
 Text GLabel 6100 5800 2    50   Input ~ 0
 PD9
-Text GLabel 6100 5700 2    50   Input ~ 0
-PD10
 Text GLabel 6100 5600 2    50   Input ~ 0
 PD11
-Text GLabel 6100 5500 2    50   Input ~ 0
-PD12
 Text GLabel 6100 5400 2    50   Input ~ 0
 PD13
 Text GLabel 6100 5300 2    50   Input ~ 0
 PD14
 Text GLabel 6100 5200 2    50   Input ~ 0
 PD15
-Text GLabel 6100 6300 2    50   Input ~ 0
-PB12
 Text GLabel 6100 4700 2    50   Input ~ 0
 PA8
 Wire Wire Line
@@ -12011,8 +11997,6 @@ Wire Wire Line
 	2600 3900 3250 3900
 Text GLabel 2600 4200 0    50   Input ~ 0
 PA4
-Text GLabel 2600 4300 0    50   Input ~ 0
-PA5
 Text GLabel 2600 4400 0    50   Input ~ 0
 PA6
 Text GLabel 2600 4500 0    50   Input ~ 0
@@ -12027,16 +12011,8 @@ Wire Wire Line
 	3250 4500 2600 4500
 Wire Wire Line
 	3250 4600 2600 4600
-Text GLabel 2600 4600 0    50   Input ~ 0
-PC4
-Text GLabel 2600 4700 0    50   Input ~ 0
-PC5
 Wire Wire Line
 	3250 4700 2600 4700
-Text GLabel 2600 4800 0    50   Input ~ 0
-PB0
-Text GLabel 2600 4900 0    50   Input ~ 0
-PB1
 Wire Wire Line
 	2600 4800 3250 4800
 Wire Wire Line
@@ -13122,4 +13098,17 @@ NoConn ~ 2600 1800
 NoConn ~ 2600 1700
 NoConn ~ 2600 6100
 NoConn ~ 2600 6000
+NoConn ~ 2600 4300
+NoConn ~ 2600 4800
+NoConn ~ 2600 4900
+NoConn ~ 2600 4700
+NoConn ~ 6100 6300
+NoConn ~ 6100 5500
+NoConn ~ 6100 5700
+NoConn ~ 6100 5900
+NoConn ~ 6100 4800
+NoConn ~ 6100 4900
+NoConn ~ 6100 5000
+Text GLabel 2600 4600 0    50   Input ~ 0
+PC4
 $EndSCHEMATC

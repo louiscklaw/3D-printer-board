@@ -485,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5350 2600 5450
 $Sheet
-S 5800 4200 950  1050
+S 5800 4200 950  1200
 U 5CC8321E
 F0 "st7920 type lcd" 50
 F1 "st7920 type lcd.sch" 50
@@ -496,6 +496,7 @@ F5 "st7920_encoder_pin1" I L 5800 4700 50
 F6 "st7920_encoder_pin2" I L 5800 4800 50 
 F7 "st7920_kill_pin" I L 5800 5100 50 
 F8 "st7920_click_pin" I L 5800 4900 50 
+F9 "st7920_beep" I L 5800 5250 50 
 $EndSheet
 Connection ~ 2450 4850
 Connection ~ 2600 4950
@@ -795,4 +796,8 @@ F 3 "~" H 5862 6950 50  0001 C CNN
 $EndComp
 Text Notes 12050 850  0    50   ~ 0
 LOGS:\n\n20190612:\n    - update and check mp1584 circuit\n    - resume orange pi symbol\n    - fix fans terminals
+Text GLabel 5500 5250 0    50   Input ~ 0
+PC3
+Wire Wire Line
+	5500 5250 5800 5250
 $EndSCHEMATC

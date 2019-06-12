@@ -34057,4 +34057,11 @@ NoConn ~ 7700 2250
 NoConn ~ 7700 2350
 NoConn ~ 7200 2150
 NoConn ~ 7200 2450
+NoConn ~ 8100 2450
+Text Label 2200 1400 2    50   ~ 0
+BEEPER
+Text HLabel 1300 1400 0    50   Input ~ 0
+st7920_beep
+Wire Wire Line
+	2200 1400 1300 1400
 $EndSCHEMATC
