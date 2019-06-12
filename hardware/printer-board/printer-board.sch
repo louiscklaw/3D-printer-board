@@ -668,9 +668,9 @@ Wire Wire Line
 	2550 3100 2700 3100
 Wire Wire Line
 	2550 3200 2700 3200
-Text GLabel 8150 3150 0    50   Input ~ 0
-PD6
 Text GLabel 8150 3250 0    50   Input ~ 0
+PD6
+Text GLabel 8150 3150 0    50   Input ~ 0
 PD7
 Text GLabel 8150 3350 0    50   Input ~ 0
 PC3
