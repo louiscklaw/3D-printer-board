@@ -586,9 +586,9 @@ Text GLabel 9800 1050 0    50   Input ~ 0
 PE7
 Text GLabel 9800 3350 0    50   Input ~ 0
 PC15
-Text GLabel 9800 3150 0    50   Input ~ 0
+Text GLabel 9800 2100 0    50   Input ~ 0
 PC13
-Text GLabel 9800 3250 0    50   Input ~ 0
+Text GLabel 8150 3350 0    50   Input ~ 0
 PC14
 Text GLabel 9800 4400 0    50   Input ~ 0
 PE2
@@ -666,7 +666,7 @@ Text GLabel 8150 3250 0    50   Input ~ 0
 PD6
 Text GLabel 8150 3150 0    50   Input ~ 0
 PD7
-Text GLabel 9800 2300 0    50   Input ~ 0
+Text GLabel 9800 2200 0    50   Input ~ 0
 PC3
 Text GLabel 5250 1400 2    50   Input ~ 0
 PA4
@@ -794,10 +794,10 @@ Text GLabel 5500 5250 0    50   Input ~ 0
 PC3
 Wire Wire Line
 	5500 5250 5800 5250
-Text GLabel 9800 2200 0    50   Input ~ 0
+Text GLabel 9800 2300 0    50   Input ~ 0
 PC2
-Text GLabel 9800 2100 0    50   Input ~ 0
+Text GLabel 9800 3150 0    50   Input ~ 0
 PC1
-Text GLabel 8150 3350 0    50   Input ~ 0
+Text GLabel 9800 3250 0    50   Input ~ 0
 PC0
 $EndSCHEMATC
