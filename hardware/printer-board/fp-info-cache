@@ -1,4 +1,4 @@
-19571697374178027
+19573257708577027
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45709,6 +45709,13 @@ JST PH series connector, S2B-PH-KL
 0
 2
 2
+footprint-lib
+STEP_MOTOR_2.54_TERMINAL
+STEP_MOTOR STEP_MOTOR_2.54_TERMINAL
+STEP_MOTOR STEP_MOTOR_2.54_TERMINAL
+0
+4
+4
 footprint-lib
 STM32F103C8T6
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf) STM32F103C8T6

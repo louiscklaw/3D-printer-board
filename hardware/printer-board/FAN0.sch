@@ -3021,7 +3021,7 @@ AR Path="/5CC2401E/5CC242A1/5CC87678" Ref="Q4"  Part="1"
 AR Path="/5CC2401E/5CE37797/5CC87678" Ref="Q?"  Part="1" 
 F 0 "Q4" H 3350 3700 50  0000 L CNN
 F 1 "D882" H 3350 3650 50  0000 L CNN
-F 2 "footprint-lib:SOT-89-3,thermal_vias" H 3350 3750 50  0000 C CNN
+F 2 "footprint-lib:SOT-89-3,thermal_vias" H 3350 3750 50  0001 C CNN
 F 3 "" H 3150 3650 50  0001 C CNN
 	1    3150 3650
 	1    0    0    -1  
@@ -3087,10 +3087,10 @@ FAN0_P
 Text Label 4500 3000 2    50   ~ 0
 FAN0_N
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5CE017DB
 P 1800 3500
-F 0 "TP?" H 1900 3650 50  0000 L CNN
+F 0 "TP1" H 1900 3650 50  0000 L CNN
 F 1 "FAN0_EN_TP" H 1900 3550 50  0000 L CNN
 F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2000 3500 50  0001 C CNN
 F 3 "~" H 2000 3500 50  0001 C CNN

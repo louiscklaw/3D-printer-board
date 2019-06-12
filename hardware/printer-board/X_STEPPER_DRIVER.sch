@@ -146,7 +146,7 @@ AR Path="/5CC0A4B9/5CC04D01" Ref="J?"  Part="1"
 AR Path="/5CC04D01" Ref="J3"  Part="1" 
 F 0 "J3" H 6980 3192 50  0000 L CNN
 F 1 "X" H 6980 3101 50  0000 L CNN
-F 2 "footprint-lib:b4b-ph-kl,stepper_terminal" H 6900 3200 50  0001 C CNN
+F 2 "kicad-jst-xh.pretty:STEP_MOTOR_2.54_TERMINAL" H 6900 3200 50  0001 C CNN
 F 3 "~" H 6900 3200 50  0001 C CNN
 	1    6900 3200
 	1    0    0    1   
