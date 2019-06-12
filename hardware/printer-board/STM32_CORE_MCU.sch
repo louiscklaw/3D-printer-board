@@ -11800,26 +11800,14 @@ Wire Wire Line
 	6100 4400 5450 4400
 Wire Wire Line
 	6100 1600 5450 1600
-Text GLabel 6100 1600 2    50   Input ~ 0
-PE1
 Wire Wire Line
 	6100 1700 5450 1700
-Text GLabel 6100 1700 2    50   Input ~ 0
-PE0
 Text Label 6100 2000 2    50   ~ 0
 BOOT0
 Wire Wire Line
 	6100 2000 5450 2000
-Text GLabel 6100 1800 2    50   Input ~ 0
-PB9
-Text GLabel 6100 1900 2    50   Input ~ 0
-PB8
 Text GLabel 6100 2300 2    50   Input ~ 0
 PB5
-Text GLabel 6100 2400 2    50   Input ~ 0
-PB4
-Text GLabel 6100 2500 2    50   Input ~ 0
-PB3
 Text GLabel 6100 3300 2    50   Input ~ 0
 PD0
 Text GLabel 6100 3200 2    50   Input ~ 0
@@ -13129,4 +13117,12 @@ F 3 "" H 9450 2450 50  0001 C CNN
 	1    9450 2450
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 6100 1800
+NoConn ~ 6100 1900
+NoConn ~ 6100 2400
+NoConn ~ 6100 2500
+NoConn ~ 6100 1600
+NoConn ~ 6100 1700
+NoConn ~ 6100 2100
+NoConn ~ 6100 2200
 $EndSCHEMATC
