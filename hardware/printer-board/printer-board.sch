@@ -89,12 +89,9 @@ U 5CC15C35
 F0 "END_STOP" 50
 F1 "END_STOP.sch" 50
 F2 "X_MIN" I L 5850 950 50 
-F3 "X_MAX" I L 5850 1050 50 
-F4 "Y_MIN" I L 5850 1150 50 
-F5 "Y_MAX" I L 5850 1250 50 
-F6 "Z_MIN" I L 5850 1350 50 
-F7 "Z_MAX" I L 5850 1450 50 
-F8 "HOTEND_PROBE" I L 5850 1700 50 
+F3 "Y_MIN" I L 5850 1150 50 
+F4 "Z_MIN" I L 5850 1350 50 
+F5 "HOTEND_PROBE" I L 5850 1700 50 
 $EndSheet
 $Sheet
 S 4250 800  900  700 
@@ -560,30 +557,18 @@ Wire Wire Line
 	2700 2050 2550 2050
 Wire Wire Line
 	2700 2150 2550 2150
-Text GLabel 5750 1450 0    50   Input ~ 0
-PD8
 Text GLabel 5750 1350 0    50   Input ~ 0
 PD9
-Text GLabel 5750 1250 0    50   Input ~ 0
-PD10
 Text GLabel 5750 1150 0    50   Input ~ 0
 PD11
-Text GLabel 5750 1050 0    50   Input ~ 0
-PD12
 Text GLabel 5750 950  0    50   Input ~ 0
 PD13
 Wire Wire Line
 	5750 950  5850 950 
 Wire Wire Line
-	5750 1050 5850 1050
-Wire Wire Line
 	5750 1150 5850 1150
 Wire Wire Line
-	5750 1250 5850 1250
-Wire Wire Line
 	5750 1350 5850 1350
-Wire Wire Line
-	5750 1450 5850 1450
 Wire Wire Line
 	8150 3150 8300 3150
 Wire Wire Line
