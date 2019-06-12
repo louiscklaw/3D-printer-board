@@ -1,4 +1,4 @@
-update=Monday, May 06, 2019 PM06:22:36 HKT
+update=Wednesday, June 12, 2019 PM04:40:22 HKT
 version=1
 last_client=kicad
 [general]
@@ -248,7 +248,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=12V
+Name=12V,20A
 Clearance=0.2
 TrackWidth=1.25
 ViaDiameter=0.8
@@ -259,9 +259,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=3V3
+Name=3V3,800mA
 Clearance=0.2
-TrackWidth=0.25
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -270,9 +270,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
-Name=5V
+Name=5V,2A
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

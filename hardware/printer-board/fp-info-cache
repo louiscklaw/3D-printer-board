@@ -1,4 +1,4 @@
-19538035847936068
+19571697374178027
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -5914,6 +5914,13 @@ C Rect series Radial pin pitch 37.50mm  length 41.5mm width 40mm Capacitor
 0
 2
 2
+casing
+test1
+
+
+0
+0
+0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -44016,6 +44023,20 @@ EMI Filter
 19
 4
 footprint-lib
+24Cxx_SOIC8
+SOIC, 8 Pin (http://www.ti.com/lit/ds/symlink/lm5017.pdf#page=31), generated with kicad-footprint-generator ipc_gullwing_generator.py
+24Cxx_SOIC8 24c02
+0
+14
+8
+footprint-lib
+74HCT4050_SOP16
+16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
+74HCT4050_SOP16
+0
+16
+16
+footprint-lib
 9013,J3,SOT23
 SOT23
 
@@ -44057,6 +44078,13 @@ CMS SOT
 0
 8
 3
+footprint-lib
+AN9520
+SMD antenna, 9.5x2.0mm, 2p
+
+0
+2
+2
 footprint-lib
 AQ_mpt_0,5%2f4-2,54
 4-way 2.54mm pitch terminal block, Phoenix MPT series
@@ -44240,12 +44268,40 @@ Wi-Fi Module
 22
 22
 footprint-lib
+ESP-12F
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+footprint-lib
+ESP-32S
+
+
+0
+39
+39
+footprint-lib
 ESP-WROOM-32_MODULE
 
 
 0
 53
 39
+footprint-lib
+ESP8266EX
+QFN, 32 Pin (https://www.exar.com/ds/mxl7704.pdf (Page 35)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+ESP8266EX
+0
+59
+33
+footprint-lib
+ESP8266EX_SERVICE
+ESP8266EX_SERVICE
+ESP8266EX_SERVICE
+0
+4
+4
 footprint-lib
 FBGA96
 FBGA96-UNIVERSAL PACKAGE
@@ -44457,6 +44513,13 @@ LED_WS2812B_5050_white WS2812 5050
 4
 4
 footprint-lib
+LM2940CT-5
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+LM2940CT-5
+0
+4
+3
+footprint-lib
 logo
 
 
@@ -44534,12 +44597,26 @@ MC-306
 4
 4
 footprint-lib
+MCP73837_MSOP10
+MSOP, 10 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/3805fg.pdf#page=18), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MCP73837_MSOP10
+0
+20
+11
+footprint-lib
 MLT-8530
 
 
 0
 4
 4
+footprint-lib
+MMA8451Q_QFN16
+MMA8451Q_QFN16
+MMA8451Q_QFN16 MMA8451
+0
+16
+16
 footprint-lib
 MountingHole_2.7mm_M2.5,rpi_like
 Mounting Hole 2.7mm, no annular, M2.5
@@ -45507,6 +45584,13 @@ SDCARD HEADER 10
 10
 10
 footprint-lib
+SHT3x-DIS
+
+
+0
+9
+9
+footprint-lib
 SHT20
 SHT20
 SHT20
@@ -45630,7 +45714,7 @@ STM32F103C8T6
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf) STM32F103C8T6
 STM32F103C8T6
 0
-58
+49
 48
 footprint-lib
 stm32_LQFP-48_7x7mm_P0.5mm
@@ -45688,6 +45772,13 @@ SPST Button Switch
 0
 4
 2
+footprint-lib
+TO-220-3_Horizontal_TabDown
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
 footprint-lib
 TO-263-2,drill_array
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
@@ -45846,6 +45937,13 @@ footprint-lib
 VAR_0805
 varistor 0805
 varistor 0805
+0
+2
+2
+footprint-lib
+VAR_1206
+VAR_1206
+VAR_1206
 0
 2
 2

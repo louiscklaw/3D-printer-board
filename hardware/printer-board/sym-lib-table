@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name taobao-components_orange_pi)(type Legacy)(uri /tmp/kicad_library-footprint-orange-pi-footprint-update/kicad-symbols/taobao-components_orange_pi.lib)(options "")(descr ""))
+  (lib (name orange_pi_zero)(type Legacy)(uri /tmp/orange_pi_zero.lib)(options "")(descr ""))
+)

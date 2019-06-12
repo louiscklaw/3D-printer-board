@@ -671,11 +671,11 @@ Wire Wire Line
 Wire Wire Line
 	8100 2300 8300 2300
 Text GLabel 2550 3000 0    50   Input ~ 0
-PA11
+PA6
 Text GLabel 2550 3100 0    50   Input ~ 0
-PA12
+PA7
 Text GLabel 2550 3200 0    50   Input ~ 0
-PA13
+PA8
 Wire Wire Line
 	2550 3000 2700 3000
 Wire Wire Line
@@ -814,4 +814,6 @@ F 3 "~" H 5862 6950 50  0001 C CNN
 	1    5850 6950
 	1    0    0    -1  
 $EndComp
+Text Notes 12050 850  0    50   ~ 0
+LOGS:\n\n20190612:\n    - update and check mp1584 circuit\n    - resume orange pi symbol\n    - 
 $EndSCHEMATC
