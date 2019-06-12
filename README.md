@@ -120,7 +120,12 @@ get_config
 query_analog_in oid=0 clock={clock} sample_ticks=20000 sample_count=8 rest_ticks=6000000 min_value=12005 max_value=32303 range_check_count=4
 ```
 
-
+### logs
+20190612:
+    - update and check mp1584 circuit
+    - resume orange pi symbol
+    - fix fans terminals
+    
 
 ### Ref:
 https://github.com/Creworker/orange-pi
