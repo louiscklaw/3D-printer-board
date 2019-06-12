@@ -1,4 +1,11 @@
-19573257708577027
+19576378382721030
+2EDGK
+2EDGR-2
+2EDGR-2
+2EDGR-2
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46003,6 +46010,13 @@ U-BLOX UBLOX NEO-6M
 0
 24
 24
+footprint-lib
+XH_TEMPERATURE_SENSOR_TERMINAL_2.54
+JST XH series connector, JST_B2B-XH-A
+connector jst xh
+0
+2
+2
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin
