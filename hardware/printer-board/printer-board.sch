@@ -508,11 +508,11 @@ Wire Wire Line
 	1950 4850 2450 4850
 Wire Wire Line
 	2450 4850 3450 4850
-Text GLabel 5500 4300 0    50   Input ~ 0
+Text GLabel 5500 4500 0    50   Input ~ 0
 PA15
 Text GLabel 5500 4400 0    50   Input ~ 0
 PC10
-Text GLabel 5500 4500 0    50   Input ~ 0
+Text GLabel 5500 4300 0    50   Input ~ 0
 PC11
 Wire Wire Line
 	5500 4300 5800 4300
