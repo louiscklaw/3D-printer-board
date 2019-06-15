@@ -791,7 +791,7 @@ $EndComp
 Text Notes 12050 850  0    50   ~ 0
 LOGS:\n\n20190612:\n    - update and check mp1584 circuit\n    - resume orange pi symbol\n    - fix fans terminals
 Text GLabel 5500 5250 0    50   Input ~ 0
-PC3
+PC4
 Wire Wire Line
 	5500 5250 5800 5250
 Text GLabel 9800 2300 0    50   Input ~ 0
