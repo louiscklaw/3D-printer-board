@@ -1603,4 +1603,6 @@ Wire Wire Line
 Connection ~ 3400 3200
 Wire Wire Line
 	3400 3200 3750 3200
+Text Label 4000 3200 0    50   ~ 0
+12V1A
 $EndSCHEMATC
