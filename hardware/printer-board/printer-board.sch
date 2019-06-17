@@ -682,29 +682,6 @@ Text GLabel 9800 1150 0    50   Input ~ 0
 PE9
 Text GLabel 9800 1050 0    50   Input ~ 0
 PE8
-$Comp
-L Connector_Generic:Conn_01x03 J46
-U 1 1 5CD201F7
-P 1650 1550
-F 0 "J46" H 1550 1900 50  0000 C CNN
-F 1 "HOTEND_DEBUG" H 1550 1800 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1650 1550 50  0001 C CNN
-F 3 "~" H 1650 1550 50  0001 C CNN
-	1    1650 1550
-	-1   0    0    -1  
-$EndComp
-Text GLabel 1900 1450 2    50   Input ~ 0
-PC6
-Text GLabel 1900 1550 2    50   Input ~ 0
-PD15
-Text GLabel 1900 1650 2    50   Input ~ 0
-PD14
-Wire Wire Line
-	1850 1450 1900 1450
-Wire Wire Line
-	1850 1550 1900 1550
-Wire Wire Line
-	1850 1650 1900 1650
 Text GLabel 5750 1700 0    50   Input ~ 0
 PB5
 Wire Wire Line

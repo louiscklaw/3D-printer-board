@@ -1,11 +1,107 @@
-Cmp-Mod V01 Created by PcbNew   date = Monday, June 17, 2019 PM02:28:40 HKT
+Cmp-Mod V01 Created by PcbNew   date = Monday, June 17, 2019 PM04:16:13 HKT
 
 BeginCmp
 TimeStamp = 5D097747
-Path = /5CC1F2C3/5D07B52F
+Path = /5CC1F2C3/5D0DC99C
 Reference = C20;
-ValeurCmp = CP10uf,50V;
-IdModule  = Capacitor_SMD:CP_Elec_5x5.3;
+ValeurCmp = CP100uf,25V;
+IdModule  = Capacitor_SMD:CP_Elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0FA3E2
+Path = /5CC2EE14/5D084E4D
+Reference = TP5;
+ValeurCmp = TP_12V;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0FA3D4
+Path = /5CC2EE14/5D084C33
+Reference = TP4;
+ValeurCmp = TP_5V;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0FA3C6
+Path = /5CC2EE14/5D084A2E
+Reference = TP3;
+ValeurCmp = TP_3V3;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0FA3B8
+Path = /5CC2EE14/5D084256
+Reference = TP2;
+ValeurCmp = TP_GND;
+IdModule  = TestPoint:TestPoint_Pad_1.0x1.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D1031C3
+Path = /5CC2EE14/5D1050BF
+Reference = JP9;
+ValeurCmp = 3V_EN;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0F961B
+Path = /5CC2EE14/5D0FE873
+Reference = JP8;
+ValeurCmp = 5V_PI_EN;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0F951A
+Path = /5CDF433D/5CE0F530
+Reference = J49;
+ValeurCmp = Conn_01x03_Female;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0F94ED
+Path = /5CC1B272/5CD2F161
+Reference = J47;
+ValeurCmp = TEMP_DEBUG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D133F75
+Path = /5CC29851/5CC2989A/5CD16324
+Reference = J43;
+ValeurCmp = STM32_GTR;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0F9206
+Path = /5CC29851/5CC2989A/5CCB2F89
+Reference = J28;
+ValeurCmp = SWD;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0F8E2A
+Path = /5CC0166A/5CE44033
+Reference = J1;
+ValeurCmp = USB_DEBUG;
+IdModule  = Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D0EE475
+Path = /5CC15C35/5CC34354
+Reference = D11;
+ValeurCmp = Y;
+IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
 BeginCmp
@@ -268,7 +364,7 @@ BeginCmp
 TimeStamp = 5D071978
 Path = /5CC1F2C3/5CC1F89C
 Reference = F2;
-ValeurCmp = 12V/15A;
+ValeurCmp = 15A;
 IdModule  = footprint-lib:Fuse_holder_SMF_with_via;
 EndCmp
 
@@ -276,7 +372,7 @@ BeginCmp
 TimeStamp = 5CCF28B0
 Path = /5CC1F2C3/5CC1F828
 Reference = F1;
-ValeurCmp = 12V/15A;
+ValeurCmp = 15A;
 IdModule  = footprint-lib:Fuse_holder_SMF_with_via;
 EndCmp
 
@@ -305,7 +401,7 @@ IdModule  = Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder;
 EndCmp
 
 BeginCmp
-TimeStamp = 5CCC8381
+TimeStamp = 5D0F288B
 Path = /5CC15C35/5CC1606D
 Reference = J19;
 ValeurCmp = Z_MIN;
@@ -1532,7 +1628,7 @@ BeginCmp
 TimeStamp = 5CCF102D
 Path = /5CC22025/5CC222D3/5CC2239F
 Reference = D19;
-ValeurCmp = LED_RED,0603;
+ValeurCmp = EN;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1804,15 +1900,7 @@ BeginCmp
 TimeStamp = 5CCC82D3
 Path = /5CC15C35/5CC35E96
 Reference = D13;
-ValeurCmp = Z↓;
-IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
-EndCmp
-
-BeginCmp
-TimeStamp = 5CCC82AD
-Path = /5CC15C35/5CC34354
-Reference = D11;
-ValeurCmp = Y↓;
+ValeurCmp = Z;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
@@ -1820,7 +1908,7 @@ BeginCmp
 TimeStamp = 5CCC8287
 Path = /5CC15C35/5CC31941
 Reference = D9;
-ValeurCmp = X↓;
+ValeurCmp = X;
 IdModule  = LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder;
 EndCmp
 
