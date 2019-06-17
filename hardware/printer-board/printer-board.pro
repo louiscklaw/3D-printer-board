@@ -1,4 +1,4 @@
-update=Wednesday, June 12, 2019 PM04:40:22 HKT
+update=Monday, June 17, 2019 PM01:37:42 HKT
 version=1
 last_client=kicad
 [general]
@@ -66,7 +66,7 @@ OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
-SolderMaskMinWidth=0.25
+SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
@@ -248,9 +248,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=12V,20A
+Name=12V1A
 Clearance=0.2
-TrackWidth=1.25
+TrackWidth=1
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -259,31 +259,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
-Name=3V3,800mA
-Clearance=0.2
-TrackWidth=0.4
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/3]
-Name=5V,2A
-Clearance=0.2
-TrackWidth=0.4
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/4]
-Name=GND
-Clearance=0.2
-TrackWidth=1.5
+Name=12V20A
+Clearance=0.5
+TrackWidth=3
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

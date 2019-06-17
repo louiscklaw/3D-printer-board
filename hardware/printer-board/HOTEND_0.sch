@@ -3025,7 +3025,7 @@ Wire Wire Line
 Connection ~ 4800 2300
 Wire Wire Line
 	4800 2300 4100 2300
-Text Label 4800 3050 2    50   ~ 0
+Text Label 4900 3050 2    50   ~ 0
 -12V
 Text Label 4550 2300 2    50   ~ 0
 12V_led
