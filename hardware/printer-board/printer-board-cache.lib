@@ -913,15 +913,15 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# taobao-cp_CP100uf,35V
+# taobao-cp_CP10uf,50V
 #
-DEF taobao-cp_CP100uf,35V C 0 10 N N 1 F N
+DEF taobao-cp_CP10uf,50V C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "taobao-cp_CP100uf,35V" 10 -80 50 H V L CNN
-F2 "Capacitor_SMD:CP_Elec_6.3x7.7" 0 0 50 H I C CNN
+F1 "taobao-cp_CP10uf,50V" 10 -80 50 H V L CNN
+F2 "Capacitor_SMD:CP_Elec_5x5.3" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- CP_Elec**6.3x7.7*
+ CP_Elec**5x5.3*
 $ENDFPLIST
 DRAW
 S -60 -12 60 -27 0 1 0 F
