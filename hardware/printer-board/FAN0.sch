@@ -3059,19 +3059,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 2300 4000 2900
 Connection ~ 4000 2300
-$Comp
-L taobao-cp:CP1uf,50V C36
-U 1 1 5CCC20EB
-P 3400 2600
-AR Path="/5CC2401E/5CC242A1/5CCC20EB" Ref="C36"  Part="1" 
-AR Path="/5CC2401E/5CE37797/5CCC20EB" Ref="C?"  Part="1" 
-F 0 "C36" H 3488 2646 50  0000 L CNN
-F 1 "CP1uf,50V" H 3488 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 3400 2600 50  0001 C CNN
-F 3 "~" H 3400 2600 50  0001 C CNN
-	1    3400 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 2300 3400 2300
 Wire Wire Line
@@ -3112,4 +3099,15 @@ Wire Notes Line
 	4100 3100 3100 3100
 Text Notes 4100 3400 2    50   ~ 0
 optional
+$Comp
+L taobao-c:C106,0805 C36
+U 1 1 5D0A9ED8
+P 3400 2600
+F 0 "C36" H 3492 2646 50  0000 L CNN
+F 1 "C106,0805" H 3492 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 2600 50  0001 C CNN
+F 3 "~" H 3400 2600 50  0001 C CNN
+	1    3400 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
