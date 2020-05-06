@@ -18,10 +18,10 @@
 	url = https://github.com/thesourcerer8/altium2kicad.git
 [submodule "software/_ref/klipper"]
 	path = software/_ref/klipper
-	url = git@github.com:KevinOConnor/klipper.git
+	url = https://github.com/KevinOConnor/klipper.git
 [submodule "hardware/_ref/RAMPS_1.7"]
 	path = hardware/_ref/RAMPS_1.7
-	url = git@github.com:MrAlvin/RAMPS_1.7.git
+	url = https://github.com/MrAlvin/RAMPS_1.7.git
 [submodule "software/_ref/kicadScripts"]
 	path = software/_ref/kicadScripts
 	url = https://github.com/gregdavill/kicadScripts
